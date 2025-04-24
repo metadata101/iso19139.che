@@ -2,48 +2,55 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <parent>
-    <artifactId>gn-schemas</artifactId>
-    <groupId>org.geonetwork-opensource.schemas</groupId>
-    <version>4.4.6-0</version>
-  </parent>
+
   <modelVersion>4.0.0</modelVersion>
 
+  <groupId>org.geonetwork-opensource</groupId>
   <artifactId>gn-schema-iso19139.che</artifactId>
+  <version>4.4.6-0.1-SNAPSHOT</version>
   <name>Geocat.ch schema plugin for ISO19139.che standard</name>
   <packaging>jar</packaging>
+
+  <properties>
+    <xmlunit.version>2.10.0</xmlunit.version>
+    <gn.version>4.4.6-0</gn.version>
+  </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.geonetwork-opensource.schemas</groupId>
-      <artifactId>gn-schema-iso19139</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.geonetwork-opensource</groupId>
-      <artifactId>gn-services</artifactId>
-      <version>${project.version}</version>
+      <artifactId>gn-schema-core</artifactId>
+      <version>${gn.version}</version>
     </dependency>
     <dependency>
       <groupId>org.geonetwork-opensource.schemas</groupId>
       <artifactId>gn-schema-core</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.geonetwork-opensource.schemas</groupId>
-      <artifactId>gn-schema-core</artifactId>
-      <version>${project.version}</version>
+      <version>${gn.version}</version>
       <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.xmlunit</groupId>
       <artifactId>xmlunit-core</artifactId>
+      <version>${xmlunit.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.xmlunit</groupId>
       <artifactId>xmlunit-matchers</artifactId>
+      <version>${xmlunit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.xmlunit</groupId>
+      <artifactId>xmlunit-assertj</artifactId>
+      <version>${xmlunit.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -53,21 +60,25 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.powermock</groupId>
-      <artifactId>powermock-module-junit4</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.powermock</groupId>
-      <artifactId>powermock-api-mockito</artifactId>
+      <groupId>org.geonetwork-opensource</groupId>
+      <artifactId>gn-web-app</artifactId>
+      <version>${gn.version}</version>
+      <type>war</type>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.geonetwork-opensource</groupId>
       <artifactId>gn-web-app</artifactId>
-      <version>${project.version}</version>
-      <scope>compile</scope>
+      <version>${gn.version}</version>
       <classifier>classes</classifier>
+      <exclusions>
+        <exclusion>
+          <!-- Excluded to avoid pulling unused persistence.xml -->
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-jpamodelgen</artifactId>
+        </exclusion>
+      </exclusions>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
   <build>
@@ -82,24 +93,25 @@
     </resources>
     <testResources>
       <testResource>
-        <directory>src/test/resources/org/fao/geonet/schemas</directory>
+        <directory>src/test/resources</directory>
       </testResource>
       <testResource>
         <directory>src/main/plugin/iso19139.che</directory>
-        <targetPath>iso19139.che</targetPath>
-      </testResource>
-<!--
-      <testResource>
-        <directory>../iso19139/src/main/plugin/iso19139</directory>
-        <targetPath>iso19139</targetPath>
-      </testResource>
--->
-      <testResource>
-        <directory>../../web/src/main/webapp/xslt/common</directory>
-        <targetPath>common</targetPath>
+        <targetPath>gn-site/WEB-INF/data/config/schema_plugins/iso19139.che</targetPath>
       </testResource>
     </testResources>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.14.0</version>
+        <configuration>
+          <release>11</release>
+          <debug>true</debug>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <executions>
@@ -117,6 +129,46 @@
           </execution>
         </executions>
       </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.3.0</version>
+        <executions>
+          <execution>
+            <id>unpack</id>
+            <phase>process-test-resources</phase>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>org.geonetwork-opensource</groupId>
+                  <artifactId>gn-web-app</artifactId>
+                  <version>${gn.version}</version>
+                  <type>war</type>
+                  <overWrite>false</overWrite>
+                  <outputDirectory>${project.build.testOutputDirectory}/gn-site</outputDirectory>
+                  <includes>**/*</includes>
+                </artifactItem>
+              </artifactItems>
+              <overWriteReleases>false</overWriteReleases>
+              <overWriteSnapshots>true</overWriteSnapshots>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.3.1</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <propertiesEncoding>ISO-8859-1</propertiesEncoding>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
@@ -133,6 +185,7 @@
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
+            <version>3.0.5</version>
           </plugin>
         </plugins>
       </build>

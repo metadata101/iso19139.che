@@ -27,17 +27,13 @@ import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 import org.fao.geonet.schema.iso19139.ISO19139Namespaces;
 import org.fao.geonet.schema.iso19139che.ISO19139cheNamespaces;
-import org.fao.geonet.util.XslUtil;
 import org.fao.geonet.utils.TransformerFactoryFactory;
 import org.fao.geonet.utils.Xml;
 import org.jdom.Element;
+import org.jdom.JDOMException;
 import org.jdom.Namespace;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.powermock.api.mockito.PowerMockito;
-import org.powermock.core.classloader.annotations.PrepareForTest;
-import org.powermock.modules.junit4.PowerMockRunner;
 import org.xmlunit.builder.DiffBuilder;
 import org.xmlunit.builder.Input;
 import org.xmlunit.diff.DefaultNodeMatcher;
@@ -46,20 +42,15 @@ import org.xmlunit.diff.ElementSelectors;
 
 import java.net.URISyntaxException;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.mockito.Matchers.eq;
+import static org.junit.Assert.*;
 
-@RunWith(PowerMockRunner.class)
-@PrepareForTest(XslUtil.class)
 public class UpdateFixedInfoTest {
 
     static private Path PATH_TO_XSL;
 
-    static private ImmutableList<Namespace> ALL_NAMESPACES = ImmutableSet .<Namespace>builder()
+    static private final ImmutableList<Namespace> ALL_NAMESPACES = ImmutableSet .<Namespace>builder()
             .add(ISO19139Namespaces.GCO)
             .add(ISO19139Namespaces.GMD)
             .add(ISO19139Namespaces.SRV)
@@ -67,173 +58,159 @@ public class UpdateFixedInfoTest {
             .add(ISO19139cheNamespaces.CHE)
             .build().asList();
 
-    public UpdateFixedInfoTest() {
-        PowerMockito.mockStatic(XslUtil.class);
-        PowerMockito.when(XslUtil.getSettingValue(eq("system/metadata/validation/removeSchemaLocation"))).thenReturn("false");
-        PowerMockito.when(XslUtil.twoCharLangCode(eq("ger"))).thenReturn("DE");
-        PowerMockito.when(XslUtil.twoCharLangCode(eq("ita"))).thenReturn("IT");
-        PowerMockito.when(XslUtil.twoCharLangCode(eq("fre"))).thenReturn("FR");
+    @BeforeClass
+    public static void initSaxon() {
+        TransformerFactoryFactory.init("net.sf.saxon.TransformerFactoryImpl");
     }
 
     @BeforeClass
     public static void setup() throws URISyntaxException {
-        TransformerFactoryFactory.init("net.sf.saxon.TransformerFactoryImpl");
-        PATH_TO_XSL = Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("iso19139.che/update-fixed-info.xsl").toURI());
+        PATH_TO_XSL = TestSupport.getResourceInsideSchema("update-fixed-info.xsl");
 
     }
 
     @Test
     public void dataLetUnchangedText() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeText.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeText.xml"));
 
         assertProcessedEqualsToExpected(input, input);
     }
 
     @Test
     public void defaultLanguageAddedAsLocaleText() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeText.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeText.xml"));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:locale[gmd:PT_Locale/@id = 'DE']", ALL_NAMESPACES))
-            .stream().forEach(Element::detach);
+        List<Element> elements = getElements(input, ".//gmd:locale[gmd:PT_Locale/@id = 'DE']");
+        elements.forEach(Element::detach);
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
+    @SuppressWarnings("unchecked")
+    private List<Element> getElements(Element input, String elementToExtract) throws JDOMException {
+        return (List<Element>) Xml.selectNodes(input, elementToExtract, ALL_NAMESPACES);
+    }
+
     @Test
     public void noLocaleDontDiscardLocalizedBindToDefaultText() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeText.xml").toURI()));
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:locale", ALL_NAMESPACES))
-            .stream().forEach(Element::detach);
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeText.xml"));
+        getElements(input, ".//gmd:locale").forEach(Element::detach);
 
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(expected, ".//gmd:PT_FreeText", ALL_NAMESPACES))
-            .stream().forEach(Element::detach);
-        ((List<Element>)Xml.selectNodes(expected, ".//gmd:title[@xsi:type='gmd:PT_FreeText_PropertyType']", ALL_NAMESPACES))
-                .stream()
-                .forEach(x -> x.removeAttribute("type", ISO19139Namespaces.XSI));
+        getElements(expected, ".//gmd:PT_FreeText").forEach(Element::detach);
+        getElements(expected, ".//gmd:title[@xsi:type='gmd:PT_FreeText_PropertyType']")
+            .forEach(x -> x.removeAttribute("type", ISO19139Namespaces.XSI));
 
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:title/gco:CharacterString", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
-
+        getElements(input, ".//gmd:title/gco:CharacterString").forEach(Element::detach);
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
     public void localeCopiedIfDefault() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeText.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeText.xml"));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:title/gco:CharacterString", ALL_NAMESPACES))
-                .stream().forEach(x -> x.setText("to be overriden"));
+        getElements(input, ".//gmd:title/gco:CharacterString").forEach(x -> x.setText("to be overridden"));
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
     public void localeCopiedIfNoDefault() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeText.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeText.xml"));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:title/gco:CharacterString", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
+        getElements(input, ".//gmd:title/gco:CharacterString").forEach(Element::detach);
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
     public void dataLetUnchangedUrl() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
 
         assertProcessedEqualsToExpected(input, input);
     }
 
     @Test
     public void defaultLanguageAddedAsLocaleUrl() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:locale[gmd:PT_Locale/@id = 'DE']", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
+        getElements(input, ".//gmd:locale[gmd:PT_Locale/@id = 'DE']").forEach(Element::detach);
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
     public void localeUrlCopiedIfDefault() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:URL", ALL_NAMESPACES))
-                .stream().forEach(x -> x.setText("to be overriden"));
+        getElements(input, ".//gmd:URL").forEach(x -> x.setText("to be overridden"));
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
     public void localeUrlCopiedIfDefaultEvenIfLocaleEmpty() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
-        ((List<Element>) Xml.selectNodes(input, ".//che:LocalisedURL", ALL_NAMESPACES))
-                .stream().forEach(x -> x.setText(""));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
+        getElements(input, ".//che:LocalisedURL").forEach(x -> x.setText(""));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(expected, ".//gmd:URL", ALL_NAMESPACES))
-                .stream().forEach(x -> x.setText(""));
-        ((List<Element>) Xml.selectNodes(expected, ".//che:PT_FreeURL", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
+        getElements(expected, ".//gmd:URL").forEach(x -> x.setText(""));
+        getElements(expected, ".//che:PT_FreeURL").forEach(Element::detach);
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
     public void localeUrlCopiedIfNoDefault() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:URL", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
+        getElements(input, ".//gmd:URL").forEach(Element::detach);
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
     public void localeUrlCopiedIfNoDefaultEvenIfLocaleEmpty() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
-        ((List<Element>) Xml.selectNodes(input, ".//che:LocalisedURL", ALL_NAMESPACES))
-                .stream().forEach(x -> x.setText(""));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
+        getElements(input, ".//che:LocalisedURL").forEach(x -> x.setText(""));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:URL", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
-        ((List<Element>) Xml.selectNodes(expected, ".//gmd:URL", ALL_NAMESPACES))
-                .stream().forEach(x -> x.setText(""));
-        ((List<Element>) Xml.selectNodes(expected, ".//che:PT_FreeURL", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
+        getElements(input, ".//gmd:URL").forEach(Element::detach);
+        getElements(expected, ".//gmd:URL").forEach(x -> x.setText(""));
+        getElements(expected, ".//che:PT_FreeURL").forEach(Element::detach);
 
         assertProcessedEqualsToExpected(input, expected);
     }
 
     @Test
-    public void whenNoLocaleUrlNotOverriden() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:URL", ALL_NAMESPACES)).stream().forEach(x -> x.setText("from url"));
-        Element localeDE = ((List<Element>) Xml.selectNodes(input, ".//che:URLGroup", ALL_NAMESPACES)).stream().findFirst().get();
+    public void whenNoLocaleUrlNotOverridden() throws Exception {
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
+        getElements(input, ".//gmd:URL").forEach(x -> x.setText("from url"));
+        Element localeDE = getElements(input, ".//che:URLGroup").stream().findFirst()
+            .orElseThrow(() -> new AssertionError("No URLGroup found in input"));
         Element localeIT = (Element) localeDE.clone();
-        ((List<Element>) Xml.selectNodes(localeIT, ".//che:LocalisedURL", ALL_NAMESPACES)).stream().forEach(x -> x.getAttribute("locale").setValue("#IT"));
+        getElements(localeIT, ".//che:LocalisedURL").forEach(x -> x.getAttribute("locale").setValue("#IT"));
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(localeDE, ".//che:LocalisedURL", ALL_NAMESPACES)).stream().forEach(x -> x.getAttribute("locale").setValue("#IT"));
-        ((List<Element>) Xml.selectNodes(expected, ".//che:LocalisedURL", ALL_NAMESPACES)).stream().forEach(x -> x.setText("from url"));
-        ((Element)Xml.selectNodes(expected, ".//che:PT_FreeURL", ALL_NAMESPACES).stream().findFirst().get()).addContent(localeIT);
+        getElements(localeDE, ".//che:LocalisedURL").forEach(x -> x.getAttribute("locale").setValue("#IT"));
+        getElements(expected, ".//che:LocalisedURL").forEach(x -> x.setText("from url"));
+        Element element = getElements(expected, ".//che:PT_FreeURL").stream().findFirst()
+                .orElseThrow(() -> new AssertionError("No PT_FreeURL found in expected result"));
+        element.addContent(localeIT);
 
         assertProcessedEqualsToExpected(input, expected);
     }
     @Test
     public void noLocaleDontDiscardLocalizedBindToDefaultUrl() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeUrl.xml").toURI()));
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:locale", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeUrl.xml"));
+        List<Element> elements = getElements(input, ".//gmd:locale");
+        elements.forEach(Element::detach);
 
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(expected, ".//che:PT_FreeURL", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
-        ((List<Element>)Xml.selectNodes(expected, ".//gmd:linkage[@xsi:type='che:PT_FreeURL_PropertyType']", ALL_NAMESPACES))
-                .stream()
-                .forEach(x -> x.removeAttribute("type", ISO19139Namespaces.XSI));
+        elements = getElements(expected, ".//che:PT_FreeURL");
+        elements.forEach(Element::detach);
+        elements = getElements(expected, ".//gmd:linkage[@xsi:type='che:PT_FreeURL_PropertyType']");
+        elements.forEach(x -> x.removeAttribute("type", ISO19139Namespaces.XSI));
 
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:linkage/gmd:URL", ALL_NAMESPACES))
-                .stream().forEach(Element::detach);
+        elements = getElements(input, ".//gmd:linkage/gmd:URL");
+        elements.forEach(Element::detach);
 
 
         assertProcessedEqualsToExpected(input, expected);
@@ -241,33 +218,33 @@ public class UpdateFixedInfoTest {
 
     @Test
     public void noLocaleDataLetUnchangedText() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/charstring.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/charstring.xml"));
 
         assertProcessedEqualsToExpected(input, input);
     }
 
     @Test
     public void noLocaleDataLetUnchangedUrl() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/url.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/url.xml"));
 
         assertProcessedEqualsToExpected(input, input);
     }
 
     @Test
     public void xlinkMulti() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/xlink.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/xlink.xml"));
 
         assertProcessedEqualsToExpected(input, input);
     }
 
     @Test
     public void xlinkMono() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/xlink.xml").toURI()));
-        List<Element> toRemove = (List<Element>) Xml.selectNodes(input, ".//gmd:locale", ALL_NAMESPACES.asList());
-        toRemove.stream().forEach(Element::detach);
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/xlink.xml"));
+        List<Element> toRemove = getElements(input, ".//gmd:locale");
+        toRemove.forEach(Element::detach);
         Element expected = (Element) input.clone();
-        ((List<Element>) Xml.selectNodes(expected, ".//gmd:contact", ALL_NAMESPACES))
-                .stream().forEach(elem ->
+        List<Element> elements = getElements(expected, ".//gmd:contact");
+        elements.forEach(elem ->
                 elem.getAttribute("href", ISO19139Namespaces.XLINK)
                         .setValue("local://srv/api/registries/entries/4cb273e2-e26a-4e66-bb55-5dd09e39449b?lang=ger&process=gmd:role/gmd:CI_RoleCode/@codeListValue~partner"));
 
@@ -276,9 +253,9 @@ public class UpdateFixedInfoTest {
 
     @Test
     public void carriageReturnAreNotDiscardedWhenCopiedInDefault() throws Exception {
-        Element input = Xml.loadFile(Paths.get(UpdateFixedInfoTest.class.getClassLoader().getResource("ufi/PT_FreeText.xml").toURI()));
-        ((List<Element>) Xml.selectNodes(input, ".//gmd:LocalisedCharacterString", ALL_NAMESPACES))
-            .stream().forEach(x -> x.setText("   1 11\n2  22   "));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/ufi/PT_FreeText.xml"));
+        List<Element> elements = getElements(input, ".//gmd:LocalisedCharacterString");
+        elements.forEach(x -> x.setText("   1 11\n2  22   "));
 
         String copiedAsDefault = ((Element) Xml.selectNodes((Xml.transform(input, PATH_TO_XSL)), ".//gco:CharacterString[contains(text(),'11')]", ALL_NAMESPACES).get(0)).getText();
 
@@ -297,6 +274,4 @@ public class UpdateFixedInfoTest {
 
         assertFalse("Process did not produce the expected result.", diff.hasDifferences());
     }
-
-
 }

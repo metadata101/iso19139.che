@@ -23,54 +23,27 @@
 
 package org.fao.geonet.schemas;
 
-import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
 import org.fao.geonet.schema.iso19139.ISO19139Namespaces;
 import org.fao.geonet.schema.iso19139che.ISO19139cheNamespaces;
-import org.fao.geonet.schema.iso19139che.ISO19139cheSchemaPlugin;
-import org.fao.geonet.util.XslUtil;
 import org.fao.geonet.utils.TransformerFactoryFactory;
 import org.fao.geonet.utils.Xml;
 import org.jdom.Element;
-import org.jdom.Namespace;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.powermock.core.classloader.annotations.PrepareForTest;
-import org.powermock.modules.junit4.PowerMockRunner;
-import org.xmlunit.builder.DiffBuilder;
-import org.xmlunit.builder.Input;
-import org.xmlunit.diff.DefaultNodeMatcher;
-import org.xmlunit.diff.Diff;
-import org.xmlunit.diff.ElementSelectors;
 
 import java.net.URISyntaxException;
 import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.xmlunit.matchers.EvaluateXPathMatcher.hasXPath;
 
-@RunWith(PowerMockRunner.class)
-@PrepareForTest(XslUtil.class)
 public class InspireMigrationProcessTest {
 
     static private Path PATH_TO_XSL;
 
-    static private ImmutableSet<Namespace> ALL_NAMESPACES = ImmutableSet.<Namespace>builder()
-        .add(ISO19139Namespaces.GCO)
-        .add(ISO19139Namespaces.GMD)
-        .add(ISO19139Namespaces.SRV)
-        .add(ISO19139Namespaces.GMX)
-        .add(ISO19139Namespaces.XSI)
-        .add(ISO19139Namespaces.XLINK)
-        .add(ISO19139cheNamespaces.CHE)
-        .build();
-    static private ImmutableMap<String, String> ALL_NS = ImmutableMap.<String, String>builder()
+    final static private ImmutableMap<String, String> ALL_NS = ImmutableMap.<String, String>builder()
         .put(ISO19139Namespaces.XLINK.getPrefix(), ISO19139Namespaces.XLINK.getURI())
         .put(ISO19139Namespaces.GCO.getPrefix(), ISO19139Namespaces.GCO.getURI())
         .put(ISO19139Namespaces.GMD.getPrefix(), ISO19139Namespaces.GMD.getURI())
@@ -78,19 +51,20 @@ public class InspireMigrationProcessTest {
         .put(ISO19139Namespaces.SRV.getPrefix(), ISO19139Namespaces.SRV.getURI())
         .put(ISO19139cheNamespaces.CHE.getPrefix(), ISO19139cheNamespaces.CHE.getURI())
         .build();
-    public InspireMigrationProcessTest() {
+
+    @BeforeClass
+    public static void initSaxon() {
+        TransformerFactoryFactory.init("net.sf.saxon.TransformerFactoryImpl");
     }
 
     @BeforeClass
     public static void setup() throws URISyntaxException {
-        TransformerFactoryFactory.init("net.sf.saxon.TransformerFactoryImpl");
-        PATH_TO_XSL = Paths.get(InspireMigrationProcessTest.class.getClassLoader().getResource("iso19139.che/process/geocat-inspire-conformity.xsl").toURI());
-
+        PATH_TO_XSL = TestSupport.getResourceInsideSchema("process/geocat-inspire-conformity.xsl");
     }
 
     @Test
     public void testDataset() throws Exception {
-        Element input = Xml.loadFile(Paths.get(InspireMigrationProcessTest.class.getClassLoader().getResource("inspiredataset.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/inspiredataset.xml"));
         String inputString = Xml.getString(input);
 
 
@@ -209,7 +183,7 @@ public class InspireMigrationProcessTest {
 
     @Test
     public void testDatasetWithNoResourceIdentifierNoCRS() throws Exception {
-        Element input = Xml.loadFile(Paths.get(InspireMigrationProcessTest.class.getClassLoader().getResource("inspiredataset-noresourceidentifier.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/inspiredataset-noresourceidentifier.xml"));
         String inputString = Xml.getString(input);
 
 
@@ -261,7 +235,7 @@ public class InspireMigrationProcessTest {
 
     @Test
     public void testService() throws Exception {
-        Element input = Xml.loadFile(Paths.get(InspireMigrationProcessTest.class.getClassLoader().getResource("inspireservice.xml").toURI()));
+        Element input = Xml.loadFile(TestSupport.getResource("org/fao/geonet/schemas/inspireservice.xml"));
         String inputString = Xml.getString(input);
 
 
