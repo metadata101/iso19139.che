@@ -36,7 +36,8 @@ public class IndexationTest {
         resolverMapField = ResolverWrapper.class.getDeclaredField("resolverMap");
         resolverMapField.setAccessible(true);
         ((Map<?, ?>) resolverMapField.get(null)).clear();
-        ResolverWrapper.createResolverForSchema("DEFAULT", Path.of(IndexationTest.class.getClassLoader().getResource("gn-site/WEB-INF/oasis-catalog.xml").getPath()));
+        Path oasisCatalogPath = getResource("gn-site/WEB-INF/oasis-catalog.xml");
+        ResolverWrapper.createResolverForSchema("DEFAULT", oasisCatalogPath);
     }
 
     @BeforeClass

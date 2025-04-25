@@ -40,7 +40,6 @@ import org.xmlunit.diff.DefaultNodeMatcher;
 import org.xmlunit.diff.Diff;
 import org.xmlunit.diff.ElementSelectors;
 
-import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.util.List;
 
@@ -64,7 +63,7 @@ public class UpdateFixedInfoTest {
     }
 
     @BeforeClass
-    public static void setup() throws URISyntaxException {
+    public static void setup() {
         PATH_TO_XSL = TestSupport.getResourceInsideSchema("update-fixed-info.xsl");
 
     }
