@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>e10cc786-f76f-4171-99ab-68d911627f31-8371</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03 2+", "langger":"GM03 2+"}</standardNameObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-04-07T03:30:33.000Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>service</resourceType>
+  <OrgObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</OrgObject>
+  <resourceProviderOrgObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</resourceProviderOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}
+            ,
+      
+      "role":"resourceProvider",
+      "email":"gis@stadtluzern.ch",
+      "websiteObject":{"default":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768",  "lang":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768"},
+      "logo":"",
+      "individual":"gis@stadtluzern.ch",
+      "position":"",
+      "phone":"+41 41 208 74 00",
+      "address":"Luzern, 6005, CH"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"service","default":"gmd:MD_ScopeCode--service--ger","langger":"gmd:MD_ScopeCode--service--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_couplingType type="object">{"key":"tight","default":"srv:SV_CouplingType--tight--ger","langger":"srv:SV_CouplingType--tight--ger","link":"http:\/\/www.isotc211.org\/2005\/iso19119\/resources\/Codelist\/gmxCodelists.xml#SV_CouplingType"}</cl_couplingType>
+  <cl_function type="object">{"key":"information","default":"gmd:CI_OnLineFunctionCode--information--ger","langger":"gmd:CI_OnLineFunctionCode--information--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_function type="object">{"key":"download","default":"gmd:CI_OnLineFunctionCode--download--ger","langger":"gmd:CI_OnLineFunctionCode--download--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_modelType type="object">{"key":"FeatureDescription","default":"che:CHE_MD_modelTypeCode--FeatureDescription--ger","langger":"che:CHE_MD_modelTypeCode--FeatureDescription--ger","link":""}</cl_modelType>
+  <resourceTitleObject type="object">{"default":"Gr\u00FCnfl\u00E4chen (WFS)", "langger":"Gr\u00FCnfl\u00E4chen (WFS)"}</resourceTitleObject>
+  <creationDateForResource>2023-07-03</creationDateForResource>
+  <creationYearForResource>2023</creationYearForResource>
+  <creationMonthForResource>2023-07</creationMonthForResource>
+  <revisionDateForResource>2024-02-21</revisionDateForResource>
+  <revisionYearForResource>2024</revisionYearForResource>
+  <revisionMonthForResource>2024-02</revisionMonthForResource>
+  <resourceDate type="object">{"type": "creation", "date": "2023-07-03T00:00:00.000Z"}</resourceDate>
+  <resourceDate type="object">{"type": "revision", "date": "2024-02-21T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2023-07-03T00:00:00.000Z",
+                  "lte": "2023-07-03T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2024-02-21T00:00:00.000Z",
+                  "lte": "2024-02-21T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceAbstractObject type="object">{"default":"Gr\u00FCnfl\u00E4chen mit Standort", "langger":"Gr\u00FCnfl\u00E4chen mit Standort"}</resourceAbstractObject>
+  <OrgForResourceObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</OrgForResourceObject>
+  <partnerOrgForResourceObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</partnerOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}
+            ,
+      
+      "role":"partner",
+      "email":"gis@stadtluzern.ch",
+      "websiteObject":{"default":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768",  "lang":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768"},
+      "logo":"",
+      "individual":"gis@stadtluzern.ch",
+      "position":"",
+      "phone":"+41 41 208 74 00",
+      "address":"Luzern, 6005, CH"
+      
+      }</contactForResource>
+  <OrgForResourceObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</OrgForResourceObject>
+  <publisherOrgForResourceObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</publisherOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}
+            ,
+      
+      "role":"publisher",
+      "email":"gis@stadtluzern.ch",
+      "websiteObject":{"default":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768",  "lang":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768"},
+      "logo":"",
+      "individual":"gis@stadtluzern.ch",
+      "position":"",
+      "phone":"+41 41 208 74 00",
+      "address":"Luzern, 6005, CH"
+      
+      }</contactForResource>
+  <purposeObject type="object">{"default":"Einbindung in verschiedene GIS Viewer oder Applikationen mit WMS\/WFS Unterst\u00FCtzung.", "langger":"Einbindung in verschiedene GIS Viewer oder Applikationen mit WMS\/WFS Unterst\u00FCtzung."}</purposeObject>
+  <hasOverview>true</hasOverview>
+  <overview type="object">{
+            "url": "https://map.stadtluzern.ch/ogd/vorschaubild/gruenraum/Gruenflaechen/GRUENFLAECHE.jpg"
+            ,
+              "nameObject": 
+            {"default":"Vorschaubild", "langger":"Vorschaubild"}
+            
+            }</overview>
+  <tag type="object">[
+      {
+      "default":"Gr\u00FCnfl\u00E4che", "langger":"Gr\u00FCnfl\u00E4che"
+      }
+      ,
+      {
+      "default":"Vegetation", "langger":"Vegetation"
+      }
+      ,
+      {
+      "default":"Pflanze", "langger":"Pflanze"
+      }
+      ,
+      {
+      "default":"opendata.swiss", "langger":"opendata.swiss"
+      }
+      ,
+      {
+      "default":"Stadt Luzern", "langger":"Stadt Luzern"
+      }
+      ]</tag>
+  <tagNumber>5</tagNumber>
+  <isOpenData>true</isOpenData>
+  <keywordType-place type="object">[
+          {
+          "default":"Stadt Luzern", "langger":"Stadt Luzern"
+          }
+          ]</keywordType-place>
+  <th_gemetNumber>3</th_gemetNumber>
+  <th_gemet type="object">[
+        {
+        "default":"Gr\u00FCnfl\u00E4che", "langger":"Gr\u00FCnfl\u00E4che"
+        }
+        ,
+        {
+        "default":"Vegetation", "langger":"Vegetation"
+        }
+        ,
+        {
+        "default":"Pflanze", "langger":"Pflanze"
+        }
+        ]</th_gemet>
+  <th_geocat-chNumber>1</th_geocat-chNumber>
+  <th_geocat-ch type="object">[
+        {
+        "default":"opendata.swiss", "langger":"opendata.swiss"
+        }
+        ]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_gemet": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet",
+        
+            "multilingualTitle": {
+              "default":"GEMET", "langger":"GEMET"
+            },
+          
+        "theme": "",
+        
+          "link": "https:\/\/www.geocat.ch:443\/geonetwork\/srv\/eng\/thesaurus.download?ref=external.theme.gemet",
+        
+        "keywords": [
+        
+          {
+          "default":"Gr\u00FCnfl\u00E4che", "langger":"Gr\u00FCnfl\u00E4che"
+          }
+          ,
+          {
+          "default":"Vegetation", "langger":"Vegetation"
+          }
+          ,
+          {
+          "default":"Pflanze", "langger":"Pflanze"
+          }
+          
+        ]}
+        ,
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "",
+        
+          "link": "https:\/\/www.geocat.ch:443\/geonetwork\/srv\/eng\/thesaurus.download?ref=local.theme.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"opendata.swiss", "langger":"opendata.swiss"
+          }
+          
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Gr\u00FCnfl\u00E4che",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Vegetation",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Pflanze",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "opendata.swiss",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <extentDescriptionObject type="object">{"default":"Stadt Luzern", "langger":"Stadt Luzern"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[8.205870,47.027116],[8.358713,47.027116],[8.358713,47.082540],[8.205870,47.082540],[8.205870,47.027116]]]}</geom>
+  <location>47.054828,8.2822915</location>
+  <serviceType>OGC:WFS</serviceType>
+  <OrgForDistributionObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</OrgForDistributionObject>
+  <partnerOrgForDistributionObject type="object">{"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}</partnerOrgForDistributionObject>
+  <contactForDistribution type="object">{
+      
+        "organisationObject": 
+            {"default":"Geoinformationszentrum (GIS) Stadt Luzern", "langger":"Geoinformationszentrum (GIS) Stadt Luzern"}
+            ,
+      
+      "role":"partner",
+      "email":"gis@stadtluzern.ch",
+      "websiteObject":{"default":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768",  "lang":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768"},
+      "logo":"",
+      "individual":"gis@stadtluzern.ch",
+      "position":"",
+      "phone":"+41 41 208 74 00",
+      "address":"Luzern, 6005, CH"
+      
+      }</contactForDistribution>
+  <linkUrl>https://www.stadtluzern.ch/politikverwaltung/stadtverwaltung/dienstabteilungenbereiche/7768</linkUrl>
+  <linkProtocol>WWW:LINK-1.0-http--link</linkProtocol>
+  <linkUrlProtocolWWWLINK10httplink>https://www.stadtluzern.ch/politikverwaltung/stadtverwaltung/dienstabteilungenbereiche/7768</linkUrlProtocolWWWLINK10httplink>
+  <link type="object">{
+            "hash": "88bd1e68153dbddcd79185ecb3b11dec",
+            "idx": 1,
+            "protocol":"WWW:LINK-1.0-http--link",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768",  "lang":"https:\/\/www.stadtluzern.ch\/politikverwaltung\/stadtverwaltung\/dienstabteilungenbereiche\/7768"},
+            
+              "descriptionObject": 
+            {"default":"Stadt Luzern - Geoinformationszentrum (GIS)", "langger":"Stadt Luzern - Geoinformationszentrum (GIS)"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://map.stadtluzern.ch/server/services/OGD/gruenflaechen/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS</linkUrl>
+  <linkProtocol>OGC:WFS-http-get-capabilities</linkProtocol>
+  <linkUrlProtocolOGCWFShttpgetcapabilities>https://map.stadtluzern.ch/server/services/OGD/gruenflaechen/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS</linkUrlProtocolOGCWFShttpgetcapabilities>
+  <link type="object">{
+            "hash": "70c223b512f4e0d28ed8b41d9cb2f688",
+            "idx": 2,
+            "protocol":"OGC:WFS-http-get-capabilities",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/map.stadtluzern.ch\/server\/services\/OGD\/gruenflaechen\/MapServer\/WFSServer?request=GetCapabilities&amp;service=WFS",  "lang":"https:\/\/map.stadtluzern.ch\/server\/services\/OGD\/gruenflaechen\/MapServer\/WFSServer?request=GetCapabilities&amp;service=WFS"},
+            
+              "descriptionObject": 
+            {"default":"WFS GetCapabilities Gr\u00FCnfl\u00E4chen", "langger":"WFS GetCapabilities Gr\u00FCnfl\u00E4chen"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 1
+            }</link>
+  <recordGroup>e10cc786-f76f-4171-99ab-68d911627f31-8371</recordGroup>
+</doc>
+

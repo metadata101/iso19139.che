@@ -90,6 +90,18 @@ public class IndexationTest {
         assertEquals("Office fédéral de la communication", valid.get("langfre"));
     }
 
+    @Test
+    public void indexServiceGruenflaechen() throws Exception {
+        XslUtil.IS_INSPIRE_ENABLED = false;
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+
+        Element serviceGruenflaechen = applyIndexation("gruenflaechen-19139.che.xml");
+        String actual = prepareAssertEqual(serviceGruenflaechen);
+
+        String expected = Files.readString(getResource("gruenflaechen-index.xml"));
+        XmlAssert.assertThat(actual).isEqualTo(expected);
+    }
+
     private String indexAndPrepareAmphibians() throws Exception {
         Element amphibiansIndex = applyIndexation("amphibians-19139.che.xml");
         return prepareAssertEqual(amphibiansIndex);
