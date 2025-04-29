@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>fbafbbd4-4622-445f-8e07-1ad4f6a61c55</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03 2+", "langger":"GM03 2+"}</standardNameObject>
+  <resourceTypeNameObject type="object">{"default":"Hy\u00E9 Q", "langger":"Hy\u00E9 Q"}</resourceTypeNameObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2022-06-30T12:37:35.000Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <otherLanguage>ita</otherLanguage>
+  <otherLanguageId>IT</otherLanguageId>
+  <otherLanguage>eng</otherLanguage>
+  <otherLanguageId>EN</otherLanguageId>
+  <otherLanguage>roh</otherLanguage>
+  <otherLanguageId>RM</otherLanguageId>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langroh":"gmd:MD_CharacterSetCode--utf8--roh","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>dataset</resourceType>
+  <OrgObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo", "langroh":"Uffizi federal da topografia swisstopo"}</OrgObject>
+  <pointOfContactOrgObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo", "langroh":"Uffizi federal da topografia swisstopo"}</pointOfContactOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo", "langroh":"Uffizi federal da topografia swisstopo"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"geocat@swisstopo.ch",
+      "websiteObject":{"default":"http:\/\/www.swisstopo.ch",  "langger":"http:\/\/www.swisstopo.ch",  "langfre":"http:\/\/www.swisstopo.ch",  "langita":"http:\/\/www.swisstopo.ch",  "langeng":"http:\/\/www.swisstopo.ch",  "langroh":"http:\/\/www.swisstopo.ch"},
+      "logo":"",
+      "individual":"geocat.ch",
+      "position":"",
+      "phone":"058 469 01 11",
+      "address":"Wabern, 3084, CH"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"dataset","default":"gmd:MD_ScopeCode--dataset--ger","langger":"gmd:MD_ScopeCode--dataset--ger","langfre":"gmd:MD_ScopeCode--dataset--fre","langita":"gmd:MD_ScopeCode--dataset--ita","langeng":"gmd:MD_ScopeCode--dataset--eng","langroh":"gmd:MD_ScopeCode--dataset--roh","langger":"gmd:MD_ScopeCode--dataset--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_country type="object">{"key":"Suisse","default":"gmd:Country--Suisse--ger","langger":"gmd:Country--Suisse--ger","langfre":"gmd:Country--Suisse--fre","langita":"gmd:Country--Suisse--ita","langeng":"gmd:Country--Suisse--eng","langroh":"gmd:Country--Suisse--roh","langger":"gmd:Country--Suisse--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#Country"}</cl_country>
+  <cl_geometricObjectType type="object">{"key":"surface","default":"gmd:MD_GeometricObjectTypeCode--surface--ger","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","langfre":"gmd:MD_GeometricObjectTypeCode--surface--fre","langita":"gmd:MD_GeometricObjectTypeCode--surface--ita","langeng":"gmd:MD_GeometricObjectTypeCode--surface--eng","langroh":"gmd:MD_GeometricObjectTypeCode--surface--roh","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"}</cl_geometricObjectType>
+  <cl_dimensionName type="object">{"key":"column","default":"gmd:MD_DimensionNameTypeCode--column--ger","langger":"gmd:MD_DimensionNameTypeCode--column--ger","langfre":"gmd:MD_DimensionNameTypeCode--column--fre","langita":"gmd:MD_DimensionNameTypeCode--column--ita","langeng":"gmd:MD_DimensionNameTypeCode--column--eng","langroh":"gmd:MD_DimensionNameTypeCode--column--roh","langger":"gmd:MD_DimensionNameTypeCode--column--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_DimensionNameTypeCode"}</cl_dimensionName>
+  <cl_presentationForm type="object">{"key":"modelDigital","default":"gmd:CI_PresentationFormCode--modelDigital--ger","langger":"gmd:CI_PresentationFormCode--modelDigital--ger","langfre":"gmd:CI_PresentationFormCode--modelDigital--fre","langita":"gmd:CI_PresentationFormCode--modelDigital--ita","langeng":"gmd:CI_PresentationFormCode--modelDigital--eng","langroh":"gmd:CI_PresentationFormCode--modelDigital--roh","langger":"gmd:CI_PresentationFormCode--modelDigital--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_PresentationFormCode"}</cl_presentationForm>
+  <cl_function type="object">{"key":"search","default":"gmd:CI_OnLineFunctionCode--search--ger","langger":"gmd:CI_OnLineFunctionCode--search--ger","langfre":"gmd:CI_OnLineFunctionCode--search--fre","langita":"gmd:CI_OnLineFunctionCode--search--ita","langeng":"gmd:CI_OnLineFunctionCode--search--eng","langroh":"gmd:CI_OnLineFunctionCode--search--roh","langger":"gmd:CI_OnLineFunctionCode--search--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_presentationForm type="object">{"key":"imageHardcopy","default":"gmd:CI_PresentationFormCode--imageHardcopy--ger","langger":"gmd:CI_PresentationFormCode--imageHardcopy--ger","langfre":"gmd:CI_PresentationFormCode--imageHardcopy--fre","langita":"gmd:CI_PresentationFormCode--imageHardcopy--ita","langeng":"gmd:CI_PresentationFormCode--imageHardcopy--eng","langroh":"gmd:CI_PresentationFormCode--imageHardcopy--roh","langger":"gmd:CI_PresentationFormCode--imageHardcopy--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_PresentationFormCode"}</cl_presentationForm>
+  <cl_status type="object">{"key":"completed","default":"gmd:MD_ProgressCode--completed--ger","langger":"gmd:MD_ProgressCode--completed--ger","langfre":"gmd:MD_ProgressCode--completed--fre","langita":"gmd:MD_ProgressCode--completed--ita","langeng":"gmd:MD_ProgressCode--completed--eng","langroh":"gmd:MD_ProgressCode--completed--roh","langger":"gmd:MD_ProgressCode--completed--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ProgressCode"}</cl_status>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"asNeeded","default":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ger","langger":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--asNeeded--fre","langita":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--asNeeded--eng","langroh":"gmd:MD_MaintenanceFrequencyCode--asNeeded--roh","langger":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_updateScope type="object">{"key":"software","default":"gmd:MD_ScopeCode--software--ger","langger":"gmd:MD_ScopeCode--software--ger","langfre":"gmd:MD_ScopeCode--software--fre","langita":"gmd:MD_ScopeCode--software--ita","langeng":"gmd:MD_ScopeCode--software--eng","langroh":"gmd:MD_ScopeCode--software--roh","langger":"gmd:MD_ScopeCode--software--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_updateScope>
+  <cl_appraisalOfArchivalValue type="object">{"key":"A","default":"che:CHE_AppraisalOfArchivalValueCode--A--ger","langger":"che:CHE_AppraisalOfArchivalValueCode--A--ger","langfre":"che:CHE_AppraisalOfArchivalValueCode--A--fre","langita":"che:CHE_AppraisalOfArchivalValueCode--A--ita","langeng":"che:CHE_AppraisalOfArchivalValueCode--A--eng","langroh":"che:CHE_AppraisalOfArchivalValueCode--A--roh","langger":"che:CHE_AppraisalOfArchivalValueCode--A--ger","link":"#CHE_AppraisalOfArchivalValueCode"}</cl_appraisalOfArchivalValue>
+  <cl_reasonForArchivingValue type="object">{"key":"evidenceOfBusinessPractice","default":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ger","langger":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ger","langfre":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--fre","langita":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ita","langeng":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--eng","langroh":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--roh","langger":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ger","link":"#CHE_ReasonForArchivingValueCode"}</cl_reasonForArchivingValue>
+  <cl_type type="object">{"key":"_none_","default":"gmd:MD_KeywordTypeCode--_none_--ger","langger":"gmd:MD_KeywordTypeCode--_none_--ger","langfre":"gmd:MD_KeywordTypeCode--_none_--fre","langita":"gmd:MD_KeywordTypeCode--_none_--ita","langeng":"gmd:MD_KeywordTypeCode--_none_--eng","langroh":"gmd:MD_KeywordTypeCode--_none_--roh","langger":"gmd:MD_KeywordTypeCode--_none_--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--ger","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langita":"gmd:MD_KeywordTypeCode--theme--ita","langeng":"gmd:MD_KeywordTypeCode--theme--eng","langroh":"gmd:MD_KeywordTypeCode--theme--roh","langger":"gmd:MD_KeywordTypeCode--theme--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_associationType type="object">{"key":"isDescriptionOf","default":"gmd:DS_AssociationTypeCode--isDescriptionOf--ger","langger":"gmd:DS_AssociationTypeCode--isDescriptionOf--ger","langfre":"gmd:DS_AssociationTypeCode--isDescriptionOf--fre","langita":"gmd:DS_AssociationTypeCode--isDescriptionOf--ita","langeng":"gmd:DS_AssociationTypeCode--isDescriptionOf--eng","langroh":"gmd:DS_AssociationTypeCode--isDescriptionOf--roh","langger":"gmd:DS_AssociationTypeCode--isDescriptionOf--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#DS_AssociationTypeCode"}</cl_associationType>
+  <cl_spatialRepresentationType type="object">{"key":"vector","default":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langfre":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","langita":"gmd:MD_SpatialRepresentationTypeCode--vector--ita","langeng":"gmd:MD_SpatialRepresentationTypeCode--vector--eng","langroh":"gmd:MD_SpatialRepresentationTypeCode--vector--roh","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"}</cl_spatialRepresentationType>
+  <cl_projectType type="object">{"key":"planning","default":"che:CHE_CI_projectTypeCode--planning--ger","langger":"che:CHE_CI_projectTypeCode--planning--ger","langfre":"che:CHE_CI_projectTypeCode--planning--fre","langita":"che:CHE_CI_projectTypeCode--planning--ita","langeng":"che:CHE_CI_projectTypeCode--planning--eng","langroh":"che:CHE_CI_projectTypeCode--planning--roh","langger":"che:CHE_CI_projectTypeCode--planning--ger","link":"#CHE_CI_projectTypeCode"}</cl_projectType>
+  <cl_revisionScope type="object">{"key":"model","default":"gmd:MD_ScopeCode--model--ger","langger":"gmd:MD_ScopeCode--model--ger","langfre":"gmd:MD_ScopeCode--model--fre","langita":"gmd:MD_ScopeCode--model--ita","langeng":"gmd:MD_ScopeCode--model--eng","langroh":"gmd:MD_ScopeCode--model--roh","langger":"gmd:MD_ScopeCode--model--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_revisionScope>
+  <cl_revisionScope type="object">{"key":"tile","default":"gmd:MD_ScopeCode--tile--ger","langger":"gmd:MD_ScopeCode--tile--ger","langfre":"gmd:MD_ScopeCode--tile--fre","langita":"gmd:MD_ScopeCode--tile--ita","langeng":"gmd:MD_ScopeCode--tile--eng","langroh":"gmd:MD_ScopeCode--tile--roh","langger":"gmd:MD_ScopeCode--tile--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_revisionScope>
+  <cl_basicGeodataIDType type="object">{"key":"federal","default":"che:basicGeodataIDTypeCode--federal--ger","langger":"che:basicGeodataIDTypeCode--federal--ger","langfre":"che:basicGeodataIDTypeCode--federal--fre","langita":"che:basicGeodataIDTypeCode--federal--ita","langeng":"che:basicGeodataIDTypeCode--federal--eng","langroh":"che:basicGeodataIDTypeCode--federal--roh","langger":"che:basicGeodataIDTypeCode--federal--ger","link":"#basicGeodataIDTypeCode"}</cl_basicGeodataIDType>
+  <cl_modelType type="object">{"key":"INTERLIS2","default":"che:CHE_MD_modelTypeCode--INTERLIS2--ger","langger":"che:CHE_MD_modelTypeCode--INTERLIS2--ger","langfre":"che:CHE_MD_modelTypeCode--INTERLIS2--fre","langita":"che:CHE_MD_modelTypeCode--INTERLIS2--ita","langeng":"che:CHE_MD_modelTypeCode--INTERLIS2--eng","langroh":"che:CHE_MD_modelTypeCode--INTERLIS2--roh","langger":"che:CHE_MD_modelTypeCode--INTERLIS2--ger","link":"#CHE_MD_modelTypeCode"}</cl_modelType>
+  <cl_modelType type="object">{"key":"INTERLIS1","default":"che:CHE_MD_modelTypeCode--INTERLIS1--ger","langger":"che:CHE_MD_modelTypeCode--INTERLIS1--ger","langfre":"che:CHE_MD_modelTypeCode--INTERLIS1--fre","langita":"che:CHE_MD_modelTypeCode--INTERLIS1--ita","langeng":"che:CHE_MD_modelTypeCode--INTERLIS1--eng","langroh":"che:CHE_MD_modelTypeCode--INTERLIS1--roh","langger":"che:CHE_MD_modelTypeCode--INTERLIS1--ger","link":"#CHE_MD_modelTypeCode"}</cl_modelType>
+  <cl_modelType type="object">{"key":"UMLdiagram","default":"che:CHE_MD_modelTypeCode--UMLdiagram--ger","langger":"che:CHE_MD_modelTypeCode--UMLdiagram--ger","langfre":"che:CHE_MD_modelTypeCode--UMLdiagram--fre","langita":"che:CHE_MD_modelTypeCode--UMLdiagram--ita","langeng":"che:CHE_MD_modelTypeCode--UMLdiagram--eng","langroh":"che:CHE_MD_modelTypeCode--UMLdiagram--roh","langger":"che:CHE_MD_modelTypeCode--UMLdiagram--ger","link":"#CHE_MD_modelTypeCode"}</cl_modelType>
+  <cl_modelType type="object">{"key":"FeatureDescription","default":"che:CHE_MD_modelTypeCode--FeatureDescription--ger","langger":"che:CHE_MD_modelTypeCode--FeatureDescription--ger","langfre":"che:CHE_MD_modelTypeCode--FeatureDescription--fre","langita":"che:CHE_MD_modelTypeCode--FeatureDescription--ita","langeng":"che:CHE_MD_modelTypeCode--FeatureDescription--eng","langroh":"che:CHE_MD_modelTypeCode--FeatureDescription--roh","langger":"che:CHE_MD_modelTypeCode--FeatureDescription--ger","link":"#CHE_MD_modelTypeCode"}</cl_modelType>
+  <cl_function type="object">{"key":"download","default":"gmd:CI_OnLineFunctionCode--download--ger","langger":"gmd:CI_OnLineFunctionCode--download--ger","langfre":"gmd:CI_OnLineFunctionCode--download--fre","langita":"gmd:CI_OnLineFunctionCode--download--ita","langeng":"gmd:CI_OnLineFunctionCode--download--eng","langroh":"gmd:CI_OnLineFunctionCode--download--roh","langger":"gmd:CI_OnLineFunctionCode--download--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_function type="object">{"key":"information","default":"gmd:CI_OnLineFunctionCode--information--ger","langger":"gmd:CI_OnLineFunctionCode--information--ger","langfre":"gmd:CI_OnLineFunctionCode--information--fre","langita":"gmd:CI_OnLineFunctionCode--information--ita","langeng":"gmd:CI_OnLineFunctionCode--information--eng","langroh":"gmd:CI_OnLineFunctionCode--information--roh","langger":"gmd:CI_OnLineFunctionCode--information--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_evaluationMethodType type="object">{"key":"directInternal","default":"gmd:DQ_EvaluationMethodTypeCode--directInternal--ger","langger":"gmd:DQ_EvaluationMethodTypeCode--directInternal--ger","langfre":"gmd:DQ_EvaluationMethodTypeCode--directInternal--fre","langita":"gmd:DQ_EvaluationMethodTypeCode--directInternal--ita","langeng":"gmd:DQ_EvaluationMethodTypeCode--directInternal--eng","langroh":"gmd:DQ_EvaluationMethodTypeCode--directInternal--roh","langger":"gmd:DQ_EvaluationMethodTypeCode--directInternal--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#DQ_EvaluationMethodTypeCode"}</cl_evaluationMethodType>
+  <cl_accessConstraints type="object">{"key":"license","default":"gmd:MD_RestrictionCode--license--ger","langger":"gmd:MD_RestrictionCode--license--ger","langfre":"gmd:MD_RestrictionCode--license--fre","langita":"gmd:MD_RestrictionCode--license--ita","langeng":"gmd:MD_RestrictionCode--license--eng","langroh":"gmd:MD_RestrictionCode--license--roh","langger":"gmd:MD_RestrictionCode--license--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_RestrictionCode"}</cl_accessConstraints>
+  <cl_useConstraints type="object">{"key":"otherRestrictions","default":"gmd:MD_RestrictionCode--otherRestrictions--ger","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","langfre":"gmd:MD_RestrictionCode--otherRestrictions--fre","langita":"gmd:MD_RestrictionCode--otherRestrictions--ita","langeng":"gmd:MD_RestrictionCode--otherRestrictions--eng","langroh":"gmd:MD_RestrictionCode--otherRestrictions--roh","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_RestrictionCode"}</cl_useConstraints>
+  <cl_country type="object">{"key":"FR","default":"gmd:Country--FR--ger","langger":"gmd:Country--FR--ger","langfre":"gmd:Country--FR--fre","langita":"gmd:Country--FR--ita","langeng":"gmd:Country--FR--eng","langroh":"gmd:Country--FR--roh","langger":"gmd:Country--FR--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#Country"}</cl_country>
+  <cl_legislationType type="object">{"key":"bylawsPrivatLaw","default":"che:CHE_CI_LegislationCode--bylawsPrivatLaw--ger","langger":"che:CHE_CI_LegislationCode--bylawsPrivatLaw--ger","langfre":"che:CHE_CI_LegislationCode--bylawsPrivatLaw--fre","langita":"che:CHE_CI_LegislationCode--bylawsPrivatLaw--ita","langeng":"che:CHE_CI_LegislationCode--bylawsPrivatLaw--eng","langroh":"che:CHE_CI_LegislationCode--bylawsPrivatLaw--roh","langger":"che:CHE_CI_LegislationCode--bylawsPrivatLaw--ger","link":"#CHE_CI_LegislationCode"}</cl_legislationType>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"fortnightly","default":"gmd:MD_MaintenanceFrequencyCode--fortnightly--ger","langger":"gmd:MD_MaintenanceFrequencyCode--fortnightly--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--fortnightly--fre","langita":"gmd:MD_MaintenanceFrequencyCode--fortnightly--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--fortnightly--eng","langroh":"gmd:MD_MaintenanceFrequencyCode--fortnightly--roh","langger":"gmd:MD_MaintenanceFrequencyCode--fortnightly--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_updateScope type="object">{"key":"stationSite","default":"gmd:MD_ScopeCode--stationSite--ger","langger":"gmd:MD_ScopeCode--stationSite--ger","langfre":"gmd:MD_ScopeCode--stationSite--fre","langita":"gmd:MD_ScopeCode--stationSite--ita","langeng":"gmd:MD_ScopeCode--stationSite--eng","langroh":"gmd:MD_ScopeCode--stationSite--roh","langger":"gmd:MD_ScopeCode--stationSite--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_updateScope>
+  <cl_presentationForm type="object">{"key":"mapHardcopy","default":"gmd:CI_PresentationFormCode--mapHardcopy--ger","langger":"gmd:CI_PresentationFormCode--mapHardcopy--ger","langfre":"gmd:CI_PresentationFormCode--mapHardcopy--fre","langita":"gmd:CI_PresentationFormCode--mapHardcopy--ita","langeng":"gmd:CI_PresentationFormCode--mapHardcopy--eng","langroh":"gmd:CI_PresentationFormCode--mapHardcopy--roh","langger":"gmd:CI_PresentationFormCode--mapHardcopy--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_PresentationFormCode"}</cl_presentationForm>
+  <cl_country type="object">{"key":"CH","default":"gmd:Country--CH--ger","langger":"gmd:Country--CH--ger","langfre":"gmd:Country--CH--fre","langita":"gmd:Country--CH--ita","langeng":"gmd:Country--CH--eng","langroh":"gmd:Country--CH--roh","langger":"gmd:Country--CH--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#Country"}</cl_country>
+  <cl_legislationType type="object">{"key":"internationalObligation","default":"che:CHE_CI_LegislationCode--internationalObligation--ger","langger":"che:CHE_CI_LegislationCode--internationalObligation--ger","langfre":"che:CHE_CI_LegislationCode--internationalObligation--fre","langita":"che:CHE_CI_LegislationCode--internationalObligation--ita","langeng":"che:CHE_CI_LegislationCode--internationalObligation--eng","langroh":"che:CHE_CI_LegislationCode--internationalObligation--roh","langger":"che:CHE_CI_LegislationCode--internationalObligation--ger","link":"#CHE_CI_LegislationCode"}</cl_legislationType>
+  <cl_legislationType type="object">{"key":"nationalDecree","default":"che:CHE_CI_LegislationCode--nationalDecree--ger","langger":"che:CHE_CI_LegislationCode--nationalDecree--ger","langfre":"che:CHE_CI_LegislationCode--nationalDecree--fre","langita":"che:CHE_CI_LegislationCode--nationalDecree--ita","langeng":"che:CHE_CI_LegislationCode--nationalDecree--eng","langroh":"che:CHE_CI_LegislationCode--nationalDecree--roh","langger":"che:CHE_CI_LegislationCode--nationalDecree--ger","link":"#CHE_CI_LegislationCode"}</cl_legislationType>
+  <resourceTitleObject type="object">{"default":"Alpenkonvention cr\u00E9\u00E9e le 2020.03.18-Avec tous les champs", "langger":"Alpenkonvention cr\u00E9\u00E9e le 2020.03.18-Avec tous les champs", "langfre":"Convention des Alpes cr\u00E9\u00E9e le 2020.03.18-Avec tous les champs", "langita":"Alpenkonvention cr\u00E9\u00E9e le 2020.03.18-Avec tous les champs", "langeng":"Alpenkonvention cr\u00E9\u00E9e le 2020.03.18-Avec tous les champs", "langroh":"Alpenkonvention cr\u00E9\u00E9e le 2020.03.18-Avec tous les champs"}</resourceTitleObject>
+  <resourceAltTitleObject type="object">{"default":"Alpenkonvention", "langger":"Alpenkonvention", "langfre":"Convention des Alpes", "langita":"Convenzione delle alpi", "langeng":"Alpine Convention", "langroh":"Convenziun da las Alps"}</resourceAltTitleObject>
+  <resourceAltTitleObject type="object">{"default":"Conv. Alp", "langger":"Conv. Alp", "langfre":"Conv. Alp", "langita":"Conv. Alp", "langeng":"Conv. Alp", "langroh":"Conv. Alp"}</resourceAltTitleObject>
+  <revisionDateForResource>2009-01-01</revisionDateForResource>
+  <revisionYearForResource>2009</revisionYearForResource>
+  <revisionMonthForResource>2009-01</revisionMonthForResource>
+  <creationDateForResource>1999-01-01T00:00:00</creationDateForResource>
+  <creationYearForResource>1999</creationYearForResource>
+  <creationMonthForResource>1999-01</creationMonthForResource>
+  <resourceDate type="object">{"type": "revision", "date": "2009-01-01T00:00:00.000Z"}</resourceDate>
+  <resourceDate type="object">{"type": "creation", "date": "1999-01-01T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2009-01-01T00:00:00.000Z",
+                  "lte": "2009-01-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "1999-01-01T00:00:00.000Z",
+                  "lte": "1999-01-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceIdentifier type="object">{
+              "code": "Code A",
+              "codeSpace": "",
+              "link": ""
+              }</resourceIdentifier>
+  <resourceIdentifier type="object">{
+              "code": "Code B",
+              "codeSpace": "",
+              "link": ""
+              }</resourceIdentifier>
+  <resourceEdition>edition</resourceEdition>
+  <resourceEditionDate>2020-03-18</resourceEditionDate>
+  <resourceAbstractObject type="object">{"default":"Perimeter der Alpenkonvention in der Schweiz. Die Alpenkonvention ist ein v\u00F6lkerrechtlicher Vertrag zwischen den acht Alpenl\u00E4ndern Deutschland, Frankreich, Italien, Liechtenstein, Monaco, \u00D6sterreich, Schweiz, Slowenien sowie der Europ\u00E4ischen Union. Das Ziel des \u00DCbereinkommens ist der Schutz der Alpen durch eine sektor\u00FCbergreifende, ganzheitliche und nachhaltige Politik.", "langger":"Perimeter der Alpenkonvention in der Schweiz. Die Alpenkonvention ist ein v\u00F6lkerrechtlicher Vertrag zwischen den acht Alpenl\u00E4ndern Deutschland, Frankreich, Italien, Liechtenstein, Monaco, \u00D6sterreich, Schweiz, Slowenien sowie der Europ\u00E4ischen Union. Das Ziel des \u00DCbereinkommens ist der Schutz der Alpen durch eine sektor\u00FCbergreifende, ganzheitliche und nachhaltige Politik.", "langfre":"P\u00E9rim\u00E8tre de la Convention alpine en Suisse. La Convention alpine est un trait\u00E9 de droit international conclu par huit Etats alpins (Allemagne, Autriche, France, Italie, Liechtenstein, Monaco, Suisse, Slov\u00E9nie) et l`Union europ\u00E9enne. L`accord vise \u00E0 assurer la pr\u00E9servation et la protection des Alpes \u00E0 travers une politique plurisectorielle, globale et durable.", "langita":"Il perimetro della Convenzione delle Alpi. La Convenzione delle Alpi \u00E8 un trattato internazionale tra gli otto Paesi alpini Germania, Francia, Italia, Liechtenstein, Monaco, Austria, Svizzera, Slovenia e l'Unione europea. Lo scopo della Convenzione \u00E8 la conservazione e la protezione delle Alpi mediante una politica intersettoriale, globale e durevole.", "langeng":"The perimeters of the Alpine Convention in Switzerland. The Alpine Convention is an international treaty between the eight Alpine countries: Germany, France, Italy, Liechtenstein, Monaco, Austria, Switzerland and Slovenia, plus the European Union. The aim of the treaty is to protect the Alps by means of cross-sectoral, integrated and sustainable policies.", "langroh":"Perimeter da la Convenziun da las Alps en Svizra. La Convenziun da las Alps \u00E8 in contract internaziunal tranter ils otg pajais alpins (Austria, Frantscha, Germania, Italia, Liechtenstein, Monaco, Slovenia, Svizra) e l'Uniun europeica. La convenziun ha la finamira da proteger las Alps cun agid d'ina politica intersecturiala, cumplessiva e duraivla."}</resourceAbstractObject>
+  <cl_resourceCharacterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langroh":"gmd:MD_CharacterSetCode--utf8--roh","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_resourceCharacterSet>
+  <OrgForResourceObject type="object">{"default":"Amt f\u00FCr Kultur", "langger":"Amt f\u00FCr Kultur", "langfre":"Amt f\u00FCr Kultur", "langita":"Amt f\u00FCr Kultur", "langeng":"Amt f\u00FCr Kultur", "langroh":"Amt f\u00FCr Kultur"}</OrgForResourceObject>
+  <resourceProviderOrgForResourceObject type="object">{"default":"Amt f\u00FCr Kultur", "langger":"Amt f\u00FCr Kultur", "langfre":"Amt f\u00FCr Kultur", "langita":"Amt f\u00FCr Kultur", "langeng":"Amt f\u00FCr Kultur", "langroh":"Amt f\u00FCr Kultur"}</resourceProviderOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Amt f\u00FCr Kultur", "langger":"Amt f\u00FCr Kultur", "langfre":"Amt f\u00FCr Kultur", "langita":"Amt f\u00FCr Kultur", "langeng":"Amt f\u00FCr Kultur", "langroh":"Amt f\u00FCr Kultur"}
+            ,
+      
+      "role":"resourceProvider",
+      "email":"info.aku@llv.li",
+      "websiteObject":{"default":"https:\/\/www.llv.li\/inhalt\/12252\/amtsstellen\/amt-fur-kultur",  "langger":"https:\/\/www.llv.li\/inhalt\/12252\/amtsstellen\/amt-fur-kultur",  "langfre":"https:\/\/www.llv.li\/inhalt\/12252\/amtsstellen\/amt-fur-kultur",  "langita":"https:\/\/www.llv.li\/inhalt\/12252\/amtsstellen\/amt-fur-kultur",  "langeng":"https:\/\/www.llv.li\/inhalt\/12252\/amtsstellen\/amt-fur-kultur",  "langroh":"https:\/\/www.llv.li\/inhalt\/12252\/amtsstellen\/amt-fur-kultur"},
+      "logo":"",
+      "individual":"Abteilung Denkmalpflege",
+      "position":"",
+      "phone":"+423 236 63 40",
+      "address":"Vaduz, 9490, LI"
+      
+      }</contactForResource>
+  <resourceCreditObject type="object">{"default":"Reconn AL", "langger":"Reconn AL", "langfre":"Reconn FR", "langita":"Reconn IT", "langeng":"Reconn EN", "langroh":"Reconn RM"}</resourceCreditObject>
+  <supplementalInformationObject type="object">{"default":"Info AL", "langger":"Info AL", "langfre":"Info FR", "langita":"Info IT", "langeng":"Info EN", "langroh":"Info RM"}</supplementalInformationObject>
+  <purposeObject type="object">{"default":"But AL", "langger":"But AL", "langfre":"But FR", "langita":"But IT", "langeng":"But EN", "langroh":"But RM"}</purposeObject>
+  <hasOverview>true</hasOverview>
+  <overview type="object">{
+            "url": "https://www.geocat.ch/geonetwork/srv/api/records/fbafbbd4-4622-445f-8e07-1ad4f6a61c55/attachments/AEW.PNG"
+            ,
+              "nameObject": 
+            {"default":"Desc illustr AL", "langger":"Desc illustr AL", "langfre":"Desc illustr FR", "langita":"Desc illustr IT", "langeng":"Desc illustr EN", "langroh":"Desc illustr RM"}
+            
+            }</overview>
+  <resourceLanguage>ger</resourceLanguage>
+  <resourceLanguage>fre</resourceLanguage>
+  <resourceLanguage>ita</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"Verwaltungseinheiten", "langger":"Verwaltungseinheiten", "langfre":"Unit\u00E9s administratives", "langita":"Unit\u00E0 amministrative", "langeng":"Administrative units"
+      }
+      ,
+      {
+      "default":"Umwelt\u00FCberwachung", "langger":"Umwelt\u00FCberwachung", "langfre":"Installations de suivi environnemental", "langita":"Impianti di monitoraggio ambientale", "langeng":"Environmental monitoring facilities"
+      }
+      ,
+      {
+      "default":"Nachhaltige Entwicklung", "langger":"Nachhaltige Entwicklung", "langfre":"d\u00E9veloppement durable", "langita":"sviluppo sostenibile", "langeng":"sustainable development"
+      }
+      ,
+      {
+      "default":"Verkehr", "langger":"Verkehr", "langfre":"transport", "langita":"trasporti", "langeng":"transport"
+      }
+      ,
+      {
+      "default":"Umweltpolitik", "langger":"Umweltpolitik", "langfre":"politique environnementale", "langita":"politica ambientale", "langeng":"environmental policy"
+      }
+      ,
+      {
+      "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+      }
+      ,
+      {
+      "default":"Alpenkonvention", "langger":"Alpenkonvention", "langfre":"Convention des Alpes", "langita":"Convenzione delle alpi", "langeng":"Alpine Convention"
+      }
+      ,
+      {
+      "default":"AK", "langger":"AK", "langfre":"CA", "langita":"CA", "langeng":"AC", "langroh":"null"
+      }
+      ,
+      {
+      "default":"Datenstand 2011-2018 Schweiz", "langger":"Datenstand 2011-2018 Schweiz", "langfre":"Datenstand 2011-2018 Schweiz", "langita":"Datenstand 2011-2018 Schweiz", "langeng":"Datenstand 2011-2018 Schweiz", "langroh":"Datenstand 2011-2018 Schweiz"
+      }
+      ,
+      {
+      "default":"Aadorf", "langger":"Aadorf", "langfre":"Aadorf", "langita":"Aadorf", "langeng":"Aadorf", "langroh":"Aadorf"
+      }
+      ,
+      {
+      "default":"Test Zeitraum Dez 2019 - Mar 2020", "langger":"Test Zeitraum Dez 2019 - Mar 2020"
+      }
+      ]</tag>
+  <tagNumber>11</tagNumber>
+  <isOpenData>false</isOpenData>
+  <keywordType-theme type="object">[
+          {
+          "default":"Verwaltungseinheiten", "langger":"Verwaltungseinheiten", "langfre":"Unit\u00E9s administratives", "langita":"Unit\u00E0 amministrative", "langeng":"Administrative units"
+          }
+          ,
+          {
+          "default":"Umwelt\u00FCberwachung", "langger":"Umwelt\u00FCberwachung", "langfre":"Installations de suivi environnemental", "langita":"Impianti di monitoraggio ambientale", "langeng":"Environmental monitoring facilities"
+          }
+          ,
+          {
+          "default":"Verkehr", "langger":"Verkehr", "langfre":"transport", "langita":"trasporti", "langeng":"transport"
+          }
+          ,
+          {
+          "default":"Umweltpolitik", "langger":"Umweltpolitik", "langfre":"politique environnementale", "langita":"politica ambientale", "langeng":"environmental policy"
+          }
+          ]</keywordType-theme>
+  <keywordType-_none_ type="object">[
+          {
+          "default":"Nachhaltige Entwicklung", "langger":"Nachhaltige Entwicklung", "langfre":"d\u00E9veloppement durable", "langita":"sviluppo sostenibile", "langeng":"sustainable development"
+          }
+          ,
+          {
+          "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+          }
+          ]</keywordType-_none_>
+  <keywordType-place type="object">[
+          {
+          "default":"Alpenkonvention", "langger":"Alpenkonvention", "langfre":"Convention des Alpes", "langita":"Convenzione delle alpi", "langeng":"Alpine Convention"
+          }
+          ,
+          {
+          "default":"AK", "langger":"AK", "langfre":"CA", "langita":"CA", "langeng":"AC", "langroh":"null"
+          }
+          ,
+          {
+          "default":"Datenstand 2011-2018 Schweiz", "langger":"Datenstand 2011-2018 Schweiz", "langfre":"Datenstand 2011-2018 Schweiz", "langita":"Datenstand 2011-2018 Schweiz", "langeng":"Datenstand 2011-2018 Schweiz", "langroh":"Datenstand 2011-2018 Schweiz"
+          }
+          ,
+          {
+          "default":"Aadorf", "langger":"Aadorf", "langfre":"Aadorf", "langita":"Aadorf", "langeng":"Aadorf", "langroh":"Aadorf"
+          }
+          ,
+          {
+          "default":"Test Zeitraum Dez 2019 - Mar 2020", "langger":"Test Zeitraum Dez 2019 - Mar 2020"
+          }
+          ]</keywordType-place>
+  <th_httpinspireeceuropaeutheme-themeNumber>2</th_httpinspireeceuropaeutheme-themeNumber>
+  <th_httpinspireeceuropaeutheme-theme type="object">[
+        {
+        "default":"Verwaltungseinheiten", "langger":"Verwaltungseinheiten", "langfre":"Unit\u00E9s administratives", "langita":"Unit\u00E0 amministrative", "langeng":"Administrative units"
+        }
+        ,
+        {
+        "default":"Umwelt\u00FCberwachung", "langger":"Umwelt\u00FCberwachung", "langfre":"Installations de suivi environnemental", "langita":"Impianti di monitoraggio ambientale", "langeng":"Environmental monitoring facilities"
+        }
+        ]</th_httpinspireeceuropaeutheme-theme>
+  <th_gemetNumber>1</th_gemetNumber>
+  <th_gemet type="object">[
+        {
+        "default":"Nachhaltige Entwicklung", "langger":"Nachhaltige Entwicklung", "langfre":"d\u00E9veloppement durable", "langita":"sviluppo sostenibile", "langeng":"sustainable development"
+        }
+        ]</th_gemet>
+  <th_gemet-themeNumber>2</th_gemet-themeNumber>
+  <th_gemet-theme type="object">[
+        {
+        "default":"Verkehr", "langger":"Verkehr", "langfre":"transport", "langita":"trasporti", "langeng":"transport"
+        }
+        ,
+        {
+        "default":"Umweltpolitik", "langger":"Umweltpolitik", "langfre":"politique environnementale", "langita":"politica ambientale", "langeng":"environmental policy"
+        }
+        ]</th_gemet-theme>
+  <th_geNumber>1</th_geNumber>
+  <th_ge type="object">[
+        {
+        "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+        }
+        ]</th_ge>
+  <th_geocat-chNumber>0</th_geocat-chNumber>
+  <th_geocat-ch type="object">[]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_httpinspireeceuropaeutheme-theme": {
+        
+          "id": "geonetwork.thesaurus.external.theme.inspire-theme",
+        
+            "multilingualTitle": {
+              "default":"GEMET - INSPIRE themes, version 1.0", "langger":"GEMET - INSPIRE themes, version 1.0"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.inspire-theme",
+        
+        "keywords": [
+        
+          {
+          "default":"Verwaltungseinheiten", "langger":"Verwaltungseinheiten", "langfre":"Unit\u00E9s administratives", "langita":"Unit\u00E0 amministrative", "langeng":"Administrative units"
+          }
+          ,
+          {
+          "default":"Umwelt\u00FCberwachung", "langger":"Umwelt\u00FCberwachung", "langfre":"Installations de suivi environnemental", "langita":"Impianti di monitoraggio ambientale", "langeng":"Environmental monitoring facilities"
+          }
+          
+        ]}
+        ,
+        "th_gemet": {
+        
+          "id": "geonetwork.thesaurus.external._none_.gemet",
+        
+            "multilingualTitle": {
+              "default":"GEMET concepts", "langger":"GEMET concepts"
+            },
+          
+        "theme": "_none_",
+        
+          "link": "https:\/\/www.geocat.ch:443\/geonetwork\/srv\/api\/registries\/vocabularies\/external._none_.gemet",
+        
+        "keywords": [
+        
+          {
+          "default":"Nachhaltige Entwicklung", "langger":"Nachhaltige Entwicklung", "langfre":"d\u00E9veloppement durable", "langita":"sviluppo sostenibile", "langeng":"sustainable development"
+          }
+          
+        ]}
+        ,
+        "th_gemet-theme": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet-theme",
+        
+            "multilingualTitle": {
+              "default":"GEMET themes", "langger":"GEMET themes"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.gemet-theme",
+        
+        "keywords": [
+        
+          {
+          "default":"Verkehr", "langger":"Verkehr", "langfre":"transport", "langita":"trasporti", "langeng":"transport"
+          }
+          ,
+          {
+          "default":"Umweltpolitik", "langger":"Umweltpolitik", "langfre":"politique environnementale", "langita":"politica ambientale", "langeng":"environmental policy"
+          }
+          
+        ]}
+        ,
+        "th_ge": {
+        
+          "id": "ge",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch Thesaurus", "langger":"geocat.ch Thesaurus"
+            },
+          
+        "theme": "_none_",
+        
+          "link": "https:\/\/www.geocat.ch:443\/geonetwork\/srv\/api\/registries\/vocabularies\/local._none_.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+          }
+          
+        ]}
+        ,
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Verwaltungseinheiten",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.inspire-theme"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Umwelt\u00FCberwachung",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.inspire-theme"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Nachhaltige Entwicklung",
+                              "thesaurus": "geonetwork.thesaurus.external._none_.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Verkehr",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet-theme"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Umweltpolitik",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet-theme"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Aufbewahrungs- und Archivierungsplanung AAP - Bund",
+                              "thesaurus": "ge"
+                            }
+                          }</indexingErrorMsg>
+  <cl_topic type="object">{"key":"planningCadastre","default":"gmd:MD_TopicCategoryCode--planningCadastre--ger","langger":"gmd:MD_TopicCategoryCode--planningCadastre--ger","langfre":"gmd:MD_TopicCategoryCode--planningCadastre--fre","langita":"gmd:MD_TopicCategoryCode--planningCadastre--ita","langeng":"gmd:MD_TopicCategoryCode--planningCadastre--eng","langroh":"gmd:MD_TopicCategoryCode--planningCadastre--roh","langger":"gmd:MD_TopicCategoryCode--planningCadastre--ger"}</cl_topic>
+  <cl_topic type="object">{"key":"planningCadastre_Planning","default":"gmd:MD_TopicCategoryCode--planningCadastre_Planning--ger","langger":"gmd:MD_TopicCategoryCode--planningCadastre_Planning--ger","langfre":"gmd:MD_TopicCategoryCode--planningCadastre_Planning--fre","langita":"gmd:MD_TopicCategoryCode--planningCadastre_Planning--ita","langeng":"gmd:MD_TopicCategoryCode--planningCadastre_Planning--eng","langroh":"gmd:MD_TopicCategoryCode--planningCadastre_Planning--roh","langger":"gmd:MD_TopicCategoryCode--planningCadastre_Planning--ger"}</cl_topic>
+  <resolutionScaleDenominator>25000</resolutionScaleDenominator>
+  <maintenance type="object">{
+            "frequency": "asNeeded"
+            
+              ,"userDefinedFrequency": "P5Y"
+            
+              ,"noteObject":
+              
+            {"default":"Remarque AL", "langger":"Remarque AL", "langfre":"Remarque FR", "langita":"Remarque IT", "langeng":"Remarque EN", "langroh":"Remarque RM"}
+            
+          }</maintenance>
+  <hasBoundingPolygon>true</hasBoundingPolygon>
+  <extentDescriptionObject type="object">{"default":"Alpenkonvention", "langger":"Alpenkonvention", "langfre":"Convention des Alpes", "langita":"Convenzione delle alpi", "langeng":"Alpine Convention"}</extentDescriptionObject>
+  <extentIdentifierObject type="object">{"default":"AK", "langger":"AK", "langfre":"CA", "langita":"CA", "langeng":"AC", "langroh":"null"}</extentIdentifierObject>
+  <extentDescriptionObject type="object">{"default":"Datenstand 2011-2018 Schweiz", "langger":"Datenstand 2011-2018 Schweiz", "langfre":"Datenstand 2011-2018 Schweiz", "langita":"Datenstand 2011-2018 Schweiz", "langeng":"Datenstand 2011-2018 Schweiz", "langroh":"Datenstand 2011-2018 Schweiz"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[5.956069,45.820823],[10.492047,45.820823],[10.492047,47.808490],[5.956069,47.808490],[5.956069,45.820823]]]}</geom>
+  <location>46.8146565,8.224058</location>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2011-01-01T00:00:00.000Z"
+                  
+                    ,"lte": "2018-12-31T00:00:00.000Z"
+                  
+                  }</resourceTemporalDateRange>
+  <resourceTemporalExtentDateRange type="object">{
+                  "gte": "2011-01-01T00:00:00.000Z"
+                  
+                    ,"lte": "2018-12-31T00:00:00.000Z"
+                  
+                  }</resourceTemporalExtentDateRange>
+  <resourceTemporalExtentDetails type="object">{
+        "start": {
+        "date": "2011-01-01"
+        },
+        "end": {
+        "date": "2018-12-31"
+        }
+        }</resourceTemporalExtentDetails>
+  <extentDescriptionObject type="object">{"default":"Aadorf", "langger":"Aadorf", "langfre":"Aadorf", "langita":"Aadorf", "langeng":"Aadorf", "langroh":"Aadorf"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[8.880903,47.459766],[8.942010,47.459766],[8.942010,47.540441],[8.880903,47.540441],[8.880903,47.459766]]]}</geom>
+  <location>47.5001035,8.9114565</location>
+  <coordinateSystem>EPSG:21781</coordinateSystem>
+  <crsDetails type="object">{
+            "code": "EPSG:21781",
+            "codeSpace": "Espace",
+            "name": "EPSG:21781",
+            "url": ""
+            }</crsDetails>
+  <lineageObject type="object">{"default":"Digitalisiert nach den administrativen Einheiten der Schweiz, die im Anhang des \u00DCbereinkommens erscheinen.", "langger":"Digitalisiert nach den administrativen Einheiten der Schweiz, die im Anhang des \u00DCbereinkommens erscheinen."}</lineageObject>
+  <measure type="object">{
+            "name": "Test AL",
+            
+              "description": "Desc AL",
+            
+            
+            "value": "any content",
+            
+              "unit": "string",
+            
+            "type": "DQ_QuantitativeResult"
+            }</measure>
+  <measure_TestAL>any content</measure_TestAL>
+  <processSteps type="object">{
+            "descriptionObject": 
+            {"default":"Ev AL", "langger":"Ev AL", "langfre":"Ev FR", "langita":"Ev IT", "langeng":"Ev EN", "langroh":"Ev RM"}
+            
+              ,"date": "2020-03-18T00:00:00"
+            
+              ,"processor": [
+              
+                {
+                  "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo", "langroh":"Uffizi federal da topografia swisstopo"}
+            
+                }
+                
+              ]
+            
+            }</processSteps>
+  <OrgForProcessingObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo", "langroh":"Uffizi federal da topografia swisstopo"}</OrgForProcessingObject>
+  <originatorOrgForProcessingObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo", "langroh":"Uffizi federal da topografia swisstopo"}</originatorOrgForProcessingObject>
+  <contactForProcessing type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo", "langroh":"Uffizi federal da topografia swisstopo"}
+            ,
+      
+      "role":"originator",
+      "email":"michel.quinquis@swisstopo.ch",
+      "websiteObject":{},
+      "logo":"",
+      "individual":"Michel Quinquis",
+      "position":"",
+      "phone":"031 963 21 11",
+      "address":"Wabern, 3084, CH"
+      
+      }</contactForProcessing>
+  <format>ESRI Shapefile</format>
+  <OrgForDistributionObject type="object">{"default":"Bundesamt f\u00FCr Zivilluftfahrt", "langger":"Bundesamt f\u00FCr Zivilluftfahrt", "langfre":"Office f\u00E9d\u00E9ral de l'aviation civile", "langita":"Ufficio federale dell'aviazione civile", "langeng":"Federal Office of Civil Aviation", "langroh":"Bundesamt f\u00FCr Zivilluftfahrt"}</OrgForDistributionObject>
+  <originatorOrgForDistributionObject type="object">{"default":"Bundesamt f\u00FCr Zivilluftfahrt", "langger":"Bundesamt f\u00FCr Zivilluftfahrt", "langfre":"Office f\u00E9d\u00E9ral de l'aviation civile", "langita":"Ufficio federale dell'aviazione civile", "langeng":"Federal Office of Civil Aviation", "langroh":"Bundesamt f\u00FCr Zivilluftfahrt"}</originatorOrgForDistributionObject>
+  <contactForDistribution type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Zivilluftfahrt", "langger":"Bundesamt f\u00FCr Zivilluftfahrt", "langfre":"Office f\u00E9d\u00E9ral de l'aviation civile", "langita":"Ufficio federale dell'aviazione civile", "langeng":"Federal Office of Civil Aviation", "langroh":"Bundesamt f\u00FCr Zivilluftfahrt"}
+            ,
+      
+      "role":"originator",
+      "email":"florian.parvex@bazl.admin.ch",
+      "websiteObject":{"default":"https:\/\/www.bazl.admin.ch\/bazl\/de\/home\/infrastruktur\/flugplaetze\/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html",  "langger":"https:\/\/www.bazl.admin.ch\/bazl\/de\/home\/infrastruktur\/flugplaetze\/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html",  "langfre":"https:\/\/www.bazl.admin.ch\/bazl\/fr\/home\/infrastructure\/aerodromes-en-general\/cadastre-des-sites-contamines-sur-les-aerodromes-civils--casip-o.html",  "langita":"https:\/\/www.bazl.admin.ch\/bazl\/it\/home\/infrastruttura\/flugplaetze\/catasto-dei-siti-inquinati-negli-aerodromi-civili--csin-ufac-.html",  "langeng":"https:\/\/www.bazl.admin.ch\/bazl\/en\/home\/infrastruktur\/flugplaetze\/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html",  "langroh":"https:\/\/www.bazl.admin.ch\/bazl\/de\/home\/infrastruktur\/flugplaetze\/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html"},
+      "logo":"",
+      "individual":"Florian Parvex",
+      "position":"Sachplan und Anlagen",
+      "phone":"+41 (0)58 465 80 39",
+      "address":"Bern, 3003, CH"
+      
+      }</contactForDistribution>
+  <linkUrl>https://www.are.admin.ch/are/de/home/laendliche-raeume-und-berggebiete/internationale-zusammenarbeit/alpenkonvention.html</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://www.are.admin.ch/are/de/home/laendliche-raeume-und-berggebiete/internationale-zusammenarbeit/alpenkonvention.html</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "621a24027af68dea824ca0fea4490159",
+            "idx": 1,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.are.admin.ch\/are\/de\/home\/laendliche-raeume-und-berggebiete\/internationale-zusammenarbeit\/alpenkonvention.html",  "langger":"https:\/\/www.are.admin.ch\/are\/de\/home\/laendliche-raeume-und-berggebiete\/internationale-zusammenarbeit\/alpenkonvention.html",  "langfre":"https:\/\/www.are.admin.ch\/are\/fr\/home\/espaces-ruraux-et-regions-de-montagne\/cooperation-internationale\/la-convention-alpine.html",  "langita":"https:\/\/www.are.admin.ch\/are\/it\/home\/spazi-rurali-e-regioni-di-montagna\/cooperazione-internazionale\/la-convenzione-delle-alpi.html"},
+            
+              "nameObject": 
+            {"default":"Nom AL", "langger":"Nom AL", "langfre":"Nom FR", "langita":"Nom IT", "langeng":"Nom EN", "langroh":"Nom RM"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Webseite des ARE \u00FCber die Alpenkonvention", "langger":"Webseite des ARE \u00FCber die Alpenkonvention", "langfre":"Page web de l'ARE sur la Convention alpine"}
+            ,
+            
+            "function":"search",
+            "applicationProfile":"Profil A",
+            "group": 0
+            }</link>
+  <linkUrl>http://data.geo.admin.ch/ch.are.alpenkonvention/data.zip</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD-URL</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADURL>http://data.geo.admin.ch/ch.are.alpenkonvention/data.zip</linkUrlProtocolWWWDOWNLOADURL>
+  <link type="object">{
+            "hash": "2ab17a9e375df5eac74218843884720c",
+            "idx": 2,
+            "protocol":"WWW:DOWNLOAD-URL",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/data.geo.admin.ch\/ch.are.alpenkonvention\/data.zip",  "langger":"http:\/\/data.geo.admin.ch\/ch.are.alpenkonvention\/data.zip"},
+            
+              "descriptionObject": 
+            {"default":"Download von data.geo.admin.ch", "langger":"Download von data.geo.admin.ch", "langfre":"Serveur de t\u00E9l\u00E9chargement de geo.admin.ch", "langita":"Server di download di geo.admin.ch", "langeng":"Download server from geo.admin.ch"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>http://wms.geo.admin.ch/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de</linkUrl>
+  <linkProtocol>OGC:WMS</linkProtocol>
+  <linkUrlProtocolOGCWMS>http://wms.geo.admin.ch/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de</linkUrlProtocolOGCWMS>
+  <link type="object">{
+            "hash": "10f1f0177e4d3e8234e21b3d767766d9",
+            "idx": 3,
+            "protocol":"OGC:WMS",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de",  "langger":"http:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de"},
+            
+              "nameObject": 
+            {"default":"ch.are.alpenkonvention", "langger":"ch.are.alpenkonvention"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"WMS Dienst von geo.admin.ch", "langger":"WMS Dienst von geo.admin.ch", "langfre":"Service WMS de geo.admin.ch", "langita":"Servizio WMS di geo.admin.ch", "langeng":"WMS Service from geo.admin.ch"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.are.admin.ch/are/de/home/raumentwicklung-und-raumplanung/grundlagen-und-daten/minimale-geodatenmodelle/alpenkonvention.html</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD-URL</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADURL>https://www.are.admin.ch/are/de/home/raumentwicklung-und-raumplanung/grundlagen-und-daten/minimale-geodatenmodelle/alpenkonvention.html</linkUrlProtocolWWWDOWNLOADURL>
+  <link type="object">{
+            "hash": "dd05eb4b1ce7bc4e21dd6b07a5d29a29",
+            "idx": 4,
+            "protocol":"WWW:DOWNLOAD-URL",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.are.admin.ch\/are\/de\/home\/raumentwicklung-und-raumplanung\/grundlagen-und-daten\/minimale-geodatenmodelle\/alpenkonvention.html",  "langger":"https:\/\/www.are.admin.ch\/are\/de\/home\/raumentwicklung-und-raumplanung\/grundlagen-und-daten\/minimale-geodatenmodelle\/alpenkonvention.html",  "langfre":"https:\/\/www.are.admin.ch\/are\/fr\/home\/developpement-et-amenagement-du-territoire\/bases-et-donnees\/modeles-de-geodonnees-minimaux\/convention-alpine.html",  "langita":"https:\/\/www.are.admin.ch\/are\/it\/home\/sviluppo-e-pianificazione-del-territorio\/basi-e-dati\/modelli-di-geodati-minimi\/convenzione-delle-alpi.html"},
+            
+              "descriptionObject": 
+            {"default":"Minimales Geodatenmodell in INTERLIS 2.3", "langger":"Minimales Geodatenmodell in INTERLIS 2.3", "langfre":"Mod\u00E8le de donn\u00E9es minimal en INTERLIS 2.3"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 1
+            }</link>
+  <linkUrl>http://map.are.admin.ch/?Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.2&amp;layers_visibility=true&amp;lang=de</linkUrl>
+  <linkProtocol>CHTOPO:specialised-geoportal</linkProtocol>
+  <linkUrlProtocolCHTOPOspecialisedgeoportal>http://map.are.admin.ch/?Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.2&amp;layers_visibility=true&amp;lang=de</linkUrlProtocolCHTOPOspecialisedgeoportal>
+  <link type="object">{
+            "hash": "e293a1d8b90b5c01666ffeb91da4f0eb",
+            "idx": 5,
+            "protocol":"CHTOPO:specialised-geoportal",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/map.are.admin.ch\/?Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.2&amp;layers_visibility=true&amp;lang=de",  "langger":"http:\/\/map.are.admin.ch\/?Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.2&amp;layers_visibility=true&amp;lang=de",  "langfre":"http:\/\/map.are.admin.ch\/?Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.2&amp;layers_visibility=true&amp;lang=fr"},
+            
+              "descriptionObject": 
+            {"default":"Web-GIS ARE", "langger":"Web-GIS ARE", "langfre":"Web-SIG ARE"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 2
+            }</link>
+  <linkUrl>http://wmts.geo.admin.ch</linkUrl>
+  <linkProtocol>OGC:WMTS</linkProtocol>
+  <linkUrlProtocolOGCWMTS>http://wmts.geo.admin.ch</linkUrlProtocolOGCWMTS>
+  <link type="object">{
+            "hash": "021928cccf63c192c4342ed6dc412afc",
+            "idx": 6,
+            "protocol":"OGC:WMTS",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/wmts.geo.admin.ch",  "langger":"http:\/\/wmts.geo.admin.ch"},
+            
+              "nameObject": 
+            {"default":"ch.are.alpenkonvention", "langger":"ch.are.alpenkonvention"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"WMTS f\u00FCr das Nationale Geoportal", "langger":"WMTS f\u00FCr das Nationale Geoportal", "langfre":"WMTS pour le g\u00E9oportail national", "langeng":"WMTS for the national geoportal"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 3
+            }</link>
+  <linkUrl>http://www.alpconv.org</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>http://www.alpconv.org</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "52daaab59c587fb19688c99fa2f971ff",
+            "idx": 7,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/www.alpconv.org",  "langger":"http:\/\/www.alpconv.org",  "langfre":"http:\/\/www.alpconv.org",  "langita":"http:\/\/www.alpconv.org",  "langeng":"http:\/\/www.alpconv.org",  "langroh":"http:\/\/www.alpconv.org"},
+            
+              "descriptionObject": 
+            {"default":"Offizielle Homepage der Alpenkonvention", "langger":"Offizielle Homepage der Alpenkonvention", "langfre":"Site web officiel de la Convention alpine", "langita":"Pagina web ufficiale della Convenzione delle alpi", "langeng":"Official Website of the Alpine Convention"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 4
+            }</link>
+  <linkUrl>http://map.geo.admin.ch/?selectedNode=LT1_1&amp;Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.6&amp;layers_visibility=true&amp;lang=de</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>http://map.geo.admin.ch/?selectedNode=LT1_1&amp;Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.6&amp;layers_visibility=true&amp;lang=de</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "66229879cddc76a060c1276d5137b04d",
+            "idx": 8,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/map.geo.admin.ch\/?selectedNode=LT1_1&amp;Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.6&amp;layers_visibility=true&amp;lang=de",  "langger":"http:\/\/map.geo.admin.ch\/?selectedNode=LT1_1&amp;Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.6&amp;layers_visibility=true&amp;lang=de",  "langfre":"http:\/\/map.geo.admin.ch\/?selectedNode=LT1_1&amp;Y=660000&amp;X=190000&amp;zoom=1&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.are.alpenkonvention&amp;layers_opacity=0.56&amp;layers_visibility=true&amp;lang=fr"},
+            
+              "descriptionObject": 
+            {"default":"Die Alpenkonvention im Bundesgeoportal", "langger":"Die Alpenkonvention im Bundesgeoportal", "langfre":"La convention alpine dans le g\u00E9oportail f\u00E9d\u00E9ral"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 5
+            }</link>
+  <linkUrl>http://www.admin.ch/ch/d/sr/0_700_1/app1.html</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>http://www.admin.ch/ch/d/sr/0_700_1/app1.html</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "a48180f7bc14b8cacac90ad9c90cfcc7",
+            "idx": 9,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/www.admin.ch\/ch\/d\/sr\/0_700_1\/app1.html",  "langger":"http:\/\/www.admin.ch\/ch\/d\/sr\/0_700_1\/app1.html",  "langfre":"http:\/\/www.admin.ch\/ch\/f\/rs\/0_700_1\/app1.html",  "langita":"http:\/\/www.admin.ch\/ch\/i\/rs\/0_700_1\/app1.html"},
+            
+              "descriptionObject": 
+            {"default":"Liste der administrativen Einheiten des Alpenraumes in der schweizerischen Eidgenossenschaft", "langger":"Liste der administrativen Einheiten des Alpenraumes in der schweizerischen Eidgenossenschaft", "langfre":"Liste des unit\u00E9s administratives de l'espace alpin dans la Conf\u00E9d\u00E9ration suisse", "langita":"Elenco delle unit\u00E0 amministrative dello spazio alpino nella Confederazione Svizzera"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 6
+            }</link>
+  <recordGroup>fbafbbd4-4622-445f-8e07-1ad4f6a61c55</recordGroup>
+</doc>
+
