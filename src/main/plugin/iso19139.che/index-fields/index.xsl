@@ -1296,7 +1296,7 @@
           <xsl:variable name="xlink"
                         select="gmd:aggregateDataSetIdentifier/*/gmd:code/*/@xlink:href"/>
           <xsl:variable name="associationType"
-                        select="gmd:associationType/*/@codeListValue"/>
+                        select="replace(gmd:associationType/*/@codeListValue, '/', '_')"/>
           <xsl:if test="$associationType = $parentAssociatedResourceType">
             <parentUuid><xsl:value-of select="$code"/></parentUuid>
             <xsl:copy-of select="gn-fn-index:build-record-link($code, $xlink, gmd:aggregateDataSetIdentifier/*/gmd:code/*/@xlink:title, 'parent')"/>
