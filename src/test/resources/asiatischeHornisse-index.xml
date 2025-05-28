@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>786606bc-2b81-4426-8ccd-e3a2c76cdb14</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03 2+", "langger":"GM03 2+"}</standardNameObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-03-07T08:00:25.581Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <otherLanguage>ita</otherLanguage>
+  <otherLanguageId>IT</otherLanguageId>
+  <otherLanguage>eng</otherLanguage>
+  <otherLanguageId>EN</otherLanguageId>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>dataset</resourceType>
+  <OrgObject type="object">{"default":"Amt f\u00FCr Geoinformation BL", "langger":"Amt f\u00FCr Geoinformation BL", "langfre":"Amt f\u00FCr Geoinformation BL", "langeng":"Amt f\u00FCr Geoinformation BL"}</OrgObject>
+  <pointOfContactOrgObject type="object">{"default":"Amt f\u00FCr Geoinformation BL", "langger":"Amt f\u00FCr Geoinformation BL", "langfre":"Amt f\u00FCr Geoinformation BL", "langeng":"Amt f\u00FCr Geoinformation BL"}</pointOfContactOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Amt f\u00FCr Geoinformation BL", "langger":"Amt f\u00FCr Geoinformation BL", "langfre":"Amt f\u00FCr Geoinformation BL", "langeng":"Amt f\u00FCr Geoinformation BL"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"support.gis@bl.ch",
+      "websiteObject":{"default":"https:\/\/geo.bl.ch",  "langger":"https:\/\/geo.bl.ch",  "langeng":"https:\/\/geo.bl.ch",  "langfre":"https:\/\/geo.bl.ch"},
+      "logo":"",
+      "individual":"",
+      "position":"",
+      "phone":"+41 61 552 56 73",
+      "address":"Liestal, 4410"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"dataset","default":"gmd:MD_ScopeCode--dataset--ger","langger":"gmd:MD_ScopeCode--dataset--ger","langfre":"gmd:MD_ScopeCode--dataset--fre","langita":"gmd:MD_ScopeCode--dataset--ita","langeng":"gmd:MD_ScopeCode--dataset--eng","langger":"gmd:MD_ScopeCode--dataset--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_status type="object">{"key":"onGoing","default":"gmd:MD_ProgressCode--onGoing--ger","langger":"gmd:MD_ProgressCode--onGoing--ger","langfre":"gmd:MD_ProgressCode--onGoing--fre","langita":"gmd:MD_ProgressCode--onGoing--ita","langeng":"gmd:MD_ProgressCode--onGoing--eng","langger":"gmd:MD_ProgressCode--onGoing--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ProgressCode"}</cl_status>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"continual","default":"gmd:MD_MaintenanceFrequencyCode--continual--ger","langger":"gmd:MD_MaintenanceFrequencyCode--continual--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--continual--fre","langita":"gmd:MD_MaintenanceFrequencyCode--continual--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--continual--eng","langger":"gmd:MD_MaintenanceFrequencyCode--continual--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--ger","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langita":"gmd:MD_KeywordTypeCode--theme--ita","langeng":"gmd:MD_KeywordTypeCode--theme--eng","langger":"gmd:MD_KeywordTypeCode--theme--ger","link":"http:\/\/www.isotc211.org\/2005\/resources\/codeList.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_spatialRepresentationType type="object">{"key":"vector","default":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langfre":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","langita":"gmd:MD_SpatialRepresentationTypeCode--vector--ita","langeng":"gmd:MD_SpatialRepresentationTypeCode--vector--eng","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"}</cl_spatialRepresentationType>
+  <cl_basicGeodataIDType type="object">{"key":"cantonal","default":"che:basicGeodataIDTypeCode--cantonal--ger","langger":"che:basicGeodataIDTypeCode--cantonal--ger","langfre":"che:basicGeodataIDTypeCode--cantonal--fre","langita":"che:basicGeodataIDTypeCode--cantonal--ita","langeng":"che:basicGeodataIDTypeCode--cantonal--eng","langger":"che:basicGeodataIDTypeCode--cantonal--ger","link":"#basicGeodataIDTypeCode"}</cl_basicGeodataIDType>
+  <cl_geodataType type="object">{"key":"openGovernmentData","default":"che:MD_geodataTypeCode--openGovernmentData--ger","langger":"che:MD_geodataTypeCode--openGovernmentData--ger","langfre":"che:MD_geodataTypeCode--openGovernmentData--fre","langita":"che:MD_geodataTypeCode--openGovernmentData--ita","langeng":"che:MD_geodataTypeCode--openGovernmentData--eng","langger":"che:MD_geodataTypeCode--openGovernmentData--ger","link":"#MD_geodataTypeCode"}</cl_geodataType>
+  <cl_country type="object">{"key":"CH","default":"gmd:Country--CH--ger","langger":"gmd:Country--CH--ger","langfre":"gmd:Country--CH--fre","langita":"gmd:Country--CH--ita","langeng":"gmd:Country--CH--eng","langger":"gmd:Country--CH--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#Country"}</cl_country>
+  <cl_legislationType type="object">{"key":"nationalDecree","default":"che:CHE_CI_LegislationCode--nationalDecree--ger","langger":"che:CHE_CI_LegislationCode--nationalDecree--ger","langfre":"che:CHE_CI_LegislationCode--nationalDecree--fre","langita":"che:CHE_CI_LegislationCode--nationalDecree--ita","langeng":"che:CHE_CI_LegislationCode--nationalDecree--eng","langger":"che:CHE_CI_LegislationCode--nationalDecree--ger","link":"#CHE_CI_LegislationCode"}</cl_legislationType>
+  <resourceTitleObject type="object">{"default":"Asiatische Hornisse", "langger":"Asiatische Hornisse"}</resourceTitleObject>
+  <revisionDateForResource>2025-03-07</revisionDateForResource>
+  <revisionYearForResource>2025</revisionYearForResource>
+  <revisionMonthForResource>2025-03</revisionMonthForResource>
+  <resourceDate type="object">{"type": "revision", "date": "2025-03-07T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2025-03-07T00:00:00.000Z",
+                  "lte": "2025-03-07T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceAbstractObject type="object">{"default":"Die Asiatische Hornisse wurde im Kanton Basel-Landschaft erstmals im Jahr 2022 nachgewiesen. Diese Art gilt als invasiv, da sie zur Ern\u00E4hrung ihrer Brut einheimische Wildbienen und Honigbienen in grossen Mengen jagt und diese Best\u00E4nde so dezimiert. Die Bestandesdichte der Asiatischen Hornisse ist seit dem ersten Nachweis stark am Ansteigen. Mit dem Vernichten gefundener Nester wird versucht, deren Ausbreitung zu verlangsamen und die Populationsdichte zu senken.", "langger":"Die Asiatische Hornisse wurde im Kanton Basel-Landschaft erstmals im Jahr 2022 nachgewiesen. Diese Art gilt als invasiv, da sie zur Ern\u00E4hrung ihrer Brut einheimische Wildbienen und Honigbienen in grossen Mengen jagt und diese Best\u00E4nde so dezimiert. Die Bestandesdichte der Asiatischen Hornisse ist seit dem ersten Nachweis stark am Ansteigen. Mit dem Vernichten gefundener Nester wird versucht, deren Ausbreitung zu verlangsamen und die Populationsdichte zu senken."}</resourceAbstractObject>
+  <cl_resourceCharacterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_resourceCharacterSet>
+  <OrgForResourceObject type="object">{"default":"Amt f\u00FCr Umweltschutz und Energie", "langger":"Amt f\u00FCr Umweltschutz und Energie", "langeng":"Amt f\u00FCr Umweltschutz und Energie"}</OrgForResourceObject>
+  <pointOfContactOrgForResourceObject type="object">{"default":"Amt f\u00FCr Umweltschutz und Energie", "langger":"Amt f\u00FCr Umweltschutz und Energie", "langeng":"Amt f\u00FCr Umweltschutz und Energie"}</pointOfContactOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Amt f\u00FCr Umweltschutz und Energie", "langger":"Amt f\u00FCr Umweltschutz und Energie", "langeng":"Amt f\u00FCr Umweltschutz und Energie"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"aue.umwelt@bl.ch",
+      "websiteObject":{"default":"https:\/\/www.baselland.ch\/politik-und-behorden\/direktionen\/bau-und-umweltschutzdirektion\/umweltschutz-energie",  "langger":"https:\/\/www.baselland.ch\/politik-und-behorden\/direktionen\/bau-und-umweltschutzdirektion\/umweltschutz-energie"},
+      "logo":"",
+      "individual":"",
+      "position":"",
+      "phone":"+41 61 552 51 11",
+      "address":"Liestal, 4410"
+      
+      }</contactForResource>
+  <purposeObject type="object">{"default":"Erfassen der Ausbreitung der Asiatischen Hornisse und \u00DCbersicht \u00FCber Sichtungen von Individuen und Nestern zu Bek\u00E4mpfungszwecken.", "langger":"Erfassen der Ausbreitung der Asiatischen Hornisse und \u00DCbersicht \u00FCber Sichtungen von Individuen und Nestern zu Bek\u00E4mpfungszwecken."}</purposeObject>
+  <hasOverview>true</hasOverview>
+  <overview type="object">{
+            "url": "https://www.geo.bl.ch/vorschaubilder_geocat/Asiatische_Hornisse.png"
+            
+            }</overview>
+  <resourceLanguage>ger</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"Kanton Basel-Landschaft (BL)", "langger":"Kanton Basel-Landschaft (BL)", "langfre":"Canton de B\u00E2le-Campagne (BL)", "langita":"Cantone di Basilea Campagna (BL)", "langeng":"Canton of Basel Landschaft (BL)"
+      }
+      ]</tag>
+  <tagNumber>1</tagNumber>
+  <isOpenData>false</isOpenData>
+  <keywordType-theme type="object">[]</keywordType-theme>
+  <keywordType-place type="object">[
+          {
+          "default":"Kanton Basel-Landschaft (BL)", "langger":"Kanton Basel-Landschaft (BL)", "langfre":"Canton de B\u00E2le-Campagne (BL)", "langita":"Cantone di Basilea Campagna (BL)", "langeng":"Canton of Basel Landschaft (BL)"
+          }
+          ]</keywordType-place>
+  <th_gemetNumber>0</th_gemetNumber>
+  <th_gemet type="object">[]</th_gemet>
+  <th_geocat-chNumber>0</th_geocat-chNumber>
+  <th_geocat-ch type="object">[]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_gemet": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet",
+        
+            "multilingualTitle": {
+              "default":"GEMET", "langger":"GEMET"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.gemet",
+        
+        "keywords": [
+        
+        ]}
+        ,
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+        ]}
+        
+      }</allKeywords>
+  <cl_topic type="object">{"key":"environment","default":"gmd:MD_TopicCategoryCode--environment--ger","langger":"gmd:MD_TopicCategoryCode--environment--ger","langfre":"gmd:MD_TopicCategoryCode--environment--fre","langita":"gmd:MD_TopicCategoryCode--environment--ita","langeng":"gmd:MD_TopicCategoryCode--environment--eng","langger":"gmd:MD_TopicCategoryCode--environment--ger"}</cl_topic>
+  <cl_topic type="object">{"key":"environment_EnvironmentalProtection","default":"gmd:MD_TopicCategoryCode--environment_EnvironmentalProtection--ger","langger":"gmd:MD_TopicCategoryCode--environment_EnvironmentalProtection--ger","langfre":"gmd:MD_TopicCategoryCode--environment_EnvironmentalProtection--fre","langita":"gmd:MD_TopicCategoryCode--environment_EnvironmentalProtection--ita","langeng":"gmd:MD_TopicCategoryCode--environment_EnvironmentalProtection--eng","langger":"gmd:MD_TopicCategoryCode--environment_EnvironmentalProtection--ger"}</cl_topic>
+  <maintenance type="object">{
+            "frequency": "continual"
+            
+              ,"noteObject":
+              
+            {"default":"Aktualisierung bei Bedarf", "langger":"Aktualisierung bei Bedarf"}
+            
+          }</maintenance>
+  <MD_ConstraintsUseLimitationObject type="object">{"default":"Die Geodaten sind \u00F6ffentlich zug\u00E4nglich (Zugangsberechtigungsstufe A). Es gelten die Nutzungsbedingungen des Kantons Basel-Landschaft.", "langger":"Die Geodaten sind \u00F6ffentlich zug\u00E4nglich (Zugangsberechtigungsstufe A). Es gelten die Nutzungsbedingungen des Kantons Basel-Landschaft."}</MD_ConstraintsUseLimitationObject>
+  <hasBoundingPolygon>true</hasBoundingPolygon>
+  <extentDescriptionObject type="object">{"default":"Kanton Basel-Landschaft (BL)", "langger":"Kanton Basel-Landschaft (BL)", "langfre":"Canton de B\u00E2le-Campagne (BL)", "langita":"Cantone di Basilea Campagna (BL)", "langeng":"Canton of Basel Landschaft (BL)"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[7.325891,47.337693],[7.961712,47.337693],[7.961712,47.564564],[7.325891,47.564564],[7.325891,47.337693]]]}</geom>
+  <location>47.451128499999996,7.6438015</location>
+  <coordinateSystem>EPSG:2056</coordinateSystem>
+  <crsDetails type="object">{
+            "code": "EPSG:2056",
+            "codeSpace": "CH1903+ \/ LV95",
+            "name": "EPSG:2056",
+            "url": ""
+            }</crsDetails>
+  <format>ESRI Shapefile (SHP)</format>
+  <OrgForDistributionObject type="object">{"default":"Amt f\u00FCr Geoinformation BL", "langger":"Amt f\u00FCr Geoinformation BL", "langfre":"Amt f\u00FCr Geoinformation BL", "langeng":"Amt f\u00FCr Geoinformation BL"}</OrgForDistributionObject>
+  <distributorOrgForDistributionObject type="object">{"default":"Amt f\u00FCr Geoinformation BL", "langger":"Amt f\u00FCr Geoinformation BL", "langfre":"Amt f\u00FCr Geoinformation BL", "langeng":"Amt f\u00FCr Geoinformation BL"}</distributorOrgForDistributionObject>
+  <contactForDistribution type="object">{
+      
+        "organisationObject": 
+            {"default":"Amt f\u00FCr Geoinformation BL", "langger":"Amt f\u00FCr Geoinformation BL", "langfre":"Amt f\u00FCr Geoinformation BL", "langeng":"Amt f\u00FCr Geoinformation BL"}
+            ,
+      
+      "role":"distributor",
+      "email":"support.gis@bl.ch",
+      "websiteObject":{"default":"https:\/\/geo.bl.ch",  "langger":"https:\/\/geo.bl.ch",  "langeng":"https:\/\/geo.bl.ch",  "langfre":"https:\/\/geo.bl.ch"},
+      "logo":"",
+      "individual":"",
+      "position":"",
+      "phone":"+41 61 552 56 73",
+      "address":"Liestal, 4410"
+      
+      }</contactForDistribution>
+  <linkUrl>https://geoview.bl.ch/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank</linkUrl>
+  <linkProtocol>CHTOPO:specialised-geoportal</linkProtocol>
+  <linkUrlProtocolCHTOPOspecialisedgeoportal>https://geoview.bl.ch/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank</linkUrlProtocolCHTOPOspecialisedgeoportal>
+  <link type="object">{
+            "hash": "f43420c945fe339bf0867a388691e8be",
+            "idx": 1,
+            "protocol":"CHTOPO:specialised-geoportal",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/geoview.bl.ch\/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank",  "langger":"https:\/\/geoview.bl.ch\/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank",  "langfre":"https:\/\/geoview.bl.ch\/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank",  "langita":"https:\/\/geoview.bl.ch\/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank",  "langeng":"https:\/\/geoview.bl.ch\/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank"},
+            
+              "nameObject": 
+            {"default":"GeoView BL", "langger":"GeoView BL"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Darstellungsdienst Kanton BL", "langger":"Darstellungsdienst Kanton BL"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <recordGroup>786606bc-2b81-4426-8ccd-e3a2c76cdb14</recordGroup>
+</doc>
+

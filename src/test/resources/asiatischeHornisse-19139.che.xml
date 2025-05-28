@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<che:CHE_MD_Metadata xmlns:che="http://www.geocat.ch/2008/che" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://www.geocat.ch/2008/che https://www.geocat.ch/geonetwork/xml/schemas/iso19139.che/schema/che/che.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>786606bc-2b81-4426-8ccd-e3a2c76cdb14</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:xalan="http://xml.apache.org/xalan">
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+  </gmd:language>
+  <gmd:characterSet xmlns:xalan="http://xml.apache.org/xalan">
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:xalan="http://xml.apache.org/xalan">
+    <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:contact xlink:show="embed" uuidref="c93dbecd-2223-45e2-ba4b-ba6db2679fe8">
+    <che:CHE_CI_ResponsibleParty gco:isoType="gmd:CI_ResponsibleParty">
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Amt für Geoinformation BL</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Amt für Geoinformation BL</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Amt für Geoinformation BL</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN">Amt für Geoinformation BL</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+              <gmd:voice>
+                <gco:CharacterString>+41 61 552 56 73</gco:CharacterString>
+              </gmd:voice>
+            </che:CHE_CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+              <gmd:city>
+                <gco:CharacterString>Liestal</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>4410</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>support.gis@bl.ch</gco:CharacterString>
+              </gmd:electronicMailAddress>
+              <che:streetName>
+                <gco:CharacterString>Mühlemattstrasse</gco:CharacterString>
+              </che:streetName>
+              <che:streetNumber>
+                <gco:CharacterString>36</gco:CharacterString>
+              </che:streetNumber>
+            </che:CHE_CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://geo.bl.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://geo.bl.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://geo.bl.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+          <gmd:hoursOfService>
+            <gco:CharacterString>8.00-11.30, 14.00-16.30</gco:CharacterString>
+          </gmd:hoursOfService>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+      </gmd:role>
+    </che:CHE_CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:xalan="http://xml.apache.org/xalan">
+    <gco:DateTime>2025-03-07T08:00:25.581Z</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:xalan="http://xml.apache.org/xalan">
+    <gco:CharacterString>GM03 2+</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:locale xmlns:xalan="http://xml.apache.org/xalan">
+    <gmd:PT_Locale id="FR">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale xmlns:xalan="http://xml.apache.org/xalan">
+    <gmd:PT_Locale id="IT">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale xmlns:xalan="http://xml.apache.org/xalan">
+    <gmd:PT_Locale id="EN">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="DE">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>EPSG:2056</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">EPSG:2056</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>CH1903+ / LV95</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo xmlns:xalan="http://xml.apache.org/xalan">
+    <che:CHE_MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Asiatische Hornisse</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Asiatische Hornisse</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2025-03-07</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="revision" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Die Asiatische Hornisse wurde im Kanton Basel-Landschaft erstmals im Jahr 2022 nachgewiesen. Diese Art gilt als invasiv, da sie zur Ernährung ihrer Brut einheimische Wildbienen und Honigbienen in grossen Mengen jagt und diese Bestände so dezimiert. Die Bestandesdichte der Asiatischen Hornisse ist seit dem ersten Nachweis stark am Ansteigen. Mit dem Vernichten gefundener Nester wird versucht, deren Ausbreitung zu verlangsamen und die Populationsdichte zu senken.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Die Asiatische Hornisse wurde im Kanton Basel-Landschaft erstmals im Jahr 2022 nachgewiesen. Diese Art gilt als invasiv, da sie zur Ernährung ihrer Brut einheimische Wildbienen und Honigbienen in grossen Mengen jagt und diese Bestände so dezimiert. Die Bestandesdichte der Asiatischen Hornisse ist seit dem ersten Nachweis stark am Ansteigen. Mit dem Vernichten gefundener Nester wird versucht, deren Ausbreitung zu verlangsamen und die Populationsdichte zu senken.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:purpose xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Erfassen der Ausbreitung der Asiatischen Hornisse und Übersicht über Sichtungen von Individuen und Nestern zu Bekämpfungszwecken.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Erfassen der Ausbreitung der Asiatischen Hornisse und Übersicht über Sichtungen von Individuen und Nestern zu Bekämpfungszwecken.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing" />
+      </gmd:status>
+      <gmd:pointOfContact xlink:show="embed" uuidref="f9c16a7f-e0dc-4cf5-a5eb-6837ec328c0b">
+        <che:CHE_CI_ResponsibleParty gco:isoType="gmd:CI_ResponsibleParty">
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Amt für Umweltschutz und Energie</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Amt für Umweltschutz und Energie</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Amt für Umweltschutz und Energie</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+                  <gmd:voice>
+                    <gco:CharacterString>+41 61 552 51 11</gco:CharacterString>
+                  </gmd:voice>
+                </che:CHE_CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+                  <gmd:city>
+                    <gco:CharacterString>Liestal</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>4410</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>aue.umwelt@bl.ch</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                  <che:streetName>
+                    <gco:CharacterString>Rheinstrasse</gco:CharacterString>
+                  </che:streetName>
+                  <che:streetNumber>
+                    <gco:CharacterString>29</gco:CharacterString>
+                  </che:streetNumber>
+                </che:CHE_CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                    <gmd:URL>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie</gmd:URL>
+                    <che:PT_FreeURL>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#DE">https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie</che:LocalisedURL>
+                      </che:URLGroup>
+                    </che:PT_FreeURL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </gmd:protocol>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8.00-11.30, 14.00-16.30</gco:CharacterString>
+              </gmd:hoursOfService>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </che:CHE_CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <che:CHE_MD_MaintenanceInformation gco:isoType="gmd:MD_MaintenanceInformation">
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual" />
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:updateScopeDescription />
+          <gmd:maintenanceNote xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Aktualisierung bei Bedarf</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Aktualisierung bei Bedarf</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:maintenanceNote>
+        </che:CHE_MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.geo.bl.ch/vorschaubilder_geocat/Asiatische_Hornisse.png</gco:CharacterString>
+          </gmd:fileName>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-08-16</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/external.theme.gemet">geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>geocat.ch</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2024-06-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/local.theme.geocat.ch">geonetwork.thesaurus.local.theme.geocat.ch</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Die Geodaten sind öffentlich zugänglich (Zugangsberechtigungsstufe A). Es gelten die Nutzungsbedingungen des Kantons Basel-Landschaft.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Die Geodaten sind öffentlich zugänglich (Zugangsberechtigungsstufe A). Es gelten die Nutzungsbedingungen des Kantons Basel-Landschaft.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints />
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <che:CHE_MD_LegalConstraints gco:isoType="gmd:MD_LegalConstraints" />
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" />
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment_EnvironmentalProtection</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent xlink:show="embed" uuidref="geocatch-subtpl-extent-kantonsgebiet-13">
+        <gmd:EX_Extent>
+          <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Kanton Basel-Landschaft (BL)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Kanton Basel-Landschaft (BL)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Canton de Bâle-Campagne (BL)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">Cantone di Basilea Campagna (BL)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Canton of Basel Landschaft (BL)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>7.325891</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>7.961712</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>47.337693</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>47.564564</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:MultiSurface xmlns="http://www.opengis.net/gml/3.2" gml:id="d14680780e77" srsDimension="2">
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14680780e79">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>7.3756847 47.4140768 7.3631357 47.4147167 7.3572387 47.4150005 7.3582278 47.4180772 7.3441034 47.4245961 7.3401448 47.4295215 7.3258909 47.4320987 7.326466 47.4398535 7.329825 47.441433 7.338706 47.4409105 7.347222 47.435356 7.380894 47.4318925 7.382757 47.4297033 7.3796446 47.427633 7.3756847 47.4140768</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14680780e85">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>7.3756847 47.4140768 7.4143508 47.4110067 7.4204059 47.4111428 7.4273082 47.4144805 7.4380676 47.4128083 7.4472767 47.4145169 7.4547267 47.4256869 7.4548337 47.4293295 7.4484864 47.4376947 7.4377883 47.4462484 7.4251797 47.44333 7.4211395 47.446388 7.423344 47.4508285 7.428478 47.4535215 7.430072 47.459282 7.445019 47.4617235 7.4545213 47.4495302 7.462597 47.4514806 7.4844671 47.4572214 7.4949459 47.4595823 7.5087368 47.4585765 7.5142168 47.4607137 7.5306625 47.4611966 7.5274608 47.4738626 7.5291656 47.4779535 7.5331063 47.4782652 7.536674 47.4849987 7.5363533 47.4910519 7.5325978 47.4909471 7.5318128 47.4974053 7.5192708 47.496893 7.5124786 47.4987592 7.5109055 47.5025825 7.509197 47.5095825 7.499164 47.5159875 7.497817 47.521233 7.503519 47.5146215 7.516753 47.517044 7.518808 47.515068 7.5239 47.515232 7.523786 47.518673 7.531475 47.5277175 7.527814 47.5323065 7.524439 47.531952 7.519208 47.5345345 7.5161965 47.532608 7.509817 47.5285265 7.502433 47.5284845 7.499042 47.5352405 7.499239 47.539833 7.504519 47.5429725 7.507889 47.5447615 7.519233 47.546131 7.525233 47.5516435 7.551786 47.5633925 7.5551595 47.564564 7.5643658 47.5571479 7.5613067 47.5522973 7.558678 47.5527928 7.5551791 47.5442513 7.5645328 47.5452938 7.5866005 47.5420751 7.5837011 47.5308905 7.5856939 47.5312028 7.5884604 47.5280064 7.5892642 47.5206911 7.5945497 47.5197195 7.614337 47.5389427 7.6201953 47.5392575 7.6214675 47.5423134 7.6221037 47.5496423 7.6183307 47.5535065 7.6177636 47.5587058 7.6326468 47.5613996 7.634097 47.5611135 7.6453055 47.552615 7.6515245 47.5469965 7.6613955 47.544845 7.666804 47.536615 7.67529 47.5335545 7.6862235 47.532498 7.6969815 47.5329035 7.7137845 47.539405 7.7153699 47.5362998 7.7240932 47.535874 7.7343937 47.5301101 7.7370033 47.5271871 7.7499197 47.5246974 7.7507114 47.5251028 7.761347 47.5250737 7.7888756 47.5194537 7.7901026 47.5162661 7.7875649 47.5139353 7.7897895 47.5050246 7.7927267 47.5036036 7.7909203 47.5013966 7.7927868 47.5006624 7.7870736 47.4936284 7.7886513 47.4934078 7.7945093 47.4962501 7.7985664 47.4956889 7.7983025 47.4994012 7.8022511 47.4969546 7.8074284 47.4971721 7.8147416 47.5047935 7.8319906 47.5147466 7.8333275 47.5303375 7.8355062 47.5322368 7.8330877 47.533819 7.8390272 47.5342304 7.8452021 47.5324191 7.8524486 47.5352625 7.8573463 47.5332123 7.862734 47.5243607 7.8640355 47.5194093 7.8694516 47.5192994 7.8722906 47.5222838 7.8766756 47.52269 7.8757081 47.513205 7.8781304 47.5139604 7.8839262 47.5085239 7.8941099 47.5057141 7.8953412 47.5022466 7.8983053 47.5012096 7.8995758 47.4961858 7.9046897 47.492163 7.905515 47.4848835 7.9333191 47.4813594 7.9465043 47.4852507 7.9401695 47.4621004 7.9488594 47.4637893 7.9576306 47.4587855 7.9568496 47.4552422 7.9578232 47.4513285 7.94753 47.445411 7.9467535 47.4432378 7.9518901 47.4328267 7.9499578 47.431756 7.9617116 47.4219446 7.9568318 47.4189265 7.9540189 47.4171942 7.9550102 47.4155618 7.9484177 47.4162476 7.940619 47.414096 7.9349655 47.4117369 7.9367328 47.4080237 7.9241577 47.4020239 7.9096993 47.398432 7.9037733 47.4024494 7.9008184 47.4008423 7.8884995 47.4072498 7.8832433 47.4061009 7.8833614 47.4011985 7.8796126 47.4017503 7.8752248 47.3976318 7.8691407 47.3954959 7.8718624 47.3913754 7.8794117 47.3881269 7.8788842 47.3835867 7.8761375 47.3845416 7.8684971 47.3813772 7.8627153 47.3820281 7.8396534 47.3741054 7.833633 47.3674972 7.8221245 47.3632816 7.8062329 47.3623888 7.802081 47.3611427 7.7976908 47.3559217 7.7934397 47.3396279 7.7879887 47.3376927 7.7821263 47.3396171 7.7691545 47.3389083 7.7691315 47.3416157 7.7663603 47.3428558 7.7514823 47.3443721 7.7341548 47.3577833 7.7289099 47.3669259 7.7279271 47.3687991 7.7003539 47.3723276 7.6875722 47.3712584 7.6441966 47.3672691 7.6419088 47.37839 7.6417315 47.38054 7.6356009 47.3806675 7.633185 47.3826953 7.6333006 47.3853574 7.6371176 47.3861514 7.6327016 47.4100835 7.6634788 47.4097671 7.6745507 47.4147369 7.6796082 47.4167322 7.6848171 47.4284946 7.6860049 47.4359932 7.6826111 47.4388335 7.6848357 47.4479106 7.6908042 47.4529038 7.6985212 47.455618 7.699959 47.4621804 7.7100479 47.4692535 7.6997441 47.4805917 7.6698745 47.4854488 7.6683541 47.486711 7.6654024 47.4915285 7.6660221 47.4968338 7.6533718 47.4960934 7.6506453 47.4945874 7.6494002 47.4918195 7.6554046 47.4901536 7.6513902 47.4883802 7.6551655 47.4868173 7.6483097 47.4844734 7.6447431 47.4851184 7.6409789 47.4826516 7.6292567 47.4844253 7.6166536 47.4888523 7.606372 47.4894702 7.6066999 47.487912 7.608248 47.482677 7.6060632 47.4756109 7.6084767 47.4753286 7.6052011 47.471403 7.6195661 47.4672802 7.6261162 47.4628718 7.6222002 47.4618617 7.6226215 47.4570852 7.6162826 47.445088 7.6153033 47.4376154 7.615804 47.4327038 7.6082356 47.4327781 7.6021867 47.4312667 7.5920906 47.4326836 7.5848556 47.4286366 7.5790814 47.4303885 7.5808617 47.4319514 7.5777081 47.4323959 7.5783644 47.4349854 7.5756249 47.4367155 7.5685854 47.4364718 7.5681673 47.4225583 7.5713005 47.4194608 7.5777105 47.4179783 7.5803123 47.4146833 7.5435409 47.4141106 7.5263383 47.4119303 7.5264524 47.4088092 7.5312814 47.404803 7.5289434 47.4009913 7.5172678 47.3886058 7.5107398 47.3895814 7.5015954 47.3845499 7.4923657 47.385274 7.4908431 47.3856524 7.4849249 47.3874807 7.4840523 47.3893429 7.4788212 47.3897945 7.4771207 47.4011907 7.4715431 47.4004099 7.4643908 47.4026602 7.4599785 47.4004845 7.4532499 47.4036964 7.4498848 47.4029862 7.4485198 47.3997754 7.4440028 47.4019163 7.4411545 47.4007021 7.4436309 47.3890636 7.438863 47.3859156 7.43689 47.3799704 7.4117168 47.3806057 7.4162835 47.384807 7.4136591 47.3894834 7.4146106 47.3939538 7.3990452 47.3966656 7.3959402 47.4033112 7.388747 47.4029485 7.3840211 47.4123272 7.3756847 47.4140768</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                </gml:MultiSurface>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <che:basicGeodataID>
+        <gco:CharacterString>75-BL</gco:CharacterString>
+      </che:basicGeodataID>
+      <che:basicGeodataIDType>
+        <che:basicGeodataIDTypeCode codeList="#basicGeodataIDTypeCode" codeListValue="cantonal" />
+      </che:basicGeodataIDType>
+      <che:geodataType>
+        <che:MD_geodataTypeCode codeList="#MD_geodataTypeCode" codeListValue="openGovernmentData" />
+      </che:geodataType>
+    </che:CHE_MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:java="java:org.fao.geonet.util.XslUtil">
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat xmlns:comp="http://toignore" xmlns:xalan="http://xml.apache.org/xalan" xlink:show="embed" uuidref="5533f00e-57f9-4f4d-b2a2-560fee4b32ad">
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ESRI Shapefile (SHP)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown" />
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor xmlns:comp="http://toignore" xmlns:xalan="http://xml.apache.org/xalan">
+        <gmd:MD_Distributor>
+          <gmd:distributorContact xlink:show="embed" uuidref="c93dbecd-2223-45e2-ba4b-ba6db2679fe8">
+            <che:CHE_CI_ResponsibleParty gco:isoType="gmd:CI_ResponsibleParty">
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Amt für Geoinformation BL</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Amt für Geoinformation BL</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Amt für Geoinformation BL</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Amt für Geoinformation BL</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+                      <gmd:voice>
+                        <gco:CharacterString>+41 61 552 56 73</gco:CharacterString>
+                      </gmd:voice>
+                    </che:CHE_CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+                      <gmd:city>
+                        <gco:CharacterString>Liestal</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:postalCode>
+                        <gco:CharacterString>4410</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>support.gis@bl.ch</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                      <che:streetName>
+                        <gco:CharacterString>Mühlemattstrasse</gco:CharacterString>
+                      </che:streetName>
+                      <che:streetNumber>
+                        <gco:CharacterString>36</gco:CharacterString>
+                      </che:streetNumber>
+                    </che:CHE_CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                        <che:PT_FreeURL>
+                          <che:URLGroup>
+                            <che:LocalisedURL locale="#DE">https://geo.bl.ch</che:LocalisedURL>
+                          </che:URLGroup>
+                          <che:URLGroup>
+                            <che:LocalisedURL locale="#EN">https://geo.bl.ch</che:LocalisedURL>
+                          </che:URLGroup>
+                          <che:URLGroup>
+                            <che:LocalisedURL locale="#FR">https://geo.bl.ch</che:LocalisedURL>
+                          </che:URLGroup>
+                        </che:PT_FreeURL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8.00-11.30, 14.00-16.30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" />
+              </gmd:role>
+            </che:CHE_CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>150.- CHF</gco:CharacterString>
+              </gmd:fees>
+              <gmd:orderingInstructions xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Gebührenverordnung für Geobasisdaten und Geodienste (GeoVO, SGS 211.57):  http://bl.clex.ch/frontend/versions/1133?locale=de</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Gebührenverordnung für Geobasisdaten und Geodienste (GeoVO, SGS 211.57):  http://bl.clex.ch/frontend/versions/1133?locale=de</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Datenlieferung innert 3 Tagen</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorFormat xlink:show="embed" uuidref="5533f00e-57f9-4f4d-b2a2-560fee4b32ad">
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>ESRI Shapefile (SHP)</gco:CharacterString>
+              </gmd:name>
+              <gmd:version gco:nilReason="unknown" />
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions />
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://geoview.bl.ch/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://geoview.bl.ch/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://geoview.bl.ch/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://geoview.bl.ch/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://geoview.bl.ch/?map_x=2625125&amp;map_y=1255600&amp;map_zoom=2&amp;tree_group_layers_Neobiota=asiatische_hornissen_sichtung_individuen%2Casiatische_hornissen_nest_inaktiv%2Casiatische_hornissen_nest_aktiv&amp;tree_groups=Neobiota&amp;baselayer_opacity=100&amp;baselayer_ref=blank</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>CHTOPO:specialised-geoportal</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>GeoView BL</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">GeoView BL</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Darstellungsdienst Kanton BL</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Darstellungsdienst Kanton BL</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <che:legislationInformation>
+    <che:CHE_MD_Legislation gco:isoType="gmd:MD_Legislation">
+      <che:country>
+        <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country" codeListValue="CH" />
+      </che:country>
+      <che:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </che:language>
+      <che:legislationType>
+        <che:CHE_CI_LegislationCode codeList="#CHE_CI_LegislationCode" codeListValue="nationalDecree" />
+      </che:legislationType>
+      <che:title>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Verordnung über den Umgang mit Organismen in der Umwelt</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Verordnung über den Umgang mit Organismen in der Umwelt</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:alternateTitle xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Freisetzungsverordnung, FrSV</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Freisetzungsverordnung, FrSV</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2024-04-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </che:title>
+    </che:CHE_MD_Legislation>
+  </che:legislationInformation>
+</che:CHE_MD_Metadata>
+
