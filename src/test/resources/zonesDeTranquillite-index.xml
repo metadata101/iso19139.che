@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>4a0c8bc7-89d1-484e-a34a-454a31267c41</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03 2+", "langger":"GM03 2+"}</standardNameObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-05-06T06:36:45.649Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <otherLanguage>ita</otherLanguage>
+  <otherLanguageId>IT</otherLanguageId>
+  <otherLanguage>eng</otherLanguage>
+  <otherLanguageId>EN</otherLanguageId>
+  <otherLanguage>roh</otherLanguage>
+  <otherLanguageId>RM</otherLanguageId>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langroh":"gmd:MD_CharacterSetCode--utf8--roh","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>dataset</resourceType>
+  <OrgObject type="object">{"default":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langger":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langfre":"Office f\u00E9d\u00E9ral de l'environnement \/ Division Biodiversit\u00E9 et paysage", "langita":"Ufficio federale dell'ambiente \/ Divisione Biodiversit\u00E0 e paesaggio", "langeng":"Federal Office for the Environment \/ Biodiversity and Landscape Division", "langroh":"Bundesamt f\u00FCr Umwelt"}</OrgObject>
+  <pointOfContactOrgObject type="object">{"default":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langger":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langfre":"Office f\u00E9d\u00E9ral de l'environnement \/ Division Biodiversit\u00E9 et paysage", "langita":"Ufficio federale dell'ambiente \/ Divisione Biodiversit\u00E0 e paesaggio", "langeng":"Federal Office for the Environment \/ Biodiversity and Landscape Division", "langroh":"Bundesamt f\u00FCr Umwelt"}</pointOfContactOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langger":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langfre":"Office f\u00E9d\u00E9ral de l'environnement \/ Division Biodiversit\u00E9 et paysage", "langita":"Ufficio federale dell'ambiente \/ Divisione Biodiversit\u00E0 e paesaggio", "langeng":"Federal Office for the Environment \/ Biodiversity and Landscape Division", "langroh":"Bundesamt f\u00FCr Umwelt"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"bnl@bafu.admin.ch",
+      "websiteObject":{"default":"https:\/\/www.bafu.admin.ch\/bafu\/en\/home\/office\/divisions-sections\/biodiversity-and-landscape-division.html",  "langeng":"https:\/\/www.bafu.admin.ch\/bafu\/en\/home\/office\/divisions-sections\/biodiversity-and-landscape-division.html",  "langger":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home\/amt\/abteilungen-sektionen\/abteilung-biodiversitaet-und-landschaft.html",  "langfre":"https:\/\/www.bafu.admin.ch\/bafu\/fr\/home\/office\/divisions-sections\/division-biodiversite-et-paysage.html",  "langita":"https:\/\/www.bafu.admin.ch\/bafu\/it\/home\/ufficio\/divisioni-sezioni\/divisione-biodiversita-e-paesaggio.html"},
+      "logo":"",
+      "individual":"BAFU BNL",
+      "position":"",
+      "phone":"+41 58 462 93 89",
+      "address":"Bern, 3003, CH"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"dataset","default":"gmd:MD_ScopeCode--dataset--ger","langger":"gmd:MD_ScopeCode--dataset--ger","langfre":"gmd:MD_ScopeCode--dataset--fre","langita":"gmd:MD_ScopeCode--dataset--ita","langeng":"gmd:MD_ScopeCode--dataset--eng","langroh":"gmd:MD_ScopeCode--dataset--roh","langger":"gmd:MD_ScopeCode--dataset--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_geometricObjectType type="object">{"key":"surface","default":"gmd:MD_GeometricObjectTypeCode--surface--ger","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","langfre":"gmd:MD_GeometricObjectTypeCode--surface--fre","langita":"gmd:MD_GeometricObjectTypeCode--surface--ita","langeng":"gmd:MD_GeometricObjectTypeCode--surface--eng","langroh":"gmd:MD_GeometricObjectTypeCode--surface--roh","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"}</cl_geometricObjectType>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"annually","default":"gmd:MD_MaintenanceFrequencyCode--annually--ger","langger":"gmd:MD_MaintenanceFrequencyCode--annually--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--annually--fre","langita":"gmd:MD_MaintenanceFrequencyCode--annually--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--annually--eng","langroh":"gmd:MD_MaintenanceFrequencyCode--annually--roh","langger":"gmd:MD_MaintenanceFrequencyCode--annually--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--ger","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langita":"gmd:MD_KeywordTypeCode--theme--ita","langeng":"gmd:MD_KeywordTypeCode--theme--eng","langroh":"gmd:MD_KeywordTypeCode--theme--roh","langger":"gmd:MD_KeywordTypeCode--theme--ger","link":"http:\/\/www.isotc211.org\/2005\/resources\/codeList.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_useConstraints type="object">{"key":"otherRestrictions","default":"gmd:MD_RestrictionCode--otherRestrictions--ger","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","langfre":"gmd:MD_RestrictionCode--otherRestrictions--fre","langita":"gmd:MD_RestrictionCode--otherRestrictions--ita","langeng":"gmd:MD_RestrictionCode--otherRestrictions--eng","langroh":"gmd:MD_RestrictionCode--otherRestrictions--roh","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_RestrictionCode"}</cl_useConstraints>
+  <cl_basicGeodataIDType type="object">{"key":"federal","default":"che:basicGeodataIDTypeCode--federal--ger","langger":"che:basicGeodataIDTypeCode--federal--ger","langfre":"che:basicGeodataIDTypeCode--federal--fre","langita":"che:basicGeodataIDTypeCode--federal--ita","langeng":"che:basicGeodataIDTypeCode--federal--eng","langroh":"che:basicGeodataIDTypeCode--federal--roh","langger":"che:basicGeodataIDTypeCode--federal--ger","link":"#basicGeodataIDTypeCode"}</cl_basicGeodataIDType>
+  <cl_function type="object">{"key":"information","default":"gmd:CI_OnLineFunctionCode--information--ger","langger":"gmd:CI_OnLineFunctionCode--information--ger","langfre":"gmd:CI_OnLineFunctionCode--information--fre","langita":"gmd:CI_OnLineFunctionCode--information--ita","langeng":"gmd:CI_OnLineFunctionCode--information--eng","langroh":"gmd:CI_OnLineFunctionCode--information--roh","langger":"gmd:CI_OnLineFunctionCode--information--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <resourceTitleObject type="object">{"default":"Wildruhezonen", "langger":"Wildruhezonen", "langfre":"Zones de tranquillit\u00E9", "langita":"Zone di tranquillit\u00E0", "langeng":"Designated wildlife areas", "langroh":"Zonas da paus per la selvaschina"}</resourceTitleObject>
+  <resourceAltTitleObject type="object">{"default":"Wildruhezonen", "langger":"Wildruhezonen", "langfre":"Zones de tranquillit\u00E9", "langita":"Zone di tranquillit\u00E0", "langeng":"Designated wildlife areas", "langroh":"Zonas da paus per la selvaschina"}</resourceAltTitleObject>
+  <revisionDateForResource>2024-11-19</revisionDateForResource>
+  <revisionYearForResource>2024</revisionYearForResource>
+  <revisionMonthForResource>2024-11</revisionMonthForResource>
+  <resourceDate type="object">{"type": "revision", "date": "2024-11-19T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2024-11-19T00:00:00.000Z",
+                  "lte": "2024-11-19T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceIdentifier type="object">{
+              "code": "ch.bafu.wrz-wildruhezonen_portal",
+              "codeSpace": "",
+              "link": ""
+              }</resourceIdentifier>
+  <resourceAbstractObject type="object">{"default":"Wildtiere brauchen R\u00FCckzugsgebiete in welchen sie nicht gest\u00F6rt werden. Die Ausscheidung von Wildruhezonen dient der Vermeidung \u00FCberm\u00E4ssiger St\u00F6rung gem\u00E4ss Art. 7 Abs 4 des JSG als Antwort auf die zunehmende Freizeitnutzung. Es gibt heute rechtsverbindliche Wildruhezonen und Schutzgebiete, die \u00FCber den Rechtssetzungsprozess ausgeschieden sind (kantonales Jagdrecht, kommunale Zonenplanung, etc.), wie auch empfohlene Gebiete. Innerhalb von rechtsverbindlichen Wildruhezonen und Wildtierschutzgebieten d\u00FCrfen nur die in der Karte eingezeichneten erlaubten Routen und Wege begangen werden. Nicht eingezeichnet sind pr\u00E4parierte (Langlauf-)Loipen, Winterwanderwege und im Winter ger\u00E4umte oder befahrbare Strassen. Diese d\u00FCrfen von Schneesportlern selbstverst\u00E4ndlich begangen werden. In empfohlenen Wildruhezonen sind die erlaubten Routen und Wege als Empfehlungen zu verstehen. Der Stand der Arbeiten in den Kantonen ist zur Zeit sehr unterschiedlich, weshalb der Datensatz L\u00FCcken aufweist. Die Karte wird mindestens j\u00E4hrlich (zu Winterbeginn) aktualisiert. Bitte beachten Sie die allgemeinen Hinweise und \u00C4nderungen (z.B. Perimeteranpassungen) unten, welche in der Karte noch nicht ber\u00FCcksichtigt werden konnten. Die Kampagne \"Respektiere deine Grenzen\" setzt sich f\u00FCr den Schutz der Wildtiere und die Bekanntmachung der Wildruhezonen in der Bev\u00F6lkerung ein.", "langger":"Wildtiere brauchen R\u00FCckzugsgebiete in welchen sie nicht gest\u00F6rt werden. Die Ausscheidung von Wildruhezonen dient der Vermeidung \u00FCberm\u00E4ssiger St\u00F6rung gem\u00E4ss Art. 7 Abs 4 des JSG als Antwort auf die zunehmende Freizeitnutzung. Es gibt heute rechtsverbindliche Wildruhezonen und Schutzgebiete, die \u00FCber den Rechtssetzungsprozess ausgeschieden sind (kantonales Jagdrecht, kommunale Zonenplanung, etc.), wie auch empfohlene Gebiete. Innerhalb von rechtsverbindlichen Wildruhezonen und Wildtierschutzgebieten d\u00FCrfen nur die in der Karte eingezeichneten erlaubten Routen und Wege begangen werden. Nicht eingezeichnet sind pr\u00E4parierte (Langlauf-)Loipen, Winterwanderwege und im Winter ger\u00E4umte oder befahrbare Strassen. Diese d\u00FCrfen von Schneesportlern selbstverst\u00E4ndlich begangen werden. In empfohlenen Wildruhezonen sind die erlaubten Routen und Wege als Empfehlungen zu verstehen. Der Stand der Arbeiten in den Kantonen ist zur Zeit sehr unterschiedlich, weshalb der Datensatz L\u00FCcken aufweist. Die Karte wird mindestens j\u00E4hrlich (zu Winterbeginn) aktualisiert. Bitte beachten Sie die allgemeinen Hinweise und \u00C4nderungen (z.B. Perimeteranpassungen) unten, welche in der Karte noch nicht ber\u00FCcksichtigt werden konnten. Die Kampagne \"Respektiere deine Grenzen\" setzt sich f\u00FCr den Schutz der Wildtiere und die Bekanntmachung der Wildruhezonen in der Bev\u00F6lkerung ein.", "langfre":"Les animaux sauvages ont besoin de sites de repli dans lesquels ils ne sont pas d\u00E9rang\u00E9s. Selon la loi f\u00E9d\u00E9rale sur la chasse (art. 7, al. 4 LChP) les zones de tranquillit\u00E9 pour la faune sauvage servent \u00E0 \u00E9viter des d\u00E9rangements excessifs caus\u00E9s par l\u2019augmentation des activit\u00E9s de loisirs. Il existe des zones de tranquillit\u00E9 contraignantes et des zones de tranquillit\u00E9 recommand\u00E9es. Les zones de tranquillit\u00E9 contraignantes sont d\u00E9limit\u00E9es par le biais d\u2019un processus l\u00E9gislatif (p. ex. via la loi cantonale sur la chasse ou le plan directeur communal). A l'int\u00E9rieur des zones de tranquillit\u00E9 et des sites de protection contraignantes, seuls les routes et les chemins figurant sur la carte peuvent \u00EAtre emprunt\u00E9s. Les pistes (de ski de fond), les sentiers de randonn\u00E9es hivernales et les itin\u00E9raires d\u00E9gag\u00E9s ou accessibles en hiver ne sont pas repr\u00E9sent\u00E9s. Naturellement, ceux-ci peuvent \u00EAtre emprunt\u00E9s par les randonneurs. Dans les zones de tranquillit\u00E9 recommand\u00E9es, les routes et les chemins autoris\u00E9s sont \u00E0 comprendre comme recommand\u00E9s. L'avancement de la saisie des donn\u00E9es varient consid\u00E9rablement d'un canton \u00E0 l'autre. C'est pourquoi le jeu de donn\u00E9es actuel pr\u00E9sente quelques lacunes. La carte est actualis\u00E9e au moins une fois par an (au d\u00E9but de l\u2019hiver).Merci de respecter les remarques g\u00E9n\u00E9rales ainsi que les modifications ci-dessous (ex. modification de p\u00E9rim\u00E8tre) qui n'ont pas encore pu \u00EAtre prises en compte sur la carte. La campagne \"Respecter, c'est prot\u00E9ger\" s'engage pour la protection de la faune et pour faire conna\u00EEtre les zones de tranquillit\u00E9 au grand public.", "langita":"La fauna selvatica ha bisogno di zone in cui ritirarsi per poter vivere indisturbata. Conformemente alla legge sulla caccia (art. 7 cpv. 4 LCP), lo scopo di queste zone \u00E8 prevenire un eccessivo disturbo della fauna selvatica a fronte della crescente utilizzazione del territorio per le attivit\u00E0 del tempo libero. Esistono zone vincolanti e zone raccomandate. Le zone vincolanti sono istituite mediante processo legislativo (p. es. legislazione cantonale sulla caccia, pianificazione comunale delle zone). All\u2019interno delle zone di tranquillit\u00E0 e delle siti de protezione vincolanti, solo strade e sentieri segnalate sulla carta possono essere percorsi. Non sono invece segnalati le piste per lo sci di fondo, i percorsi escursionistici invernali e le strade sgomberate dalla neve o rese percorribili d\u2019inverno. L\u2019accesso \u00E8 consentito alle persone che praticano sport invernali. Nelle zone di tranquillit\u00E0 raccomandate, le strade e i percorsi autorizzati sono da ritenere come raccomandate. Lo stato dell\u2019inserimento dei dati varia notevolmente da un cantone all'altro. Per questo motivo il set di dati attuale presenta alcune lacune. La carta viene aggiornata almeno una volta l\u2019anno (a inizio della stagione invernale).Vi preghiamo di rispettare le osservazioni generali e le modifiche qui di seguito (per esempio modifica del perimetro) che non sono ancora state prese in considerazione sulla carta. La campagna \"Chi rispetta protegge\" \u00E8 concepita per proteggere la fauna e per l'informazione alla popolazione in merito alle zone di tranquillit\u00E0.", "langeng":"Wildlife requires areas of refuge in which it will not be disturbed. In accordance with Article 7 Paragraph 4 of the Swiss Hunting Act (HuntA), designated wildlife areas are designed to prevent excessive interference due the increase in recreational activities. There are now statutory wildlife areas and reserves which are delineated through a legislative process (cantonal hunting law, municipal zone planning, etc.), as well as recommended wildlife areas and reserves. Within statutory designated wildlife areas and wildlife reserves, only permitted paths and trails marked on the map may be accessed. Prepared cross-country skiing trails, winter hiking trails and roads that are cleared or passable in winter are not shown on the map. Participants in winter sports may, of course, use these routes. In recommended wildlife areas, the permitted paths and trails are to be understood as suggestions. The status of the work currently varies significantly between cantons, which is why the dataset is incomplete. The map is updated at least once a year (at the start of winter). Please take note of the general information and changes below (e.g. perimeter adjustments), which have not yet been incorporated into the map. The campaign \u201CRespektiere deine Grenzen\u201D (\"Respect your limits\") is committed to protecting wildlife and raising public awareness of wildlife reserves.", "langroh":"Ils animals selvadis dovran refugis, nua ch'els na vegnan betg disturbads. La determinaziun da zonas da paus per la selvaschina serva ad evitar disturbis memia gronds tenor l'art. 7 al. 4 LChP sco resposta a l'augment da l'utilisaziun da temp liber. Oz datti zonas da paus per la selvaschina e territoris protegids giuridicamain liants ch'\u00E8n vegnids determinads sin basa d'in process legislativ (dretg da chatscha chantunal, planisaziun communala da zonas e.u.v.) sco er territoris recumandads. Entaifer las zonas da paus per la selvaschina ed ils asils da selvaschina giuridicamain liants dastgan ins chaminar mo sin las rutas e sendas permessas ch'\u00E8n inditgadas sin la charta. Betg inditgadas \u00E8n loipas (da passlung) preparadas, sendas da viandar l'enviern sco er vias rumidas da la naiv u charrablas l'enviern. Quellas dastgan natiralmain vegnir duvradas dals sportists d'enviern. En zonas da paus per la selvaschina recumandadas ston las rutas e sendas permessas vegnir chapidas sco recumandaziuns. Il stadi da las lavurs en ils chantuns \u00E8 actualmain fitg different, perquai ha l'unitad da datas largias. La charta vegn actualisada almain ina giada l'onn (il cumenzament da l'enviern). Resguardai per plaschair las infurmaziuns generalas e las midadas (p.ex. adattaziuns dal perimeter) che n'han anc betg pud\u00EC vegnir resguardadas en la charta. La campagna \"Respecta tes cunfins \u2013 er en la natira\" s'engascha per la protecziun da la selvaschina e vul er render enconuschentas a la populaziun las zonas da paus per la selvaschina."}</resourceAbstractObject>
+  <cl_resourceCharacterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langroh":"gmd:MD_CharacterSetCode--utf8--roh","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_resourceCharacterSet>
+  <OrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langger":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langfre":"Office f\u00E9d\u00E9ral de l'environnement \/ Division Biodiversit\u00E9 et paysage", "langita":"Ufficio federale dell'ambiente \/ Divisione Biodiversit\u00E0 e paesaggio", "langeng":"Federal Office for the Environment \/ Biodiversity and Landscape Division", "langroh":"Bundesamt f\u00FCr Umwelt"}</OrgForResourceObject>
+  <pointOfContactOrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langger":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langfre":"Office f\u00E9d\u00E9ral de l'environnement \/ Division Biodiversit\u00E9 et paysage", "langita":"Ufficio federale dell'ambiente \/ Divisione Biodiversit\u00E0 e paesaggio", "langeng":"Federal Office for the Environment \/ Biodiversity and Landscape Division", "langroh":"Bundesamt f\u00FCr Umwelt"}</pointOfContactOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langger":"Bundesamt f\u00FCr Umwelt \/ Abteilung Biodiversit\u00E4t und Landschaft", "langfre":"Office f\u00E9d\u00E9ral de l'environnement \/ Division Biodiversit\u00E9 et paysage", "langita":"Ufficio federale dell'ambiente \/ Divisione Biodiversit\u00E0 e paesaggio", "langeng":"Federal Office for the Environment \/ Biodiversity and Landscape Division", "langroh":"Bundesamt f\u00FCr Umwelt"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"bnl@bafu.admin.ch",
+      "websiteObject":{"default":"https:\/\/www.bafu.admin.ch\/bafu\/en\/home\/office\/divisions-sections\/biodiversity-and-landscape-division.html",  "langeng":"https:\/\/www.bafu.admin.ch\/bafu\/en\/home\/office\/divisions-sections\/biodiversity-and-landscape-division.html",  "langger":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home\/amt\/abteilungen-sektionen\/abteilung-biodiversitaet-und-landschaft.html",  "langfre":"https:\/\/www.bafu.admin.ch\/bafu\/fr\/home\/office\/divisions-sections\/division-biodiversite-et-paysage.html",  "langita":"https:\/\/www.bafu.admin.ch\/bafu\/it\/home\/ufficio\/divisioni-sezioni\/divisione-biodiversita-e-paesaggio.html"},
+      "logo":"",
+      "individual":"BAFU BNL",
+      "position":"",
+      "phone":"+41 58 462 93 89",
+      "address":"Bern, 3003, CH"
+      
+      }</contactForResource>
+  <hasOverview>false</hasOverview>
+  <resourceLanguage>ger</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"Schutzgebiete", "langger":"Schutzgebiete", "langfre":"Sites prot\u00E9g\u00E9s", "langita":"Siti protetti", "langeng":"Protected sites"
+      }
+      ,
+      {
+      "default":"Wildfauna", "langger":"Wildfauna", "langfre":"faune sauvage", "langita":"fauna selvatica", "langeng":"wild fauna"
+      }
+      ,
+      {
+      "default":"Habitat wildlebender Tiere und Pflanzen", "langger":"Habitat wildlebender Tiere und Pflanzen", "langfre":"habitat de la faune sauvage", "langita":"habitat di flora e fauna selvatiche", "langeng":"wildlife habitat"
+      }
+      ,
+      {
+      "default":"Biologisches Schutzgebiet", "langger":"Biologisches Schutzgebiet", "langfre":"r\u00E9serve biologique", "langita":"riserve biologiche", "langeng":"biological reserve"
+      }
+      ,
+      {
+      "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+      }
+      ,
+      {
+      "default":"Skitour", "langger":"Skitour", "langfre":"randonn\u00E9e \u00E0 ski", "langita":"escursione con gli sci", "langeng":"ski tour"
+      }
+      ,
+      {
+      "default":"Schneesport", "langger":"Schneesport", "langfre":"sport de neige", "langita":"sport della neve", "langeng":"snowsport"
+      }
+      ,
+      {
+      "default":"Jagdbanngebiet", "langger":"Jagdbanngebiet", "langfre":"district franc", "langita":"bandita di caccia", "langeng":"game reserve"
+      }
+      ,
+      {
+      "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+      }
+      ,
+      {
+      "default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"
+      }
+      ]</tag>
+  <tagNumber>10</tagNumber>
+  <isOpenData>false</isOpenData>
+  <keywordType-theme type="object">[
+          {
+          "default":"Schutzgebiete", "langger":"Schutzgebiete", "langfre":"Sites prot\u00E9g\u00E9s", "langita":"Siti protetti", "langeng":"Protected sites"
+          }
+          ,
+          {
+          "default":"Wildfauna", "langger":"Wildfauna", "langfre":"faune sauvage", "langita":"fauna selvatica", "langeng":"wild fauna"
+          }
+          ,
+          {
+          "default":"Habitat wildlebender Tiere und Pflanzen", "langger":"Habitat wildlebender Tiere und Pflanzen", "langfre":"habitat de la faune sauvage", "langita":"habitat di flora e fauna selvatiche", "langeng":"wildlife habitat"
+          }
+          ,
+          {
+          "default":"Biologisches Schutzgebiet", "langger":"Biologisches Schutzgebiet", "langfre":"r\u00E9serve biologique", "langita":"riserve biologiche", "langeng":"biological reserve"
+          }
+          ,
+          {
+          "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+          }
+          ,
+          {
+          "default":"Skitour", "langger":"Skitour", "langfre":"randonn\u00E9e \u00E0 ski", "langita":"escursione con gli sci", "langeng":"ski tour"
+          }
+          ,
+          {
+          "default":"Schneesport", "langger":"Schneesport", "langfre":"sport de neige", "langita":"sport della neve", "langeng":"snowsport"
+          }
+          ,
+          {
+          "default":"Jagdbanngebiet", "langger":"Jagdbanngebiet", "langfre":"district franc", "langita":"bandita di caccia", "langeng":"game reserve"
+          }
+          ,
+          {
+          "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+          }
+          ]</keywordType-theme>
+  <keywordType-place type="object">[
+          {
+          "default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"
+          }
+          ]</keywordType-place>
+  <th_httpinspireeceuropaeutheme-themeNumber>1</th_httpinspireeceuropaeutheme-themeNumber>
+  <th_httpinspireeceuropaeutheme-theme type="object">[
+        {
+        "default":"Schutzgebiete", "langger":"Schutzgebiete", "langfre":"Sites prot\u00E9g\u00E9s", "langita":"Siti protetti", "langeng":"Protected sites"
+        }
+        ]</th_httpinspireeceuropaeutheme-theme>
+  <th_gemetNumber>4</th_gemetNumber>
+  <th_gemet type="object">[
+        {
+        "default":"Wildfauna", "langger":"Wildfauna", "langfre":"faune sauvage", "langita":"fauna selvatica", "langeng":"wild fauna"
+        }
+        ,
+        {
+        "default":"Habitat wildlebender Tiere und Pflanzen", "langger":"Habitat wildlebender Tiere und Pflanzen", "langfre":"habitat de la faune sauvage", "langita":"habitat di flora e fauna selvatiche", "langeng":"wildlife habitat"
+        }
+        ,
+        {
+        "default":"Biologisches Schutzgebiet", "langger":"Biologisches Schutzgebiet", "langfre":"r\u00E9serve biologique", "langita":"riserve biologiche", "langeng":"biological reserve"
+        }
+        ,
+        {
+        "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+        }
+        ]</th_gemet>
+  <th_geocat-chNumber>4</th_geocat-chNumber>
+  <th_geocat-ch type="object">[
+        {
+        "default":"Skitour", "langger":"Skitour", "langfre":"randonn\u00E9e \u00E0 ski", "langita":"escursione con gli sci", "langeng":"ski tour"
+        }
+        ,
+        {
+        "default":"Schneesport", "langger":"Schneesport", "langfre":"sport de neige", "langita":"sport della neve", "langeng":"snowsport"
+        }
+        ,
+        {
+        "default":"Jagdbanngebiet", "langger":"Jagdbanngebiet", "langfre":"district franc", "langita":"bandita di caccia", "langeng":"game reserve"
+        }
+        ,
+        {
+        "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+        }
+        ]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_httpinspireeceuropaeutheme-theme": {
+        
+          "id": "geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme",
+        
+            "multilingualTitle": {
+              "default":"GEMET - INSPIRE themes, version 1.0", "langger":"GEMET - INSPIRE themes, version 1.0"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.httpinspireeceuropaeutheme-theme",
+        
+        "keywords": [
+        
+          {
+          "default":"Schutzgebiete", "langger":"Schutzgebiete", "langfre":"Sites prot\u00E9g\u00E9s", "langita":"Siti protetti", "langeng":"Protected sites"
+          }
+          
+        ]}
+        ,
+        "th_gemet": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet",
+        
+            "multilingualTitle": {
+              "default":"GEMET", "langger":"GEMET"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.gemet",
+        
+        "keywords": [
+        
+          {
+          "default":"Wildfauna", "langger":"Wildfauna", "langfre":"faune sauvage", "langita":"fauna selvatica", "langeng":"wild fauna"
+          }
+          ,
+          {
+          "default":"Habitat wildlebender Tiere und Pflanzen", "langger":"Habitat wildlebender Tiere und Pflanzen", "langfre":"habitat de la faune sauvage", "langita":"habitat di flora e fauna selvatiche", "langeng":"wildlife habitat"
+          }
+          ,
+          {
+          "default":"Biologisches Schutzgebiet", "langger":"Biologisches Schutzgebiet", "langfre":"r\u00E9serve biologique", "langita":"riserve biologiche", "langeng":"biological reserve"
+          }
+          ,
+          {
+          "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+          }
+          
+        ]}
+        ,
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"Skitour", "langger":"Skitour", "langfre":"randonn\u00E9e \u00E0 ski", "langita":"escursione con gli sci", "langeng":"ski tour"
+          }
+          ,
+          {
+          "default":"Schneesport", "langger":"Schneesport", "langfre":"sport de neige", "langita":"sport della neve", "langeng":"snowsport"
+          }
+          ,
+          {
+          "default":"Jagdbanngebiet", "langger":"Jagdbanngebiet", "langfre":"district franc", "langita":"bandita di caccia", "langeng":"game reserve"
+          }
+          ,
+          {
+          "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+          }
+          
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Schutzgebiete",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Wildfauna",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Habitat wildlebender Tiere und Pflanzen",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Biologisches Schutzgebiet",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Wildtier",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Skitour",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Schneesport",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Jagdbanngebiet",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "BGDI Bundesgeodaten-Infrastruktur",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <cl_topic type="object">{"key":"environment","default":"gmd:MD_TopicCategoryCode--environment--ger","langger":"gmd:MD_TopicCategoryCode--environment--ger","langfre":"gmd:MD_TopicCategoryCode--environment--fre","langita":"gmd:MD_TopicCategoryCode--environment--ita","langeng":"gmd:MD_TopicCategoryCode--environment--eng","langroh":"gmd:MD_TopicCategoryCode--environment--roh","langger":"gmd:MD_TopicCategoryCode--environment--ger"}</cl_topic>
+  <cl_topic type="object">{"key":"environment_NatureProtection","default":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ger","langger":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ger","langfre":"gmd:MD_TopicCategoryCode--environment_NatureProtection--fre","langita":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ita","langeng":"gmd:MD_TopicCategoryCode--environment_NatureProtection--eng","langroh":"gmd:MD_TopicCategoryCode--environment_NatureProtection--roh","langger":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ger"}</cl_topic>
+  <maintenance type="object">{
+            "frequency": "annually"
+            
+          }</maintenance>
+  <MD_LegalConstraintsOtherConstraintsObject type="object">{"default":"Rechtsverbindlichkeit: Rechtskr\u00E4ftige Ruhezonen: gem\u00E4ss der kantonalen Rechtsgrundlage, empfohlene Ruhezonen: keine", "langger":"Rechtsverbindlichkeit: Rechtskr\u00E4ftige Ruhezonen: gem\u00E4ss der kantonalen Rechtsgrundlage, empfohlene Ruhezonen: keine", "langfre":"Bases juridiques: zones de tranquillit\u00E9 l\u00E9galement d\u00E9limit\u00E9es selon les bases juridiques cantonales, zones de tranquillit\u00E9 recommand\u00E9es: aucune"}</MD_LegalConstraintsOtherConstraintsObject>
+  <hasBoundingPolygon>true</hasBoundingPolygon>
+  <extentDescriptionObject type="object">{"default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[5.956088,45.817970],[10.492036,45.817970],[10.492036,47.808488],[5.956088,47.808488],[5.956088,45.817970]]]}</geom>
+  <location>46.813229,8.224062</location>
+  <coordinateSystem>EPSG:2056</coordinateSystem>
+  <crsDetails type="object">{
+            "code": "EPSG:2056",
+            "codeSpace": "",
+            "name": "EPSG:2056",
+            "url": ""
+            }</crsDetails>
+  <lineageObject type="object">{"default":"Der Datensatz enth\u00E4lt die von den kantonalen Jagdverwaltungen ausgewiesenen offiziellen Wildruhezonen. Die Objekte wurden vom BAFU, den kantonalen Jagdverwaltungen resp. von der swisstopo in digitaler Form \u00FCbernommen.\nDie Genauigkeit entspricht derjenigen der verwendeten kantonalen Datens\u00E4tze resp. des Layers der Skitourenkarte der swisstopo.", "langger":"Der Datensatz enth\u00E4lt die von den kantonalen Jagdverwaltungen ausgewiesenen offiziellen Wildruhezonen. Die Objekte wurden vom BAFU, den kantonalen Jagdverwaltungen resp. von der swisstopo in digitaler Form \u00FCbernommen.\nDie Genauigkeit entspricht derjenigen der verwendeten kantonalen Datens\u00E4tze resp. des Layers der Skitourenkarte der swisstopo.", "langfre":"La couche contient les zones de tranquillit\u00E9s officiellement d\u00E9limit\u00E9es, en novembre 2012, par les services cantonaux de la chasse. Les objets ont \u00E9t\u00E9 repris et copi\u00E9s des enregistrements num\u00E9riques existants de l\u2019OVEF, des services cantonaux de la chasse et de swisstopo.\nLa pr\u00E9cision correspond \u00E0 celle de la saisie des couches originales utilis\u00E9es : donn\u00E9es cantonales et carte de randonn\u00E9es \u00E0 ski de swisstopo."}</lineageObject>
+  <format>ESRI Shapefile (SHP)</format>
+  <linkUrl>https://map.geo.admin.ch/?layers=ch.bafu.wrz-wildruhezonen_portal</linkUrl>
+  <linkProtocol>MAP:Preview</linkProtocol>
+  <linkUrlProtocolMAPPreview>https://map.geo.admin.ch/?layers=ch.bafu.wrz-wildruhezonen_portal</linkUrlProtocolMAPPreview>
+  <link type="object">{
+            "hash": "802d2170c4fcc3b9983647bc9f26ba23",
+            "idx": 1,
+            "protocol":"MAP:Preview",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.wrz-wildruhezonen_portal",  "langger":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.wrz-wildruhezonen_portal",  "langfre":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.wrz-wildruhezonen_portal",  "langita":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.wrz-wildruhezonen_portal",  "langeng":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.wrz-wildruhezonen_portal",  "langroh":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.wrz-wildruhezonen_portal"},
+            
+              "nameObject": 
+            {"default":"Vorschau map.geo.admin.ch", "langger":"Vorschau map.geo.admin.ch", "langfre":"Aper\u00E7u map.geo.admin.ch", "langita":"Previsione map.geo.admin.ch", "langeng":"Preview map.geo.admin.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Vorschau map.geo.admin.ch", "langger":"Vorschau map.geo.admin.ch", "langfre":"Aper\u00E7u map.geo.admin.ch", "langita":"Previsione map.geo.admin.ch", "langeng":"Preview map.geo.admin.ch"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://wms.geo.admin.ch/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de</linkUrl>
+  <linkProtocol>OGC:WMS</linkProtocol>
+  <linkUrlProtocolOGCWMS>https://wms.geo.admin.ch/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de</linkUrlProtocolOGCWMS>
+  <link type="object">{
+            "hash": "fb33767d6648afe961c09816c155e744",
+            "idx": 2,
+            "protocol":"OGC:WMS",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de",  "langger":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de",  "langfre":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=fr",  "langita":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=it",  "langeng":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=en",  "langroh":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de"},
+            
+              "nameObject": 
+            {"default":"ch.bafu.wrz-wildruhezonen_portal", "langger":"ch.bafu.wrz-wildruhezonen_portal", "langfre":"ch.bafu.wrz-wildruhezonen_portal", "langita":"ch.bafu.wrz-wildruhezonen_portal", "langeng":"ch.bafu.wrz-wildruhezonen_portal", "langroh":"ch.bafu.wrz-wildruhezonen_portal"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"WMS-BGDI Dienst, Layer \"Wildruhezonen\"", "langger":"WMS-BGDI Dienst, Layer \"Wildruhezonen\"", "langfre":"Service WMS-IFDG, couche \"Zones de tranquillit\u00E9\"", "langita":"Servizio WMS-IFDG, strato \"Zone di tranquillit\u00E0\"", "langeng":"WMS-FSDI service, layer \"Designated wildlife areas\"", "langroh":"WMS-BGDI Dienst, Layer \"Wildruhezonen\""}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de</linkUrl>
+  <linkProtocol>OGC:WMTS</linkProtocol>
+  <linkUrlProtocolOGCWMTS>https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de</linkUrlProtocolOGCWMTS>
+  <link type="object">{
+            "hash": "5062f6bae737663b49acb67731ad7530",
+            "idx": 3,
+            "protocol":"OGC:WMTS",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/wmts.geo.admin.ch\/EPSG\/3857\/1.0.0\/WMTSCapabilities.xml?lang=de",  "langger":"https:\/\/wmts.geo.admin.ch\/EPSG\/3857\/1.0.0\/WMTSCapabilities.xml?lang=de",  "langfre":"https:\/\/wmts.geo.admin.ch\/EPSG\/3857\/1.0.0\/WMTSCapabilities.xml?lang=fr",  "langita":"https:\/\/wmts.geo.admin.ch\/EPSG\/3857\/1.0.0\/WMTSCapabilities.xml?lang=it",  "langeng":"https:\/\/wmts.geo.admin.ch\/EPSG\/3857\/1.0.0\/WMTSCapabilities.xml?lang=en",  "langroh":"https:\/\/wmts.geo.admin.ch\/EPSG\/3857\/1.0.0\/WMTSCapabilities.xml?lang=de"},
+            
+              "nameObject": 
+            {"default":"ch.bafu.wrz-wildruhezonen_portal", "langger":"ch.bafu.wrz-wildruhezonen_portal", "langfre":"ch.bafu.wrz-wildruhezonen_portal", "langita":"ch.bafu.wrz-wildruhezonen_portal", "langeng":"ch.bafu.wrz-wildruhezonen_portal", "langroh":"ch.bafu.wrz-wildruhezonen_portal"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"WMTS-BGDI Dienst, Layer \"Wildruhezonen\"", "langger":"WMTS-BGDI Dienst, Layer \"Wildruhezonen\"", "langfre":"Service WMTS-IFDG, couche , Layer \"Zones de tranquillit\u00E9\"", "langita":"Servizio WMTS-IFDG, strato \"Zone di tranquillit\u00E0\"", "langeng":"WMTS-FSDI service, layer \"Designated wildlife areas\"", "langroh":"WMTS-BGDI Dienst, Layer \"Wildruhezonen\""}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.wildruhezonen.ch/news/aenderungen-und-allgemeine-hinweise</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://www.wildruhezonen.ch/news/aenderungen-und-allgemeine-hinweise</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "8cd0295db7934f689357bf83427deca4",
+            "idx": 4,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.wildruhezonen.ch\/news\/aenderungen-und-allgemeine-hinweise",  "langger":"https:\/\/www.wildruhezonen.ch\/news\/aenderungen-und-allgemeine-hinweise",  "langfre":"https:\/\/www.wildruhezonen.ch\/news\/aenderungen-und-allgemeine-hinweise",  "langita":"https:\/\/www.wildruhezonen.ch\/news\/aenderungen-und-allgemeine-hinweise",  "langeng":"https:\/\/www.wildruhezonen.ch\/news\/aenderungen-und-allgemeine-hinweise",  "langroh":"https:\/\/www.wildruhezonen.ch\/news\/aenderungen-und-allgemeine-hinweise"},
+            
+              "descriptionObject": 
+            {"default":"\u00C4nderungen &amp; allgemeine Hinweise", "langger":"\u00C4nderungen &amp; allgemeine Hinweise", "langfre":"Modifications et remarques g\u00E9n\u00E9rales", "langita":"Modifiche e indicazioni generali"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 1
+            }</link>
+  <linkUrl>http://www.wildruhezonen.ch</linkUrl>
+  <linkProtocol>CHTOPO:specialised-geoportal</linkProtocol>
+  <linkUrlProtocolCHTOPOspecialisedgeoportal>http://www.wildruhezonen.ch</linkUrlProtocolCHTOPOspecialisedgeoportal>
+  <link type="object">{
+            "hash": "f698c191939b16d90cdb2d23a13c1981",
+            "idx": 5,
+            "protocol":"CHTOPO:specialised-geoportal",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/www.wildruhezonen.ch",  "langger":"http:\/\/www.wildruhezonen.ch",  "langfre":"http:\/\/www.zones-de-tranquillite.ch\/"},
+            
+              "descriptionObject": 
+            {"default":"Fachportal Wildruhezonen", "langger":"Fachportal Wildruhezonen", "langfre":"Portail zones de tranquilit\u00E9"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 2
+            }</link>
+  <linkUrl>https://www.geodienste.ch/services/wildruhezonen</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD-URL</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADURL>https://www.geodienste.ch/services/wildruhezonen</linkUrlProtocolWWWDOWNLOADURL>
+  <link type="object">{
+            "hash": "65bf342343124f96acdbc205061cc7e0",
+            "idx": 6,
+            "protocol":"WWW:DOWNLOAD-URL",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.geodienste.ch\/services\/wildruhezonen",  "langger":"https:\/\/www.geodienste.ch\/services\/wildruhezonen",  "langfre":"https:\/\/www.geodienste.ch\/services\/wildruhezonen?locale=fr",  "langita":"https:\/\/www.geodienste.ch\/services\/wildruhezonen?locale=it",  "langeng":"https:\/\/www.geodienste.ch\/services\/wildruhezonen?locale=it"},
+            
+              "descriptionObject": 
+            {"default":"Abteilung Biodiversit\u00E4t und Landschaft", "langger":"Abteilung Biodiversit\u00E4t und Landschaft", "langfre":"Division Biodiversit\u00E9 et paysage", "langita":"Divisione Biodiversit\u00E0 e paesaggio", "langeng":"Biodiversity and Landscape Division"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 3
+            }</link>
+  <linkUrl>https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.wrz-wildruhezonen_portal</linkUrl>
+  <linkProtocol>ESRI:REST</linkProtocol>
+  <linkUrlProtocolESRIREST>https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.wrz-wildruhezonen_portal</linkUrlProtocolESRIREST>
+  <link type="object">{
+            "hash": "25743e94bfc4908407e2d21d29e42a98",
+            "idx": 7,
+            "protocol":"ESRI:REST",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.wrz-wildruhezonen_portal",  "langger":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.wrz-wildruhezonen_portal",  "langfre":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.wrz-wildruhezonen_portal",  "langita":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.wrz-wildruhezonen_portal",  "langeng":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.wrz-wildruhezonen_portal",  "langroh":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.wrz-wildruhezonen_portal"},
+            
+              "nameObject": 
+            {"default":"RESTful API von geo.admin.ch", "langger":"RESTful API von geo.admin.ch", "langfre":"RESTful API de geo.admin.ch", "langita":"RESTful API da geo.admin.ch", "langeng":"RESTful API from geo.admin.ch", "langroh":"RESTful API dad geo.admin.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"RESTful API von geo.admin.ch", "langger":"RESTful API von geo.admin.ch", "langfre":"RESTful API de geo.admin.ch", "langita":"RESTful API da geo.admin.ch", "langeng":"RESTful API from geo.admin.ch", "langroh":"RESTful API dad geo.admin.ch"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 3
+            }</link>
+  <recordGroup>4a0c8bc7-89d1-484e-a34a-454a31267c41</recordGroup>
+</doc>
+
