@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>f494da66-8860-48d5-9cc7-ec38b885afd1</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03 2+", "langger":"GM03 2+"}</standardNameObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-04-29T12:17:43.874Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <otherLanguage>ita</otherLanguage>
+  <otherLanguageId>IT</otherLanguageId>
+  <otherLanguage>eng</otherLanguage>
+  <otherLanguageId>EN</otherLanguageId>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>dataset</resourceType>
+  <OrgObject type="object">{"default":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langger":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langfre":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langeng":"Kanton Thurgau, Amt f\u00FCr Geoinformation"}</OrgObject>
+  <resourceProviderOrgObject type="object">{"default":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langger":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langfre":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langeng":"Kanton Thurgau, Amt f\u00FCr Geoinformation"}</resourceProviderOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langger":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langfre":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langeng":"Kanton Thurgau, Amt f\u00FCr Geoinformation"}
+            ,
+      
+      "role":"resourceProvider",
+      "email":"agi@tg.ch",
+      "websiteObject":{"default":"https:\/\/geoinformation.tg.ch",  "langeng":"https:\/\/geoinformation.tg.ch",  "langger":"https:\/\/geoinformation.tg.ch",  "langfre":"https:\/\/geoinformation.tg.ch"},
+      "logo":"",
+      "individual":"Beratungsstelle",
+      "position":"",
+      "phone":"0041 58 345 54 30",
+      "address":"Frauenfeld, 8510, CH"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"dataset","default":"gmd:MD_ScopeCode--dataset--ger","langger":"gmd:MD_ScopeCode--dataset--ger","langfre":"gmd:MD_ScopeCode--dataset--fre","langita":"gmd:MD_ScopeCode--dataset--ita","langeng":"gmd:MD_ScopeCode--dataset--eng","langger":"gmd:MD_ScopeCode--dataset--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_status type="object">{"key":"completed","default":"gmd:MD_ProgressCode--completed--ger","langger":"gmd:MD_ProgressCode--completed--ger","langfre":"gmd:MD_ProgressCode--completed--fre","langita":"gmd:MD_ProgressCode--completed--ita","langeng":"gmd:MD_ProgressCode--completed--eng","langger":"gmd:MD_ProgressCode--completed--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ProgressCode"}</cl_status>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"irregular","default":"gmd:MD_MaintenanceFrequencyCode--irregular--ger","langger":"gmd:MD_MaintenanceFrequencyCode--irregular--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--irregular--fre","langita":"gmd:MD_MaintenanceFrequencyCode--irregular--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--irregular--eng","langger":"gmd:MD_MaintenanceFrequencyCode--irregular--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--ger","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langita":"gmd:MD_KeywordTypeCode--theme--ita","langeng":"gmd:MD_KeywordTypeCode--theme--eng","langger":"gmd:MD_KeywordTypeCode--theme--ger","link":"http:\/\/www.isotc211.org\/2005\/resources\/codeList.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_accessConstraints type="object">{"key":"otherRestrictions","default":"gmd:MD_RestrictionCode--otherRestrictions--ger","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","langfre":"gmd:MD_RestrictionCode--otherRestrictions--fre","langita":"gmd:MD_RestrictionCode--otherRestrictions--ita","langeng":"gmd:MD_RestrictionCode--otherRestrictions--eng","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_RestrictionCode"}</cl_accessConstraints>
+  <cl_classification type="object">{"key":"unclassified","default":"gmd:MD_ClassificationCode--unclassified--ger","langger":"gmd:MD_ClassificationCode--unclassified--ger","langfre":"gmd:MD_ClassificationCode--unclassified--fre","langita":"gmd:MD_ClassificationCode--unclassified--ita","langeng":"gmd:MD_ClassificationCode--unclassified--eng","langger":"gmd:MD_ClassificationCode--unclassified--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ClassificationCode"}</cl_classification>
+  <cl_associationType type="object">{"key":"largerWorkCitation","default":"gmd:DS_AssociationTypeCode--largerWorkCitation--ger","langger":"gmd:DS_AssociationTypeCode--largerWorkCitation--ger","langfre":"gmd:DS_AssociationTypeCode--largerWorkCitation--fre","langita":"gmd:DS_AssociationTypeCode--largerWorkCitation--ita","langeng":"gmd:DS_AssociationTypeCode--largerWorkCitation--eng","langger":"gmd:DS_AssociationTypeCode--largerWorkCitation--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#DS_AssociationTypeCode"}</cl_associationType>
+  <cl_associationType type="object">{"key":"\/metadata\/a24ed0a9-cc08-4e71-b9e1-253281c25746","default":"gmd:DS_AssociationTypeCode--\/metadata\/a24ed0a9-cc08-4e71-b9e1-253281c25746--ger","langger":"gmd:DS_AssociationTypeCode--\/metadata\/a24ed0a9-cc08-4e71-b9e1-253281c25746--ger","langfre":"gmd:DS_AssociationTypeCode--\/metadata\/a24ed0a9-cc08-4e71-b9e1-253281c25746--fre","langita":"gmd:DS_AssociationTypeCode--\/metadata\/a24ed0a9-cc08-4e71-b9e1-253281c25746--ita","langeng":"gmd:DS_AssociationTypeCode--\/metadata\/a24ed0a9-cc08-4e71-b9e1-253281c25746--eng","langger":"gmd:DS_AssociationTypeCode--\/metadata\/a24ed0a9-cc08-4e71-b9e1-253281c25746--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#DS_AssociationTypeCode"}</cl_associationType>
+  <cl_spatialRepresentationType type="object">{"key":"vector","default":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langfre":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","langita":"gmd:MD_SpatialRepresentationTypeCode--vector--ita","langeng":"gmd:MD_SpatialRepresentationTypeCode--vector--eng","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"}</cl_spatialRepresentationType>
+  <cl_basicGeodataIDType type="object">{"key":"cantonal","default":"che:basicGeodataIDTypeCode--cantonal--ger","langger":"che:basicGeodataIDTypeCode--cantonal--ger","langfre":"che:basicGeodataIDTypeCode--cantonal--fre","langita":"che:basicGeodataIDTypeCode--cantonal--ita","langeng":"che:basicGeodataIDTypeCode--cantonal--eng","langger":"che:basicGeodataIDTypeCode--cantonal--ger","link":"#basicGeodataIDTypeCode"}</cl_basicGeodataIDType>
+  <cl_modelType type="object">{"key":"Other","default":"che:CHE_MD_modelTypeCode--Other--ger","langger":"che:CHE_MD_modelTypeCode--Other--ger","langfre":"che:CHE_MD_modelTypeCode--Other--fre","langita":"che:CHE_MD_modelTypeCode--Other--ita","langeng":"che:CHE_MD_modelTypeCode--Other--eng","langger":"che:CHE_MD_modelTypeCode--Other--ger","link":"#CHE_MD_modelTypeCode"}</cl_modelType>
+  <resourceTitleObject type="object">{"default":"Grundwasserschutzzonen", "langger":"Grundwasserschutzzonen"}</resourceTitleObject>
+  <creationDateForResource>2000-01-01</creationDateForResource>
+  <creationYearForResource>2000</creationYearForResource>
+  <creationMonthForResource>2000-01</creationMonthForResource>
+  <revisionDateForResource>2025-04-16</revisionDateForResource>
+  <revisionYearForResource>2025</revisionYearForResource>
+  <revisionMonthForResource>2025-04</revisionMonthForResource>
+  <resourceDate type="object">{"type": "creation", "date": "2000-01-01T00:00:00.000Z"}</resourceDate>
+  <resourceDate type="object">{"type": "revision", "date": "2025-04-16T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2000-01-01T00:00:00.000Z",
+                  "lte": "2000-01-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2025-04-16T00:00:00.000Z",
+                  "lte": "2025-04-16T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceAbstractObject type="object">{"default":"Der Geobasisdatensatz beinhaltet Grundwasserschutzzonen gem\u00E4ss Gew\u00E4sserschutzgesetzgebung. Schutzzonen dienen dazu, Trinkwassergewinnungsanlagen und Grundwasseranreicherungen sowie das Grundwasser unmittelbar vor seiner Nutzung als Trinkwasser vor qualitativer und quantitativer Beeintr\u00E4chtigungen zu sch\u00FCtzen. Innerhalb der Schutzzonen gelten Nutzungsbeschr\u00E4nken. Schutzzonen sind ein Element des planerischen Grundwasserschutzes, Bestandteilt der Gew\u00E4sserschutzkarte und \u00FCberlagern die Gew\u00E4sserschutzbereiche.", "langger":"Der Geobasisdatensatz beinhaltet Grundwasserschutzzonen gem\u00E4ss Gew\u00E4sserschutzgesetzgebung. Schutzzonen dienen dazu, Trinkwassergewinnungsanlagen und Grundwasseranreicherungen sowie das Grundwasser unmittelbar vor seiner Nutzung als Trinkwasser vor qualitativer und quantitativer Beeintr\u00E4chtigungen zu sch\u00FCtzen. Innerhalb der Schutzzonen gelten Nutzungsbeschr\u00E4nken. Schutzzonen sind ein Element des planerischen Grundwasserschutzes, Bestandteilt der Gew\u00E4sserschutzkarte und \u00FCberlagern die Gew\u00E4sserschutzbereiche."}</resourceAbstractObject>
+  <OrgForResourceObject type="object">{"default":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langger":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langfre":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langeng":"Kanton Thurgau, Amt f\u00FCr Umwelt"}</OrgForResourceObject>
+  <resourceProviderOrgForResourceObject type="object">{"default":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langger":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langfre":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langeng":"Kanton Thurgau, Amt f\u00FCr Umwelt"}</resourceProviderOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langger":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langfre":"Kanton Thurgau, Amt f\u00FCr Umwelt", "langeng":"Kanton Thurgau, Amt f\u00FCr Umwelt"}
+            ,
+      
+      "role":"resourceProvider",
+      "email":"umwelt.afu@tg.ch",
+      "websiteObject":{"default":"https:\/\/umwelt.tg.ch",  "langeng":"https:\/\/umwelt.tg.ch",  "langger":"https:\/\/umwelt.tg.ch",  "langfre":"https:\/\/umwelt.tg.ch"},
+      "logo":"",
+      "individual":"Beratungsstelle",
+      "position":"",
+      "phone":"0041 58 345 51 51",
+      "address":"Frauenfeld, 8510"
+      
+      }</contactForResource>
+  <purposeObject type="object">{"default":"Grundlagedaten", "langger":"Grundlagedaten"}</purposeObject>
+  <hasOverview>false</hasOverview>
+  <resourceLanguage>ger</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"Naturschutz", "langger":"Naturschutz", "langfre":"pr\u00E9servation de la nature", "langita":"conservazione della natura", "langeng":"nature conservation"
+      }
+      ,
+      {
+      "default":"Grundwasserschutz", "langger":"Grundwasserschutz", "langfre":"protection des r\u00E9serves d'eau souterraines", "langita":"protezione delle acque sotterranee", "langeng":"groundwater protection"
+      }
+      ,
+      {
+      "default":"Landschaftsschutz", "langger":"Landschaftsschutz", "langfre":"protection du paysage", "langita":"conservazione del paesaggio", "langeng":"landscape conservation"
+      }
+      ,
+      {
+      "default":"Geodaten", "langger":"Geodaten", "langfre":"g\u00E9odonn\u00E9es", "langita":"geodati", "langeng":"geodata"
+      }
+      ,
+      {
+      "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss"
+      }
+      ,
+      {
+      "default":"Kanton Thurgau (TG)", "langger":"Kanton Thurgau (TG)", "langfre":"Canton de Thurgovie (TG)", "langita":"Cantone di Turgovia (TG)", "langeng":"Canton of Thurgau (TG)"
+      }
+      ]</tag>
+  <tagNumber>6</tagNumber>
+  <isOpenData>true</isOpenData>
+  <keywordType-theme type="object">[
+          {
+          "default":"Naturschutz", "langger":"Naturschutz", "langfre":"pr\u00E9servation de la nature", "langita":"conservazione della natura", "langeng":"nature conservation"
+          }
+          ,
+          {
+          "default":"Grundwasserschutz", "langger":"Grundwasserschutz", "langfre":"protection des r\u00E9serves d'eau souterraines", "langita":"protezione delle acque sotterranee", "langeng":"groundwater protection"
+          }
+          ,
+          {
+          "default":"Landschaftsschutz", "langger":"Landschaftsschutz", "langfre":"protection du paysage", "langita":"conservazione del paesaggio", "langeng":"landscape conservation"
+          }
+          ,
+          {
+          "default":"Geodaten", "langger":"Geodaten", "langfre":"g\u00E9odonn\u00E9es", "langita":"geodati", "langeng":"geodata"
+          }
+          ,
+          {
+          "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss"
+          }
+          ]</keywordType-theme>
+  <keywordType-place type="object">[
+          {
+          "default":"Kanton Thurgau (TG)", "langger":"Kanton Thurgau (TG)", "langfre":"Canton de Thurgovie (TG)", "langita":"Cantone di Turgovia (TG)", "langeng":"Canton of Thurgau (TG)"
+          }
+          ]</keywordType-place>
+  <th_gemetNumber>3</th_gemetNumber>
+  <th_gemet type="object">[
+        {
+        "default":"Naturschutz", "langger":"Naturschutz", "langfre":"pr\u00E9servation de la nature", "langita":"conservazione della natura", "langeng":"nature conservation"
+        }
+        ,
+        {
+        "default":"Grundwasserschutz", "langger":"Grundwasserschutz", "langfre":"protection des r\u00E9serves d'eau souterraines", "langita":"protezione delle acque sotterranee", "langeng":"groundwater protection"
+        }
+        ,
+        {
+        "default":"Landschaftsschutz", "langger":"Landschaftsschutz", "langfre":"protection du paysage", "langita":"conservazione del paesaggio", "langeng":"landscape conservation"
+        }
+        ]</th_gemet>
+  <th_geocat-chNumber>2</th_geocat-chNumber>
+  <th_geocat-ch type="object">[
+        {
+        "default":"Geodaten", "langger":"Geodaten", "langfre":"g\u00E9odonn\u00E9es", "langita":"geodati", "langeng":"geodata"
+        }
+        ,
+        {
+        "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss"
+        }
+        ]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_gemet": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet",
+        
+            "multilingualTitle": {
+              "default":"GEMET", "langger":"GEMET"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.gemet",
+        
+        "keywords": [
+        
+          {
+          "default":"Naturschutz", "langger":"Naturschutz", "langfre":"pr\u00E9servation de la nature", "langita":"conservazione della natura", "langeng":"nature conservation"
+          }
+          ,
+          {
+          "default":"Grundwasserschutz", "langger":"Grundwasserschutz", "langfre":"protection des r\u00E9serves d'eau souterraines", "langita":"protezione delle acque sotterranee", "langeng":"groundwater protection"
+          }
+          ,
+          {
+          "default":"Landschaftsschutz", "langger":"Landschaftsschutz", "langfre":"protection du paysage", "langita":"conservazione del paesaggio", "langeng":"landscape conservation"
+          }
+          
+        ]}
+        ,
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"Geodaten", "langger":"Geodaten", "langfre":"g\u00E9odonn\u00E9es", "langita":"geodati", "langeng":"geodata"
+          }
+          ,
+          {
+          "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss"
+          }
+          
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Naturschutz",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Grundwasserschutz",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Landschaftsschutz",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Geodaten",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "opendata.swiss",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <cl_topic type="object">{"key":"environment","default":"gmd:MD_TopicCategoryCode--environment--ger","langger":"gmd:MD_TopicCategoryCode--environment--ger","langfre":"gmd:MD_TopicCategoryCode--environment--fre","langita":"gmd:MD_TopicCategoryCode--environment--ita","langeng":"gmd:MD_TopicCategoryCode--environment--eng","langger":"gmd:MD_TopicCategoryCode--environment--ger"}</cl_topic>
+  <cl_topic type="object">{"key":"environment_NatureProtection","default":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ger","langger":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ger","langfre":"gmd:MD_TopicCategoryCode--environment_NatureProtection--fre","langita":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ita","langeng":"gmd:MD_TopicCategoryCode--environment_NatureProtection--eng","langger":"gmd:MD_TopicCategoryCode--environment_NatureProtection--ger"}</cl_topic>
+  <resolutionDistance>10 m</resolutionDistance>
+  <resolutionScaleDenominator>5000</resolutionScaleDenominator>
+  <maintenance type="object">{
+            "frequency": "irregular"
+            
+              ,"noteObject":
+              
+            {"default":"Nur punktuell", "langger":"Nur punktuell"}
+            
+          }</maintenance>
+  <MD_LegalConstraintsOtherConstraintsObject type="object">{"default":"RB 211.442 - Verordnung des Regierungsrates zum Gesetz \u00FCber Geoinformation, \u00A7 6 Geobasisdatenkatalog", "langger":"RB 211.442 - Verordnung des Regierungsrates zum Gesetz \u00FCber Geoinformation, \u00A7 6 Geobasisdatenkatalog"}</MD_LegalConstraintsOtherConstraintsObject>
+  <MD_LegalConstraintsOtherConstraintsObject type="object">{"default":"RB 211.442 - Verordnung des Regierungsrates zum Gesetz \u00FCber Geoinformation, \u00A7 6 Geobasisdatenkatalog", "langger":"RB 211.442 - Verordnung des Regierungsrates zum Gesetz \u00FCber Geoinformation, \u00A7 6 Geobasisdatenkatalog"}</MD_LegalConstraintsOtherConstraintsObject>
+  <MD_LegalConstraintsUseLimitationObject type="object">{"default":"Nutzungsbedingungen f\u00FCr Geodaten und Geodienste des Kantons Thurgau", "langger":"Nutzungsbedingungen f\u00FCr Geodaten und Geodienste des Kantons Thurgau"}</MD_LegalConstraintsUseLimitationObject>
+  <MD_SecurityConstraintsUseLimitationObject type="object">{"default":"keine", "langger":"keine"}</MD_SecurityConstraintsUseLimitationObject>
+  <MD_ConstraintsUseLimitationObject type="object">{"default":"keine", "langger":"keine"}</MD_ConstraintsUseLimitationObject>
+  <hasBoundingPolygon>true</hasBoundingPolygon>
+  <extentDescriptionObject type="object">{"default":"Kanton Thurgau (TG)", "langger":"Kanton Thurgau (TG)", "langfre":"Canton de Thurgovie (TG)", "langita":"Cantone di Turgovia (TG)", "langeng":"Canton of Thurgau (TG)"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[8.668169,47.375838],[9.506947,47.375838],[9.506947,47.695485],[8.668169,47.695485],[8.668169,47.375838]]]}</geom>
+  <location>47.5356615,9.087558000000001</location>
+  <coordinateSystem>CH1903+, LV95</coordinateSystem>
+  <crsDetails type="object">{
+            "code": "CH1903+, LV95",
+            "codeSpace": "",
+            "name": "CH1903+, LV95",
+            "url": ""
+            }</crsDetails>
+  <lineageObject type="object">{"default":"Digitalisierung ab Pl\u00E4nen (1:5000)", "langger":"Digitalisierung ab Pl\u00E4nen (1:5000)"}</lineageObject>
+  <format>OGC Geopackage (GPKG)</format>
+  <OrgForDistributionObject type="object">{"default":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langger":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langfre":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langeng":"Kanton Thurgau, Amt f\u00FCr Geoinformation"}</OrgForDistributionObject>
+  <distributorOrgForDistributionObject type="object">{"default":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langger":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langfre":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langeng":"Kanton Thurgau, Amt f\u00FCr Geoinformation"}</distributorOrgForDistributionObject>
+  <contactForDistribution type="object">{
+      
+        "organisationObject": 
+            {"default":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langger":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langfre":"Kanton Thurgau, Amt f\u00FCr Geoinformation", "langeng":"Kanton Thurgau, Amt f\u00FCr Geoinformation"}
+            ,
+      
+      "role":"distributor",
+      "email":"agi@tg.ch",
+      "websiteObject":{"default":"https:\/\/geoinformation.tg.ch",  "langeng":"https:\/\/geoinformation.tg.ch",  "langger":"https:\/\/geoinformation.tg.ch",  "langfre":"https:\/\/geoinformation.tg.ch"},
+      "logo":"",
+      "individual":"Beratungsstelle",
+      "position":"",
+      "phone":"0041 58 345 54 30",
+      "address":"Frauenfeld, 8510, CH"
+      
+      }</contactForDistribution>
+  <linkUrl>https://map.geo.tg.ch</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://map.geo.tg.ch</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "afda376c0ec334ad418d7c36335904e1",
+            "idx": 1,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/map.geo.tg.ch",  "langger":"https:\/\/map.geo.tg.ch"},
+            
+              "nameObject": 
+            {"default":"map.geo.tg.ch", "langger":"map.geo.tg.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"ThurGIS Viewer", "langger":"ThurGIS Viewer"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://umwelt.tg.ch/gewaesserqualitaet-und-nutzung/gewaesserqualitaet/planerischer-gewaesserschutz/grundwasserschutzzonen.html/12542</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://umwelt.tg.ch/gewaesserqualitaet-und-nutzung/gewaesserqualitaet/planerischer-gewaesserschutz/grundwasserschutzzonen.html/12542</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "69d144787ab8a63cce1da8ce26af857a",
+            "idx": 2,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/umwelt.tg.ch\/gewaesserqualitaet-und-nutzung\/gewaesserqualitaet\/planerischer-gewaesserschutz\/grundwasserschutzzonen.html\/12542",  "langger":"https:\/\/umwelt.tg.ch\/gewaesserqualitaet-und-nutzung\/gewaesserqualitaet\/planerischer-gewaesserschutz\/grundwasserschutzzonen.html\/12542"},
+            
+              "nameObject": 
+            {"default":"Grundwasserschutzzonen", "langger":"Grundwasserschutzzonen"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Grundwasserschutzzonen", "langger":"Grundwasserschutzzonen"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://geobasisdaten.ch/detail/821362/</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://geobasisdaten.ch/detail/821362/</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "922c08693b9a08b8c55de287434bbd02",
+            "idx": 3,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/geobasisdaten.ch\/detail\/821362\/",  "langger":"https:\/\/geobasisdaten.ch\/detail\/821362\/"},
+            
+              "nameObject": 
+            {"default":"geobasisdaten.ch", "langger":"geobasisdaten.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Geobasisdatenkatalog", "langger":"Geobasisdatenkatalog"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WMS&amp;Version=1.3.0&amp;Request=GetCapabilities</linkUrl>
+  <linkProtocol>OGC:WMS</linkProtocol>
+  <linkUrlProtocolOGCWMS>https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WMS&amp;Version=1.3.0&amp;Request=GetCapabilities</linkUrlProtocolOGCWMS>
+  <link type="object">{
+            "hash": "ebd6bdd8ffd29077e20465d1398b32a9",
+            "idx": 4,
+            "protocol":"OGC:WMS",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/ows.geo.tg.ch\/geofy_access_proxy\/gewaesserschutzkarte?Service=WMS&amp;Version=1.3.0&amp;Request=GetCapabilities",  "langger":"https:\/\/ows.geo.tg.ch\/geofy_access_proxy\/gewaesserschutzkarte?Service=WMS&amp;Version=1.3.0&amp;Request=GetCapabilities"},
+            
+              "nameObject": 
+            {"default":"Grundwasserschutzzonen", "langger":"Grundwasserschutzzonen"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Grundwasserschutzzonen", "langger":"Grundwasserschutzzonen"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WFS&amp;Version=2.0.0&amp;Request=GetCapabilities</linkUrl>
+  <linkProtocol>OGC:WFS</linkProtocol>
+  <linkUrlProtocolOGCWFS>https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WFS&amp;Version=2.0.0&amp;Request=GetCapabilities</linkUrlProtocolOGCWFS>
+  <link type="object">{
+            "hash": "45744ffa56b209d78b01e5310dd3684f",
+            "idx": 5,
+            "protocol":"OGC:WFS",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/ows.geo.tg.ch\/geofy_access_proxy\/gewaesserschutzkarte?Service=WFS&amp;Version=2.0.0&amp;Request=GetCapabilities",  "langger":"https:\/\/ows.geo.tg.ch\/geofy_access_proxy\/gewaesserschutzkarte?Service=WFS&amp;Version=2.0.0&amp;Request=GetCapabilities"},
+            
+              "descriptionObject": 
+            {"default":"Grundwasserschutzzonen", "langger":"Grundwasserschutzzonen"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://geodienste.ch/services/planerischer_gewaesserschutz</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://geodienste.ch/services/planerischer_gewaesserschutz</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "0219d7855c188f94faf80939f751e5c0",
+            "idx": 6,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/geodienste.ch\/services\/planerischer_gewaesserschutz",  "langger":"https:\/\/geodienste.ch\/services\/planerischer_gewaesserschutz"},
+            
+              "nameObject": 
+            {"default":"geodienste.ch", "langger":"geodienste.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"geodienste.ch", "langger":"geodienste.ch"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://shop.geo.tg.ch/products/gewaesserschutzkarte</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD-APP</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADAPP>https://shop.geo.tg.ch/products/gewaesserschutzkarte</linkUrlProtocolWWWDOWNLOADAPP>
+  <link type="object">{
+            "hash": "00fae872d0b060a12cb882f1f4dd3771",
+            "idx": 7,
+            "protocol":"WWW:DOWNLOAD-APP",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/shop.geo.tg.ch\/products\/gewaesserschutzkarte",  "langger":"https:\/\/shop.geo.tg.ch\/products\/gewaesserschutzkarte"},
+            
+              "nameObject": 
+            {"default":"shop.geo.tg.ch", "langger":"shop.geo.tg.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"ThurGIS Shop", "langger":"ThurGIS Shop"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://data.tg.ch</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://data.tg.ch</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "acb1284f0e1d5a3f65153945f15f19ed",
+            "idx": 8,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/data.tg.ch",  "langger":"https:\/\/data.tg.ch"},
+            
+              "nameObject": 
+            {"default":"data.tg.ch", "langger":"data.tg.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Open Government Data", "langger":"Open Government Data"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://opendata.swiss/de/perma/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau</linkUrl>
+  <linkProtocol>OPENDATA:SWISS</linkProtocol>
+  <linkUrlProtocolOPENDATASWISS>https://opendata.swiss/de/perma/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau</linkUrlProtocolOPENDATASWISS>
+  <link type="object">{
+            "hash": "bd835c9009c678b9842cf12070b428fa",
+            "idx": 9,
+            "protocol":"OPENDATA:SWISS",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/opendata.swiss\/de\/perma\/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau",  "langger":"https:\/\/opendata.swiss\/de\/perma\/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau",  "langfre":"https:\/\/opendata.swiss\/fr\/perma\/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau",  "langita":"https:\/\/opendata.swiss\/it\/perma\/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau",  "langeng":"https:\/\/opendata.swiss\/en\/perma\/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau"},
+            
+              "nameObject": 
+            {"default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"Permalink opendata.swiss", "langita":"Permalink opendata.swiss", "langeng":"Permalink opendata.swiss"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Permalink opendata.swiss", "langger":"Permalink opendata.swiss", "langfre":"Permalink opendata.swiss", "langita":"Permalink opendata.swiss", "langeng":"Permalink opendata.swiss"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <recordGroup>f494da66-8860-48d5-9cc7-ec38b885afd1</recordGroup>
+  <recordLink type="object">{
+      "type": "siblings",
+      
+        "associationType": "largerWorkCitation",
+      
+        "initiativeType": "",
+      
+      "to": "a24ed0a9-cc08-4e71-b9e1-253281c25746",
+      "url": "",
+      "title": "",
+      "origin": "catalog"
+      }</recordLink>
+  <recordLink_siblingsassociationTypelargerWorkCitation_initiativeType />
+  <recordLink_siblingsassociationTypelargerWorkCitation_initiativeType_uuid>a24ed0a9-cc08-4e71-b9e1-253281c25746</recordLink_siblingsassociationTypelargerWorkCitation_initiativeType_uuid>
+  <recordLink_siblingsassociationTypelargerWorkCitation_initiativeType_url />
+  <agg_associated>a24ed0a9-cc08-4e71-b9e1-253281c25746</agg_associated>
+  <agg_associated_largerWorkCitation>a24ed0a9-cc08-4e71-b9e1-253281c25746</agg_associated_largerWorkCitation>
+  <recordLink type="object">{
+      "type": "siblings",
+      
+        "associationType": "_metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746",
+      
+        "initiativeType": "largerWorkCitation",
+      
+      "to": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search",
+      "url": "geocat.ch",
+      "title": "",
+      "origin": "catalog"
+      }</recordLink>
+  <recordLink_siblingsassociationType_metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746_initiativeTypelargerWorkCitation />
+  <recordLink_siblingsassociationType_metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746_initiativeTypelargerWorkCitation_uuid>https://www.geocat.ch/geonetwork/srv/ger/catalog.search</recordLink_siblingsassociationType_metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746_initiativeTypelargerWorkCitation_uuid>
+  <recordLink_siblingsassociationType_metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746_initiativeTypelargerWorkCitation_url>geocat.ch</recordLink_siblingsassociationType_metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746_initiativeTypelargerWorkCitation_url>
+  <agg_associated>https://www.geocat.ch/geonetwork/srv/ger/catalog.search</agg_associated>
+  <agg_associated__metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746>https://www.geocat.ch/geonetwork/srv/ger/catalog.search</agg_associated__metadata_a24ed0a9-cc08-4e71-b9e1-253281c25746>
+</doc>
+

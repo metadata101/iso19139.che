@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<che:CHE_MD_Metadata xmlns:che="http://www.geocat.ch/2008/che" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://www.geocat.ch/2008/che https://www.geocat.ch/geonetwork/xml/schemas/iso19139.che/schema/che/che.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>f494da66-8860-48d5-9cc7-ec38b885afd1</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+  </gmd:hierarchyLevel>
+  <gmd:contact uuidref="54f35d1c-1f87-49a8-9d3b-78228eae137c">
+    <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty">
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Kanton Thurgau, Amt für Geoinformation</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Kanton Thurgau, Amt für Geoinformation</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Kanton Thurgau, Amt für Geoinformation</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#IT" />
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN">Kanton Thurgau, Amt für Geoinformation</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+              <gmd:voice>
+                <gco:CharacterString>0041 58 345 54 30</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString />
+              </gmd:facsimile>
+            </che:CHE_CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+              <gmd:city>
+                <gco:CharacterString>Frauenfeld</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>8510</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>CH</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>agi@tg.ch</gco:CharacterString>
+              </gmd:electronicMailAddress>
+              <che:streetName>
+                <gco:CharacterString>Promenadenstrasse</gco:CharacterString>
+              </che:streetName>
+              <che:streetNumber>
+                <gco:CharacterString>8</gco:CharacterString>
+              </che:streetNumber>
+            </che:CHE_CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://geoinformation.tg.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://geoinformation.tg.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://geoinformation.tg.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT" />
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+          <gmd:hoursOfService>
+            <gco:CharacterString>Mo-Fr: 8:00-11:30+14:00-17:00</gco:CharacterString>
+          </gmd:hoursOfService>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider" />
+      </gmd:role>
+      <che:individualFirstName>
+        <gco:CharacterString>Beratungsstelle</gco:CharacterString>
+      </che:individualFirstName>
+      <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>AGI</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">AGI</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR" />
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#IT" />
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN" />
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </che:organisationAcronym>
+    </che:CHE_CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2025-04-29T12:17:43.874Z</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>GM03 2+</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:locale>
+    <gmd:PT_Locale id="FR">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="IT">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="EN">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="DE">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>CH1903+, LV95</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">CH1903+, LV95</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <che:CHE_MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Grundwasserschutzzonen</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Grundwasserschutzzonen</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2000-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="creation" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2025-04-16</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Der Geobasisdatensatz beinhaltet Grundwasserschutzzonen gemäss Gewässerschutzgesetzgebung. Schutzzonen dienen dazu, Trinkwassergewinnungsanlagen und Grundwasseranreicherungen sowie das Grundwasser unmittelbar vor seiner Nutzung als Trinkwasser vor qualitativer und quantitativer Beeinträchtigungen zu schützen. Innerhalb der Schutzzonen gelten Nutzungsbeschränken. Schutzzonen sind ein Element des planerischen Grundwasserschutzes, Bestandteilt der Gewässerschutzkarte und überlagern die Gewässerschutzbereiche.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Der Geobasisdatensatz beinhaltet Grundwasserschutzzonen gemäss Gewässerschutzgesetzgebung. Schutzzonen dienen dazu, Trinkwassergewinnungsanlagen und Grundwasseranreicherungen sowie das Grundwasser unmittelbar vor seiner Nutzung als Trinkwasser vor qualitativer und quantitativer Beeinträchtigungen zu schützen. Innerhalb der Schutzzonen gelten Nutzungsbeschränken. Schutzzonen sind ein Element des planerischen Grundwasserschutzes, Bestandteilt der Gewässerschutzkarte und überlagern die Gewässerschutzbereiche.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:purpose xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Grundlagedaten</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Grundlagedaten</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" />
+      </gmd:status>
+      <gmd:pointOfContact xlink:show="embed" uuidref="16529861-1db3-4c97-89fa-36ebdf808cc2">
+        <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty">
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Kanton Thurgau, Amt für Umwelt</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Kanton Thurgau, Amt für Umwelt</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Kanton Thurgau, Amt für Umwelt</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT" />
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Kanton Thurgau, Amt für Umwelt</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+                  <gmd:voice>
+                    <gco:CharacterString>0041 58 345 51 51</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>0041 58 345 52 52</gco:CharacterString>
+                  </gmd:facsimile>
+                </che:CHE_CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+                  <gmd:city>
+                    <gco:CharacterString>Frauenfeld</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>8510</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>umwelt.afu@tg.ch</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                  <che:streetName>
+                    <gco:CharacterString>Verwaltungsgebäude Promenade</gco:CharacterString>
+                  </che:streetName>
+                  <che:postBox>
+                    <gco:CharacterString>Postfach</gco:CharacterString>
+                  </che:postBox>
+                </che:CHE_CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                    <che:PT_FreeURL>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#EN">https://umwelt.tg.ch</che:LocalisedURL>
+                      </che:URLGroup>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#DE">https://umwelt.tg.ch</che:LocalisedURL>
+                      </che:URLGroup>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#FR">https://umwelt.tg.ch</che:LocalisedURL>
+                      </che:URLGroup>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#IT" />
+                      </che:URLGroup>
+                    </che:PT_FreeURL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </gmd:protocol>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+              <gmd:hoursOfService>
+                <gco:CharacterString>Mo-Do: 8:00-11:30 + 13:30-17:00 und Fr: 8:00-11:30 + 13:30-16:30</gco:CharacterString>
+              </gmd:hoursOfService>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider" />
+          </gmd:role>
+          <che:individualFirstName>
+            <gco:CharacterString>Beratungsstelle</gco:CharacterString>
+          </che:individualFirstName>
+          <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>AFU</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">AFU</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR" />
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT" />
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </che:organisationAcronym>
+        </che:CHE_CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <che:CHE_MD_MaintenanceInformation gco:isoType="gmd:MD_MaintenanceInformation">
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeListValue="irregular" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:maintenanceNote xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Nur punktuell</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Nur punktuell</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:maintenanceNote>
+        </che:CHE_MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Geodaten</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Geodaten</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">géodonnées</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">geodati</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">geodata</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>geocat.ch</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2024-06-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/local.theme.geocat.ch">geonetwork.thesaurus.local.theme.geocat.ch</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>opendata.swiss</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">opendata.swiss</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">opendata.swiss</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">opendata.swiss</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">opendata.swiss</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>geocat.ch</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2024-06-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/local.theme.geocat.ch">geonetwork.thesaurus.local.theme.geocat.ch</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Naturschutz</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Naturschutz</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">préservation de la nature</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">conservazione della natura</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">nature conservation</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-08-16</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/external.theme.gemet">geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Grundwasserschutz</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Grundwasserschutz</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">protection des réserves d'eau souterraines</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">protezione delle acque sotterranee</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">groundwater protection</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-08-16</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/external.theme.gemet">geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Landschaftsschutz</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Landschaftsschutz</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">protection du paysage</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">conservazione del paesaggio</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">landscape conservation</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-08-16</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/external.theme.gemet">geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <che:CHE_MD_LegalConstraints gco:isoType="gmd:MD_LegalConstraints">
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Nutzungsbedingungen für Geodaten und Geodienste des Kantons Thurgau</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Nutzungsbedingungen für Geodaten und Geodienste des Kantons Thurgau</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>RB 211.442 - Verordnung des Regierungsrates zum Gesetz über Geoinformation, § 6 Geobasisdatenkatalog</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">RB 211.442 - Verordnung des Regierungsrates zum Gesetz über Geoinformation, § 6 Geobasisdatenkatalog</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>RB 211.442 - Verordnung des Regierungsrates zum Gesetz über Geoinformation, § 6 Geobasisdatenkatalog</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">RB 211.442 - Verordnung des Regierungsrates zum Gesetz über Geoinformation, § 6 Geobasisdatenkatalog</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:otherConstraints>
+        </che:CHE_MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>keine</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">keine</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+          </gmd:classification>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>keine</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">keine</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>a24ed0a9-cc08-4e71-b9e1-253281c25746</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation" />
+          </gmd:associationType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="geocat.ch">https://www.geocat.ch/geonetwork/srv/ger/catalog.search</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="/metadata/a24ed0a9-cc08-4e71-b9e1-253281c25746" />
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="largerWorkCitation" />
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="m">10</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>5000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment_NatureProtection</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent uuidref="geocatch-subtpl-extent-kantonsgebiet-20">
+        <gmd:EX_Extent>
+          <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Kanton Thurgau (TG)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Kanton Thurgau (TG)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Canton de Thurgovie (TG)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">Cantone di Turgovia (TG)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Canton of Thurgau (TG)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>8.668169</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>9.506947</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>47.375838</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>47.695485</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:MultiSurface xmlns="http://www.opengis.net/gml/3.2" gml:id="d14681550e77" srsDimension="2">
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14681550e79">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>9.4762904 47.4893428 9.4641831 47.4844182 9.465699 47.4879724 9.4529414 47.4900216 9.453614 47.4916563 9.4496272 47.4922385 9.4489618 47.500968 9.4575663 47.5073075 9.4721831 47.5018732 9.4836577 47.4938097 9.4762904 47.4893428</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14681550e85">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>8.7015772 47.6919326 8.70827 47.6895535 8.7177076 47.6907398 8.7279723 47.6926771 8.7565395 47.6896355 8.7856705 47.6764625 8.7956901 47.6755987 8.7986746 47.6761664 8.8046402 47.6782012 8.8092499 47.6767167 8.8167362 47.6777974 8.8368082 47.6712792 8.8417667 47.6644104 8.8544998 47.660568 8.8452643 47.6532145 8.8511266 47.6503999 8.857769 47.6494015 8.8630316 47.6550218 8.8669867 47.6560526 8.872455 47.6539613 8.8748705 47.654669 8.882431 47.654664 8.896779 47.6478385 8.9404975 47.6563655 8.964399 47.6651 8.9819515 47.674586 9.0217825 47.686621 9.0565765 47.6843555 9.07237 47.6790005 9.094917 47.678916 9.1062685 47.6751525 9.1175945 47.668421 9.138359 47.664261 9.1425925 47.6646555 9.1478745 47.66757 9.1577058 47.6660187 9.1630475 47.6604595 9.170492 47.654709 9.175346 47.655757 9.1758065 47.653938 9.1821679 47.6558847 9.1871023 47.657451 9.2148321 47.6550957 9.2565609 47.6587077 9.3947139 47.6203261 9.4956037 47.5514551 9.5069474 47.5497394 9.4471374 47.5115442 9.435907 47.506862 9.4250865 47.5015602 9.4214458 47.4968543 9.4157821 47.497698 9.4097481 47.4935724 9.4061945 47.4936779 9.4040272 47.4871201 9.4008116 47.4859421 9.4022694 47.4822917 9.3991539 47.4780621 9.3965265 47.4751827 9.3913063 47.4764855 9.3889367 47.4814294 9.3850721 47.4819975 9.3806108 47.4863009 9.3726847 47.4858669 9.3673747 47.484741 9.368547 47.4874205 9.3698357 47.4885505 9.3680997 47.4930148 9.373076 47.4944342 9.3744612 47.499665 9.364308 47.5015708 9.3579609 47.5041143 9.3562583 47.5003459 9.3414542 47.5036401 9.3374982 47.5010511 9.3393245 47.5072017 9.3430987 47.5069238 9.3483619 47.5111374 9.3458527 47.5115206 9.3483997 47.5139897 9.3557324 47.5163145 9.3564497 47.5196313 9.3434219 47.5200173 9.3383493 47.5244909 9.3403942 47.5270753 9.3396103 47.5318923 9.3371483 47.5287929 9.3297016 47.5296795 9.328767 47.5284262 9.3192454 47.5314871 9.3154439 47.5302893 9.3166956 47.5288745 9.3121588 47.5275356 9.3129498 47.522098 9.302728 47.5263923 9.3013454 47.5240845 9.2963107 47.5244353 9.293594 47.5227066 9.2823543 47.520682 9.2850111 47.5184086 9.2826045 47.5144976 9.2795728 47.513997 9.2803949 47.5101335 9.2754123 47.5131095 9.2688712 47.5117197 9.2715386 47.5078271 9.2806808 47.5060714 9.2864925 47.5075444 9.2915435 47.506564 9.295405 47.5095429 9.297838 47.5092519 9.2994089 47.5120246 9.3026578 47.5122782 9.3033556 47.5155146 9.3169768 47.5086551 9.314985 47.5063933 9.3091558 47.5063797 9.306795 47.5022975 9.3088614 47.5014094 9.3086464 47.4975624 9.3140676 47.5007134 9.317236 47.5002122 9.3209125 47.4908141 9.2985086 47.4771959 9.2811694 47.4830691 9.2783616 47.4793983 9.2634023 47.4746512 9.2515452 47.4748107 9.2470418 47.4758258 9.2447312 47.4800721 9.2390553 47.4809703 9.2370217 47.4808759 9.2322206 47.4809595 9.2325198 47.4831409 9.2245466 47.4844068 9.2183778 47.4836832 9.2131886 47.4789049 9.2088873 47.47992 9.2098254 47.4819162 9.2065409 47.4825152 9.2065051 47.486627 9.2097093 47.4891869 9.1987233 47.4888958 9.1967298 47.4904194 9.1931331 47.4888187 9.1932124 47.4912195 9.189457 47.4928597 9.1829955 47.49132 9.1809377 47.4973784 9.1777009 47.4970402 9.1772648 47.4946628 9.1736929 47.4946264 9.1691801 47.4983014 9.1720197 47.5031528 9.1691239 47.5039158 9.1682553 47.501293 9.1659404 47.5039994 9.160656 47.4998859 9.1626622 47.4966625 9.1561546 47.4879341 9.1419336 47.4844109 9.1370918 47.4857236 9.1289566 47.4844753 9.1240187 47.4836027 9.1247583 47.4813969 9.1181318 47.4795682 9.1159698 47.4795995 9.1128711 47.4844393 9.0988442 47.4855151 9.0903801 47.4824056 9.0838089 47.4891921 9.084734 47.4920667 9.0819482 47.4951199 9.064587 47.4907952 9.062781 47.4925028 9.0589734 47.4903792 9.0599052 47.4887289 9.0558172 47.4874097 9.042766 47.4960294 9.0420311 47.4958687 9.0282222 47.4886197 9.0262482 47.4900681 9.0201416 47.4882356 9.017355 47.4900368 9.0120693 47.4894701 9.0106999 47.4853507 9.0069466 47.484529 9.0035225 47.4809141 9.0086871 47.4796567 9.0086234 47.4756994 9.0118346 47.47526 9.009309 47.4728565 9.030079 47.4668513 9.0285089 47.4613674 9.0258105 47.460289 9.0274287 47.457622 9.0432282 47.4537336 9.0490554 47.4530138 9.0545708 47.4485829 9.0626162 47.4464459 9.0568926 47.4455637 9.0587181 47.4432352 9.0546063 47.4432028 9.0473856 47.444284 9.04521 47.4407429 9.0380851 47.4414804 9.0377939 47.4366446 9.0341243 47.4354179 9.0367328 47.4375139 9.0335712 47.4399685 9.0278023 47.4368274 9.0220156 47.4415307 9.0187158 47.436682 9.011899 47.4334825 9.0100679 47.4352256 8.9992572 47.4350482 8.9941614 47.4298993 8.9878727 47.4297319 8.9923205 47.4231502 8.9905654 47.413872 8.9888418 47.4111154 8.9821425 47.4122486 8.9768475 47.410619 8.9723749 47.4044083 8.9747502 47.399474 8.9715483 47.3912487 8.9680871 47.3912142 8.9649751 47.3847783 8.9574967 47.3863612 8.9549222 47.3815372 8.9459612 47.378461 8.9436356 47.3758375 8.9405315 47.3794133 8.9437086 47.3840498 8.9418139 47.387313 8.9199034 47.3996504 8.9061713 47.401355 8.9038924 47.4024534 8.912727 47.4127411 8.9147727 47.4186522 8.9113658 47.4229416 8.9149759 47.4269124 8.9129415 47.428148 8.9077152 47.4304275 8.9106266 47.4340787 8.9134737 47.4315686 8.919233 47.4327274 8.9308204 47.4317958 8.9327285 47.4355403 8.9216796 47.4348909 8.9068457 47.4387955 8.902647 47.4442551 8.9088546 47.4481614 8.9003638 47.4543051 8.8956105 47.4633156 8.8934864 47.4637382 8.8906012 47.4693247 8.8836597 47.4701852 8.8844682 47.4735754 8.880903 47.4746903 8.8847743 47.4770258 8.8853272 47.4817415 8.8974798 47.4850432 8.8966937 47.4878328 8.8928331 47.4883671 8.8948585 47.5027163 8.8976384 47.511137 8.8950523 47.5194813 8.8987243 47.5240857 8.887577 47.5282736 8.8834379 47.5294227 8.8801935 47.5268365 8.873691 47.5294809 8.8677934 47.5304444 8.8408948 47.5328331 8.8411178 47.537256 8.8342964 47.5430503 8.8301563 47.5533726 8.8294821 47.5575634 8.8388711 47.5573424 8.8419994 47.5600661 8.8510673 47.5607475 8.851052 47.5636711 8.8442094 47.5632326 8.8446531 47.5659347 8.8391251 47.5654619 8.8386341 47.5710358 8.8307193 47.5738387 8.8297471 47.5712328 8.8224199 47.5731375 8.8218763 47.5716598 8.8176016 47.5718636 8.8168495 47.5700286 8.8102543 47.5709524 8.807492 47.5715607 8.8082022 47.5743587 8.8048175 47.5750643 8.8062487 47.5795359 8.8011699 47.5805492 8.8022363 47.5827314 8.8060361 47.5831544 8.797908 47.585031 8.7620069 47.5928491 8.7481924 47.5923493 8.7456767 47.5965603 8.7486886 47.6000612 8.7394706 47.6081164 8.7403289 47.6121994 8.745825 47.6128392 8.7463942 47.6218995 8.7480714 47.6230139 8.7494814 47.6213879 8.7565251 47.6168017 8.7620112 47.6180795 8.7878313 47.6096508 8.7902744 47.6084351 8.7887166 47.6031462 8.803052 47.6010176 8.8041114 47.6080751 8.804948 47.6137051 8.814005 47.617223 8.8115492 47.6189701 8.8146307 47.6213442 8.8117506 47.6226376 8.8134042 47.6274033 8.8202395 47.629301 8.8254611 47.6371452 8.8275411 47.6403405 8.8264312 47.6467491 8.8048497 47.65224 8.8052516 47.6647289 8.8026998 47.6649119 8.7985208 47.6649879 8.7885443 47.6653741 8.7859684 47.655186 8.7815881 47.6520167 8.7762918 47.6489207 8.7685768 47.6501966 8.7577368 47.6430616 8.7486391 47.6411498 8.7472485 47.6387279 8.7438879 47.6395303 8.7430187 47.6426073 8.7318503 47.6419857 8.7257016 47.6430884 8.7171372 47.6417169 8.713509 47.6441494 8.7087193 47.6419982 8.6996004 47.6469457 8.688558 47.6494217 8.6854101 47.6548073 8.6812397 47.6569207 8.6779597 47.6658153 8.676875 47.6718172 8.6696058 47.6747547 8.6681685 47.6776661 8.6704534 47.6848644 8.678242 47.687581 8.6897085 47.695485 8.7015772 47.6919326</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                </gml:MultiSurface>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <che:basicGeodataID>
+        <gco:CharacterString>131.1</gco:CharacterString>
+      </che:basicGeodataID>
+      <che:basicGeodataIDType>
+        <che:basicGeodataIDTypeCode codeList="#basicGeodataIDTypeCode" codeListValue="cantonal" />
+      </che:basicGeodataIDType>
+    </che:CHE_MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <che:CHE_MD_FeatureCatalogueDescription gco:isoType="gmd:MD_FeatureCatalogueDescription">
+      <gmd:includedWithDataset>
+        <gco:Boolean>true</gco:Boolean>
+      </gmd:includedWithDataset>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Modell TG (ThurGIS Shop)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Modell TG (ThurGIS Shop)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-08-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+      <che:dataModel xsi:type="che:PT_FreeURL_PropertyType">
+        <che:PT_FreeURL>
+          <che:URLGroup>
+            <che:LocalisedURL locale="#DE">Modell TG</che:LocalisedURL>
+          </che:URLGroup>
+        </che:PT_FreeURL>
+      </che:dataModel>
+      <che:class>
+        <che:CHE_MD_Class>
+          <che:name>
+            <gco:CharacterString>ugszonen_mv</gco:CharacterString>
+          </che:name>
+          <che:description>
+            <gco:CharacterString>Grundwasserschutzzonen</gco:CharacterString>
+          </che:description>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>FID</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>System-Objektidentifikation</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Object ID</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>Shape</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Geometrie-Attribut</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Polygon Geometry</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>ogc_fid</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Primärschlüssel applikatorisch</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Double</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>status</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Status</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Text</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>zonen</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Schutzzone</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Text</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>id_oereb_u</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>ID für ÖREB Lex</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Text</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>zone_name</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Name Grundwasserschutzzone</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Text</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>rechtskraf</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Rechtskraft</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>Text</gco:CharacterString>
+                </che:type>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+        </che:CHE_MD_Class>
+      </che:class>
+      <che:modelType>
+        <che:CHE_MD_modelTypeCode codeList="#CHE_MD_modelTypeCode" codeListValue="Other" />
+      </che:modelType>
+    </che:CHE_MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo xmlns:java="java:org.fao.geonet.util.XslUtil">
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat uuidref="aaa0c6ab-6005-44d8-bb09-aa75da2ccae3">
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>OGC Geopackage (GPKG)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown" />
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact uuidref="54f35d1c-1f87-49a8-9d3b-78228eae137c">
+            <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty">
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Kanton Thurgau, Amt für Geoinformation</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Kanton Thurgau, Amt für Geoinformation</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Kanton Thurgau, Amt für Geoinformation</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT" />
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Kanton Thurgau, Amt für Geoinformation</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+                      <gmd:voice>
+                        <gco:CharacterString>0041 58 345 54 30</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString />
+                      </gmd:facsimile>
+                    </che:CHE_CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+                      <gmd:city>
+                        <gco:CharacterString>Frauenfeld</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:postalCode>
+                        <gco:CharacterString>8510</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>CH</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>agi@tg.ch</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                      <che:streetName>
+                        <gco:CharacterString>Promenadenstrasse</gco:CharacterString>
+                      </che:streetName>
+                      <che:streetNumber>
+                        <gco:CharacterString>8</gco:CharacterString>
+                      </che:streetNumber>
+                    </che:CHE_CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                        <che:PT_FreeURL>
+                          <che:URLGroup>
+                            <che:LocalisedURL locale="#EN">https://geoinformation.tg.ch</che:LocalisedURL>
+                          </che:URLGroup>
+                          <che:URLGroup>
+                            <che:LocalisedURL locale="#DE">https://geoinformation.tg.ch</che:LocalisedURL>
+                          </che:URLGroup>
+                          <che:URLGroup>
+                            <che:LocalisedURL locale="#FR">https://geoinformation.tg.ch</che:LocalisedURL>
+                          </che:URLGroup>
+                          <che:URLGroup>
+                            <che:LocalisedURL locale="#IT" />
+                          </che:URLGroup>
+                        </che:PT_FreeURL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                      </gmd:protocol>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>Mo-Fr: 8:00-11:30+14:00-17:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="distributor" />
+              </gmd:role>
+              <che:individualFirstName>
+                <gco:CharacterString>Beratungsstelle</gco:CharacterString>
+              </che:individualFirstName>
+              <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>AGI</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">AGI</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR" />
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT" />
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN" />
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </che:organisationAcronym>
+            </che:CHE_CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://map.geo.tg.ch</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://map.geo.tg.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>map.geo.tg.ch</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">map.geo.tg.ch</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>ThurGIS Viewer</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">ThurGIS Viewer</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://umwelt.tg.ch/gewaesserqualitaet-und-nutzung/gewaesserqualitaet/planerischer-gewaesserschutz/grundwasserschutzzonen.html/12542</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://umwelt.tg.ch/gewaesserqualitaet-und-nutzung/gewaesserqualitaet/planerischer-gewaesserschutz/grundwasserschutzzonen.html/12542</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Grundwasserschutzzonen</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Grundwasserschutzzonen</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Grundwasserschutzzonen</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Grundwasserschutzzonen</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://geobasisdaten.ch/detail/821362/</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://geobasisdaten.ch/detail/821362/</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>geobasisdaten.ch</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">geobasisdaten.ch</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Geobasisdatenkatalog</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Geobasisdatenkatalog</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WMS&amp;Version=1.3.0&amp;Request=GetCapabilities</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WMS&amp;Version=1.3.0&amp;Request=GetCapabilities</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Grundwasserschutzzonen</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Grundwasserschutzzonen</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Grundwasserschutzzonen</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Grundwasserschutzzonen</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WFS&amp;Version=2.0.0&amp;Request=GetCapabilities</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://ows.geo.tg.ch/geofy_access_proxy/gewaesserschutzkarte?Service=WFS&amp;Version=2.0.0&amp;Request=GetCapabilities</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Grundwasserschutzzonen</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Grundwasserschutzzonen</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://geodienste.ch/services/planerischer_gewaesserschutz</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://geodienste.ch/services/planerischer_gewaesserschutz</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>geodienste.ch</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">geodienste.ch</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>geodienste.ch</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">geodienste.ch</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://shop.geo.tg.ch/products/gewaesserschutzkarte</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://shop.geo.tg.ch/products/gewaesserschutzkarte</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-APP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>shop.geo.tg.ch</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">shop.geo.tg.ch</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>ThurGIS Shop</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">ThurGIS Shop</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://data.tg.ch</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://data.tg.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>data.tg.ch</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">data.tg.ch</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Open Government Data</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Open Government Data</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://opendata.swiss/de/perma/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://opendata.swiss/de/perma/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://opendata.swiss/fr/perma/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://opendata.swiss/it/perma/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://opendata.swiss/en/perma/f494da66-8860-48d5-9cc7-ec38b885afd1@kanton-thurgau</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OPENDATA:SWISS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>opendata.swiss</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Permalink opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Permalink opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Permalink opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Permalink opendata.swiss</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Permalink opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Permalink opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Permalink opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Permalink opendata.swiss</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Digitalisierung ab Plänen (1:5000)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Digitalisierung ab Plänen (1:5000)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</che:CHE_MD_Metadata>
+
