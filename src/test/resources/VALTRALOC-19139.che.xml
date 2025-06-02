@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<che:CHE_MD_Metadata xmlns:che="http://www.geocat.ch/2008/che" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://www.geocat.ch/2008/che https://www.geocat.ch/geonetwork/xml/schemas/iso19139.che/schema/che/che.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>f01959c2-b48f-4f0c-ae81-3f6c68357267</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+  </gmd:language>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty">
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Service des ponts et chaussées du canton de Fribourg</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Service des ponts et chaussées du canton de Fribourg</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Service des ponts et chaussées du canton de Fribourg</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Responsable SIT et informatique</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Responsable SIT et informatique</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Responsable SIT et informatique</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+              <gmd:voice>
+                <gco:CharacterString>+41 26 305 36 72</gco:CharacterString>
+              </gmd:voice>
+            </che:CHE_CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+              <gmd:city>
+                <gco:CharacterString>Fribourg</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>1701</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>CH</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>christophe.emery@fr.ch</gco:CharacterString>
+              </gmd:electronicMailAddress>
+              <che:streetName>
+                <gco:CharacterString>Rue des Chanoines</gco:CharacterString>
+              </che:streetName>
+              <che:streetNumber>
+                <gco:CharacterString>17</gco:CharacterString>
+              </che:streetNumber>
+            </che:CHE_CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>http://www.fr.ch/spc</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">http://www.fr.ch/spc</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">http://www.fr.ch/spc</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact" />
+      </gmd:role>
+      <che:individualFirstName>
+        <gco:CharacterString>Christophe</gco:CharacterString>
+      </che:individualFirstName>
+      <che:individualLastName>
+        <gco:CharacterString>Emery</gco:CharacterString>
+      </che:individualLastName>
+      <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>SPC</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">SPC</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">SPC</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </che:organisationAcronym>
+    </che:CHE_CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2025-02-26T14:52:47.21Z</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:dataSetURI gco:nilReason="missing">
+    <gco:CharacterString />
+  </gmd:dataSetURI>
+  <gmd:locale>
+    <gmd:PT_Locale id="DE">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="FR">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="curve" />
+          </gmd:geometricObjectType>
+          <gmd:geometricObjectCount>
+            <gco:Integer>100</gco:Integer>
+          </gmd:geometricObjectCount>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>CH1903+/MN95, Système de coordonnées nationales (EPSG:2056)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">CH1903+/MN95, Système de coordonnées nationales (EPSG:2056)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <che:CHE_MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Projets VALTRALOC</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Projets VALTRALOC</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">VALTRALOC-Projekte</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-06-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="revision" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>En 1990, le canton de Fribourg créait l'acronyme VALTRALOC pour VALorisation des espaces routiers en TRAversée de LOCalités. Grâce à des aménagements appropriés, qui allient la modération du trafic avec la valorisation des espaces publics, les projets VALTRALOC permettent de concilier au mieux les intérêts des riverains avec les besoins de mobilité et de sécurité routière en milieu urbain.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">En 1990, le canton de Fribourg créait l'acronyme VALTRALOC pour VALorisation des espaces routiers en TRAversée de LOCalités. Grâce à des aménagements appropriés, qui allient la modération du trafic avec la valorisation des espaces publics, les projets VALTRALOC permettent de concilier au mieux les intérêts des riverains avec les besoins de mobilité et de sécurité routière en milieu urbain.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">1990 erarbeitete der Kanton Freiburg für die Aufwertung der Ortsdurchfahrten das VALTRALOC-Konzept (VALorisation des espaces routiers en TRAversée de LOCalités). Die VALTRALOC-Projekte tragen durch eine situationsgerechte Anpassung des Strassenraums (Verkehrsberuhigungsmassnahmen und Aufwertung des öffentlichen Raums) dazu bei, die Interessen der Anwohnerinnen und Anwohner einerseits und die Mobilitäts- und Sicherheitsbedürfnisse in städtischen Gebieten andererseits optimal in Einklang zu bringen.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" />
+      </gmd:status>
+      <gmd:pointOfContact xlink:show="embed">
+        <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty">
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Service des ponts et chaussées du canton de Fribourg</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Service des ponts et chaussées du canton de Fribourg</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Service des ponts et chaussées du canton de Fribourg</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Responsable SIT et informatique</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Responsable SIT et informatique</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Responsable SIT et informatique</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+                  <gmd:voice>
+                    <gco:CharacterString>+41 26 305 36 72</gco:CharacterString>
+                  </gmd:voice>
+                </che:CHE_CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+                  <gmd:city>
+                    <gco:CharacterString>Fribourg</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>1701</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>CH</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>christophe.emery@fr.ch</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                  <che:streetName>
+                    <gco:CharacterString>Rue des Chanoines</gco:CharacterString>
+                  </che:streetName>
+                  <che:streetNumber>
+                    <gco:CharacterString>17</gco:CharacterString>
+                  </che:streetNumber>
+                </che:CHE_CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                    <che:PT_FreeURL>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#DE">http://www.fr.ch/spc</che:LocalisedURL>
+                      </che:URLGroup>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#FR">http://www.fr.ch/spc</che:LocalisedURL>
+                      </che:URLGroup>
+                    </che:PT_FreeURL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </gmd:protocol>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+          <che:individualFirstName>
+            <gco:CharacterString>Christophe</gco:CharacterString>
+          </che:individualFirstName>
+          <che:individualLastName>
+            <gco:CharacterString>Emery</gco:CharacterString>
+          </che:individualLastName>
+          <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>SPC</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">SPC</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">SPC</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </che:organisationAcronym>
+        </che:CHE_CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <che:CHE_MD_MaintenanceInformation gco:isoType="gmd:MD_MaintenanceInformation">
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" />
+          </gmd:maintenanceAndUpdateFrequency>
+        </che:CHE_MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.geocat.ch/geonetwork/srv/api/records/f01959c2-b48f-4f0c-ae81-3f6c68357267/attachments/DPC0707L_VALTRALOC.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString />
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:resourceFormat xlink:show="embed">
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ESRI Enterprise Geodatabase</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>route cantonale</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">route cantonale</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Kantonsstrasse</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>geocat.ch</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2024-06-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/local.theme.geocat.ch">geonetwork.thesaurus.local.theme.geocat.ch</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString />
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>geocat.ch</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">geocat.ch</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2024-06-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/local.theme.geocat.ch">geonetwork.thesaurus.local.theme.geocat.ch</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <che:CHE_MD_LegalConstraints gco:isoType="gmd:MD_LegalConstraints" />
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" />
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:environmentDescription xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>DPC0707L_VALTRALOC, DPC0709L_VALTRALOC_RCOM (Géométrie routes communales sans réf. lin. par jointure nom unique projet), DPC0710V_VALTRALOC_ETAT</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">DPC0707L_VALTRALOC, DPC0709L_VALTRALOC_RCOM (Géométrie routes communales sans réf. lin. par jointure nom unique projet), DPC0710V_VALTRALOC_ETAT</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:environmentDescription>
+      <gmd:extent xlink:show="embed">
+        <gmd:EX_Extent>
+          <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Canton de Fribourg (FR)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Canton de Fribourg (FR)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Kanton Freiburg (FR)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>6.742307</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>7.380268</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>46.438047</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>47.006881</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:MultiSurface xmlns="http://www.opengis.net/gml/3.2" gml:id="d14680479e77" srsDimension="2">
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14680479e79">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>6.7730657 46.7514186 6.7761526 46.7494396 6.7786819 46.7512984 6.7862383 46.7476716 6.7844497 46.7354721 6.7774959 46.7295847 6.7774076 46.7261208 6.770738 46.7206844 6.7624999 46.7173523 6.7586221 46.7219891 6.7590792 46.7251493 6.7517271 46.7282447 6.7486202 46.7318063 6.7526151 46.7365892 6.7590313 46.7372394 6.7681791 46.7444542 6.7730657 46.7514186</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14680479e85">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>6.8577401 46.7627038 6.8592496 46.7611102 6.8638491 46.7631036 6.8677943 46.7601818 6.8769761 46.7558646 6.8757274 46.7538614 6.8820782 46.7497816 6.8664207 46.733026 6.8655342 46.7290454 6.867935 46.7284098 6.8618011 46.7245917 6.8463591 46.727517 6.8384408 46.7325401 6.8283343 46.735401 6.8173562 46.7331916 6.8113339 46.7279141 6.8062033 46.7270041 6.7929817 46.7255535 6.7884657 46.7279567 6.7936318 46.7357134 6.7965155 46.7363774 6.7980484 46.7340022 6.803992 46.737031 6.8061178 46.7353967 6.8121023 46.7372019 6.8165358 46.7385126 6.8150604 46.7405016 6.8304676 46.7538716 6.8290849 46.7557713 6.844425 46.7652618 6.848864 46.7711321 6.8462574 46.7712355 6.8490402 46.7753609 6.8601606 46.7664763 6.8577401 46.7627038</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14680479e91">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>6.8917181 46.8867769 6.9036657 46.8794212 6.9053359 46.8803286 6.9069534 46.878618 6.9108692 46.8806332 6.9210084 46.8713153 6.9114884 46.8670169 6.9094052 46.869454 6.8918749 46.8649546 6.8962781 46.8614134 6.912811 46.8658896 6.9301326 46.8538691 6.9193532 46.8471729 6.9109896 46.8390385 6.9052002 46.827672 6.9108043 46.8125458 6.9049291 46.8064734 6.9073419 46.8049284 6.9113289 46.8031758 6.9195776 46.8103911 6.9233946 46.8085734 6.9277403 46.8090067 6.9314424 46.805443 6.9261322 46.7990324 6.9211772 46.7966712 6.916608 46.7869981 6.9159355 46.7834237 6.9109948 46.7798027 6.9083012 46.7820571 6.9098061 46.7834944 6.9064815 46.783326 6.9050454 46.7815651 6.8991915 46.7816095 6.8998873 46.7801195 6.8949877 46.7790438 6.8941939 46.7772589 6.8881992 46.7783095 6.8796004 46.7753891 6.8638005 46.7811306 6.8618532 46.7832078 6.8639752 46.7843879 6.8591559 46.7880337 6.8515098 46.7858797 6.848553 46.7809573 6.8431112 46.7786855 6.8400105 46.7808012 6.8331922 46.7746122 6.8274837 46.7768936 6.8254052 46.7731492 6.8187541 46.777674 6.8131639 46.7793237 6.8045965 46.7856742 6.7980562 46.782822 6.7825333 46.7928719 6.7759709 46.7897034 6.7790334 46.7941561 6.7873115 46.7995651 6.7840849 46.8031359 6.7788632 46.80056 6.7768608 46.8025365 6.7673365 46.8088587 6.7423068 46.8274557 6.780046 46.8526428 6.8658995 46.9095048 6.8917181 46.8867769</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14680479e97">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>7.234894 46.933018 7.234619 46.9294277 7.2306397 46.9295735 7.2186332 46.9243786 7.2167024 46.9277121 7.217429 46.9330117 7.2293115 46.9368032 7.2281874 46.9387801 7.2301661 46.9399171 7.2353083 46.9380554 7.234894 46.933018</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                  <gml:surfaceMember>
+                    <gml:Polygon gml:id="d14680479e103">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList>7.2130334 47.0068805 7.2154325 47.005491 7.2172548 47.0068078 7.223299 46.9981931 7.225859 46.9991424 7.2267364 46.9967243 7.2236191 46.9937951 7.234926 46.9866827 7.2355113 46.9848667 7.2297037 46.9809253 7.2212987 46.9760162 7.2225399 46.9745794 7.2147211 46.97129 7.2142925 46.9669625 7.2075616 46.9677047 7.2067373 46.9638531 7.1954245 46.9638205 7.1971589 46.9609008 7.2065938 46.9605965 7.2110514 46.9566476 7.2077999 46.9490221 7.209628 46.9485041 7.2097557 46.9432242 7.203709 46.9383724 7.2116188 46.9313092 7.2111116 46.9270624 7.211159 46.9251915 7.2062903 46.924606 7.2054626 46.9217168 7.2078796 46.9092633 7.1879704 46.900244 7.1954173 46.8989828 7.2000348 46.9023568 7.208236 46.9026975 7.212466 46.9017615 7.2174443 46.8975435 7.2230012 46.9026185 7.2303846 46.9040624 7.2325291 46.8993078 7.2369039 46.8980563 7.243138 46.8979143 7.244049 46.9000118 7.2568111 46.8982788 7.2810098 46.8895535 7.290156 46.8940005 7.3074415 46.8925375 7.3256121 46.8940143 7.3494109 46.8890702 7.3535618 46.8861589 7.3530456 46.8726566 7.3573781 46.8701411 7.3588972 46.8629549 7.3511086 46.8541248 7.3381621 46.8495444 7.3342624 46.8524464 7.325741 46.8517635 7.3228759 46.854864 7.330646 46.8576603 7.3236101 46.8609906 7.3173819 46.8605343 7.3164068 46.8625662 7.3126999 46.8606732 7.312043 46.8556351 7.302165 46.8520705 7.3081445 46.8465274 7.3226182 46.8407141 7.3309094 46.8335383 7.3283912 46.8287831 7.3196774 46.8250142 7.3214173 46.8204554 7.3188033 46.8173942 7.320904 46.8155074 7.3114838 46.8096502 7.3057522 46.7963305 7.3020384 46.7939243 7.3029284 46.7890049 7.3015874 46.7858908 7.3042136 46.7831054 7.2904916 46.7730134 7.2951984 46.7657152 7.3007283 46.7635811 7.3043747 46.7502363 7.2962961 46.7368862 7.2984771 46.7234587 7.3077797 46.717173 7.3267978 46.7167076 7.3488434 46.7122835 7.3489988 46.7054291 7.3452442 46.6989133 7.3597977 46.6980159 7.3626069 46.6992772 7.3686039 46.6926514 7.3769446 46.6926653 7.3802679 46.6901843 7.375996 46.6877892 7.3777655 46.6835713 7.3729335 46.6801233 7.3757237 46.6748355 7.3715876 46.6694628 7.3684963 46.655257 7.3758508 46.6557561 7.3587801 46.644177 7.3557576 46.6391823 7.3548184 46.6467469 7.3491072 46.6486046 7.349638 46.6514566 7.3446415 46.6550237 7.322106 46.6550027 7.3297494 46.6417059 7.3222885 46.6371558 7.3132525 46.6365794 7.3121253 46.6216905 7.317838 46.6185033 7.3182874 46.616057 7.3148511 46.600356 7.3207562 46.5916546 7.3125283 46.589145 7.3080457 46.5813227 7.2986972 46.5791526 7.2817998 46.5846897 7.2680181 46.5735781 7.2597688 46.5634004 7.2457626 46.555866 7.2370204 46.5537998 7.2232878 46.5477294 7.207328 46.5327922 7.2008237 46.5416574 7.1921706 46.5466224 7.1827558 46.5386944 7.1710789 46.5327483 7.1591025 46.52725 7.1483824 46.5284914 7.144717 46.5266378 7.1357365 46.508191 7.1264107 46.5032001 7.1242057 46.4993078 7.1103337 46.4948066 7.1003921 46.4869781 7.097973 46.4885181 7.0888145 46.4869159 7.0776926 46.488815 7.0724993 46.4863965 7.0658651 46.4890376 7.0610977 46.4872586 7.0278736 46.4667677 7.0202488 46.4594802 7.0168398 46.4476201 6.9928224 46.4388831 6.9839551 46.4380472 6.9920904 46.4487396 6.9896614 46.452868 6.9798724 46.4591618 6.9778914 46.4731872 6.9804302 46.4747537 6.9736832 46.4810593 6.9733499 46.4895135 6.962045 46.4968794 6.9504403 46.5024614 6.9337734 46.5015787 6.9302274 46.5046215 6.9268393 46.5046962 6.9247259 46.5077452 6.9147982 46.5103985 6.9119587 46.5129851 6.9013508 46.5131242 6.8960785 46.5074407 6.8977079 46.5203755 6.8833006 46.513451 6.8815636 46.5125789 6.8663136 46.5007364 6.8627654 46.4938456 6.8581869 46.4932465 6.847801 46.4936696 6.8454625 46.496671 6.8419983 46.4965989 6.8367619 46.5000976 6.832759 46.5050689 6.8301104 46.5123504 6.8244315 46.5121579 6.8178923 46.5165392 6.8107939 46.5252082 6.8122175 46.5260707 6.8254328 46.543343 6.827553 46.5426258 6.8251805 46.5380071 6.8324614 46.5374165 6.854789 46.5413209 6.8565303 46.5370118 6.8594096 46.5359471 6.8584151 46.531444 6.8611745 46.5305945 6.8665311 46.5404901 6.868342 46.5418396 6.8879941 46.5579492 6.8913919 46.557246 6.8934323 46.5592349 6.9024633 46.5612031 6.8987722 46.5651437 6.9016486 46.5696912 6.897974 46.5706183 6.888143 46.5676474 6.8845103 46.5619444 6.8794225 46.567119 6.8744626 46.5649625 6.8718062 46.5695191 6.8655286 46.577224 6.8526918 46.5820162 6.8514236 46.5810651 6.8471571 46.5834718 6.8427725 46.5823604 6.8347618 46.5753553 6.8287276 46.5771582 6.8237281 46.5774191 6.8205642 46.583708 6.814123 46.5856068 6.8117013 46.5806727 6.8130336 46.5782872 6.8048709 46.5779361 6.7993199 46.5740817 6.7951059 46.5752184 6.7991686 46.5835535 6.8013099 46.5922555 6.7982958 46.59993 6.8019276 46.6007331 6.8034663 46.6219179 6.8022748 46.6277316 6.796883 46.6331257 6.8034861 46.6446325 6.7988204 46.6492482 6.8112045 46.6503427 6.8145694 46.6474286 6.8184674 46.6481067 6.8172524 46.6492515 6.8279698 46.6602844 6.8313358 46.6595648 6.8334476 46.6623198 6.8384225 46.662616 6.8440732 46.6608826 6.8421755 46.6588126 6.853552 46.6555163 6.8594751 46.6599275 6.8649021 46.6582549 6.8680243 46.6607534 6.8683144 46.6629768 6.8644019 46.6647293 6.8718502 46.6734026 6.8647094 46.6763443 6.8627908 46.6809944 6.8654804 46.6812689 6.8665826 46.6845669 6.868557 46.6857373 6.8731053 46.6833221 6.8811529 46.6900457 6.8837298 46.6898963 6.8879449 46.6944597 6.8896103 46.693973 6.8934729 46.6998567 6.8923864 46.7025592 6.8980677 46.7084336 6.9045234 46.7141583 6.9160169 46.719825 6.917081 46.7179947 6.9204445 46.7218603 6.9221419 46.7235502 6.9342888 46.7324833 6.9356687 46.7332271 6.9360312 46.7378345 6.9412514 46.7449729 6.9372188 46.7493991 6.9302262 46.7539828 6.9205681 46.7511506 6.9168731 46.7542822 6.9146323 46.7532195 6.9118697 46.754655 6.9105617 46.7532366 6.9081894 46.7575525 6.9143686 46.7628166 6.920024 46.7600718 6.9287767 46.7674428 6.9354155 46.7714933 6.9312163 46.7725002 6.9330551 46.7746763 6.9315301 46.7753262 6.938831 46.7815295 6.9456524 46.7845097 6.9500821 46.7826937 6.9586575 46.7902595 6.9564555 46.7904481 6.9560228 46.7934148 6.966682 46.8026529 6.957854 46.8112697 6.9593653 46.8122296 6.9565238 46.8149522 6.9616308 46.8182661 6.958665 46.8202146 6.9656064 46.8281057 6.9717863 46.8242991 6.9851592 46.8221132 6.9924144 46.8305886 6.9923659 46.8332691 6.9860213 46.8348903 6.987024 46.8372331 6.9828983 46.8399063 6.9860052 46.8401773 6.9885664 46.8435638 6.9845 46.8466752 6.9813991 46.8458453 6.9774771 46.8501655 6.9805181 46.8580321 6.9770246 46.8606124 6.9801135 46.8662956 6.9890579 46.8733964 6.986155 46.8762721 6.9736911 46.8873651 6.9661295 46.8833491 6.9622124 46.8841784 6.958052 46.8813993 6.9698917 46.8671998 6.9651224 46.8651561 6.9599781 46.8713865 6.9572812 46.8708084 6.954 46.8753912 6.9516729 46.8745178 6.9511432 46.8779518 6.9419029 46.8841458 6.9386246 46.8896007 6.9360987 46.8888969 6.9331787 46.8924373 6.9259599 46.892612 6.9239013 46.8951844 6.9297645 46.8996184 6.9220451 46.9053409 6.8962094 46.9253259 6.9279018 46.9531746 6.9614044 46.9278117 6.9719822 46.920911 6.9781183 46.9234006 6.9861429 46.9200055 6.9875233 46.9182209 6.9819304 46.91362 6.9845302 46.9120022 6.9812444 46.9093984 6.9841717 46.9078359 7.0094842 46.8890436 6.9948645 46.8782387 6.9996184 46.8744604 7.0077733 46.8733491 7.013316 46.8774089 7.0156395 46.8772106 7.0163848 46.8808475 7.0216419 46.8762612 7.0251053 46.877938 7.0353833 46.873603 7.0299308 46.8661534 7.0396777 46.8605927 7.0332235 46.8573856 7.0340647 46.8553916 7.0299537 46.8528132 7.0318665 46.8478366 7.0331708 46.8487408 7.0373774 46.8456279 7.0395569 46.8482338 7.0429139 46.8469212 7.0502123 46.8546202 7.0539629 46.856387 7.0625691 46.8670483 7.0666628 46.8687169 7.0706695 46.8735334 7.0692195 46.8764702 7.0646676 46.8783444 7.0669996 46.8787838 7.0662126 46.8806523 7.0616933 46.8796929 7.0619795 46.8837777 7.0798186 46.8941529 7.0746348 46.8942265 7.0745998 46.8955127 7.0833094 46.8960889 7.0889154 46.8997223 7.0867112 46.9016316 7.0912665 46.9034626 7.0931493 46.9066077 7.0900838 46.9077317 7.0842069 46.9131738 7.0598092 46.9365552 7.0579168 46.9385819 7.061383 46.9424523 7.0596626 46.9517028 7.0564713 46.9552633 7.0596071 46.9558314 7.0580549 46.9653612 7.0608727 46.9663871 7.0631907 46.9712431 7.0518468 46.9771152 7.0935408 46.9762592 7.1381056 46.9834644 7.1465624 46.9849346 7.1537453 46.986266 7.1605215 46.9875241 7.1710708 46.9913992 7.1788664 46.9941158 7.1872525 46.9972199 7.1967051 47.0002267 7.1963818 47.0019441 7.1997752 47.0017083 7.2049617 47.0063426 7.2102974 47.0039876 7.2130334 47.0068805</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                      <gml:interior>
+                        <gml:LinearRing>
+                          <gml:posList>7.1348812 46.9193828 7.1266875 46.9173817 7.1252473 46.9189699 7.114829 46.9158555 7.1132329 46.9106336 7.1187761 46.905585 7.1186242 46.9024632 7.1195936 46.9005499 7.1230079 46.9001996 7.1284523 46.905072 7.1387243 46.9082838 7.1348812 46.9193828</gml:posList>
+                        </gml:LinearRing>
+                      </gml:interior>
+                    </gml:Polygon>
+                  </gml:surfaceMember>
+                </gml:MultiSurface>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </che:CHE_MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <che:CHE_MD_FeatureCatalogueDescription gco:isoType="gmd:MD_FeatureCatalogueDescription">
+      <gmd:includedWithDataset>
+        <gco:Boolean>0</gco:Boolean>
+      </gmd:includedWithDataset>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Projets de valorisation des espaces publics en traversées de localités</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Projets de valorisation des espaces publics en traversées de localités</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+      <che:class>
+        <che:CHE_MD_Class>
+          <che:name>
+            <gco:CharacterString>DPC0707L_VALTRALOC</gco:CharacterString>
+          </che:name>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>AXE</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Axe de maintenance cantonal</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>PR_DEBUT</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Point de repère de début</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>DIST_DEBUT</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Distance au point de repère début</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>PR_FIN</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Point de repère de fin</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>DIST_FIN</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Distance au point de repère fin</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>MESURE_DEBUT</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Mesure cumulée début</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>MESURE_FIN</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Mesure cumulée fin</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>TYPE_ROUTE</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Type de route (RC, RCom)</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>OBJET</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Nom du projet</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>ETAT</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Etat du projet</gco:CharacterString>
+            </che:description>
+            <che:anonymousType>
+              <che:CHE_MD_Type>
+                <che:type>
+                  <gco:CharacterString>DPC0710V_VALTRALOC_ETAT (String)</gco:CharacterString>
+                </che:type>
+                <che:value>
+                  <che:CHE_MD_CodeValue>
+                    <che:name>
+                      <gco:CharacterString>Etude du projet</gco:CharacterString>
+                    </che:name>
+                    <che:code>
+                      <gco:CharacterString>EP</gco:CharacterString>
+                    </che:code>
+                  </che:CHE_MD_CodeValue>
+                </che:value>
+                <che:value>
+                  <che:CHE_MD_CodeValue>
+                    <che:name>
+                      <gco:CharacterString>Etude de planification</gco:CharacterString>
+                    </che:name>
+                    <che:code>
+                      <gco:CharacterString>EF</gco:CharacterString>
+                    </che:code>
+                  </che:CHE_MD_CodeValue>
+                </che:value>
+                <che:value>
+                  <che:CHE_MD_CodeValue>
+                    <che:name>
+                      <gco:CharacterString>Partiellement réalisé</gco:CharacterString>
+                    </che:name>
+                    <che:code>
+                      <gco:CharacterString>PR</gco:CharacterString>
+                    </che:code>
+                  </che:CHE_MD_CodeValue>
+                </che:value>
+                <che:value>
+                  <che:CHE_MD_CodeValue>
+                    <che:name>
+                      <gco:CharacterString>Réalisé</gco:CharacterString>
+                    </che:name>
+                    <che:code>
+                      <gco:CharacterString>RE</gco:CharacterString>
+                    </che:code>
+                  </che:CHE_MD_CodeValue>
+                </che:value>
+                <che:value>
+                  <che:CHE_MD_CodeValue>
+                    <che:name gco:nilReason="missing">
+                      <gco:CharacterString />
+                    </che:name>
+                  </che:CHE_MD_CodeValue>
+                </che:value>
+              </che:CHE_MD_Type>
+            </che:anonymousType>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>REALISATION</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Année de réalisation</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>URBANISTE</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Bureau d'urbanisme auteur du concept</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>INGENIEUR</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Bureau d'ingénieurs auteur du projet</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>CHEF_PROJET</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Chef de projet au SPC</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>LIEN_DOSSIERS</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Lien GedXML du dossier de projet</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+          <che:attribute>
+            <che:name>
+              <gco:CharacterString>LIEN_PREAVIS</gco:CharacterString>
+            </che:name>
+            <che:description>
+              <gco:CharacterString>Lien GedXML du préavis de projet</gco:CharacterString>
+            </che:description>
+          </che:attribute>
+        </che:CHE_MD_Class>
+      </che:class>
+      <che:modelType>
+        <che:CHE_MD_modelTypeCode codeList="#CHE_MD_modelTypeCode" codeListValue="FeatureDescription" />
+      </che:modelType>
+    </che:CHE_MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo xmlns:java="java:org.fao.geonet.util.XslUtil">
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat xlink:show="embed">
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ESRI Shapefile (SHP)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown" />
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://map.geo.fr.ch/?dataTheme=Routes%20cantonales</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://map.geo.fr.ch/?dataTheme=Routes%20cantonales</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Portail cartographique du canton de Fribourg</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Portail cartographique du canton de Fribourg</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Portail cartographique du canton de Fribourg</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Portail cartographique du canton de Fribourg</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>http://map.geo.fr.ch/arcgis/rest/services/PortailCarto/Theme_routes_cantonales/MapServer</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">http://map.geo.fr.ch/arcgis/rest/services/PortailCarto/Theme_routes_cantonales/MapServer</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>ArcGIS REST Services Directory</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">ArcGIS REST Services Directory</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>ArcGIS REST Services Directory</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">ArcGIS REST Services Directory</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://geo.fr.ch</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://geo.fr.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://geo.fr.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Géoportail cantonal</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Géoportail cantonal</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Kantonales Geoportal</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions />
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions />
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</che:CHE_MD_Metadata>
+

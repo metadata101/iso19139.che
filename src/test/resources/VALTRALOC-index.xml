@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>f01959c2-b48f-4f0c-ae81-3f6c68357267</metadataIdentifier>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-02-26T14:52:47.210Z</dateStamp>
+  <mainLanguage>fre</mainLanguage>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <resourceType>dataset</resourceType>
+  <OrgObject type="object">{"default":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langfre":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langger":"Service des ponts et chauss\u00E9es du canton de Fribourg"}</OrgObject>
+  <pointOfContactOrgObject type="object">{"default":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langfre":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langger":"Service des ponts et chauss\u00E9es du canton de Fribourg"}</pointOfContactOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langfre":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langger":"Service des ponts et chauss\u00E9es du canton de Fribourg"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"christophe.emery@fr.ch",
+      "websiteObject":{"default":"http:\/\/www.fr.ch\/spc",  "langfre":"http:\/\/www.fr.ch\/spc",  "langger":"http:\/\/www.fr.ch\/spc"},
+      "logo":"",
+      "individual":"Christophe Emery",
+      "position":"Responsable SIT et informatique",
+      "phone":"+41 26 305 36 72",
+      "address":"Fribourg, 1701, CH"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"dataset","default":"gmd:MD_ScopeCode--dataset--fre","langfre":"gmd:MD_ScopeCode--dataset--fre","langger":"gmd:MD_ScopeCode--dataset--ger","langfre":"gmd:MD_ScopeCode--dataset--fre","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_geometricObjectType type="object">{"key":"curve","default":"gmd:MD_GeometricObjectTypeCode--curve--fre","langfre":"gmd:MD_GeometricObjectTypeCode--curve--fre","langger":"gmd:MD_GeometricObjectTypeCode--curve--ger","langfre":"gmd:MD_GeometricObjectTypeCode--curve--fre","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"}</cl_geometricObjectType>
+  <cl_status type="object">{"key":"completed","default":"gmd:MD_ProgressCode--completed--fre","langfre":"gmd:MD_ProgressCode--completed--fre","langger":"gmd:MD_ProgressCode--completed--ger","langfre":"gmd:MD_ProgressCode--completed--fre","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ProgressCode"}</cl_status>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"asNeeded","default":"gmd:MD_MaintenanceFrequencyCode--asNeeded--fre","langfre":"gmd:MD_MaintenanceFrequencyCode--asNeeded--fre","langger":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--asNeeded--fre","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--fre","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","link":"http:\/\/www.isotc211.org\/2005\/resources\/codeList.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_spatialRepresentationType type="object">{"key":"vector","default":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","langfre":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langfre":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"}</cl_spatialRepresentationType>
+  <cl_modelType type="object">{"key":"FeatureDescription","default":"che:CHE_MD_modelTypeCode--FeatureDescription--fre","langfre":"che:CHE_MD_modelTypeCode--FeatureDescription--fre","langger":"che:CHE_MD_modelTypeCode--FeatureDescription--ger","langfre":"che:CHE_MD_modelTypeCode--FeatureDescription--fre","link":"#CHE_MD_modelTypeCode"}</cl_modelType>
+  <resourceTitleObject type="object">{"default":"Projets VALTRALOC", "langfre":"Projets VALTRALOC", "langger":"VALTRALOC-Projekte"}</resourceTitleObject>
+  <revisionDateForResource>2019-06-01</revisionDateForResource>
+  <revisionYearForResource>2019</revisionYearForResource>
+  <revisionMonthForResource>2019-06</revisionMonthForResource>
+  <resourceDate type="object">{"type": "revision", "date": "2019-06-01T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2019-06-01T00:00:00.000Z",
+                  "lte": "2019-06-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceAbstractObject type="object">{"default":"En 1990, le canton de Fribourg cr\u00E9ait l'acronyme VALTRALOC pour VALorisation des espaces routiers en TRAvers\u00E9e de LOCalit\u00E9s. Gr\u00E2ce \u00E0 des am\u00E9nagements appropri\u00E9s, qui allient la mod\u00E9ration du trafic avec la valorisation des espaces publics, les projets VALTRALOC permettent de concilier au mieux les int\u00E9r\u00EAts des riverains avec les besoins de mobilit\u00E9 et de s\u00E9curit\u00E9 routi\u00E8re en milieu urbain.", "langfre":"En 1990, le canton de Fribourg cr\u00E9ait l'acronyme VALTRALOC pour VALorisation des espaces routiers en TRAvers\u00E9e de LOCalit\u00E9s. Gr\u00E2ce \u00E0 des am\u00E9nagements appropri\u00E9s, qui allient la mod\u00E9ration du trafic avec la valorisation des espaces publics, les projets VALTRALOC permettent de concilier au mieux les int\u00E9r\u00EAts des riverains avec les besoins de mobilit\u00E9 et de s\u00E9curit\u00E9 routi\u00E8re en milieu urbain.", "langger":"1990 erarbeitete der Kanton Freiburg f\u00FCr die Aufwertung der Ortsdurchfahrten das VALTRALOC-Konzept (VALorisation des espaces routiers en TRAvers\u00E9e de LOCalit\u00E9s). Die VALTRALOC-Projekte tragen durch eine situationsgerechte Anpassung des Strassenraums (Verkehrsberuhigungsmassnahmen und Aufwertung des \u00F6ffentlichen Raums) dazu bei, die Interessen der Anwohnerinnen und Anwohner einerseits und die Mobilit\u00E4ts- und Sicherheitsbed\u00FCrfnisse in st\u00E4dtischen Gebieten andererseits optimal in Einklang zu bringen."}</resourceAbstractObject>
+  <OrgForResourceObject type="object">{"default":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langfre":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langger":"Service des ponts et chauss\u00E9es du canton de Fribourg"}</OrgForResourceObject>
+  <pointOfContactOrgForResourceObject type="object">{"default":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langfre":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langger":"Service des ponts et chauss\u00E9es du canton de Fribourg"}</pointOfContactOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langfre":"Service des ponts et chauss\u00E9es du canton de Fribourg", "langger":"Service des ponts et chauss\u00E9es du canton de Fribourg"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"christophe.emery@fr.ch",
+      "websiteObject":{"default":"http:\/\/www.fr.ch\/spc",  "langger":"http:\/\/www.fr.ch\/spc",  "langfre":"http:\/\/www.fr.ch\/spc"},
+      "logo":"",
+      "individual":"Christophe Emery",
+      "position":"Responsable SIT et informatique",
+      "phone":"+41 26 305 36 72",
+      "address":"Fribourg, 1701, CH"
+      
+      }</contactForResource>
+  <hasOverview>true</hasOverview>
+  <overview type="object">{
+            "url": "https://www.geocat.ch/geonetwork/srv/api/records/f01959c2-b48f-4f0c-ae81-3f6c68357267/attachments/DPC0707L_VALTRALOC.jpg"
+            
+            }</overview>
+  <resourceLanguage>fre</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"route cantonale", "langfre":"route cantonale", "langger":"Kantonsstrasse"
+      }
+      ,
+      {
+      "default":"Canton de Fribourg (FR)", "langfre":"Canton de Fribourg (FR)", "langger":"Kanton Freiburg (FR)"
+      }
+      ]</tag>
+  <tagNumber>2</tagNumber>
+  <isOpenData>false</isOpenData>
+  <keywordType-theme type="object">[
+          {
+          "default":"route cantonale", "langfre":"route cantonale", "langger":"Kantonsstrasse"
+          }
+          ]</keywordType-theme>
+  <keywordType-place type="object">[
+          {
+          "default":"Canton de Fribourg (FR)", "langfre":"Canton de Fribourg (FR)", "langger":"Kanton Freiburg (FR)"
+          }
+          ]</keywordType-place>
+  <th_geocat-chNumber>1</th_geocat-chNumber>
+  <th_geocat-ch type="object">[
+        {
+        "default":"route cantonale", "langfre":"route cantonale", "langger":"Kantonsstrasse"
+        }
+        ]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langfre":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"route cantonale", "langfre":"route cantonale", "langger":"Kantonsstrasse"
+          }
+          
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "route cantonale",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <cl_topic type="object">{"key":"transportation","default":"gmd:MD_TopicCategoryCode--transportation--fre","langfre":"gmd:MD_TopicCategoryCode--transportation--fre","langger":"gmd:MD_TopicCategoryCode--transportation--ger","langfre":"gmd:MD_TopicCategoryCode--transportation--fre"}</cl_topic>
+  <maintenance type="object">{
+            "frequency": "asNeeded"
+            
+          }</maintenance>
+  <hasBoundingPolygon>true</hasBoundingPolygon>
+  <extentDescriptionObject type="object">{"default":"Canton de Fribourg (FR)", "langfre":"Canton de Fribourg (FR)", "langger":"Kanton Freiburg (FR)"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[6.742307,46.438047],[7.380268,46.438047],[7.380268,47.006881],[6.742307,47.006881],[6.742307,46.438047]]]}</geom>
+  <location>46.722464,7.061287500000001</location>
+  <coordinateSystem>CH1903+/MN95, Système de coordonnées nationales (EPSG:2056)</coordinateSystem>
+  <crsDetails type="object">{
+            "code": "CH1903+\/MN95, Syst\u00E8me de coordonn\u00E9es nationales (EPSG:2056)",
+            "codeSpace": "",
+            "name": "CH1903+\/MN95, Syst\u00E8me de coordonn\u00E9es nationales (EPSG:2056)",
+            "url": ""
+            }</crsDetails>
+  <format>ESRI Shapefile (SHP)</format>
+  <linkUrl>https://map.geo.fr.ch/?dataTheme=Routes%20cantonales</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://map.geo.fr.ch/?dataTheme=Routes%20cantonales</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "d319e36b5f4176b0989a632f73b4bdf5",
+            "idx": 1,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/map.geo.fr.ch\/?dataTheme=Routes%20cantonales",  "langfre":"https:\/\/map.geo.fr.ch\/?dataTheme=Routes%20cantonales"},
+            
+              "nameObject": 
+            {"default":"Portail cartographique du canton de Fribourg", "langfre":"Portail cartographique du canton de Fribourg"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Portail cartographique du canton de Fribourg", "langfre":"Portail cartographique du canton de Fribourg"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>http://map.geo.fr.ch/arcgis/rest/services/PortailCarto/Theme_routes_cantonales/MapServer</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>http://map.geo.fr.ch/arcgis/rest/services/PortailCarto/Theme_routes_cantonales/MapServer</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "5f15b77037ede9f73192a0e51eed2d53",
+            "idx": 2,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/map.geo.fr.ch\/arcgis\/rest\/services\/PortailCarto\/Theme_routes_cantonales\/MapServer",  "langfre":"http:\/\/map.geo.fr.ch\/arcgis\/rest\/services\/PortailCarto\/Theme_routes_cantonales\/MapServer"},
+            
+              "nameObject": 
+            {"default":"ArcGIS REST Services Directory", "langfre":"ArcGIS REST Services Directory"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"ArcGIS REST Services Directory", "langfre":"ArcGIS REST Services Directory"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://geo.fr.ch</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://geo.fr.ch</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "052507064a22caa8ee1c9d2c8b57b47f",
+            "idx": 3,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/geo.fr.ch",  "langfre":"https:\/\/geo.fr.ch",  "langger":"https:\/\/geo.fr.ch"},
+            
+              "nameObject": 
+            {"default":"G\u00E9oportail cantonal", "langfre":"G\u00E9oportail cantonal", "langger":"Kantonales Geoportal"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 1
+            }</link>
+  <recordGroup>f01959c2-b48f-4f0c-ae81-3f6c68357267</recordGroup>
+</doc>
+
