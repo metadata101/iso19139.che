@@ -162,6 +162,18 @@ public class IndexationTest {
         XmlAssert.assertThat(actual).isEqualTo(expected);
     }
 
+    @Test
+    public void indexModellDokumentationSwissTLM3D() throws Exception {
+        XslUtil.IS_INSPIRE_ENABLED = false;
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+
+        Element modellDokumentationSwissTLM3D = applyIndexation("modellDokumentationSwissTLM3D-19139.che.xml");
+        String actual = prepareAssertEqual(modellDokumentationSwissTLM3D);
+
+        String expected = Files.readString(getResource("modellDokumentationSwissTLM3D-index.xml"));
+        XmlAssert.assertThat(actual).isEqualTo(expected);
+    }
+
     private String indexAndPrepareAmphibians() throws Exception {
         Element amphibiansIndex = applyIndexation("amphibians-19139.che.xml");
         return prepareAssertEqual(amphibiansIndex);
