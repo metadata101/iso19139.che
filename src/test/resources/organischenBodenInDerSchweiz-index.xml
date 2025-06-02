@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>0572e842-7e34-409a-90d9-526d012a1c2d</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03_2", "langger":"GM03_2"}</standardNameObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-05-09T09:06:23.440Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <otherLanguage>ita</otherLanguage>
+  <otherLanguageId>IT</otherLanguageId>
+  <otherLanguage>eng</otherLanguage>
+  <otherLanguageId>EN</otherLanguageId>
+  <otherLanguage>roh</otherLanguage>
+  <otherLanguageId>RM</otherLanguageId>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langroh":"gmd:MD_CharacterSetCode--utf8--roh","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>dataset</resourceType>
+  <OrgObject type="object">{"default":"Agroscope", "langger":"Agroscope", "langfre":"Agroscope M\u00E9tadonn\u00E9es", "langita":"Agroscope Metadati", "langeng":"Agroscope meta data"}</OrgObject>
+  <custodianOrgObject type="object">{"default":"Agroscope", "langger":"Agroscope", "langfre":"Agroscope M\u00E9tadonn\u00E9es", "langita":"Agroscope Metadati", "langeng":"Agroscope meta data"}</custodianOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Agroscope", "langger":"Agroscope", "langfre":"Agroscope M\u00E9tadonn\u00E9es", "langita":"Agroscope Metadati", "langeng":"Agroscope meta data"}
+            ,
+      
+      "role":"custodian",
+      "email":"GIS@agroscope.admin.ch",
+      "websiteObject":{"default":"http:\/\/www.agroscope.admin.ch",  "langger":"http:\/\/www.agroscope.admin.ch",  "langfre":"http:\/\/www.agroscope.admin.ch",  "langita":"http:\/\/www.agroscope.admin.ch",  "langeng":"http:\/\/www.agroscope.admin.ch"},
+      "logo":"",
+      "individual":"",
+      "position":"GIS-Koordination",
+      "phone":"",
+      "address":"Z\u00FCrich, 8046, CH"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"dataset","default":"gmd:MD_ScopeCode--dataset--ger","langger":"gmd:MD_ScopeCode--dataset--ger","langfre":"gmd:MD_ScopeCode--dataset--fre","langita":"gmd:MD_ScopeCode--dataset--ita","langeng":"gmd:MD_ScopeCode--dataset--eng","langroh":"gmd:MD_ScopeCode--dataset--roh","langger":"gmd:MD_ScopeCode--dataset--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_topologyLevel type="object">{"key":"fullPlanarGraph","default":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ger","langger":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ger","langfre":"gmd:MD_TopologyLevelCode--fullPlanarGraph--fre","langita":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ita","langeng":"gmd:MD_TopologyLevelCode--fullPlanarGraph--eng","langroh":"gmd:MD_TopologyLevelCode--fullPlanarGraph--roh","langger":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_TopologyLevelCode"}</cl_topologyLevel>
+  <cl_geometricObjectType type="object">{"key":"surface","default":"gmd:MD_GeometricObjectTypeCode--surface--ger","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","langfre":"gmd:MD_GeometricObjectTypeCode--surface--fre","langita":"gmd:MD_GeometricObjectTypeCode--surface--ita","langeng":"gmd:MD_GeometricObjectTypeCode--surface--eng","langroh":"gmd:MD_GeometricObjectTypeCode--surface--roh","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"}</cl_geometricObjectType>
+  <cl_cellGeometry type="object">{"key":"area","default":"gmd:MD_CellGeometryCode--area--ger","langger":"gmd:MD_CellGeometryCode--area--ger","langfre":"gmd:MD_CellGeometryCode--area--fre","langita":"gmd:MD_CellGeometryCode--area--ita","langeng":"gmd:MD_CellGeometryCode--area--eng","langroh":"gmd:MD_CellGeometryCode--area--roh","langger":"gmd:MD_CellGeometryCode--area--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CellGeometryCode"}</cl_cellGeometry>
+  <cl_status type="object">{"key":"completed","default":"gmd:MD_ProgressCode--completed--ger","langger":"gmd:MD_ProgressCode--completed--ger","langfre":"gmd:MD_ProgressCode--completed--fre","langita":"gmd:MD_ProgressCode--completed--ita","langeng":"gmd:MD_ProgressCode--completed--eng","langroh":"gmd:MD_ProgressCode--completed--roh","langger":"gmd:MD_ProgressCode--completed--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ProgressCode"}</cl_status>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"unknown","default":"gmd:MD_MaintenanceFrequencyCode--unknown--ger","langger":"gmd:MD_MaintenanceFrequencyCode--unknown--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--unknown--fre","langita":"gmd:MD_MaintenanceFrequencyCode--unknown--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--unknown--eng","langroh":"gmd:MD_MaintenanceFrequencyCode--unknown--roh","langger":"gmd:MD_MaintenanceFrequencyCode--unknown--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--ger","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langita":"gmd:MD_KeywordTypeCode--theme--ita","langeng":"gmd:MD_KeywordTypeCode--theme--eng","langroh":"gmd:MD_KeywordTypeCode--theme--roh","langger":"gmd:MD_KeywordTypeCode--theme--ger","link":"http:\/\/www.isotc211.org\/2005\/resources\/codeList.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_classification type="object">{"key":"unclassified","default":"gmd:MD_ClassificationCode--unclassified--ger","langger":"gmd:MD_ClassificationCode--unclassified--ger","langfre":"gmd:MD_ClassificationCode--unclassified--fre","langita":"gmd:MD_ClassificationCode--unclassified--ita","langeng":"gmd:MD_ClassificationCode--unclassified--eng","langroh":"gmd:MD_ClassificationCode--unclassified--roh","langger":"gmd:MD_ClassificationCode--unclassified--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ClassificationCode"}</cl_classification>
+  <cl_accessConstraints type="object">{"key":"license","default":"gmd:MD_RestrictionCode--license--ger","langger":"gmd:MD_RestrictionCode--license--ger","langfre":"gmd:MD_RestrictionCode--license--fre","langita":"gmd:MD_RestrictionCode--license--ita","langeng":"gmd:MD_RestrictionCode--license--eng","langroh":"gmd:MD_RestrictionCode--license--roh","langger":"gmd:MD_RestrictionCode--license--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_RestrictionCode"}</cl_accessConstraints>
+  <cl_spatialRepresentationType type="object">{"key":"vector","default":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langfre":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","langita":"gmd:MD_SpatialRepresentationTypeCode--vector--ita","langeng":"gmd:MD_SpatialRepresentationTypeCode--vector--eng","langroh":"gmd:MD_SpatialRepresentationTypeCode--vector--roh","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"}</cl_spatialRepresentationType>
+  <cl_function type="object">{"key":"download","default":"gmd:CI_OnLineFunctionCode--download--ger","langger":"gmd:CI_OnLineFunctionCode--download--ger","langfre":"gmd:CI_OnLineFunctionCode--download--fre","langita":"gmd:CI_OnLineFunctionCode--download--ita","langeng":"gmd:CI_OnLineFunctionCode--download--eng","langroh":"gmd:CI_OnLineFunctionCode--download--roh","langger":"gmd:CI_OnLineFunctionCode--download--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_function type="object">{"key":"information","default":"gmd:CI_OnLineFunctionCode--information--ger","langger":"gmd:CI_OnLineFunctionCode--information--ger","langfre":"gmd:CI_OnLineFunctionCode--information--fre","langita":"gmd:CI_OnLineFunctionCode--information--ita","langeng":"gmd:CI_OnLineFunctionCode--information--eng","langroh":"gmd:CI_OnLineFunctionCode--information--roh","langger":"gmd:CI_OnLineFunctionCode--information--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"notPlanned","default":"gmd:MD_MaintenanceFrequencyCode--notPlanned--ger","langger":"gmd:MD_MaintenanceFrequencyCode--notPlanned--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--notPlanned--fre","langita":"gmd:MD_MaintenanceFrequencyCode--notPlanned--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--notPlanned--eng","langroh":"gmd:MD_MaintenanceFrequencyCode--notPlanned--roh","langger":"gmd:MD_MaintenanceFrequencyCode--notPlanned--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <resourceTitleObject type="object">{"default":"Absch\u00E4tzung der organischen B\u00F6den in der Schweiz 2024", "langger":"Absch\u00E4tzung der organischen B\u00F6den in der Schweiz 2024", "langfre":"Estimation des sols organiques en Suisse 2024", "langeng":"Estimate of Switzerland\u2019s Organic Soil Surface, 2025"}</resourceTitleObject>
+  <resourceAltTitleObject type="object">{"default":"Organische B\u00F6den CH 2024", "langger":"Organische B\u00F6den CH 2024", "langfre":"Sols organiques CH 2024", "langeng":"Organic soils CH 2024"}</resourceAltTitleObject>
+  <creationDateForResource>2024-08</creationDateForResource>
+  <creationYearForResource>2024</creationYearForResource>
+  <creationMonthForResource>2024-08</creationMonthForResource>
+  <publicationDateForResource>2025-04</publicationDateForResource>
+  <publicationYearForResource>2025</publicationYearForResource>
+  <publicationMonthForResource>2025-04</publicationMonthForResource>
+  <resourceDate type="object">{"type": "creation", "date": "2024-08-01T00:00:00.000Z"}</resourceDate>
+  <resourceDate type="object">{"type": "publication", "date": "2025-04-01T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2024-08-01T00:00:00.000Z",
+                  "lte": "2024-08-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2025-04-01T00:00:00.000Z",
+                  "lte": "2025-04-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceIdentifier type="object">{
+              "code": "ch.agroscope.abschaetzung-organische_boeden",
+              "codeSpace": "",
+              "link": ""
+              }</resourceIdentifier>
+  <resourceAbstractObject type="object">{"default":"Die Absch\u00E4tzung der organischen Bodenfl\u00E4che der Schweiz aus dem Jahr 2025 ist eine Aktualisierung der Absch\u00E4tzung der organischen B\u00F6den aus dem Jahr 2015. Wie in der Karte von 2015 wurde der Ansatz der Zusammenstellung vorhandener Informationsquellen (z. B. Bodenkarten, geologische Karten, Waldlebensraumkarten, historische Beobachtungen von Mooren sowie Verzeichnisse von Niedermooren und Hochmooren) verwendet, um eine Sch\u00E4tzung des aktuellen Umfangs der organischen B\u00F6den zu erstellen. In einem ersten Schritt wurden vier wichtige Datens\u00E4tze aktualisiert: Bodenkarten, geologische Karten, das nationale Inventar der Hoch- und \u00DCbergangsmoore und die Waldbiotopkarten. In einem zweiten Schritt wurden alle Datens\u00E4tze harmonisiert und in ein Datenmodell eingef\u00FCgt, das die halbautomatische Kombination der verschiedenen Datens\u00E4tze erm\u00F6glicht. In einem dritten Schritt wurden die Datens\u00E4tze kombiniert (genauer gesagt \u00FCberlagert) und eine regelbasierte Methode wurde verwendet, um die resultierenden Fl\u00E4chen als organischen oder nicht organischen Boden zu charakterisieren. In einem vierten Schritt wurden Informationen \u00FCber die mineralische Bodenoberfl\u00E4che verwendet, um Fl\u00E4chen zu l\u00F6schen, f\u00FCr die der Nachweis f\u00FCr mineralischen Boden st\u00E4rker war. als jener f\u00FCr organischen Boden. Die f\u00FCr die meisten Anwendungen empfohlene Fl\u00E4che der organischen B\u00F6den betr\u00E4gt 32.702 ha, was der \u201Eweniger konservativen\u201C Sch\u00E4tzung oder organischen B\u00F6den entspricht.\n\nAufgrund der heterogenen Natur der Informationsquellen, die zur Erstellung dieser Indikatorkarte verwendet wurden, ist es nicht m\u00F6glich, den Ma\u00DFstab zu definieren, f\u00FCr den diese Karte geeignet ist. Es kann jedoch folgende Empfehlung ausgesprochen werden: Die Karte eignet sich nur f\u00FCr die Verwendung auf regionaler Ebene (z. B. Kanton oder Bezirk, ca. 1:100.000) und in gr\u00F6\u00DFerem Ma\u00DFstab; sie ist f\u00FCr die Verwendung im Feldma\u00DFstab ungeeignet.\n\nDie beiden Publikationen (W\u00FCst-Galley, C. and J. Leifeld (2025) \u201CThe distribution and (future) use of Switzerland\u2019s organic soils\u201D Mires and Peat 32(4): 1-17, DOI: 10.19189\/001c.130819 and W\u00FCst-Galley, C., A. Gr\u00FCnig and J. Leifeld (2015) \u201CLocating organic soils for the greenhouse gas inventory\u201D Agroscope Science 26, 100 pp.) beschreiben die Methoden und die aktualisierten Datens\u00E4tze im Detail. s wird w\u00E4rmstens empfohlen beide Publikationen vor der Nutzung der Datens\u00E4tze zu lesen.\nTeile der Daten sind mit einer Lizenz belegt. Bitte die zus\u00E4tzlich verf\u00FCgbare Dokumentation beachten.", "langger":"Die Absch\u00E4tzung der organischen Bodenfl\u00E4che der Schweiz aus dem Jahr 2025 ist eine Aktualisierung der Absch\u00E4tzung der organischen B\u00F6den aus dem Jahr 2015. Wie in der Karte von 2015 wurde der Ansatz der Zusammenstellung vorhandener Informationsquellen (z. B. Bodenkarten, geologische Karten, Waldlebensraumkarten, historische Beobachtungen von Mooren sowie Verzeichnisse von Niedermooren und Hochmooren) verwendet, um eine Sch\u00E4tzung des aktuellen Umfangs der organischen B\u00F6den zu erstellen. In einem ersten Schritt wurden vier wichtige Datens\u00E4tze aktualisiert: Bodenkarten, geologische Karten, das nationale Inventar der Hoch- und \u00DCbergangsmoore und die Waldbiotopkarten. In einem zweiten Schritt wurden alle Datens\u00E4tze harmonisiert und in ein Datenmodell eingef\u00FCgt, das die halbautomatische Kombination der verschiedenen Datens\u00E4tze erm\u00F6glicht. In einem dritten Schritt wurden die Datens\u00E4tze kombiniert (genauer gesagt \u00FCberlagert) und eine regelbasierte Methode wurde verwendet, um die resultierenden Fl\u00E4chen als organischen oder nicht organischen Boden zu charakterisieren. In einem vierten Schritt wurden Informationen \u00FCber die mineralische Bodenoberfl\u00E4che verwendet, um Fl\u00E4chen zu l\u00F6schen, f\u00FCr die der Nachweis f\u00FCr mineralischen Boden st\u00E4rker war. als jener f\u00FCr organischen Boden. Die f\u00FCr die meisten Anwendungen empfohlene Fl\u00E4che der organischen B\u00F6den betr\u00E4gt 32.702 ha, was der \u201Eweniger konservativen\u201C Sch\u00E4tzung oder organischen B\u00F6den entspricht.\n\nAufgrund der heterogenen Natur der Informationsquellen, die zur Erstellung dieser Indikatorkarte verwendet wurden, ist es nicht m\u00F6glich, den Ma\u00DFstab zu definieren, f\u00FCr den diese Karte geeignet ist. Es kann jedoch folgende Empfehlung ausgesprochen werden: Die Karte eignet sich nur f\u00FCr die Verwendung auf regionaler Ebene (z. B. Kanton oder Bezirk, ca. 1:100.000) und in gr\u00F6\u00DFerem Ma\u00DFstab; sie ist f\u00FCr die Verwendung im Feldma\u00DFstab ungeeignet.\n\nDie beiden Publikationen (W\u00FCst-Galley, C. and J. Leifeld (2025) \u201CThe distribution and (future) use of Switzerland\u2019s organic soils\u201D Mires and Peat 32(4): 1-17, DOI: 10.19189\/001c.130819 and W\u00FCst-Galley, C., A. Gr\u00FCnig and J. Leifeld (2015) \u201CLocating organic soils for the greenhouse gas inventory\u201D Agroscope Science 26, 100 pp.) beschreiben die Methoden und die aktualisierten Datens\u00E4tze im Detail. s wird w\u00E4rmstens empfohlen beide Publikationen vor der Nutzung der Datens\u00E4tze zu lesen.\nTeile der Daten sind mit einer Lizenz belegt. Bitte die zus\u00E4tzlich verf\u00FCgbare Dokumentation beachten.", "langfre":"L'estimation de la surface des sols organiques de la Suisse en 2025 est une mise \u00E0 jour de l'estimation des sols organiques de 2015. Comme dans la carte de 2015, elle a utilis\u00E9 l'approche consistant \u00E0 rassembler les sources d'information existantes (par exemple, les cartes des sols, les cartes g\u00E9ologiques, les cartes des habitats forestiers, les observations historiques des tourbi\u00E8res, ainsi que les inventaires des marais et des tourbi\u00E8res hautes) pour g\u00E9n\u00E9rer une estimation de l'\u00E9tendue actuelle des sols organiques. Dans un premier \u00E9tape, quatre ensembles de donn\u00E9es importants ont \u00E9t\u00E9 mis \u00E0 jour : les cartes des sols, les cartes g\u00E9ologiques, l'inventaire national des tourbi\u00E8res hautes et des tourbi\u00E8res de transition, et les cartes des habitats forestiers. Dans un deuxi\u00E8me \u00E9tape, tous les ensembles de donn\u00E9es ont \u00E9t\u00E9 harmonis\u00E9s et ins\u00E9r\u00E9s dans un mod\u00E8le de donn\u00E9es, permettant la combinaison semi-automatique des diff\u00E9rents ensembles de donn\u00E9es. Dans un troisi\u00E8me \u00E9tape, les ensembles de donn\u00E9es ont \u00E9t\u00E9 combin\u00E9s (plus pr\u00E9cis\u00E9ment, superpos\u00E9s) et une m\u00E9thode bas\u00E9e sur des r\u00E8gles a \u00E9t\u00E9 utilis\u00E9e pour caract\u00E9riser les surfaces r\u00E9sultantes comme \u00E9tant des sols organiques ou non organiques. Dans une quatri\u00E8me \u00E9tape, les informations sur la surface du sol min\u00E9ral ont \u00E9t\u00E9 utilis\u00E9es pour supprimer les surfaces pour lesquelles la preuve de sol min\u00E9ral \u00E9tait plus forte. La surface de sol recommand\u00E9e pour la plupart des applications est de 32 702 ha, ce qui correspond \u00E0 l'estimation \u00AB moins conservatrice \u00BB ou aux sols organiques.\n\nEn raison de la nature h\u00E9t\u00E9rog\u00E8ne des sources d'information utilis\u00E9es pour g\u00E9n\u00E9rer cette carte d'indicateurs, il n'est pas possible de d\u00E9finir l'\u00E9chelle pour laquelle cette carte est appropri\u00E9e. La recommandation suivante peut toutefois \u00EAtre faite : la carte ne peut \u00EAtre utilis\u00E9e qu'\u00E0 l'\u00E9chelle r\u00E9gionale (par exemple, cantonale ou r\u00E9gionale, environ 1:100 000) et \u00E0 une \u00E9chelle plus grande ; elle ne convient pas \u00E0 une utilisation \u00E0 l'\u00E9chelle du terrain.\n\nLes deux publications (W\u00FCst-Galley, C. and J. Leifeld (2025) \u201CThe distribution and (future) use of Switzerland\u2019s organic soils\u201D Mires and Peat 32(4): 1-17, DOI: 10.19189\/001c.130819 and W\u00FCst-Galley, C., A. Gr\u00FCnig and J. Leifeld (2015) \u201CLocating organic soils for the greenhouse gas inventory\u201D Agroscope Science 26, 100 pp.) d\u00E9crivent en d\u00E9tail la m\u00E9thodologie et les ensembles de donn\u00E9es mis \u00E0 jour, et il est fortement recommand\u00E9 \u00E0 toute personne souhaitant utiliser cet ensemble de donn\u00E9es de lire ces deux publications.\nUne partie des donn\u00E9es est soumise \u00E0 une licence. Consultez s'il vous pla\u00EEt la documentation aditionelle.", "langeng":"Estimate of Switzerland\u2019s Organic Soil Surface, 2025\nThe 2025 estimate of Switzerland\u2019s organic soil surface is an update of the 2015 estimate of organic soils. As in the 2015 map, it used the approach of collating existing information sources (e.g., soil maps, geology maps, forest habitat maps, historical observations of peatlands, as well as inventories of fens and raised bogs) to generate an estimate or the current extent of organic soils. In a first step, four important data sets were updated: Soil maps, geology maps, the national inventory of raised and transitional bogs, and the forest habitat maps. In a second step, all data sets were harmonized and inserted into a data model, allowing the semi-automatic combination of the various data sets. In a third step, the data sets were combined (more specifically, overlain) and a rule-based method was used to characterise the resulting surfaces as organic soil, or not organic soil. In a fourth step, information on the mineral soil surface was used to delete surfaces for which the evidence of mineral soil was stronger. The soil surface recommended for use in most applications is 32,702 ha, which corresponds to the \u2018less conservative\u2019 estimate or organic soils.\n\nBecause of the heterogeneous nature of the information sources that were used to generate this indicator map, it is not possible to define the scale for which this map is appropriate. The following recommendation can however be made: The map is suitable for use at the regional scale (e.g., cantonal or district, ca. 1:100,000) and larger scale only; it is unsuitable for field-scale use.\n\nThe two publications (W\u00FCst-Galley, C. and J. Leifeld (2025) \u201CThe distribution and (future) use of Switzerland\u2019s organic soils\u201D Mires and Peat 32(4): 1-17, DOI: 10.19189\/001c.130819 and W\u00FCst-Galley, C., A. Gr\u00FCnig and J. Leifeld (2015) \u201CLocating organic soils for the greenhouse gas inventory\u201D Agroscope Science 26, 100 pp.) describe the methodology and updated data sets in detail, and it is strongly recommended that both publications should be read by anybody wanting to use this data set.\nParts of the data are subject to a licence. Please read the additional documentation."}</resourceAbstractObject>
+  <cl_resourceCharacterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langroh":"gmd:MD_CharacterSetCode--utf8--roh","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_resourceCharacterSet>
+  <OrgForResourceObject type="object">{"default":"Agroscope", "langger":"Agroscope"}</OrgForResourceObject>
+  <authorOrgForResourceObject type="object">{"default":"Agroscope", "langger":"Agroscope"}</authorOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Agroscope", "langger":"Agroscope"}
+            ,
+      
+      "role":"author",
+      "email":"chloe.wuest@agroscope.admin.ch",
+      "websiteObject":{"default":"https:\/\/www.agroscope.admin.ch\/agroscope\/de\/home.html",  "langger":"https:\/\/www.agroscope.admin.ch\/agroscope\/de\/home.html",  "langfre":"https:\/\/www.agroscope.admin.ch\/agroscope\/fr\/home.html",  "langita":"https:\/\/www.agroscope.admin.ch\/agroscope\/it\/home.html",  "langeng":"https:\/\/www.agroscope.admin.ch\/agroscope\/en\/home.html"},
+      "logo":"",
+      "individual":"Chlo\u00E9 W\u00FCst",
+      "position":"",
+      "phone":"+41 58 466 77 74",
+      "address":"Z\u00FCrich, 8046, CH"
+      
+      }</contactForResource>
+  <hasOverview>true</hasOverview>
+  <overview type="object">{
+            "url": "https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/MapOrganicSoil4geocat.png"
+            
+            }</overview>
+  <resourceLanguage>ger</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"Boden", "langger":"Boden", "langfre":"sol", "langita":"suolo", "langeng":"soil"
+      }
+      ,
+      {
+      "default":"Klimaschutz", "langger":"Klimaschutz", "langfre":"protection du climat", "langita":"protezione del clima", "langeng":"climate protection"
+      }
+      ,
+      {
+      "default":"Vern\u00E4\u00DFter Boden", "langger":"Vern\u00E4\u00DFter Boden", "langfre":"sol satur\u00E9 (engorg\u00E9) d'eau", "langita":"terreno saturo d'acqua", "langeng":"waterlogged land"
+      }
+      ,
+      {
+      "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+      }
+      ,
+      {
+      "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+      }
+      ,
+      {
+      "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+      }
+      ,
+      {
+      "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+      }
+      ,
+      {
+      "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+      }
+      ,
+      {
+      "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+      }
+      ,
+      {
+      "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+      }
+      ,
+      {
+      "default":"Bund", "langger":"Bund", "langfre":"conf\u00E9d\u00E9ration", "langita":"confederazione", "langeng":"confederation"
+      }
+      ,
+      {
+      "default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"
+      }
+      ]</tag>
+  <tagNumber>12</tagNumber>
+  <isOpenData>false</isOpenData>
+  <keywordType-theme type="object">[
+          {
+          "default":"Boden", "langger":"Boden", "langfre":"sol", "langita":"suolo", "langeng":"soil"
+          }
+          ,
+          {
+          "default":"Klimaschutz", "langger":"Klimaschutz", "langfre":"protection du climat", "langita":"protezione del clima", "langeng":"climate protection"
+          }
+          ,
+          {
+          "default":"Vern\u00E4\u00DFter Boden", "langger":"Vern\u00E4\u00DFter Boden", "langfre":"sol satur\u00E9 (engorg\u00E9) d'eau", "langita":"terreno saturo d'acqua", "langeng":"waterlogged land"
+          }
+          ,
+          {
+          "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+          }
+          ,
+          {
+          "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+          }
+          ,
+          {
+          "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+          }
+          ,
+          {
+          "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+          }
+          ,
+          {
+          "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+          }
+          ,
+          {
+          "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+          }
+          ,
+          {
+          "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+          }
+          ,
+          {
+          "default":"Bund", "langger":"Bund", "langfre":"conf\u00E9d\u00E9ration", "langita":"confederazione", "langeng":"confederation"
+          }
+          ]</keywordType-theme>
+  <keywordType-place type="object">[
+          {
+          "default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"
+          }
+          ]</keywordType-place>
+  <th_gemet-themeNumber>1</th_gemet-themeNumber>
+  <th_gemet-theme type="object">[
+        {
+        "default":"Boden", "langger":"Boden", "langfre":"sol", "langita":"suolo", "langeng":"soil"
+        }
+        ]</th_gemet-theme>
+  <th_gemetNumber>8</th_gemetNumber>
+  <th_gemet type="object">[
+        {
+        "default":"Klimaschutz", "langger":"Klimaschutz", "langfre":"protection du climat", "langita":"protezione del clima", "langeng":"climate protection"
+        }
+        ,
+        {
+        "default":"Vern\u00E4\u00DFter Boden", "langger":"Vern\u00E4\u00DFter Boden", "langfre":"sol satur\u00E9 (engorg\u00E9) d'eau", "langita":"terreno saturo d'acqua", "langeng":"waterlogged land"
+        }
+        ,
+        {
+        "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+        }
+        ,
+        {
+        "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+        }
+        ,
+        {
+        "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+        }
+        ,
+        {
+        "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+        }
+        ,
+        {
+        "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+        }
+        ,
+        {
+        "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+        }
+        ]</th_gemet>
+  <th_geocat-chNumber>2</th_geocat-chNumber>
+  <th_geocat-ch type="object">[
+        {
+        "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+        }
+        ,
+        {
+        "default":"Bund", "langger":"Bund", "langfre":"conf\u00E9d\u00E9ration", "langita":"confederazione", "langeng":"confederation"
+        }
+        ]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_gemet-theme": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet-theme",
+        
+            "multilingualTitle": {
+              "default":"GEMET themes", "langger":"GEMET themes"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.gemet-theme",
+        
+        "keywords": [
+        
+          {
+          "default":"Boden", "langger":"Boden", "langfre":"sol", "langita":"suolo", "langeng":"soil"
+          }
+          
+        ]}
+        ,
+        "th_gemet": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet",
+        
+            "multilingualTitle": {
+              "default":"GEMET", "langger":"GEMET"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.gemet",
+        
+        "keywords": [
+        
+          {
+          "default":"Klimaschutz", "langger":"Klimaschutz", "langfre":"protection du climat", "langita":"protezione del clima", "langeng":"climate protection"
+          }
+          ,
+          {
+          "default":"Vern\u00E4\u00DFter Boden", "langger":"Vern\u00E4\u00DFter Boden", "langfre":"sol satur\u00E9 (engorg\u00E9) d'eau", "langita":"terreno saturo d'acqua", "langeng":"waterlogged land"
+          }
+          ,
+          {
+          "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+          }
+          ,
+          {
+          "default":"Moor", "langger":"Moor", "langfre":"tourbi\u00E8re", "langita":"torbiera acida", "langeng":"bog"
+          }
+          ,
+          {
+          "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+          }
+          ,
+          {
+          "default":"Treibhausgas", "langger":"Treibhausgas", "langfre":"gaz \u00E0 effet de serre", "langita":"gas a effetto serra", "langeng":"greenhouse gas"
+          }
+          ,
+          {
+          "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+          }
+          ,
+          {
+          "default":"Kartierung", "langger":"Kartierung", "langfre":"cartographie (cartes)", "langita":"mappatura", "langeng":"mapping"
+          }
+          
+        ]}
+        ,
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"BGDI Bundesgeodaten-Infrastruktur", "langger":"BGDI Bundesgeodaten-Infrastruktur", "langfre":"IFDG l\u2019Infrastructure F\u00E9d\u00E9rale de donn\u00E9es g\u00E9ographiques", "langita":"IFDG Infrastruttura federale dei dati geografici", "langeng":"FSDI Federal Spatial Data Infrastructure"
+          }
+          ,
+          {
+          "default":"Bund", "langger":"Bund", "langfre":"conf\u00E9d\u00E9ration", "langita":"confederazione", "langeng":"confederation"
+          }
+          
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Boden",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet-theme"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Klimaschutz",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Vern\u00E4\u00DFter Boden",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Moor",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Moor",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Treibhausgas",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Treibhausgas",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Kartierung",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Kartierung",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "BGDI Bundesgeodaten-Infrastruktur",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Bund",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <cl_topic type="object">{"key":"geoscientificInformation","default":"gmd:MD_TopicCategoryCode--geoscientificInformation--ger","langger":"gmd:MD_TopicCategoryCode--geoscientificInformation--ger","langfre":"gmd:MD_TopicCategoryCode--geoscientificInformation--fre","langita":"gmd:MD_TopicCategoryCode--geoscientificInformation--ita","langeng":"gmd:MD_TopicCategoryCode--geoscientificInformation--eng","langroh":"gmd:MD_TopicCategoryCode--geoscientificInformation--roh","langger":"gmd:MD_TopicCategoryCode--geoscientificInformation--ger"}</cl_topic>
+  <cl_topic type="object">{"key":"geoscientificInformation_Soils","default":"gmd:MD_TopicCategoryCode--geoscientificInformation_Soils--ger","langger":"gmd:MD_TopicCategoryCode--geoscientificInformation_Soils--ger","langfre":"gmd:MD_TopicCategoryCode--geoscientificInformation_Soils--fre","langita":"gmd:MD_TopicCategoryCode--geoscientificInformation_Soils--ita","langeng":"gmd:MD_TopicCategoryCode--geoscientificInformation_Soils--eng","langroh":"gmd:MD_TopicCategoryCode--geoscientificInformation_Soils--roh","langger":"gmd:MD_TopicCategoryCode--geoscientificInformation_Soils--ger"}</cl_topic>
+  <resolutionScaleDenominator>100000</resolutionScaleDenominator>
+  <maintenance type="object">{
+            "frequency": "unknown"
+            
+          }</maintenance>
+  <MD_LegalConstraintsOtherConstraintsObject type="object">{"default":"Opendata OPEN: Freie Nutzung.", "langger":"Opendata OPEN: Freie Nutzung.", "langfre":"Opendata OPEN: Utilisation libre.", "langita":"Opendata OPEN: Libero utilizzo.", "langeng":"Opendata OPEN: Open use.", "link":"https:\/\/opendata.swiss\/en\/terms-of-use\/#terms_open"}</MD_LegalConstraintsOtherConstraintsObject>
+  <MD_LegalConstraintsOtherConstraintsObject type="object">{"default":"Lizenzpflichtig (CC BY-SA).", "langger":"Lizenzpflichtig (CC BY-SA).", "langfre":"Sous licence (CC BY-SA).", "langeng":"Subject to license (CC BY-SA).", "link":"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/"}</MD_LegalConstraintsOtherConstraintsObject>
+  <MD_LegalConstraintsUseLimitationObject type="object">{"default":"Zitat Publikation", "langger":"Zitat Publikation"}</MD_LegalConstraintsUseLimitationObject>
+  <licenseObject type="object">{"default":"Opendata OPEN: Freie Nutzung.", "langger":"Opendata OPEN: Freie Nutzung.", "langfre":"Opendata OPEN: Utilisation libre.", "langita":"Opendata OPEN: Libero utilizzo.", "langeng":"Opendata OPEN: Open use.", "link":"https:\/\/opendata.swiss\/en\/terms-of-use\/#terms_open"}</licenseObject>
+  <licenseObject type="object">{"default":"Lizenzpflichtig (CC BY-SA).", "langger":"Lizenzpflichtig (CC BY-SA).", "langfre":"Sous licence (CC BY-SA).", "langeng":"Subject to license (CC BY-SA).", "link":"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/"}</licenseObject>
+  <hasBoundingPolygon>true</hasBoundingPolygon>
+  <extentDescriptionObject type="object">{"default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[5.956088,45.817970],[10.492036,45.817970],[10.492036,47.808488],[5.956088,47.808488],[5.956088,45.817970]]]}</geom>
+  <location>46.813229,8.224062</location>
+  <coordinateSystem>LV95 EPSG:2056</coordinateSystem>
+  <crsDetails type="object">{
+            "code": "LV95 EPSG:2056",
+            "codeSpace": "",
+            "name": "LV95 EPSG:2056",
+            "url": ""
+            }</crsDetails>
+  <format>ESRI File Geodatabase FileGDB (GDB)</format>
+  <format>OGC Geopackage (GPKG)</format>
+  <linkUrl>https://www.agroscope.admin.ch/agroscope/de/home/themen/umwelt-ressourcen/klima-lufthygiene/co2-treibhausgase-landwirtschaftliche-boeden/organische-boeden/flaeche.html</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://www.agroscope.admin.ch/agroscope/de/home/themen/umwelt-ressourcen/klima-lufthygiene/co2-treibhausgase-landwirtschaftliche-boeden/organische-boeden/flaeche.html</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "e40b0114a7b788e0a75ad36686de4310",
+            "idx": 1,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.agroscope.admin.ch\/agroscope\/de\/home\/themen\/umwelt-ressourcen\/klima-lufthygiene\/co2-treibhausgase-landwirtschaftliche-boeden\/organische-boeden\/flaeche.html",  "langger":"https:\/\/www.agroscope.admin.ch\/agroscope\/de\/home\/themen\/umwelt-ressourcen\/klima-lufthygiene\/co2-treibhausgase-landwirtschaftliche-boeden\/organische-boeden\/flaeche.html"},
+            
+              "nameObject": 
+            {"default":"Link zum Projekt", "langger":"Link zum Projekt", "langfre":"Liens vers le project", "langeng":"Link to the project"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Link zum Projekt", "langger":"Link zum Projekt", "langfre":"Liens vers le projet", "langeng":"Link to the project"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://data.geo.admin.ch/browser/index.html#/collections/ch.agroscope.LAYERNAME</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD-URL</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADURL>https://data.geo.admin.ch/browser/index.html#/collections/ch.agroscope.LAYERNAME</linkUrlProtocolWWWDOWNLOADURL>
+  <link type="object">{
+            "hash": "348a4840935a8d5259a77abec965002c",
+            "idx": 2,
+            "protocol":"WWW:DOWNLOAD-URL",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/data.geo.admin.ch\/browser\/index.html#\/collections\/ch.agroscope.LAYERNAME",  "langger":"https:\/\/data.geo.admin.ch\/browser\/index.html#\/collections\/ch.agroscope.LAYERNAME"},
+            
+              "nameObject": 
+            {"default":"STAC Browser", "langger":"STAC Browser", "langfre":"Lien vers les donn\u00E9es \u00E0 t\u00E9l\u00E9charger"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Link zum Datenbezug", "langger":"Link zum Datenbezug", "langfre":"Lien vers la distribution des donn\u00E9es", "langita":"Link per le fonti dei dati", "langeng":"Link for data download"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://map.geo.admin.ch/?topic=aviation&amp;lang=de&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.bazl.wohngebiete-aulav&amp;catalogNodes=2863&amp;layers_opacity=0.6&amp;E=2642942.51&amp;N=1189717.47&amp;zoom=2</linkUrl>
+  <linkProtocol>MAP:Preview</linkProtocol>
+  <linkUrlProtocolMAPPreview>https://map.geo.admin.ch/?topic=aviation&amp;lang=de&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.bazl.wohngebiete-aulav&amp;catalogNodes=2863&amp;layers_opacity=0.6&amp;E=2642942.51&amp;N=1189717.47&amp;zoom=2</linkUrlProtocolMAPPreview>
+  <link type="object">{
+            "hash": "3af70f4d346a9af59e0b127bf0d50212",
+            "idx": 3,
+            "protocol":"MAP:Preview",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/map.geo.admin.ch\/?topic=aviation&amp;lang=de&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.bazl.wohngebiete-aulav&amp;catalogNodes=2863&amp;layers_opacity=0.6&amp;E=2642942.51&amp;N=1189717.47&amp;zoom=2",  "langger":"https:\/\/map.geo.admin.ch\/?topic=aviation&amp;lang=de&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.bazl.wohngebiete-aulav&amp;catalogNodes=2863&amp;layers_opacity=0.6&amp;E=2642942.51&amp;N=1189717.47&amp;zoom=2"},
+            
+              "nameObject": 
+            {"default":"Vorschau der Karte", "langger":"Vorschau der Karte", "langfre":"Pr\u00E9vie da la carte", "langeng":"Map preview"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "7ed6ac0e8bb47dc60eb68baebab7e029",
+            "idx": 4,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf",  "langger":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf",  "langfre":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf",  "langita":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf",  "langeng":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf",  "langroh":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf"},
+            
+              "nameObject": 
+            {"default":"W\u00FCst-Galley Leifeld 2025 org soils map.pdf", "langger":"W\u00FCst-Galley Leifeld 2025 org soils map.pdf", "langfre":"W\u00FCst-Galley Leifeld 2025 org soils map.pdf", "langita":"W\u00FCst-Galley Leifeld 2025 org soils map.pdf", "langeng":"W\u00FCst-Galley Leifeld 2025 org soils map.pdf", "langroh":"W\u00FCst-Galley Leifeld 2025 org soils map.pdf"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Link zur Publikation", "langger":"Link zur Publikation"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "9ff04e4400211b20d96a1dfa5b40dc22",
+            "idx": 5,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf",  "langger":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf",  "langfre":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf",  "langita":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf",  "langeng":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf",  "langroh":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf"},
+            
+              "nameObject": 
+            {"default":"W\u00FCst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf", "langger":"W\u00FCst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf", "langfre":"W\u00FCst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf", "langita":"W\u00FCst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf", "langeng":"W\u00FCst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf", "langroh":"W\u00FCst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Publikation zu den Daten von 2015", "langger":"Publikation zu den Daten von 2015", "langfre":"Publication expliquant les donn\u00E9es de 2015", "langeng":"Publication explaining the data of 2015"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOAD>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</linkUrlProtocolWWWDOWNLOAD>
+  <link type="object">{
+            "hash": "0bd001f47822f2d9c8e55e80a8c57e81",
+            "idx": 6,
+            "protocol":"WWW:DOWNLOAD",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf",  "langger":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf",  "langfre":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf",  "langita":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf",  "langeng":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf",  "langroh":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf"},
+            
+              "nameObject": 
+            {"default":"W\u00FCst-Galley Leifeld 2025 org soils map SI.pdf", "langger":"W\u00FCst-Galley Leifeld 2025 org soils map SI.pdf", "langfre":"W\u00FCst-Galley Leifeld 2025 org soils map SI.pdf", "langita":"W\u00FCst-Galley Leifeld 2025 org soils map SI.pdf", "langeng":"W\u00FCst-Galley Leifeld 2025 org soils map SI.pdf", "langroh":"W\u00FCst-Galley Leifeld 2025 org soils map SI.pdf"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Publikation zu den Daten von 2024", "langger":"Publikation zu den Daten von 2024", "langfre":"Publication expliquant les donn\u00E9es de 2024", "langeng":"Publication explaining the data of 2024"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Soil_Legende_BGDI_Arial12_DE.png</linkUrl>
+  <linkProtocol>LEGEND:PNG</linkProtocol>
+  <linkUrlProtocolLEGENDPNG>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Soil_Legende_BGDI_Arial12_DE.png</linkUrlProtocolLEGENDPNG>
+  <link type="object">{
+            "hash": "c56175f01e287577cecc3ee76fd68027",
+            "idx": 7,
+            "protocol":"LEGEND:PNG",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Soil_Legende_BGDI_Arial12_DE.png",  "langger":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Soil_Legende_BGDI_Arial12_DE.png",  "langfre":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Soil_Legende_BGDI_Arial12_Fr.png",  "langita":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Soil_Legende_BGDI_Arial12_Fr.png",  "langeng":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Soil_Legende_BGDI_Arial12_DE.png"},
+            
+              "nameObject": 
+            {"default":"Legende (Deutsch)", "langger":"Legende (Deutsch)", "langfre":"L\u00E9gende (fran\u00E7aise)", "langita":"Legenda (francese)", "langeng":"Legend (German)"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOAD>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</linkUrlProtocolWWWDOWNLOAD>
+  <link type="object">{
+            "hash": "6e8e49023d553db182862714114bf782",
+            "idx": 8,
+            "protocol":"WWW:DOWNLOAD",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Abstract_de_engl_fr_def.pdf",  "langger":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Abstract_de_engl_fr_def.pdf",  "langfre":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Abstract_de_engl_fr_def.pdf",  "langita":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Abstract_de_engl_fr_def.pdf",  "langeng":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Abstract_de_engl_fr_def.pdf",  "langroh":"https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/records\/0572e842-7e34-409a-90d9-526d012a1c2d\/attachments\/Abstract_de_engl_fr_def.pdf"},
+            
+              "nameObject": 
+            {"default":"Abstract_de_engl_fr_def.pdf", "langger":"Abstract_de_engl_fr_def.pdf", "langfre":"Abstract_de_engl_fr_def.pdf", "langita":"Abstract_de_engl_fr_def.pdf", "langeng":"Abstract_de_engl_fr_def.pdf", "langroh":"Abstract_de_engl_fr_def.pdf"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Zus\u00E4tzliche Beschreibung der Daten", "langger":"Zus\u00E4tzliche Beschreibung der Daten", "langfre":"Description aditionelle des donn\u00E9es", "langeng":"Additional description of the data"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <recordGroup>0572e842-7e34-409a-90d9-526d012a1c2d</recordGroup>
+</doc>
+

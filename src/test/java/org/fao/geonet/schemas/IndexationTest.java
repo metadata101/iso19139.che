@@ -186,6 +186,18 @@ public class IndexationTest {
         XmlAssert.assertThat(actual).isEqualTo(expected);
     }
 
+    @Test
+    public void indexOrganischenBodenInDerSchweiz() throws Exception {
+        XslUtil.IS_INSPIRE_ENABLED = false;
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+
+        Element organischenBodenInDerSchweiz = applyIndexation("organischenBodenInDerSchweiz-19139.che.xml");
+        String actual = prepareAssertEqual(organischenBodenInDerSchweiz);
+
+        String expected = Files.readString(getResource("organischenBodenInDerSchweiz-index.xml"));
+        XmlAssert.assertThat(actual).isEqualTo(expected);
+    }
+
     private String indexAndPrepareAmphibians() throws Exception {
         Element amphibiansIndex = applyIndexation("amphibians-19139.che.xml");
         return prepareAssertEqual(amphibiansIndex);

@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<che:CHE_MD_Metadata xmlns:che="http://www.geocat.ch/2008/che" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://www.geocat.ch/2008/che https://www.geocat.ch/geonetwork/xml/schemas/iso19139.che/schema/che/che.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>0572e842-7e34-409a-90d9-526d012a1c2d</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty" uuid="f0ce917d-9b40-4e18-96aa-64b6c88af8f0">
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Agroscope</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Agroscope</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Agroscope Métadonnées</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#IT">Agroscope Metadati</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN">Agroscope meta data</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>GIS-Koordination</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">GIS-Koordination</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Coordinateur SIG</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#IT">coordinatore GIS</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN">GIS coordintation</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+              <gmd:facsimile>
+                <gco:CharacterString />
+              </gmd:facsimile>
+            </che:CHE_CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+              <gmd:city>
+                <gco:CharacterString>Zürich</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>8046</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>CH</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>GIS@agroscope.admin.ch</gco:CharacterString>
+              </gmd:electronicMailAddress>
+              <che:streetName>
+                <gco:CharacterString>Reckenholzstrasse</gco:CharacterString>
+              </che:streetName>
+              <che:streetNumber>
+                <gco:CharacterString>191</gco:CharacterString>
+              </che:streetNumber>
+            </che:CHE_CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>http://www.agroscope.admin.ch</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">http://www.agroscope.admin.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">http://www.agroscope.admin.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">http://www.agroscope.admin.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">http://www.agroscope.admin.ch</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="custodian" />
+      </gmd:role>
+      <che:individualFirstName>
+        <gco:CharacterString />
+      </che:individualFirstName>
+      <che:individualLastName>
+        <gco:CharacterString />
+      </che:individualLastName>
+      <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Agroscope Metadaten</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Agroscope Metadaten</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Agroscope</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#IT">Agroscope</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN">Agroscope</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </che:organisationAcronym>
+    </che:CHE_CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2025-05-09T09:06:23.44Z</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>GM03_2</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:locale>
+    <gmd:PT_Locale id="FR">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="IT">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="EN">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="RM">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="roh" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="DE">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:topologyLevel>
+        <gmd:MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="fullPlanarGraph" />
+      </gmd:topologyLevel>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" />
+          </gmd:geometricObjectType>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_GridSpatialRepresentation>
+      <gmd:numberOfDimensions>
+        <gco:Integer>2</gco:Integer>
+      </gmd:numberOfDimensions>
+      <gmd:cellGeometry>
+        <gmd:MD_CellGeometryCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area" />
+      </gmd:cellGeometry>
+      <gmd:transformationParameterAvailability gco:nilReason="unknown" />
+    </gmd:MD_GridSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>LV95 EPSG:2056</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">LV95 EPSG:2056</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <che:CHE_MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Abschätzung der organischen Böden in der Schweiz 2024</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Abschätzung der organischen Böden in der Schweiz 2024</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Estimation des sols organiques en Suisse 2024</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Estimate of Switzerland’s Organic Soil Surface, 2025</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:alternateTitle xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Organische Böden CH 2024</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Organische Böden CH 2024</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Sols organiques CH 2024</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Organic soils CH 2024</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2024-08</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2025-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>ch.agroscope.abschaetzung-organische_boeden</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Die Abschätzung der organischen Bodenfläche der Schweiz aus dem Jahr 2025 ist eine Aktualisierung der Abschätzung der organischen Böden aus dem Jahr 2015. Wie in der Karte von 2015 wurde der Ansatz der Zusammenstellung vorhandener Informationsquellen (z. B. Bodenkarten, geologische Karten, Waldlebensraumkarten, historische Beobachtungen von Mooren sowie Verzeichnisse von Niedermooren und Hochmooren) verwendet, um eine Schätzung des aktuellen Umfangs der organischen Böden zu erstellen. In einem ersten Schritt wurden vier wichtige Datensätze aktualisiert: Bodenkarten, geologische Karten, das nationale Inventar der Hoch- und Übergangsmoore und die Waldbiotopkarten. In einem zweiten Schritt wurden alle Datensätze harmonisiert und in ein Datenmodell eingefügt, das die halbautomatische Kombination der verschiedenen Datensätze ermöglicht. In einem dritten Schritt wurden die Datensätze kombiniert (genauer gesagt überlagert) und eine regelbasierte Methode wurde verwendet, um die resultierenden Flächen als organischen oder nicht organischen Boden zu charakterisieren. In einem vierten Schritt wurden Informationen über die mineralische Bodenoberfläche verwendet, um Flächen zu löschen, für die der Nachweis für mineralischen Boden stärker war. als jener für organischen Boden. Die für die meisten Anwendungen empfohlene Fläche der organischen Böden beträgt 32.702 ha, was der „weniger konservativen“ Schätzung oder organischen Böden entspricht.
+
+Aufgrund der heterogenen Natur der Informationsquellen, die zur Erstellung dieser Indikatorkarte verwendet wurden, ist es nicht möglich, den Maßstab zu definieren, für den diese Karte geeignet ist. Es kann jedoch folgende Empfehlung ausgesprochen werden: Die Karte eignet sich nur für die Verwendung auf regionaler Ebene (z. B. Kanton oder Bezirk, ca. 1:100.000) und in größerem Maßstab; sie ist für die Verwendung im Feldmaßstab ungeeignet.
+
+Die beiden Publikationen (Wüst-Galley, C. and J. Leifeld (2025) “The distribution and (future) use of Switzerland’s organic soils” Mires and Peat 32(4): 1-17, DOI: 10.19189/001c.130819 and Wüst-Galley, C., A. Grünig and J. Leifeld (2015) “Locating organic soils for the greenhouse gas inventory” Agroscope Science 26, 100 pp.) beschreiben die Methoden und die aktualisierten Datensätze im Detail. s wird wärmstens empfohlen beide Publikationen vor der Nutzung der Datensätze zu lesen.
+Teile der Daten sind mit einer Lizenz belegt. Bitte die zusätzlich verfügbare Dokumentation beachten.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#DE">Die Abschätzung der organischen Bodenfläche der Schweiz aus dem Jahr 2025 ist eine Aktualisierung der Abschätzung der organischen Böden aus dem Jahr 2015. Wie in der Karte von 2015 wurde der Ansatz der Zusammenstellung vorhandener Informationsquellen (z. B. Bodenkarten, geologische Karten, Waldlebensraumkarten, historische Beobachtungen von Mooren sowie Verzeichnisse von Niedermooren und Hochmooren) verwendet, um eine Schätzung des aktuellen Umfangs der organischen Böden zu erstellen. In einem ersten Schritt wurden vier wichtige Datensätze aktualisiert: Bodenkarten, geologische Karten, das nationale Inventar der Hoch- und Übergangsmoore und die Waldbiotopkarten. In einem zweiten Schritt wurden alle Datensätze harmonisiert und in ein Datenmodell eingefügt, das die halbautomatische Kombination der verschiedenen Datensätze ermöglicht. In einem dritten Schritt wurden die Datensätze kombiniert (genauer gesagt überlagert) und eine regelbasierte Methode wurde verwendet, um die resultierenden Flächen als organischen oder nicht organischen Boden zu charakterisieren. In einem vierten Schritt wurden Informationen über die mineralische Bodenoberfläche verwendet, um Flächen zu löschen, für die der Nachweis für mineralischen Boden stärker war. als jener für organischen Boden. Die für die meisten Anwendungen empfohlene Fläche der organischen Böden beträgt 32.702 ha, was der „weniger konservativen“ Schätzung oder organischen Böden entspricht.
+
+Aufgrund der heterogenen Natur der Informationsquellen, die zur Erstellung dieser Indikatorkarte verwendet wurden, ist es nicht möglich, den Maßstab zu definieren, für den diese Karte geeignet ist. Es kann jedoch folgende Empfehlung ausgesprochen werden: Die Karte eignet sich nur für die Verwendung auf regionaler Ebene (z. B. Kanton oder Bezirk, ca. 1:100.000) und in größerem Maßstab; sie ist für die Verwendung im Feldmaßstab ungeeignet.
+
+Die beiden Publikationen (Wüst-Galley, C. and J. Leifeld (2025) “The distribution and (future) use of Switzerland’s organic soils” Mires and Peat 32(4): 1-17, DOI: 10.19189/001c.130819 and Wüst-Galley, C., A. Grünig and J. Leifeld (2015) “Locating organic soils for the greenhouse gas inventory” Agroscope Science 26, 100 pp.) beschreiben die Methoden und die aktualisierten Datensätze im Detail. s wird wärmstens empfohlen beide Publikationen vor der Nutzung der Datensätze zu lesen.
+Teile der Daten sind mit einer Lizenz belegt. Bitte die zusätzlich verfügbare Dokumentation beachten.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">L'estimation de la surface des sols organiques de la Suisse en 2025 est une mise à jour de l'estimation des sols organiques de 2015. Comme dans la carte de 2015, elle a utilisé l'approche consistant à rassembler les sources d'information existantes (par exemple, les cartes des sols, les cartes géologiques, les cartes des habitats forestiers, les observations historiques des tourbières, ainsi que les inventaires des marais et des tourbières hautes) pour générer une estimation de l'étendue actuelle des sols organiques. Dans un premier étape, quatre ensembles de données importants ont été mis à jour : les cartes des sols, les cartes géologiques, l'inventaire national des tourbières hautes et des tourbières de transition, et les cartes des habitats forestiers. Dans un deuxième étape, tous les ensembles de données ont été harmonisés et insérés dans un modèle de données, permettant la combinaison semi-automatique des différents ensembles de données. Dans un troisième étape, les ensembles de données ont été combinés (plus précisément, superposés) et une méthode basée sur des règles a été utilisée pour caractériser les surfaces résultantes comme étant des sols organiques ou non organiques. Dans une quatrième étape, les informations sur la surface du sol minéral ont été utilisées pour supprimer les surfaces pour lesquelles la preuve de sol minéral était plus forte. La surface de sol recommandée pour la plupart des applications est de 32 702 ha, ce qui correspond à l'estimation « moins conservatrice » ou aux sols organiques.
+
+En raison de la nature hétérogène des sources d'information utilisées pour générer cette carte d'indicateurs, il n'est pas possible de définir l'échelle pour laquelle cette carte est appropriée. La recommandation suivante peut toutefois être faite : la carte ne peut être utilisée qu'à l'échelle régionale (par exemple, cantonale ou régionale, environ 1:100 000) et à une échelle plus grande ; elle ne convient pas à une utilisation à l'échelle du terrain.
+
+Les deux publications (Wüst-Galley, C. and J. Leifeld (2025) “The distribution and (future) use of Switzerland’s organic soils” Mires and Peat 32(4): 1-17, DOI: 10.19189/001c.130819 and Wüst-Galley, C., A. Grünig and J. Leifeld (2015) “Locating organic soils for the greenhouse gas inventory” Agroscope Science 26, 100 pp.) décrivent en détail la méthodologie et les ensembles de données mis à jour, et il est fortement recommandé à toute personne souhaitant utiliser cet ensemble de données de lire ces deux publications.
+Une partie des données est soumise à une licence. Consultez s'il vous plaît la documentation aditionelle.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN">Estimate of Switzerland’s Organic Soil Surface, 2025
+The 2025 estimate of Switzerland’s organic soil surface is an update of the 2015 estimate of organic soils. As in the 2015 map, it used the approach of collating existing information sources (e.g., soil maps, geology maps, forest habitat maps, historical observations of peatlands, as well as inventories of fens and raised bogs) to generate an estimate or the current extent of organic soils. In a first step, four important data sets were updated: Soil maps, geology maps, the national inventory of raised and transitional bogs, and the forest habitat maps. In a second step, all data sets were harmonized and inserted into a data model, allowing the semi-automatic combination of the various data sets. In a third step, the data sets were combined (more specifically, overlain) and a rule-based method was used to characterise the resulting surfaces as organic soil, or not organic soil. In a fourth step, information on the mineral soil surface was used to delete surfaces for which the evidence of mineral soil was stronger. The soil surface recommended for use in most applications is 32,702 ha, which corresponds to the ‘less conservative’ estimate or organic soils.
+
+Because of the heterogeneous nature of the information sources that were used to generate this indicator map, it is not possible to define the scale for which this map is appropriate. The following recommendation can however be made: The map is suitable for use at the regional scale (e.g., cantonal or district, ca. 1:100,000) and larger scale only; it is unsuitable for field-scale use.
+
+The two publications (Wüst-Galley, C. and J. Leifeld (2025) “The distribution and (future) use of Switzerland’s organic soils” Mires and Peat 32(4): 1-17, DOI: 10.19189/001c.130819 and Wüst-Galley, C., A. Grünig and J. Leifeld (2015) “Locating organic soils for the greenhouse gas inventory” Agroscope Science 26, 100 pp.) describe the methodology and updated data sets in detail, and it is strongly recommended that both publications should be read by anybody wanting to use this data set.
+Parts of the data are subject to a licence. Please read the additional documentation.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" />
+      </gmd:status>
+      <gmd:pointOfContact>
+        <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty" uuid="925d1120-720d-4a2f-bb93-cac0a154fb65">
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Agroscope</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Agroscope</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR" />
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT" />
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <che:CHE_CI_Telephone gco:isoType="gmd:CI_Telephone">
+                  <gmd:voice>
+                    <gco:CharacterString>+41 58 466 77 74</gco:CharacterString>
+                  </gmd:voice>
+                  <che:directNumber>
+                    <gco:CharacterString>+41 58 466 77 74</gco:CharacterString>
+                  </che:directNumber>
+                </che:CHE_CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <che:CHE_CI_Address gco:isoType="gmd:CI_Address">
+                  <gmd:city>
+                    <gco:CharacterString>Zürich</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>8046</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>CH</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>chloe.wuest@agroscope.admin.ch</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                  <che:streetName>
+                    <gco:CharacterString>Reckenholzstrasse</gco:CharacterString>
+                  </che:streetName>
+                  <che:streetNumber>
+                    <gco:CharacterString>191</gco:CharacterString>
+                  </che:streetNumber>
+                </che:CHE_CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                    <gmd:URL>https://www.agroscope.admin.ch/agroscope/de/home.html</gmd:URL>
+                    <che:PT_FreeURL>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#DE">https://www.agroscope.admin.ch/agroscope/de/home.html</che:LocalisedURL>
+                      </che:URLGroup>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#FR">https://www.agroscope.admin.ch/agroscope/fr/home.html</che:LocalisedURL>
+                      </che:URLGroup>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#IT">https://www.agroscope.admin.ch/agroscope/it/home.html</che:LocalisedURL>
+                      </che:URLGroup>
+                      <che:URLGroup>
+                        <che:LocalisedURL locale="#EN">https://www.agroscope.admin.ch/agroscope/en/home.html</che:LocalisedURL>
+                      </che:URLGroup>
+                    </che:PT_FreeURL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>www.agroscope.ch</gco:CharacterString>
+                  </gmd:protocol>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author" />
+          </gmd:role>
+          <che:individualFirstName>
+            <gco:CharacterString>Chloé</gco:CharacterString>
+          </che:individualFirstName>
+          <che:individualLastName>
+            <gco:CharacterString>Wüst</gco:CharacterString>
+          </che:individualLastName>
+          <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Agroscope organische Boeden</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Agroscope organische Boeden</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </che:organisationAcronym>
+        </che:CHE_CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <che:CHE_MD_MaintenanceInformation gco:isoType="gmd:MD_MaintenanceInformation">
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" />
+          </gmd:maintenanceAndUpdateFrequency>
+          <che:archiveConcept>
+            <che:CHE_MD_ArchiveConcept />
+          </che:archiveConcept>
+        </che:CHE_MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/MapOrganicSoil4geocat.png</gco:CharacterString>
+          </gmd:fileName>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>BGDI Bundesgeodaten-Infrastruktur</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">BGDI Bundesgeodaten-Infrastruktur</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">IFDG l’Infrastructure Fédérale de données géographiques</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">IFDG Infrastruttura federale dei dati geografici</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">FSDI Federal Spatial Data Infrastructure</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Bund</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Bund</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">confédération</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">confederazione</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">confederation</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>geocat.ch</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2024-06-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/local.theme.geocat.ch">geonetwork.thesaurus.local.theme.geocat.ch</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Klimaschutz</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Klimaschutz</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">protection du climat</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">protezione del clima</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">climate protection</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Vernäßter Boden</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Vernäßter Boden</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">sol saturé (engorgé) d'eau</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">terreno saturo d'acqua</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">waterlogged land</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Moor</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Moor</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">tourbière</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">torbiera acida</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">bog</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Moor</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Moor</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">tourbière</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">torbiera acida</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">bog</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Treibhausgas</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Treibhausgas</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">gaz à effet de serre</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">gas a effetto serra</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">greenhouse gas</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Treibhausgas</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Treibhausgas</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">gaz à effet de serre</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">gas a effetto serra</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">greenhouse gas</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Kartierung</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Kartierung</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">cartographie (cartes)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">mappatura</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">mapping</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Kartierung</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Kartierung</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">cartographie (cartes)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">mappatura</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">mapping</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-08-16</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/external.theme.gemet">geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Boden</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Boden</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">sol</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">suolo</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">soil</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET themes</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2009-09-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://www.geocat.ch/geonetwork/srv/api/registries/vocabularies/external.theme.gemet-theme">geonetwork.thesaurus.external.theme.gemet-theme</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceSpecificUsage>
+        <gmd:MD_Usage>
+          <gmd:specificUsage gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString />
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE" />
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:specificUsage>
+          <gmd:userDeterminedLimitations gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:userDeterminedLimitations>
+          <gmd:userContactInfo />
+        </gmd:MD_Usage>
+      </gmd:resourceSpecificUsage>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+          </gmd:classification>
+          <gmd:userNote xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Teile der Daten sind mit einer Lizenz belegt.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Teile der Daten sind mit einer Lizenz belegt.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Une partie des données est soumise à une licence.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Parts of the data are subject to a licence.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:userNote>
+          <gmd:classificationSystem gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:classificationSystem>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Zitat Publikation</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Zitat Publikation</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+            <gmx:Anchor xlink:href="https://opendata.swiss/en/terms-of-use/#terms_open">Opendata OPEN: Freie Nutzung.</gmx:Anchor>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Opendata OPEN: Freie Nutzung.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Opendata OPEN: Utilisation libre.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">Opendata OPEN: Libero utilizzo.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Opendata OPEN: Open use.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+            <gmx:Anchor xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">Lizenzpflichtig (CC BY-SA).</gmx:Anchor>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Lizenzpflichtig (CC BY-SA).</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Sous licence (CC BY-SA).</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Subject to license (CC BY-SA).</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>100000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>geoscientificInformation_Soils</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Schweiz</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#DE">Schweiz</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Suisse</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#IT">Svizzera</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Switzerland</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RM">Svizra</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>5.956088</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>10.492036</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>45.817970</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>47.808488</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <MultiSurface xmlns="http://www.opengis.net/gml/3.2" gml:id="d25237359e60" srsName="EPSG:4326">
+                  <gml:surfaceMember>
+                    <Polygon gml:id="d25237359e62" srsName="EPSG:4326">
+                      <gml:exterior>
+                        <gml:LinearRing>
+                          <gml:posList srsDimension="2">47.80598999999998 8.573027 47.79972649999999 8.575219 47.80264399999996 8.5877555 47.79877049999999 8.592442 47.80288150000001 8.6013575 47.801079000000016 8.6138315 47.798326 8.618624 47.795939000000004 8.6178205 47.79466350000001 8.6220585 47.78876450000001 8.6204145 47.78705549999998 8.615677 47.78489550000003 8.615012 47.78019169999999 8.6176977 47.7779405 8.6188375 47.77717000000001 8.6231745 47.76733100000001 8.619267 47.759258999999986 8.627679 47.758245999999986 8.6315305 47.7601296 8.6332303 47.76514700000001 8.6423905 47.76502500000004 8.6454875 47.76697200000001 8.647669 47.768500500000016 8.645558 47.77336500000001 8.653031 47.77393599999999 8.648022 47.78128649999999 8.6499615 47.78684749999999 8.6454985 47.7946685 8.64654 47.79470700000002 8.6487665 47.79849300000001 8.6494255 47.8003655 8.6570145 47.79597849999999 8.660206 47.791607500000026 8.6574205 47.791627500000004 8.661782 47.78770850000001 8.667183 47.78569250000001 8.676155 47.78667100000001 8.680921 47.777164 8.68279 47.77365 8.6882535 47.7705095 8.6832075 47.75934749999999 8.687696 47.756156499999975 8.6926255 47.75677999999999 8.6976815 47.75974099999999 8.698987 47.76550150000003 8.714178 47.76270299999999 8.726105 47.75959449999999 8.7306555 47.75788399999999 8.72885 47.751852499999956 8.7410755 47.74642349999996 8.739402 47.745742500000006 8.723513 47.741075499999994 8.720122 47.738698 8.714344 47.73007150000001 8.71127 47.72142899999997 8.7181625 47.72135349999999 8.724546 47.72003049999998 8.7244335 47.718366 8.733205 47.716151499999995 8.7362945 47.71145999999996 8.7319325 47.696673000000004 8.726401 47.6926771 8.7279723 47.68963550000001 8.7565395 47.676462500000014 8.7856705 47.675598699999995 8.7956901 47.67992699999999 8.793337 47.689726500000006 8.798059 47.691731000000004 8.799774 47.6932645 8.809933 47.69644199999999 8.8061765 47.69733600000001 8.797798 47.7023145 8.7977205 47.704385 8.7933905 47.70672350000001 8.7694965 47.713194499999986 8.7728135 47.717948500000006 8.769904 47.72075749999999 8.7769995 47.72273050000001 8.7761315 47.721716500000014 8.7808025 47.72717699999998 8.78505 47.72732600000003 8.790547 47.728910499999984 8.7918245 47.72727849999998 8.7989955 47.73467199999999 8.7964365 47.73830699999999 8.806439 47.7310755 8.8084715 47.730426499999965 8.8123975 47.7244675 8.804927 47.723877500000015 8.812647 47.71764999999999 8.818586 47.717910500000045 8.826183 47.71287200000003 8.8188545 47.71092200000001 8.824128 47.714576499999964 8.8332615 47.71226250000001 8.843022 47.711033999999984 8.8455665 47.703491999999954 8.848522 47.70496 8.871377 47.70406349999999 8.8727505 47.701707999999996 8.869699 47.696741 8.8760135 47.6944005 8.8745325 47.692429000000004 8.8629345 47.69648600000002 8.8661425 47.698691499999995 8.863354 47.69645650000001 8.859979 47.698747999999995 8.858146 47.69766499999997 8.851325 47.694485499999985 8.8502855 47.692837 8.8571965 47.689089499999994 8.8560825 47.68571399999999 8.85099 47.680923199999995 8.8515408 47.680588 8.86033 47.6704575 8.873453 47.65596289999999 8.8749854 47.65466900000001 8.8748705 47.654664 8.882431 47.647838500000006 8.896779 47.656365499999964 8.9404975 47.66509999999997 8.964399 47.674586000000005 8.9819515 47.686621 9.0217825 47.68435550000001 9.0565765 47.6790005 9.07237 47.678916000000044 9.094917 47.675152499999996 9.1062685 47.66842100000002 9.1175945 47.66426100000001 9.138359 47.66465550000001 9.1425925 47.66757000000001 9.1478745 47.666018699999995 9.1577058 47.6604595 9.1630475 47.65470899999997 9.170492 47.655756999999994 9.175346 47.65393799999998 9.1758065 47.65588469999997 9.1821679 47.65745100000001 9.1871023 47.655095700000004 9.2148321 47.65870770000001 9.2565609 47.6203261 9.3947139 47.5514551 9.4956037 47.54973939999999 9.5069474 47.541893199999976 9.5587204 47.49918149999996 9.5611046 47.493604000000005 9.564142000000002 47.4866145 9.576391999999998 47.481221500000004 9.5834 47.46362199999999 9.594817499999998 47.461591 9.6008665 47.46238099999999 9.603570500000002 47.47032850000002 9.607249 47.46944400000001 9.611599 47.45748600000002 9.622324500000001 47.454251 9.654435 47.451382499999994 9.659449499999997 47.4477895 9.658005 47.442744000000005 9.6508025 47.43521649999997 9.644318 47.416431999999986 9.650899 47.404626500000035 9.6516355 47.40439999999998 9.6543925 47.397546000000034 9.660106499999998 47.391290999999995 9.673578500000001 47.38151049999999 9.6733705 47.377436999999986 9.670270999999998 47.371081000000004 9.662428 47.367446 9.649545500000002 47.367369999999994 9.635391500000003 47.365080500000005 9.6262925 47.36614500000002 9.6244795 47.362435000000005 9.619674000000002 47.346901 9.600727 47.33752000000001 9.596352500000002 47.31754400000003 9.588288500000003 47.31112250000001 9.5815595 47.30418399999999 9.5657325 47.30019150000001 9.559226 47.27820300000002 9.5434582 47.27058099999999 9.530749 47.26938150000001 9.529812 47.262595000000005 9.5294405 47.244045 9.520324 47.23178050000001 9.510388 47.22279350000002 9.5027225 47.20670749999999 9.49612 47.19824700000001 9.4902235 47.19029449999999 9.487608 47.17795649999999 9.486198 47.15694399999998 9.495433 47.147221 9.5037375 47.14005 9.5092235 47.12194600000001 9.51522 47.1151265 9.5171565 47.100149999999985 9.520344000000001 47.08535950000001 9.512247 47.065890499999995 9.474910999999999 47.061295 9.472234999999998 47.05179749999999 9.4760475 47.054996000000045 9.476301 47.056464000000005 9.482308 47.05296049999998 9.482489999999999 47.04968500000001 9.486025 47.05727400000001 9.4923715 47.05454550000002 9.497507 47.05764450000001 9.5003255 47.0572195 9.511909 47.06069500000004 9.517270999999997 47.06303650000001 9.530543 47.0651445 9.5397515 47.05884399999999 9.5516185 47.050505499999986 9.554383500000002 47.04932650000001 9.556851500000002 47.04857049999998 9.5597835 47.052526 9.569208999999999 47.054013 9.5782605 47.052808 9.5811355 47.05517750000004 9.587708000000001 47.059098000000006 9.596016500000001 47.05898250000001 9.599764 47.061893999999995 9.602818000000001 47.06077450000001 9.607078 47.05362850000003 9.617226 47.05133000000001 9.6263505 47.0517055 9.636565 47.05392549999999 9.641348500000001 47.059777999999994 9.6450805 47.05818550000001 9.658238 47.06210149999998 9.6818635 47.058955 9.682047 47.055229999999995 9.6882145 47.052392499999996 9.697583 47.05383900000001 9.7073265 47.04804999999999 9.707033499999998 47.043379000000016 9.718233999999999 47.042599999999965 9.741353999999998 47.04110750000001 9.745223 47.03692799999999 9.7481005 47.03845849999996 9.783335499999998 47.03169199999999 9.7919115 47.02909299999999 9.8014225 47.0217385 9.812349 47.0225495 9.815469499999999 47.019623499999994 9.824151999999998 47.014332000000024 9.8307265 47.01253700000001 9.836141 47.01512500000001 9.841029999999998 47.016418999999985 9.85275 47.02331449999997 9.8606815 47.021330500000005 9.867207 47.021232999999995 9.8762675 47.018024 9.8803515 47.013063999999986 9.871172000000001 47.00964449999998 9.870725 47.0065285 9.8729565 47.0007358 9.8887649 46.990365499999996 9.892325 46.98328000000001 9.883027 46.98085449999999 9.88457 46.9736595 9.875722 46.967501999999996 9.8756045 46.963100999999995 9.871269 46.95707350000001 9.878741 46.95039700000004 9.8748995 46.94071300000002 9.876591999999999 46.94011849999998 9.880727499999999 46.934635499999985 9.8761485 46.935024 9.8807465 46.931651999999985 9.894506499999999 46.925308 9.906342000000002 46.9260625 9.912331 46.91883100000001 9.9215515 46.913249500000006 9.937601999999998 46.91235649999999 9.946142000000002 46.9160315 9.959091 46.91240450000001 9.963132 46.912229999999994 9.966587 46.91588999999999 9.977887 46.91337800000002 9.980803 46.906206 9.982453999999999 46.90241549999999 9.99013 46.90226799999999 9.9958355 46.89880700000003 10.005929 46.901622 10.0178385 46.895812999999976 10.026487500000002 46.88658749999999 10.034674 46.88581400000001 10.039329 46.880446999999975 10.0424575 46.875754 10.052619500000002 46.86394949999999 10.0512175 46.860782 10.059581 46.86118999999999 10.087351499999999 46.8581805 10.092616 46.851706500000006 10.092319 46.84879050000001 10.096797 46.8409092 10.105171000000002 46.844177 10.119142999999998 46.847384500000004 10.119945000000001 46.848483499999986 10.1231145 46.847385 10.13943 46.851410499999986 10.147293000000001 46.85032749999999 10.154601499999998 46.84786700000001 10.1574305 46.85099649999998 10.1627105 46.85066649999999 10.169082 46.85367099999999 10.171776 46.85497699999996 10.1810105 46.86644949999999 10.1936785 46.866634000000005 10.1990325 46.864621 10.2038435 46.86729100000002 10.219248 46.86630549999998 10.232689 46.86944349999999 10.2308575 46.871613499999995 10.2328275 46.88468900000001 10.2348505 46.89021300000002 10.2276225 46.895946500000036 10.2257375 46.901647499999996 10.2333175 46.91570800000002 10.237051 46.918835 10.242031 46.931257500000015 10.2405795 46.929778500000026 10.257510499999999 46.92181199999999 10.293611999999998 46.91995650000001 10.2968845 46.924660500000016 10.300806 46.925184 10.316069 46.930958000000004 10.3171775 46.94014800000002 10.3061795 46.95020600000001 10.309367 46.9539805 10.3278315 46.96393549999996 10.329621 46.978380000000016 10.340722 46.981311000000005 10.339996999999999 46.982714999999956 10.344552 46.989592000000016 10.3465225 46.99236400000001 10.3549985 46.990673500000014 10.3720565 46.99927600000001 10.3833845 47.00052449999998 10.389318 46.9968825 10.398715999999999 46.990859 10.402183999999998 46.98264899999998 10.412506 46.97568650000002 10.426589 46.972702 10.4275045 46.965505500000006 10.4229745 46.959952499999986 10.4223805 46.9561535 10.428640500000002 46.9562765 10.432948 46.95231949999999 10.449156 46.95288450000004 10.4554815 46.947100500000005 10.468824 46.9410785 10.476588500000002 46.937790500000006 10.489350499999999 46.931449500000014 10.485296 46.926285500000006 10.4883075 46.91546149999999 10.4862185 46.910596500000025 10.4785425 46.894293000000005 10.475092 46.884281499999986 10.464697 46.88110600000002 10.4692315 46.872963500000026 10.471266 46.86211399999996 10.468009 46.84877349999999 10.471811 46.84142750000001 10.4639585 46.835894999999994 10.4665325 46.83408499999999 10.463073500000002 46.834686000000005 10.4601305 46.830247499999984 10.456666 46.82454050000001 10.4603565 46.822040000000015 10.455957 46.81647000000001 10.4577825 46.8042605 10.450775 46.7976395 10.4389925 46.79678050000001 10.429557 46.79423650000001 10.4267385 46.789406499999984 10.4266435 46.788242999999994 10.4227195 46.781878499999976 10.4338075 46.777613 10.4351105 46.77192600000001 10.4416585 46.75729100000004 10.443800999999999 46.752107000000024 10.4417075 46.75260750000001 10.435468 46.732820000000004 10.400201000000001 46.72847100000001 10.408970000000002 46.7238375 10.410960500000002 46.719054 10.4187305 46.709003499999994 10.416007 46.705465000000004 10.40999 46.705501500000025 10.4033275 46.68920750000001 10.393321500000003 46.68728249999998 10.3835695 46.68430649999999 10.381822 46.67137149999999 10.3924155 46.658861 10.3910135 46.65463750000001 10.3940885 46.64598699999996 10.4002825 46.640567000000004 10.401711 46.63858400000001 10.399859 46.63681199999999 10.402288 46.635058500000014 10.409127500000002 46.63831099999999 10.420209499999999 46.63937899999996 10.443446 46.64127149999999 10.446075499999997 46.633050500000024 10.462565 46.61742050000001 10.484266 46.6153415 10.4920355 46.611053999999996 10.491134000000002 46.6050285 10.4844785 46.59798749999999 10.487394500000002 46.59208449999997 10.483887999999999 46.589471 10.487898999999999 46.580902500000036 10.4835605 46.57719799999998 10.4848455 46.56646649999999 10.474751 46.56257949999994 10.474093 46.55710399999998 10.477748500000002 46.54833049999999 10.471074000000002 46.54350500000001 10.472213499999999 46.541266500000035 10.465685499999998 46.54131899999999 10.459112 46.53654949999995 10.4585785 46.53068300000001 10.452801 46.537391000000014 10.436687999999998 46.551320000000004 10.4181315 46.5439355 10.3973255 46.55004549999998 10.3842675 46.549972499999996 10.3792665 46.55393599999999 10.370484 46.55568599999998 10.352083 46.549454499999996 10.350209499999998 46.542688 10.3384775 46.55166700000001 10.324802 46.546626499999974 10.31066 46.54942299999999 10.3073725 46.549893499999996 10.295437000000002 46.551754500000044 10.293766999999999 46.55510699999999 10.296605000000001 46.55871849999997 10.2952105 46.56459799999999 10.288592 46.57025300000001 10.2866415 46.573953000000046 10.271122 46.5775185 10.268708999999998 46.576956999999965 10.263027 46.57124349999998 10.2535785 46.5745895 10.245915 46.57780149999999 10.243598 46.591571000000016 10.2415625 46.610442500000005 10.2588905 46.62210110000001 10.2448826 46.63533050000001 10.239202999999998 46.628994000000006 10.2239705 46.61694000000003 10.21532 46.620766 10.2063705 46.62313549999999 10.1934005 46.625934 10.1927655 46.62396949999999 10.183067 46.61570849999998 10.162274 46.610761999999994 10.137400000000001 46.607755999999995 10.136514 46.60550699999999 10.128460000000002 46.60710549999996 10.1132595 46.610652000000016 10.1067345 46.61072000000004 10.102353799999998 46.605433500000004 10.098879 46.60097649999997 10.1013495 46.59319850000003 10.0970915 46.58899349999999 10.1011545 46.582847500000014 10.100215 46.57734399999998 10.0953665 46.57514549999996 10.078619 46.571368500000005 10.0796715 46.56715650000004 10.085295 46.56071600000001 10.077671 46.55864199999996 10.071155000000001 46.550325499999985 10.0677165 46.54584999999997 10.061517 46.544044499999984 10.046766999999997 46.53753100000003 10.043919500000001 46.53183999999999 10.053245 46.528711499999986 10.0505365 46.522670000000005 10.0539345 46.513341 10.051483999999999 46.51006050000001 10.0423825 46.50189350000002 10.0450405 46.49984349999997 10.049049499999999 46.49368700000002 10.0449335 46.49039100000002 10.0451295 46.487814000000014 10.048532 46.48306650000001 10.0439165 46.476962499999985 10.045188 46.47177549999995 10.051756 46.46382849999998 10.053769 46.460406999999975 10.052492 46.45241849999999 10.0419855 46.44884400000004 10.0423705 46.446842000000004 10.039349499999998 46.44261850000004 10.0419729 46.43969899999999 10.052583 46.44086849999999 10.056279 46.42838900000001 10.060247999999998 46.425871 10.064393500000001 46.428057499999994 10.077308 46.42594 10.080132499999998 46.421036000000015 10.080472 46.422668999999985 10.092485499999999 46.421358999999995 10.100514500000001 46.4283015 10.1080895 46.42599050000001 10.1172095 46.42909499999996 10.119180499999999 46.4317365 10.129236499999998 46.429081 10.1329865 46.42827750000001 10.1431985 46.42297400000004 10.147088499999999 46.41422449999999 10.14767 46.41282050000001 10.1493865 46.415842999999995 10.157123 46.415445000000005 10.161034000000003 46.407647999999995 10.1666815 46.40346550000001 10.162032 46.390626 10.163860500000002 46.38766749999999 10.162031500000001 46.385009 10.156046 46.3868885 10.147427 46.38622299999997 10.142626 46.37768249999999 10.1273735 46.37427450000001 10.128527499999999 46.36989150000002 10.126140999999999 46.360990000000015 10.1292005 46.3573365 10.119382000000002 46.35267049999999 10.11361 46.35319599999997 10.110085499999999 46.35082200000002 10.108009499999998 46.34631300000001 10.1094305 46.34224450000002 10.1060915 46.33366749999999 10.1042735 46.323493499999984 10.1127215 46.31411249999999 10.116387 46.30461650000001 10.138353499999997 46.3010865 10.137526 46.29559149999997 10.1455545 46.292721 10.1542675 46.289255 10.156594500000002 46.28479800000002 10.154819 46.282354 10.162424 46.27718450000003 10.161245 46.27142599999999 10.1633465 46.266613500000005 10.171935999999999 46.25827650000002 10.1765245 46.25461250000001 10.1749335 46.239642 10.150873500000001 46.230482499999994 10.145949 46.22487699999999 10.132324 46.225594 10.128616 46.223787499999986 10.1232815 46.2257195 10.1091725 46.22856999999999 10.103486 46.228192000000035 10.091609500000002 46.22475299999999 10.0801875 46.2171185 10.0705935 46.22019450000002 10.0630825 46.224974 10.058612500000002 46.22974449999998 10.04367 46.23521099999999 10.052921 46.24151500000002 10.053437000000002 46.244080499999995 10.056963499999998 46.247152 10.0573545 46.24822899999998 10.060568500000002 46.26705750000002 10.053717 46.277417000000014 10.029061999999998 46.28066000000001 10.0092285 46.28476549999999 9.996015 46.29613500000002 9.991741 46.301444000000004 10.00061 46.30354 10.0009425 46.307491 9.996341 46.31307400000003 10.0001955 46.31403599999996 9.994912 46.32314650000001 9.9802195 46.33428549999999 9.985631 46.342343 9.9961245 46.34836100000001 9.9949785 46.350934499999994 9.996764 46.35240750000003 9.993776 46.351787 9.9852395 46.3638 9.9645725 46.37346450000001 9.9560175 46.37812450000001 9.959241 46.379155999999995 9.953191500000003 46.374870999999985 9.934299 46.371533 9.929784999999999 46.367841 9.9306265 46.36591150000001 9.9247885 46.37062700000004 9.9225675 46.37053999999998 9.916729499999999 46.38066210000002 9.9079115 46.37342849999999 9.884071000000002 46.3684475 9.880631999999999 46.362412000000006 9.8682245 46.36464699999999 9.865182 46.36279050000002 9.856281000000001 46.364611999999966 9.8495165 46.36184850000001 9.8461805 46.36098799999999 9.832073500000002 46.35812100000001 9.8309345 46.350685 9.8199985 46.34854949999999 9.809403999999999 46.34420299999999 9.802398 46.34099470000001 9.7845034 46.33546100000001 9.778579499999998 46.335913500000004 9.769648 46.344415 9.7576285 46.34789249999997 9.747367 46.35182000000003 9.7435325 46.35031299999997 9.7358385 46.344268 9.726695 46.34074000000001 9.7231505 46.332697499999995 9.727061499999998 46.331259999999986 9.7233375 46.323980500000005 9.7173255 46.321668999999986 9.7182685 46.319694 9.726010999999998 46.3132755 9.7258225 46.31001499999999 9.7244755 46.30628150000001 9.718219 46.29291839999999 9.7144511 46.29173500000002 9.710146 46.29081049999999 9.7027055 46.293959 9.6940995 46.293835 9.6886605 46.297094500000014 9.681814 46.299980500000004 9.6812475 46.30304850000002 9.6765125 46.29989950000001 9.670003000000001 46.29631199999997 9.669252500000002 46.296052 9.659976 46.29254700000001 9.651024 46.28981350000001 9.6497065 46.28615400000001 9.639238 46.28843050000003 9.624501000000002 46.287364499999995 9.618829 46.294648000000024 9.6104395 46.295710000000014 9.599309500000002 46.29350549999998 9.592726 46.29492450000001 9.589966500000001 46.294904 9.579259 46.29905600000001 9.5730955 46.3027075 9.562162 46.30629299999998 9.55982 46.30597 9.5543925 46.302379099999996 9.5495294 46.3080995 9.5391325 46.326842500000026 9.5186675 46.33260250000001 9.516721 46.33234200000001 9.5142325 46.35148050000001 9.5084725 46.3561665 9.5005305 46.36410299999997 9.496424 46.367335 9.483018999999999 46.37123750000001 9.479331 46.370653000000004 9.476028500000002 46.375970499999994 9.4608135 46.379039000000006 9.462817 46.38349149999999 9.461739 46.38426199999998 9.465143 46.38894049999999 9.4686535 46.412181000000004 9.461561 46.41591600000004 9.4563035 46.420777499999986 9.4542615 46.43670850000001 9.4570765 46.44253549999999 9.4606775 46.463333999999975 9.4590355 46.46964750000001 9.465402 46.48047199999999 9.462247499999998 46.47998049999998 9.449702499999999 46.484376999999995 9.449096 46.48484450000004 9.461036499999999 46.49764299999998 9.4628085 46.505487500000015 9.461066 46.50778249999999 9.464343 46.508351000000005 9.458546 46.50532150000001 9.455071 46.497975999999994 9.4341325 46.48860049999999 9.424823500000002 46.485938000000004 9.4264305 46.476665499999996 9.424429 46.46721250000002 9.413625 46.466791 9.4107885 46.47308850000002 9.3897835 46.48214300000001 9.3851645 46.483948 9.377788 46.489419 9.371252 46.49446649999999 9.3683745 46.49977150000001 9.37333 46.503551000000044 9.3734335 46.50950500000002 9.3623465 46.50426399999998 9.355109 46.505368000000004 9.351115 46.503804 9.3390805 46.50597549999998 9.3375045 46.50413800000001 9.311049 46.497075499999994 9.290703 46.49669499999999 9.2827395 46.48746299999999 9.278994 46.483698000000004 9.274375 46.479103500000036 9.2775535 46.466132500000015 9.2736405 46.4610055 9.277897 46.45153299999998 9.266221 46.44947749999997 9.252794 46.44679450000004 9.2470025 46.43101250000001 9.249851 46.425004 9.260832 46.420585500000044 9.263527 46.418180999999976 9.2696465 46.4188455 9.274534 46.4130615 9.280476 46.40509700000001 9.2821175 46.403434499999975 9.278612 46.401535499999994 9.2816925 46.39495149999999 9.2754055 46.38907649999999 9.27849 46.38629499999999 9.2835185 46.383651499999985 9.283506 46.37346400000001 9.27519 46.37142549999999 9.2771495 46.36781100000002 9.2760725 46.366607999999985 9.278838 46.3578435 9.28253 46.35565249999999 9.2965085 46.35146099999997 9.297838 46.34911249999999 9.2961445 46.343647000000004 9.2999765 46.33588750000004 9.292313 46.331871500000005 9.2935145 46.326456500000035 9.3001415 46.32325 9.295892 46.317239 9.294728 46.31438850000001 9.2852885 46.30922100000001 9.281611 46.29691249999999 9.285065 46.28954250000001 9.2719655 46.28216599999999 9.2677635 46.27856299999999 9.259212 46.26943850000001 9.2570475 46.26739199999997 9.2521175 46.262388999999985 9.2531475 46.25617350000002 9.2490965 46.2514085 9.2513415 46.2475335 9.248358 46.23970350000002 9.249802 46.23203750000002 9.2464385 46.233416500000004 9.2355305 46.2288935 9.2209065 46.223839999999996 9.2229975 46.2142705 9.2188305 46.210748499999994 9.2144015 46.20830599999999 9.202173 46.193625 9.1948445 46.187010499999985 9.198089 46.184056 9.194925 46.178438 9.1940385 46.1691725 9.1810995 46.17094350000002 9.1727465 46.17174299999999 9.1704465 46.17136299999996 9.1686665 46.169601 9.1593775 46.16216349999999 9.156579 46.1533225 9.1345095 46.134817999999996 9.1214755 46.13540649999996 9.117079 46.131970499999994 9.10471 46.12671850000001 9.0997915 46.125782000000044 9.089215 46.1212415 9.078689 46.11810299999999 9.0725175 46.090069 9.089146 46.08569349999999 9.0894325 46.07874100000001 9.0841955 46.075916000000035 9.0790725 46.06520169999999 9.0783211 46.062513499999994 9.073897 46.060667499999994 9.060423 46.06236400000003 9.0502305 46.058971499999984 9.044785 46.05894249999997 9.039377 46.05303200000003 9.028804 46.052694 9.022682 46.04973099999998 9.017218 46.043188499999985 9.0169695 46.03728799999999 9.009525 46.029799000000025 9.007594 46.015908800000005 9.0226588 46.00092749999996 9.0244898 45.993626000000006 9.028461 45.992751999999996 9.02289 45.98953899999998 9.022502 45.98765 9.0180785 45.98790249999999 9.0113585 45.9831815 9.0111415 45.980297500000006 9.0073435 45.98051100000001 8.995348 45.97281200000003 8.995821 45.971641500000004 8.99107 45.972932000000014 8.9885445 45.96655150000001 8.9940255 45.96054800000002 9.013964 45.94917649999999 9.017267 45.943843199999975 9.0122889 45.94151099999999 9.013568 45.93714800000001 9.0224785 45.928442099999984 9.0191952 45.928747499999986 9.0261575 45.926429799999994 9.0298123 45.9274935 9.0427355 45.92208099999996 9.049433 45.920428500000014 9.0490875 45.92094800000001 9.059905 45.916484 9.0590625 45.91279340000003 9.0684974 45.910634500000015 9.0678085 45.912833000000006 9.072649 45.911417 9.076576 45.90338550000001 9.0763465 45.899299499999984 9.0769315 45.90220500000001 9.086842 45.9006622 9.089026 45.89689699999997 9.0888035 45.895962999999966 9.085173 45.891796 9.0816435 45.89202800000001 9.0779545 45.8884645 9.079459 45.8850807 9.0778376 45.88175849999999 9.07146 45.87539050000004 9.0663865 45.8751575 9.0572345 45.873565499999984 9.054807 45.86800100000002 9.053696 45.8626175 9.0491785 45.85552150000001 9.051365 45.85318300000006 9.048236 45.85221250000001 9.0507745 45.849594499999995 9.0453995 45.84659149999999 9.0438115 45.84649250000001 9.0406285 45.842029999999994 9.038652 45.839658499999985 9.0354315 45.83552399999999 9.0378315 45.8246905 9.0309525 45.82301699999999 9.034462 45.82083349999999 9.0313895 45.8219225 9.022372 45.820693500000004 9.0213315 45.81797000000003 9.016526 45.82291649999999 8.998435 45.82197049999999 8.9939145 45.82620850000001 8.994115 45.834944500000006 8.9974875 45.83533700000001 8.9898905 45.838618499999995 8.9867485 45.8357115 8.981385 45.8366345 8.9761725 45.83304050000001 8.9742075 45.83235350000001 8.969984 45.836374000000006 8.9614595 45.83912749999996 8.9619675 45.84290899999999 8.9557735 45.84277799999998 8.946799 45.83890499999998 8.9328775 45.83337549999999 8.9290345 45.83419649999999 8.920476 45.830445 8.912147 45.842229 8.914226 45.860962 8.9325365 45.8637143 8.9393655 45.866978500000016 8.9453015 45.87034299999999 8.9420595 45.867305999999985 8.937027 45.870576700000015 8.9341441 45.885099999999966 8.9319025 45.895763999999986 8.9215375 45.90370249999995 8.924843 45.908998 8.9202431 45.914422599999995 8.9161879 45.91777250000001 8.914312 45.91774000000001 8.907148 45.93301450000001 8.892732 45.947788 8.898775 45.959014999999994 8.893755 45.9568515 8.881602 45.9628352 8.8665315 45.965405000000004 8.864875 45.96623249999999 8.8599296 45.97038649999999 8.8537154 45.97617500000001 8.8468215 45.97734650000004 8.8435515 45.981471 8.842698 45.98165949999998 8.8401025 45.98413249999999 8.8393015 45.985194500000006 8.834186 45.98795999999999 8.831639 45.98766699999999 8.8235925 45.987296000000015 8.8218605 45.99037799999999 8.813912 45.99205950000001 8.795799 45.99188549999997 8.792432 45.988609499999995 8.790857 45.98907550000001 8.785907 46.00810849999996 8.7930945 46.0121905 8.797105 46.02193349999999 8.805911 46.025497 8.819678 46.034227999999985 8.8281665 46.04161099999999 8.8300335 46.040569500000004 8.8327085 46.04377499999998 8.835439 46.046469 8.828817 46.05136949999999 8.8345335 46.04851400000001 8.8441915 46.06159149999996 8.8545945 46.07564150000002 8.852114 46.07575299999996 8.8475165 46.080498500000004 8.8414395 46.08286100000001 8.833761 46.09728499999997 8.8153575 46.101283499999994 8.806036 46.09471099999999 8.7997835 46.094183500000014 8.783036 46.10071450000004 8.7683025 46.1014175 8.7602275 46.10515179999999 8.7556759 46.12222249999999 8.7423305 46.110326999999984 8.724405 46.097272000000004 8.713936 46.101609499999995 8.698031 46.10210249999997 8.6858525 46.110379999999964 8.6792735 46.108826499999964 8.6700255 46.11269149999998 8.657714 46.1225345 8.6478995 46.12332649999999 8.648031 46.122331 8.6288925 46.121669499999996 8.6118585 46.1245275 8.611172 46.13287500000001 8.6097165 46.14277849999999 8.595678 46.14296999999999 8.592897 46.146004000000005 8.593127 46.149557500000014 8.599627 46.15312 8.5999015 46.153539999999964 8.6033675 46.15536900000001 8.603007 46.15668149999999 8.5879885 46.16159700000003 8.5873235 46.16264150000001 8.576414 46.166930500000035 8.572122 46.17705849999999 8.569695 46.1837975 8.5637275 46.186147000000005 8.55405 46.192027999999965 8.553586 46.19737649999999 8.542448 46.20426599999999 8.536403 46.21828249999999 8.532443 46.221850500000016 8.521686 46.2201585 8.515136 46.22910200000001 8.492382 46.23037150000002 8.477527 46.23289500000001 8.4686835 46.24455050000003 8.4641065 46.24789899999999 8.4472735 46.250625000000014 8.4431735 46.254151500000006 8.4422765 46.25801949999999 8.4478905 46.26139499999999 8.4484915 46.2637555 8.4558805 46.27432400000001 8.449771 46.28566599999999 8.4363045 46.291818000000006 8.433995 46.29830050000001 8.4277395 46.302209000000005 8.4330205 46.304119000000014 8.4405335 46.30805000000001 8.43912 46.310137 8.441792 46.31949449999999 8.4437215 46.32126199999996 8.453846 46.32725049999999 8.455656 46.32840899999999 8.4604155 46.333762500000006 8.465357 46.33681300000001 8.463289 46.34465399999999 8.464363 46.353256499999986 8.4615615 46.362551499999995 8.4702345 46.36831749999999 8.466813 46.3800555 8.466513 46.38667649999999 8.4608375 46.39592300000001 8.471172 46.40486799999999 8.4630535 46.41174399999997 8.4683155 46.4231795 8.45687 46.42839950000001 8.4607595 46.43476049999998 8.4575325 46.442679 8.4662415 46.44623899999999 8.4615545 46.450645699999995 8.4619988 46.45535100000001 8.452797 46.461844499999984 8.4500125 46.46371600000003 8.445719 46.46266650000001 8.4386375 46.46429549999999 8.4385285 46.458763000000005 8.4170995 46.458736999999985 8.408417 46.45474200000001 8.402231 46.454560000000015 8.3959535 46.45157549999999 8.392958 46.45215849999997 8.384717 46.45080300000001 8.379003 46.453126499999996 8.3752945 46.45192249999997 8.366936 46.44696299999998 8.355762 46.441643 8.352464 46.42571400000003 8.325441 46.42363149999997 8.3149635 46.425850999999994 8.3074915 46.417438000000004 8.2988965 46.41424600000002 8.298948 46.408109499999995 8.288934 46.40245049999996 8.3035475 46.402026000000006 8.3066035 46.40402450000002 8.3096725 46.3989655 8.3157325 46.394000000000005 8.317292 46.389825 8.3141565 46.386444599999976 8.3186947 46.383949 8.3149465 46.37706600000001 8.3128995 46.374074500000006 8.3000135 46.36913849999999 8.2897935 46.3636305 8.2842825 46.366862 8.273075 46.36402300000003 8.2637725 46.360849 8.260755 46.35710900000001 8.265034 46.3518435 8.2658795 46.34866249999999 8.2599275 46.3459665 8.2628835 46.3464415 8.2529435 46.340757999999994 8.2500425 46.340363999999965 8.235424 46.33444800000001 8.2239955 46.33286050000001 8.225024 46.33024649999999 8.221613 46.32641050000001 8.22507 46.319661999999994 8.214654 46.316227999999995 8.2149275 46.312589 8.2112405 46.30927700000001 8.212012 46.30602249999998 8.2053895 46.302250499999985 8.1987505 46.30423300000001 8.192956 46.29738950000001 8.178897 46.295884 8.1614215 46.301537499999995 8.1470015 46.301929 8.141117 46.301766999999984 8.1375635 46.29475350000001 8.1288565 46.29187350000001 8.120857 46.281143499999985 8.113563 46.27964700000004 8.105455 46.27370100000002 8.1004975 46.266617499999995 8.085928 46.2621135 8.0860575 46.260628999999994 8.080412 46.25428299999999 8.086245 46.25241250000002 8.1013505 46.249468500000035 8.1016175 46.24950449999997 8.1101545 46.23873800000004 8.113034 46.23600299999998 8.1153275 46.236031499999996 8.120479 46.229622000000006 8.1242735 46.226147999999995 8.1388775 46.21159549999999 8.1435255 46.202821 8.1513925 46.1911035 8.153295 46.18222750000004 8.1655095 46.17689060000001 8.1651559 46.17406399999996 8.1585815 46.162503000000015 8.1498785 46.1569375 8.1497415 46.14763099999999 8.1553445 46.13682300000002 8.1443895 46.135271999999986 8.125187 46.130346 8.1154155 46.11743949999999 8.113807 46.111628499999995 8.108233 46.11098999999999 8.099867 46.1084075 8.0971445 46.10545000000002 8.081798 46.10599549999998 8.069219 46.10129549999999 8.0543095 46.10227549999999 8.0491265 46.09992549999998 8.0430585 46.1008406 8.0343476 46.09525099999999 8.0339015 46.08960050000002 8.029584 46.08092149999996 8.029099 46.074708499999986 8.022531 46.06936600000003 8.021662 46.067544500000025 8.024564 46.062984 8.0238735 46.04404499999998 8.0354145 46.03896550000002 8.0220525 46.03120999999999 8.0118915 46.024704499999984 8.017501 46.018853500000006 8.0107585 46.01586350000002 8.0132475 46.01196999999999 8.012413 46.01221100000001 8.001084 45.99987350000001 7.993937 45.99593350000001 7.989094500000001 45.99945349999999 7.977114 45.996072999999996 7.957335 45.99760650000002 7.949491500000001 45.99597850000001 7.9326335 45.996967299999994 7.9086896 45.978635 7.893849000000001 45.97386 7.877425 45.964009000000004 7.8818114999999995 45.95793199999997 7.874891500000001 45.954369499999984 7.878907 45.94911350000001 7.877206500000001 45.947363499999994 7.8703745000000005 45.9363415 7.868500000000001 45.927091700000005 7.8770243 45.920466000000005 7.873073499999999 45.91957249999999 7.8663385 45.91669950000002 7.863576300000001 45.92086950000001 7.858500500000001 45.92172450000001 7.8367205 45.92496399999996 7.831447000000001 45.92696000000001 7.820390500000001 45.91739089999999 7.799501900000001 45.920000500000015 7.793984000000001 45.924949 7.790812999999999 45.93106649999996 7.7765605 45.93711749999997 7.769268 45.94100849999998 7.747751499999999 45.934878 7.745828999999999 45.92829900000001 7.736870999999999 45.9239905 7.7350975 45.923790000000025 7.7204805 45.927734499999985 7.7163335 45.92822799999999 7.712673500000001 45.932908999999995 7.711274 45.93477549999997 7.7073705 45.948155499999984 7.709769999999999 45.9540255 7.6996915 45.95490749999999 7.6876185 45.957772000000034 7.67963 45.96504749999997 7.676995 45.9739855 7.6681735 45.976631999999995 7.657467 45.9701115 7.6395005 45.972368500000016 7.619635 45.96939090000001 7.610003299999999 45.9705165 7.588791 45.974389 7.581727500000001 45.986012500000015 7.5786074999999995 45.987573999999995 7.574703 45.98568750000001 7.561997000000001 45.986556500000006 7.550134 45.9837665 7.545698500000001 45.97617700000001 7.541536999999999 45.96313950000001 7.546722000000001 45.9569425 7.542764 45.95494600000001 7.538433999999999 45.9568615 7.535464499999999 45.95649349999999 7.527978500000001 45.96232450000002 7.5176275 45.957967999999994 7.5075315 45.96241850000004 7.499186 45.95568850000001 7.4934395 45.955809999999985 7.487446 45.952406999999994 7.477937 45.947190000000006 7.471459499999999 45.93662749999996 7.4749315 45.93405949999999 7.471644000000001 45.93555700000002 7.458733999999999 45.932147999999984 7.4558995 45.9317465 7.444620500000001 45.920225000000016 7.434416999999999 45.915402 7.427056500000001 45.90871150000001 7.410806 45.909088499999996 7.405508 45.911474999999996 7.401733 45.908473000000015 7.397882999999999 45.90486099999998 7.3971965 45.897155500000025 7.386337499999999 45.89650449999999 7.382384500000001 45.90413799999999 7.3660675 45.90332749999999 7.3612165 45.907242000000025 7.356449499999999 45.910642499999994 7.3564625 45.91158950000002 7.350535999999999 45.91524050000001 7.344303 45.9105165 7.3307235 45.910229500000014 7.323765 45.91167200000001 7.318111999999999 45.91657950000001 7.3161745 45.91722149999998 7.301557 45.921795900000006 7.294512299999999 45.9157505 7.285315 45.900667999999996 7.2767715 45.89985150000001 7.271476 45.888217999999995 7.256877500000001 45.888465499999995 7.2531435 45.893134 7.2494865 45.890063999999995 7.24054 45.89202 7.228292 45.88976800000003 7.225684000000001 45.8887795 7.2164395 45.883872 7.215700499999999 45.88018099999999 7.206093000000001 45.87647749999999 7.203609 45.87551350000004 7.200118000000001 45.87034299999999 7.197700500000001 45.86308249999999 7.200823499999999 45.8602745 7.196588500000001 45.85867950000002 7.1906025 45.863512000000014 7.1789075 45.86285499999997 7.175214500000001 45.87149950000003 7.161742 45.87668450000001 7.164098999999999 45.879249500000014 7.153543499999999 45.872709499999985 7.1352765 45.866735000000006 7.131419 45.859192500000006 7.117904 45.85927050000004 7.101174999999999 45.87206599999996 7.092142999999999 45.8758335 7.095292 45.88529299999999 7.0799395 45.89017899999999 7.076461500000001 45.895182000000005 7.0766055 45.89992799999999 7.064193 45.909366000000006 7.064455499999999 45.91338300000001 7.060583500000001 45.915546000000006 7.053107000000001 45.922413000000006 7.044886 45.930950499999994 7.041839 45.9384115 7.035671999999999 45.944796999999994 7.038539 45.95427299999997 7.0376 45.960174499999994 7.018369 45.969391 7.009050000000001 45.973304499999955 7.010733 45.976249499999966 7.020972 45.98054100000002 7.022241499999999 45.98670950000002 7.015547 45.98735450000004 7.012056 45.9972765 7.010530999999999 46.001209500000016 7.005619 45.999138000000016 6.999714 46.005127000000044 6.984753000000001 46.02024850000004 6.980931000000001 46.025795000000016 6.971083 46.03118899999998 6.966569 46.03053649999998 6.962905999999999 46.05173099999999 6.949742 46.050956499999984 6.943008 46.05513400000001 6.935878 46.06403749999998 6.937628 46.06672299999997 6.933152999999999 46.06417099999999 6.928431 46.06472400000001 6.923767 46.050640499999986 6.908989000000001 46.04809149999997 6.894678 46.04246150000003 6.890639000000001 46.044479499999994 6.882988999999999 46.047695000000004 6.875638500000001 46.05556849999999 6.873080999999999 46.06945399999998 6.880819000000001 46.07388320000001 6.8914787 46.078670500000015 6.888369 46.08504500000001 6.891781000000001 46.095207000000016 6.8829555 46.10822300000001 6.895308 46.11293799999996 6.893258 46.124055099999964 6.8994739 46.1253815 6.890419 46.1229285 6.882292 46.125782000000044 6.876219 46.1265525 6.851372 46.128963500000026 6.843121999999999 46.13202989999999 6.8415572 46.13106899999997 6.819328 46.129323400000004 6.8152311999999995 46.136101 6.807956 46.13538349999999 6.8009390000000005 46.136798999999996 6.797889 46.154315999999994 6.790425000000001 46.16319649999997 6.792314000000001 46.17280199999999 6.805625000000001 46.17784900000001 6.807331 46.181419500000004 6.812422 46.19646850000001 6.8069749999999996 46.2031365 6.803564 46.2138865 6.810092 46.223460999999986 6.821667 46.22996899999998 6.820745 46.232177500000006 6.821311 46.234245499999986 6.830511 46.240696000000014 6.837019000000001 46.24830650000001 6.840119 46.25465 6.855108500000001 46.25889600000002 6.854517 46.26587299999997 6.859961 46.273799999999994 6.859064 46.28059400000001 6.864807999999999 46.29043200000001 6.858923500000001 46.292381500000005 6.854228 46.28998200000004 6.847147 46.299792999999994 6.834328 46.29984300000001 6.830533000000001 46.30277649999999 6.828208 46.30605299999999 6.830028000000001 46.315338 6.819344000000001 46.320651999999995 6.806631 46.319851 6.8006585 46.332802000000015 6.796461 46.3329315 6.784402999999999 46.34440599999999 6.779319499999999 46.34728770000001 6.774688499999999 46.35520550000001 6.770442 46.36118299999998 6.771636 46.36647049999999 6.780803 46.367142 6.791786 46.37670149999997 6.803819 46.3831175 6.805885999999999 46.38694000000001 6.8017935000000005 46.394070699999986 6.8052021 46.42715450000003 6.821064 46.454334500000016 6.681858 46.4563675 6.519104 46.415806 6.425619 46.403717 6.3351895 46.36042000000003 6.252957 46.3435825 6.24136 46.3294295 6.231694 46.31187800000001 6.219547 46.304564399999975 6.2413903 46.301552000000015 6.248842 46.3002625 6.247178000000001 46.294456499999995 6.248481 46.29167949999999 6.251883 46.2878915 6.251224999999999 46.285083499999985 6.244290000000001 46.28179549999999 6.237864 46.27661899999998 6.237747 46.26229500000002 6.250052 46.25487500000003 6.260860999999999 46.251705000000044 6.260172 46.24769950000001 6.266508000000001 46.25452050000001 6.284622 46.25623700000003 6.284043999999999 46.264599000000004 6.294877999999999 46.263679999999994 6.296544 46.25595450000003 6.295236 46.2548635 6.300889 46.25618000000003 6.310281 46.25502399999999 6.308533 46.251243500000015 6.306055499999999 46.2499655 6.309328 46.2440455 6.310210999999999 46.22493 6.2944640000000005 46.223464999999976 6.2917275 46.215248 6.276372 46.213390499999974 6.265539000000001 46.20499050000001 6.24875 46.20655450000004 6.2450079999999994 46.204822500000006 6.243419 46.20636350000001 6.234133 46.2035635 6.230119 46.201415999999966 6.223854000000001 46.193794499999996 6.214244 46.192184499999996 6.206817 46.18377749999999 6.198424999999999 46.18142299999997 6.189075 46.178226499999994 6.186103 46.16619450000002 6.188839 46.158142 6.175417 46.151527500000014 6.152244 46.14591999999999 6.146694 46.14481749999999 6.1449 46.147007 6.141611 46.14115899999999 6.135542 46.1404685 6.126619 46.1426735 6.121164 46.143966500000005 6.099131 46.1516685 6.091844 46.14930749999996 6.0745585 46.151268000000044 6.051922 46.147414999999995 6.048703 46.14094549999999 6.047811 46.14106749999999 6.042919 46.134765000000016 6.035725 46.139365999999995 6.031981000000001 46.14070400000003 6.0243864 46.14294449999997 6.015263999999999 46.14194500000002 6.003766999999999 46.144428500000004 5.993983 46.1421349 5.9827235 46.13587949999999 5.980358 46.13262950000001 5.976353 46.12958549999999 5.965283 46.130302 5.960917000000001 46.12794809999997 5.957313200000001 46.1320887 5.9560876 46.13718399999999 5.965939 46.14469550000001 5.964661 46.15617510000001 5.973363000000001 46.16032400000003 5.9762293 46.172680000000014 5.981867 46.173564999999996 5.984863999999999 46.1707375 5.988297 46.17686119999999 5.9923112 46.179328999999996 5.99165 46.18289549999997 5.995222 46.1874315 5.991342 46.196968200000015 5.9637 46.19802770000001 5.9642155 46.202526000000006 5.972953 46.2066385 5.969278 46.214751999999976 5.974414 46.21690750000002 5.978375 46.21550350000001 5.993136000000001 46.22239300000001 5.9914325 46.22240049999999 5.996338999999999 46.220115899999996 6.0000851 46.223468999999994 6.006867 46.22915649999999 6.010006 46.228992500000004 6.013508 46.2305825 6.012864 46.2318305 6.016677999999999 46.233238 6.0251925 46.238426000000004 6.033722 46.233104499999996 6.042397 46.2314375 6.046336 46.24517800000001 6.061139 46.24561649999998 6.0634575 46.24107749999999 6.069625000000001 46.24704349999999 6.088136 46.2375375 6.101817 46.240688499999976 6.106342 46.23966200000001 6.109014 46.250572000000034 6.12358 46.261150499999985 6.120089999999999 46.26358400000001 6.1182 46.264759 6.120130999999999 46.26566300000002 6.116042 46.27021400000001 6.110389 46.27246099999999 6.113458 46.278385000000014 6.103639 46.2839735 6.10455 46.28485499999999 6.102367 46.294182000000006 6.1132555 46.29430399999998 6.118958 46.2971685 6.121142 46.3077165 6.119092000000001 46.312404500000014 6.119808000000001 46.31726850000001 6.124369 46.317509099999995 6.1257606000000004 46.32118600000001 6.126711000000001 46.32466010000002 6.1314595 46.3331263 6.1377108 46.33463710000001 6.1392202000000005 46.33558249999999 6.137258 46.3393135 6.138619 46.342712500000005 6.149157999999999 46.34727849999999 6.151547 46.35096500000003 6.1580323 46.35758200000001 6.15935 46.36643219999999 6.170156500000001 46.37953949999999 6.158578000000001 46.37761699999999 6.156664 46.377395500000006 6.149839 46.387817499999954 6.135853 46.399925499999995 6.113564 46.396698000000015 6.114083 46.39971550000001 6.105511 46.408607500000016 6.098221499999999 46.416223900000006 6.064025899999999 46.431843000000015 6.074907999999999 46.43956399999999 6.084172 46.44314600000001 6.086244 46.44737650000002 6.084431 46.4533275 6.074894 46.457325 6.076842 46.459934000000004 6.073467 46.46575150000001 6.0728275 46.481587899999994 6.0971403 46.50990349999998 6.112961 46.53057499999997 6.137494 46.52801149999999 6.144202999999999 46.536617500000006 6.153417 46.53935599999997 6.148575000000001 46.545252000000005 6.1564804 46.57665650000001 6.1109610000000005 46.584014999999965 6.121743999999999 46.5894735 6.126113999999999 46.59711849999999 6.138842 46.603759999999994 6.153778 46.60990150000001 6.161225 46.616161500000004 6.179136 46.620205 6.180358000000001 46.62818149999998 6.196011 46.634254500000026 6.19985 46.6360665 6.208083 46.644899699999996 6.2194419 46.64811700000001 6.227711 46.6549455 6.233578 46.67647199999999 6.267544 46.67923350000001 6.270553 46.68272000000002 6.269439000000001 46.69045650000001 6.2831085 46.698581700000034 6.3074067 46.706039499999974 6.324135999999999 46.710376999999966 6.342011 46.71514500000001 6.352424499999999 46.72308749999999 6.360242 46.72191650000002 6.364485999999999 46.724357499999996 6.371761 46.728816999999964 6.371478 46.729255499999994 6.368117 46.730365999999975 6.370067000000001 46.73210900000001 6.3854845 46.738151000000016 6.391610999999999 46.743209999999976 6.388475 46.7478715 6.394511 46.75069450000001 6.400689 46.75001550000002 6.404272 46.75276550000001 6.417144000000001 46.75708800000001 6.430822 46.762573 6.439425 46.76637249999999 6.438902 46.773987000000005 6.4516915 46.778572499999996 6.451786 46.78831099999999 6.458442499999999 46.802040000000005 6.43463 46.81232850000001 6.430997 46.81626499999999 6.440680999999999 46.824123499999985 6.439606 46.831878500000045 6.442506 46.8515515 6.460010999999999 46.8755415 6.462804 46.89041499999996 6.464458 46.900982 6.4578 46.92165 6.435789 46.928455499999956 6.432750000000001 46.933410699999996 6.444752199999999 46.9430735 6.459481 46.95561810000001 6.471642 46.9671635 6.486020300000001 46.974178600000045 6.4966990000000004 46.966140499999995 6.5059640000000005 46.97080600000001 6.518606 46.979416000000015 6.563492 46.99078750000004 6.5919305 46.992526999999995 6.596142 46.991626499999995 6.616914 46.99840950000001 6.6337105 47.006561500000004 6.643747 47.0263405 6.658475000000001 47.035229000000015 6.677939 47.038803 6.698958499999999 47.0523225 6.7197439999999995 47.053458500000005 6.7124925 47.057998500000025 6.708872 47.05888749999997 6.700968999999999 47.06640999999999 6.691792 47.073868000000004 6.705781000000001 47.079155000000014 6.707525000000001 47.081501 6.702785999999999 47.08847800000001 6.715808 47.091792999999996 6.725930999999999 47.08961099999999 6.731325 47.090482399999985 6.7390397 47.09238449999998 6.743385999999999 47.09645450000002 6.746044 47.1086425 6.739968999999999 47.109610299999986 6.7441387 47.12033450000001 6.765146999999999 47.1210595 6.775303000000001 47.127027999999996 6.792348 47.130206999999984 6.804992000000001 47.13538349999996 6.808631 47.135479000000004 6.815083 47.14635099999998 6.8285860000000005 47.15034850000001 6.839611 47.154289000000006 6.841661000000001 47.15646000000001 6.849975 47.16528890000001 6.8589121 47.1664045 6.845239 47.17139799999998 6.841327999999999 47.180000500000006 6.8637809999999995 47.185287500000015 6.867591999999999 47.18533350000004 6.873894 47.18956749999998 6.873714 47.200031499999994 6.879939 47.205070500000005 6.889444500000001 47.218192999999985 6.9103140000000005 47.222133499999984 6.923847000000001 47.228488999999996 6.927531 47.23088450000003 6.932999999999999 47.23106000000004 6.939418999999999 47.234526999999986 6.9427387000000005 47.238178500000004 6.943239 47.24297470000002 6.9554785 47.2534675 6.946507999999999 47.25967800000001 6.951108 47.26903949999999 6.951943999999999 47.2865065 6.940742000000001 47.292392500000005 6.953224999999999 47.29275100000004 6.9685109999999995 47.291424000000006 6.973294 47.296367499999974 6.976575000000001 47.29612749999998 6.996572 47.30140699999998 7.003336000000001 47.30129609999997 7.007402700000001 47.313984000000005 7.016214 47.31991199999999 7.013608 47.3208315 7.009719 47.324367499999994 7.009739 47.3284075 7.034439 47.32672099999999 7.045719000000001 47.33439250000001 7.056631000000001 47.33689900000002 7.052925 47.339878 7.059147 47.34373449999998 7.061636 47.34722149999999 7.0499245 47.351661500000006 7.052586 47.36184299999999 7.048925 47.364029000000016 7.043322000000001 47.36358949999999 7.0344750000000005 47.36787749999999 7.0336515 47.3695185 7.033335999999999 47.370311499999985 7.020406 47.372883 7.017908 47.37149449999998 7.013417 47.372794999999996 7.012343999999999 47.367558 7.006125 47.363449 6.995997 47.3635065 6.983092 47.35985949999997 6.974433 47.359768 6.951407999999999 47.35755549999999 6.941756 47.3584065 6.932978000000001 47.3553125 6.921100000000001 47.35940550000001 6.901847 47.35770400000001 6.899225 47.358611999999994 6.895747 47.35639549999999 6.894472 47.352810000000005 6.8847689999999995 47.35244 6.879806000000001 47.35743350000004 6.878969 47.36701199999996 6.884849999999999 47.37315749999999 6.883669 47.379940000000005 6.895586 47.38166799999999 6.894963999999999 47.382942000000014 6.905180499999999 47.38618450000001 6.9119395 47.38945749999999 6.913669 47.39618300000001 6.909542 47.39736199999999 6.915439 47.40323999999998 6.917817 47.40465950000001 6.9136169999999995 47.40650199999999 6.919436 47.405204999999995 6.920874999999999 47.40647899999999 6.9385995 47.416027000000014 6.941681000000001 47.433704500000005 6.939186000000001 47.435077500000034 6.954618999999999 47.4337275 6.957753000000001 47.4356995 6.96365 47.44705999999999 6.970293999999999 47.44899000000001 6.981431 47.447895000000045 6.990261 47.4537435 7.00155 47.456028 7.000947 47.45663450000001 6.997528000000001 47.46007900000001 6.9980530000000005 47.461761499999994 7.001092 47.46687750000001 7.000361 47.46642700000001 6.991778000000001 47.4712485 6.992925 47.476211500000005 6.986539 47.487262499999986 6.988467 47.4942705 6.982913999999999 47.49358000000001 6.986303 47.49995050000001 7.000853 47.504222999999996 7.024406 47.50133149999999 7.0272395 47.4975015 7.036975000000001 47.49817300000001 7.044802999999999 47.49519350000003 7.051317000000001 47.49521200000001 7.060406 47.4922675 7.071342 47.488167000000004 7.074877999999999 47.494834999999995 7.091671999999999 47.495105499999994 7.111858 47.503589500000004 7.128017 47.5020945 7.138075 47.497116000000005 7.1504829999999995 47.49077199999999 7.159363500000001 47.48934550000001 7.169347 47.49388099999999 7.201083 47.49170699999999 7.202327999999999 47.488201000000004 7.190864 47.46813950000001 7.177603 47.4641762 7.178829400000001 47.45813990000002 7.178262199999999 47.4434545 7.170422 47.438755000000015 7.192267 47.43542099999999 7.196180499999999 47.434894499999956 7.206239 47.43977749999999 7.225569 47.43688950000001 7.235908 47.43383800000001 7.238603 47.42879499999998 7.2385744999999995 47.42684550000001 7.245017000000001 47.4202995 7.245588999999999 47.423992 7.254164 47.427043999999995 7.270469 47.434627499999976 7.282563999999999 47.43312049999997 7.292203 47.43873199999999 7.302975 47.438961000000035 7.324572 47.4398535 7.326465999999999 47.44143300000002 7.329825 47.4409105 7.338706 47.43535600000001 7.347222 47.43189250000003 7.380894 47.43539799999999 7.400356000000001 47.43551249999999 7.402983000000001 47.437862499999994 7.402847 47.440201 7.406581000000001 47.442039499999964 7.413942 47.44638800000001 7.421139500000001 47.4508285 7.423344000000001 47.453521499999994 7.428478 47.459282 7.430072 47.461723500000005 7.445019 47.47036 7.4552475 47.47279 7.455797 47.475307999999984 7.450483000000001 47.4742205 7.447819 47.478473500000035 7.443783 47.48246 7.4293689999999994 47.48018250000001 7.421236 47.488387999999986 7.4255439999999995 47.49797049999998 7.434775 47.48943700000001 7.454636000000001 47.489093999999994 7.462125 47.48044949999999 7.470896999999999 47.48230749999999 7.487628 47.48925400000002 7.497505999999999 47.490440500000034 7.502 47.49351899999999 7.501919 47.496826 7.510972 47.501945500000005 7.508725 47.50258250000002 7.5109055 47.50958249999999 7.509197 47.515987499999994 7.499164 47.521233000000024 7.497817 47.51462150000003 7.503519 47.517044 7.516753 47.515067999999985 7.518808 47.515232 7.523900000000001 47.51867300000001 7.523786 47.527717499999994 7.531475000000001 47.532306500000004 7.527814 47.53195199999999 7.524439000000001 47.534534500000035 7.519208 47.53260800000004 7.5161964999999995 47.5285265 7.509817 47.52848449999999 7.502432999999999 47.535240499999986 7.499042 47.53983299999999 7.499239 47.54297249999999 7.504519000000001 47.54476149999999 7.507889 47.546131 7.519233 47.55164350000001 7.525233 47.56339250000002 7.551786 47.56456399999996 7.5551595 47.56939299999999 7.558861000000001 47.57120499999996 7.556386 47.57261649999998 7.557483 47.57740849999999 7.566267 47.576145 7.574818999999999 47.575657000000035 7.584828 47.589878 7.589039 47.58482650000002 7.6049385 47.57779199999999 7.6045105 47.57683 7.619065 47.57944599999999 7.624522999999999 47.59131550000001 7.643203 47.59422250000003 7.6419325 47.5969685 7.645815999999999 47.59621799999999 7.64904 47.592044500000014 7.667261 47.592040499999996 7.675051 47.59849199999999 7.682847 47.600644999999986 7.693370000000001 47.58735999999999 7.6717545000000005 47.5850925 7.6720429999999995 47.58269250000001 7.680725 47.58092049999996 7.681114 47.57398549999999 7.6837435 47.57150050000001 7.6895305 47.5656175 7.6859705 47.571181000000024 7.6834375 47.565447000000006 7.675219499999999 47.56384800000001 7.677368999999999 47.563770999999974 7.6723384999999995 47.56588099999999 7.6701595 47.56242900000001 7.654705999999999 47.559883499999984 7.648155999999999 47.56401149999999 7.6362285 47.561113500000005 7.634097 47.552615 7.6453055 47.546996500000006 7.6515245 47.54484500000001 7.6613955 47.53661500000001 7.666803999999999 47.53355450000001 7.67529 47.532498000000004 7.6862235 47.5329035 7.6969815 47.539405000000016 7.713784499999999 47.54222900000002 7.72405 47.545027000000005 7.7526765 47.54837650000002 7.757851999999999 47.553296999999986 7.783334000000001 47.5574455 7.795672500000001 47.562637499999965 7.799482 47.5707525 7.8119955 47.587106000000006 7.8188200000000005 47.58656100000002 7.832744 47.58263649999998 7.837581000000001 47.582381 7.8472075 47.58735250000001 7.860485 47.588516 7.868769999999999 47.588872500000036 7.885044999999999 47.586371499999984 7.8940966 47.584053900000015 7.8979583 47.576923599999986 7.906522699999999 47.569016500000004 7.911530000000001 47.560816999999986 7.9073875 47.55542249999999 7.908518 47.54772650000001 7.917205500000001 47.54691650000001 7.932319 47.54448099999999 7.9404995000000005 47.54396500000004 7.9455505 47.545548 7.948642999999999 47.557116000000036 7.955421 47.558276000000035 7.960036499999999 47.557180500000015 7.964700999999999 47.555215000000004 7.977975999999999 47.556397499999974 7.999166 47.55497350000002 8.0072325 47.55454950000001 8.0082015 47.5504545 8.0195435 47.55529999999999 8.0460355 47.56342000000001 8.0592765 47.564490500000005 8.067313 47.56411299999999 8.071343 47.557436499999994 8.083569 47.557901999999984 8.090359 47.56102899999999 8.0971805 47.566363499999966 8.101439 47.57609900000003 8.102989 47.580723000000006 8.107204 47.583541 8.1127155 47.583286499999986 8.1261005 47.58404999999999 8.1364095 47.59078149999999 8.1383625 47.59498450000004 8.1472935 47.594154 8.159201 47.59430850000001 8.1655465 47.60195199999998 8.174452 47.60480949999999 8.184461 47.6162745 8.193912 47.62035850000001 8.201661 47.6199805 8.214005 47.6155119 8.2212491 47.60684979999999 8.2240473 47.605135500000046 8.225893 47.605396499999955 8.2293505 47.6127285 8.2382285 47.615223499999985 8.258417 47.613464300000004 8.2611483 47.609419 8.2651135 47.611617499999966 8.279824 47.6103195 8.2884835 47.60548 8.297631 47.594603500000034 8.2950295 47.58874500000002 8.298266 47.58364850000001 8.31029 47.578940999999986 8.3163515 47.572606500000006 8.324458 47.57039800000001 8.337175 47.569488500000006 8.3621045 47.565495 8.3835395 47.575016000000005 8.392099 47.577068 8.3995065 47.570742499999994 8.416288 47.567548999999985 8.4264345 47.567102000000006 8.437169 47.572355000000016 8.4558925 47.572212500000006 8.4641205 47.57786149999998 8.476828 47.577242600000034 8.4837482 47.577717699999994 8.4869211 47.5812014 8.4945405 47.587851 8.488619 47.587354000000005 8.4870125 47.583950000000016 8.468808 47.588036999999986 8.4648145 47.58830549999999 8.460419 47.59257199999999 8.461227 47.59728500000003 8.457047 47.60235549999999 8.4565995 47.603658499999995 8.468109 47.606893000000014 8.4713795 47.60847250000003 8.4702785 47.60769749999997 8.474989 47.61073099999999 8.4778125 47.615163499999994 8.4791385 47.613639500000005 8.483242 47.614475 8.493896 47.61750749999999 8.5082515 47.623845500000016 8.507306 47.62336500000001 8.514944 47.625587499999966 8.512608 47.63195000000002 8.5164495 47.63391999999999 8.515533 47.63447450000001 8.520817 47.63176849999999 8.5257255 47.63113849999999 8.538118 47.626094499999994 8.5385565 47.6269575 8.5430435 47.6252245 8.5441355 47.624562 8.557338 47.61676750000004 8.562801 47.61726949999999 8.5692955 47.612491500000004 8.5710365 47.611931 8.574408 47.60987399999999 8.566406 47.60537399999998 8.5660625 47.601382 8.561473 47.599432500000006 8.562841 47.59710300000003 8.5664905 47.598161000000005 8.5714195 47.59552149999999 8.574658 47.596823 8.577079 47.596134500000005 8.582355 47.6017765 8.587799 47.602226 8.5913965 47.60615899999999 8.592694 47.6055389 8.595596 47.611261799999994 8.6034488 47.6159825 8.6049595 47.628964999999994 8.5973905 47.64262750000003 8.595324 47.65242599999996 8.6077065 47.6493485 8.6126925 47.644137 8.613848 47.64209499999998 8.611146 47.641547 8.6044635 47.639467999999994 8.602787 47.637061500000044 8.606523 47.63801200000003 8.616754 47.641021499999994 8.623423 47.64872359999998 8.6282974 47.653306999999984 8.6279875 47.66152840000001 8.6144855 47.66075749999999 8.612818 47.66342349999999 8.608964 47.669003799999984 8.6063557 47.67212950000001 8.6066495 47.672807000000006 8.598066 47.66706049999999 8.593828 47.66640800000002 8.5873725 47.6616085 8.577711 47.66470699999999 8.570951 47.66533200000001 8.5646325 47.66994399999996 8.563654 47.66705999999999 8.5471585 47.66507200000001 8.540051 47.65706 8.5414315 47.65992399999999 8.533774 47.6632075 8.533378 47.660394999999994 8.5270095 47.65061399999996 8.533424 47.64578850000001 8.531527 47.6449815 8.522713 47.64749849999998 8.5133275 47.647055499999965 8.4931125 47.642104500000045 8.4942035 47.64206999999999 8.4923425 47.64509699999999 8.4873385 47.64420200000001 8.482706 47.649231499999985 8.4805195 47.64982499999999 8.4737635 47.64794899999998 8.4729355 47.644675000000035 8.477685 47.642341500000015 8.471116 47.639707999999985 8.477887 47.638307 8.473507 47.641293500000046 8.4674745 47.648559999999975 8.4637715 47.656075500000014 8.4671755 47.657044499999984 8.4656325 47.65269200000003 8.4573885 47.654843 8.453655 47.654739500000005 8.449051 47.65378200000001 8.4450905 47.65739049999999 8.4367715 47.666814999999986 8.423684 47.66627449999996 8.412355 47.67451349999999 8.405566 47.67872349999999 8.408517 47.679632 8.4160395 47.683865 8.420668 47.694255999999996 8.4121365 47.69546700000001 8.4063995 47.69806350000002 8.404426 47.709968299999986 8.4167944 47.71113199999999 8.4258785 47.718233 8.436732 47.717668499999974 8.4415515 47.71975599999999 8.440226 47.722961 8.4452355 47.722635 8.4552019 47.72721999999999 8.4546655 47.72915810000001 8.4569668 47.73043150000001 8.4528545 47.73816600000001 8.4496835 47.74277699999999 8.4558505 47.74944000000002 8.456882 47.753784499999995 8.466608 47.764588 8.473712 47.7732685 8.4890275 47.77069149999997 8.4960265 47.773608499999995 8.502137 47.77431500000003 8.509297 47.776186199999984 8.5101076 47.770490499999994 8.520118 47.778133499999996 8.5264825 47.7779845 8.532663 47.784636500000005 8.5526745 47.780495 8.562975 47.77785399999999 8.5625445 47.777976800000005 8.5661975 47.781540300000046 8.5770821 47.789526499999994 8.5749215 47.792771500000015 8.5616945 47.8053185 8.5635385 47.80848800000001 8.5678585 47.80598999999998 8.573027</gml:posList>
+                        </gml:LinearRing>
+                      </gml:exterior>
+                    </Polygon>
+                  </gml:surfaceMember>
+                </MultiSurface>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </che:CHE_MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:java="java:org.fao.geonet.util.XslUtil">
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ESRI File Geodatabase FileGDB (GDB)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown" />
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>OGC Geopackage (GPKG)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown" />
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor />
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://www.agroscope.admin.ch/agroscope/de/home/themen/umwelt-ressourcen/klima-lufthygiene/co2-treibhausgase-landwirtschaftliche-boeden/organische-boeden/flaeche.html</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://www.agroscope.admin.ch/agroscope/de/home/themen/umwelt-ressourcen/klima-lufthygiene/co2-treibhausgase-landwirtschaftliche-boeden/organische-boeden/flaeche.html</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Link zum Projekt</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Link zum Projekt</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Liens vers le project</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Link to the project</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Link zum Projekt</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Link zum Projekt</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Liens vers le projet</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Link to the project</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://data.geo.admin.ch/browser/index.html#/collections/ch.agroscope.LAYERNAME</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://data.geo.admin.ch/browser/index.html#/collections/ch.agroscope.LAYERNAME</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-URL</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>STAC Browser</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">STAC Browser</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Lien vers les données à télécharger</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Link zum Datenbezug</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Link zum Datenbezug</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Lien vers la distribution des données</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Link per le fonti dei dati</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Link for data download</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://map.geo.admin.ch/?topic=aviation&amp;lang=de&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.bazl.wohngebiete-aulav&amp;catalogNodes=2863&amp;layers_opacity=0.6&amp;E=2642942.51&amp;N=1189717.47&amp;zoom=2</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://map.geo.admin.ch/?topic=aviation&amp;lang=de&amp;bgLayer=ch.swisstopo.pixelkarte-grau&amp;layers=ch.bazl.wohngebiete-aulav&amp;catalogNodes=2863&amp;layers_opacity=0.6&amp;E=2642942.51&amp;N=1189717.47&amp;zoom=2</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>MAP:Preview</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Vorschau der Karte</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Vorschau der Karte</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Prévie da la carte</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Map preview</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#RM">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Wüst-Galley Leifeld 2025 org soils map.pdf</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Wüst-Galley Leifeld 2025 org soils map.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Wüst-Galley Leifeld 2025 org soils map.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Wüst-Galley Leifeld 2025 org soils map.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Wüst-Galley Leifeld 2025 org soils map.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RM">Wüst-Galley Leifeld 2025 org soils map.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Link zur Publikation</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Link zur Publikation</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#RM">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20et%20al%202015%20LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Wüst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Wüst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Wüst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Wüst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Wüst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RM">Wüst-Galley et al 2015 LocatingOrganicSoilsForTheSwissGreenhouseGasInventory.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Publikation zu den Daten von 2015</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Publikation zu den Daten von 2015</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Publication expliquant les données de 2015</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Publication explaining the data of 2015</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#RM">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map%20SI.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Wüst-Galley Leifeld 2025 org soils map SI.pdf</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Wüst-Galley Leifeld 2025 org soils map SI.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Wüst-Galley Leifeld 2025 org soils map SI.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Wüst-Galley Leifeld 2025 org soils map SI.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Wüst-Galley Leifeld 2025 org soils map SI.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RM">Wüst-Galley Leifeld 2025 org soils map SI.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Publikation zu den Daten von 2024</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Publikation zu den Daten von 2024</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Publication expliquant les données de 2024</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Publication explaining the data of 2024</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Soil_Legende_BGDI_Arial12_DE.png</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Soil_Legende_BGDI_Arial12_DE.png</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Soil_Legende_BGDI_Arial12_Fr.png</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Soil_Legende_BGDI_Arial12_Fr.png</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Soil_Legende_BGDI_Arial12_DE.png</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>LEGEND:PNG</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Legende (Deutsch)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Legende (Deutsch)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Légende (française)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Legenda (francese)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Legend (German)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+                <gmd:URL>https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</gmd:URL>
+                <che:PT_FreeURL>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                  <che:URLGroup>
+                    <che:LocalisedURL locale="#RM">https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/Abstract_de_engl_fr_def.pdf</che:LocalisedURL>
+                  </che:URLGroup>
+                </che:PT_FreeURL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Abstract_de_engl_fr_def.pdf</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Abstract_de_engl_fr_def.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Abstract_de_engl_fr_def.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#IT">Abstract_de_engl_fr_def.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Abstract_de_engl_fr_def.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RM">Abstract_de_engl_fr_def.pdf</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Zusätzliche Beschreibung der Daten</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Zusätzliche Beschreibung der Daten</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Description aditionelle des données</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Additional description of the data</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:metadataMaintenance>
+    <che:CHE_MD_MaintenanceInformation gco:isoType="gmd:MD_MaintenanceInformation">
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned" />
+      </gmd:maintenanceAndUpdateFrequency>
+    </che:CHE_MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</che:CHE_MD_Metadata>
+
