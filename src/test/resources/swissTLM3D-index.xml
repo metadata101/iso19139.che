@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>eeab64f5-e878-4898-b80c-50440b89f525</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03_2", "langger":"GM03_2"}</standardNameObject>
+  <resourceTypeNameObject type="object">{"default":"Minimales Geodatenmodell", "langger":"Minimales Geodatenmodell"}</resourceTypeNameObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-03-11T14:43:02.260Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <otherLanguage>ita</otherLanguage>
+  <otherLanguageId>IT</otherLanguageId>
+  <otherLanguage>eng</otherLanguage>
+  <otherLanguageId>EN</otherLanguageId>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>model</resourceType>
+  <OrgObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo"}</OrgObject>
+  <pointOfContactOrgObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo"}</pointOfContactOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"pasquale.didonato@swisstopo.ch",
+      "websiteObject":{"default":"http:\/\/www.swisstopo.ch",  "langeng":"http:\/\/www.swisstopo.ch",  "langfre":"http:\/\/www.swisstopo.ch",  "langita":"http:\/\/www.swisstopo.ch",  "langger":"http:\/\/www.swisstopo.ch"},
+      "logo":"",
+      "individual":"Pasquale Di Donato",
+      "position":"",
+      "phone":"058 469 01 11",
+      "address":"Wabern, 3084"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"model","default":"gmd:MD_ScopeCode--model--ger","langger":"gmd:MD_ScopeCode--model--ger","langfre":"gmd:MD_ScopeCode--model--fre","langita":"gmd:MD_ScopeCode--model--ita","langeng":"gmd:MD_ScopeCode--model--eng","langger":"gmd:MD_ScopeCode--model--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--ger","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langita":"gmd:MD_KeywordTypeCode--theme--ita","langeng":"gmd:MD_KeywordTypeCode--theme--eng","langger":"gmd:MD_KeywordTypeCode--theme--ger","link":"http:\/\/www.isotc211.org\/2005\/resources\/codeList.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_associationType type="object">{"key":"isDescriptionOf","default":"gmd:DS_AssociationTypeCode--isDescriptionOf--ger","langger":"gmd:DS_AssociationTypeCode--isDescriptionOf--ger","langfre":"gmd:DS_AssociationTypeCode--isDescriptionOf--fre","langita":"gmd:DS_AssociationTypeCode--isDescriptionOf--ita","langeng":"gmd:DS_AssociationTypeCode--isDescriptionOf--eng","langger":"gmd:DS_AssociationTypeCode--isDescriptionOf--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#DS_AssociationTypeCode"}</cl_associationType>
+  <resourceTitleObject type="object">{"default":"Geodatenmodell \"swissTLM3D_ili2_V2_3\"", "langger":"Geodatenmodell \"swissTLM3D_ili2_V2_3\"", "langfre":"Mod\u00E8le de g\u00E9odonn\u00E9es \"swissTLM3D_ili2_V2_3\""}</resourceTitleObject>
+  <creationDateForResource>2025-01-01</creationDateForResource>
+  <creationYearForResource>2025</creationYearForResource>
+  <creationMonthForResource>2025-01</creationMonthForResource>
+  <publicationDateForResource>2025-03-11</publicationDateForResource>
+  <publicationYearForResource>2025</publicationYearForResource>
+  <publicationMonthForResource>2025-03</publicationMonthForResource>
+  <resourceDate type="object">{"type": "creation", "date": "2025-01-01T00:00:00.000Z"}</resourceDate>
+  <resourceDate type="object">{"type": "publication", "date": "2025-03-11T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2025-01-01T00:00:00.000Z",
+                  "lte": "2025-01-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2025-03-11T00:00:00.000Z",
+                  "lte": "2025-03-11T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceAbstractObject type="object">{"default":"Minimales Geodatenmodell zum Geobasisdatensatz \u201EswissTLM3D\u201C, Identifikator 38.1.", "langger":"Minimales Geodatenmodell zum Geobasisdatensatz \u201EswissTLM3D\u201C, Identifikator 38.1.", "langfre":"Mod\u00E8le de g\u00E9odonn\u00E9es minimal associ\u00E9 au jeu de g\u00E9odonn\u00E9es de base \"swissTLM3D\", Identifiant 38.1."}</resourceAbstractObject>
+  <cl_resourceCharacterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_resourceCharacterSet>
+  <OrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo"}</OrgForResourceObject>
+  <publisherOrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo"}</publisherOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Landestopografie swisstopo", "langger":"Bundesamt f\u00FCr Landestopografie swisstopo", "langfre":"Office f\u00E9d\u00E9ral de topographie swisstopo", "langita":"Ufficio federale di topografia swisstopo", "langeng":"Federal Office of Topography swisstopo"}
+            ,
+      
+      "role":"publisher",
+      "email":"info@swisstopo.ch",
+      "websiteObject":{"default":"https:\/\/www.swisstopo.ch",  "langeng":"https:\/\/www.swisstopo.ch",  "langger":"https:\/\/www.swisstopo.ch",  "langfre":"https:\/\/www.swisstopo.ch",  "langita":"https:\/\/www.swisstopo.ch"},
+      "logo":"",
+      "individual":"",
+      "position":"Kontakt",
+      "phone":"0041 58 469 01 11",
+      "address":"Wabern, 3084"
+      
+      }</contactForResource>
+  <hasOverview>false</hasOverview>
+  <resourceLanguage>ger</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"Geodatenmodell", "langger":"Geodatenmodell", "langfre":"mod\u00E8le de g\u00E9odonn\u00E9es", "langita":"modello di geodati", "langeng":"geodata model"
+      }
+      ]</tag>
+  <tagNumber>1</tagNumber>
+  <isOpenData>false</isOpenData>
+  <keywordType-theme type="object">[
+          {
+          "default":"Geodatenmodell", "langger":"Geodatenmodell", "langfre":"mod\u00E8le de g\u00E9odonn\u00E9es", "langita":"modello di geodati", "langeng":"geodata model"
+          }
+          ]</keywordType-theme>
+  <th_geocat-chNumber>1</th_geocat-chNumber>
+  <th_geocat-ch type="object">[
+        {
+        "default":"Geodatenmodell", "langger":"Geodatenmodell", "langfre":"mod\u00E8le de g\u00E9odonn\u00E9es", "langita":"modello di geodati", "langeng":"geodata model"
+        }
+        ]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"Geodatenmodell", "langger":"Geodatenmodell", "langfre":"mod\u00E8le de g\u00E9odonn\u00E9es", "langita":"modello di geodati", "langeng":"geodata model"
+          }
+          
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Geodatenmodell",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <cl_topic type="object">{"key":"imageryBaseMapsEarthCover","default":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover--ger","langger":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover--ger","langfre":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover--fre","langita":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover--ita","langeng":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover--eng","langger":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover--ger"}</cl_topic>
+  <cl_topic type="object">{"key":"imageryBaseMapsEarthCover_BaseMaps","default":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover_BaseMaps--ger","langger":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover_BaseMaps--ger","langfre":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover_BaseMaps--fre","langita":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover_BaseMaps--ita","langeng":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover_BaseMaps--eng","langger":"gmd:MD_TopicCategoryCode--imageryBaseMapsEarthCover_BaseMaps--ger"}</cl_topic>
+  <format>INTERLIS 2 (XTF)</format>
+  <linkUrl>https://models.geo.admin.ch/Swisstopo/swissTLM3D_ili2_V2_3.ili</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD-URL</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADURL>https://models.geo.admin.ch/Swisstopo/swissTLM3D_ili2_V2_3.ili</linkUrlProtocolWWWDOWNLOADURL>
+  <link type="object">{
+            "hash": "0be52707a8d3b3a2d26c629d4dce03f9",
+            "idx": 1,
+            "protocol":"WWW:DOWNLOAD-URL",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/models.geo.admin.ch\/Swisstopo\/swissTLM3D_ili2_V2_3.ili",  "langger":"https:\/\/models.geo.admin.ch\/Swisstopo\/swissTLM3D_ili2_V2_3.ili"},
+            
+              "nameObject": 
+            {"default":"swissTLM3D_ili2_V2_3.ili", "langger":"swissTLM3D_ili2_V2_3.ili", "langfre":"swissTLM3D_ili2_V2_3.ili"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"ili-Datei", "langger":"ili-Datei", "langfre":"Fichier ili"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <recordGroup>eeab64f5-e878-4898-b80c-50440b89f525</recordGroup>
+  <recordLink type="object">{
+      "type": "siblings",
+      
+        "associationType": "isDescriptionOf",
+      
+        "initiativeType": "",
+      
+      "to": "73856ca2-f21d-4cc9-90f6-f3e8375555df",
+      "url": "",
+      "title": "",
+      "origin": "catalog"
+      }</recordLink>
+  <recordLink_siblingsassociationTypeisDescriptionOf_initiativeType />
+  <recordLink_siblingsassociationTypeisDescriptionOf_initiativeType_uuid>73856ca2-f21d-4cc9-90f6-f3e8375555df</recordLink_siblingsassociationTypeisDescriptionOf_initiativeType_uuid>
+  <recordLink_siblingsassociationTypeisDescriptionOf_initiativeType_url />
+  <agg_associated>73856ca2-f21d-4cc9-90f6-f3e8375555df</agg_associated>
+  <agg_associated_isDescriptionOf>73856ca2-f21d-4cc9-90f6-f3e8375555df</agg_associated_isDescriptionOf>
+</doc>
+
