@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <docType>metadata</docType>
+  <document />
+  <metadataIdentifier>0e5a8467-bf17-4d4d-aab4-3ba49417cedc</metadataIdentifier>
+  <standardNameObject type="object">{"default":"GM03 2+", "langger":"GM03 2+"}</standardNameObject>
+  <standardVersionObject type="object">{"default":"1.0", "langger":"1.0"}</standardVersionObject>
+  <indexingDate>2025-04-11T17:46:21+02:00</indexingDate>
+  <dateStamp>2025-06-03T08:47:17.509Z</dateStamp>
+  <mainLanguage>ger</mainLanguage>
+  <otherLanguage>fre</otherLanguage>
+  <otherLanguageId>FR</otherLanguageId>
+  <otherLanguage>ita</otherLanguage>
+  <otherLanguageId>IT</otherLanguageId>
+  <otherLanguage>eng</otherLanguage>
+  <otherLanguageId>EN</otherLanguageId>
+  <otherLanguage>roh</otherLanguage>
+  <otherLanguageId>RM</otherLanguageId>
+  <otherLanguage>ger</otherLanguage>
+  <otherLanguageId>DE</otherLanguageId>
+  <cl_characterSet type="object">{"key":"utf8","default":"gmd:MD_CharacterSetCode--utf8--ger","langger":"gmd:MD_CharacterSetCode--utf8--ger","langfre":"gmd:MD_CharacterSetCode--utf8--fre","langita":"gmd:MD_CharacterSetCode--utf8--ita","langeng":"gmd:MD_CharacterSetCode--utf8--eng","langroh":"gmd:MD_CharacterSetCode--utf8--roh","langger":"gmd:MD_CharacterSetCode--utf8--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_characterSet>
+  <resourceType>dataset</resourceType>
+  <OrgObject type="object">{"default":"Bundesamt f\u00FCr Umwelt", "langger":"Bundesamt f\u00FCr Umwelt", "langfre":"Office f\u00E9d\u00E9ral de l'environnement", "langita":"Ufficio federale dell'ambiente", "langeng":"Federal Office for the Environment", "langroh":"Bundesamt f\u00FCr Umwelt"}</OrgObject>
+  <pointOfContactOrgObject type="object">{"default":"Bundesamt f\u00FCr Umwelt", "langger":"Bundesamt f\u00FCr Umwelt", "langfre":"Office f\u00E9d\u00E9ral de l'environnement", "langita":"Ufficio federale dell'ambiente", "langeng":"Federal Office for the Environment", "langroh":"Bundesamt f\u00FCr Umwelt"}</pointOfContactOrgObject>
+  <contact type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Umwelt", "langger":"Bundesamt f\u00FCr Umwelt", "langfre":"Office f\u00E9d\u00E9ral de l'environnement", "langita":"Ufficio federale dell'ambiente", "langeng":"Federal Office for the Environment", "langroh":"Bundesamt f\u00FCr Umwelt"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"info@bafu.admin.ch",
+      "websiteObject":{"default":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home.html",  "langger":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home.html",  "langfre":"https:\/\/www.bafu.admin.ch\/bafu\/fr\/home.html",  "langita":"https:\/\/www.bafu.admin.ch\/bafu\/it\/home.html",  "langeng":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home.html",  "langroh":"https:\/\/www.bafu.admin.ch\/bafu\/en\/home.html"},
+      "logo":"",
+      "individual":"",
+      "position":"",
+      "phone":"+41 58 462 93 11",
+      "address":"Bern, 3003"
+      
+      }</contact>
+  <cl_hierarchyLevel type="object">{"key":"dataset","default":"gmd:MD_ScopeCode--dataset--ger","langger":"gmd:MD_ScopeCode--dataset--ger","langfre":"gmd:MD_ScopeCode--dataset--fre","langita":"gmd:MD_ScopeCode--dataset--ita","langeng":"gmd:MD_ScopeCode--dataset--eng","langroh":"gmd:MD_ScopeCode--dataset--roh","langger":"gmd:MD_ScopeCode--dataset--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ScopeCode"}</cl_hierarchyLevel>
+  <cl_topologyLevel type="object">{"key":"fullPlanarGraph","default":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ger","langger":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ger","langfre":"gmd:MD_TopologyLevelCode--fullPlanarGraph--fre","langita":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ita","langeng":"gmd:MD_TopologyLevelCode--fullPlanarGraph--eng","langroh":"gmd:MD_TopologyLevelCode--fullPlanarGraph--roh","langger":"gmd:MD_TopologyLevelCode--fullPlanarGraph--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_TopologyLevelCode"}</cl_topologyLevel>
+  <cl_geometricObjectType type="object">{"key":"surface","default":"gmd:MD_GeometricObjectTypeCode--surface--ger","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","langfre":"gmd:MD_GeometricObjectTypeCode--surface--fre","langita":"gmd:MD_GeometricObjectTypeCode--surface--ita","langeng":"gmd:MD_GeometricObjectTypeCode--surface--eng","langroh":"gmd:MD_GeometricObjectTypeCode--surface--roh","langger":"gmd:MD_GeometricObjectTypeCode--surface--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"}</cl_geometricObjectType>
+  <cl_status type="object">{"key":"onGoing","default":"gmd:MD_ProgressCode--onGoing--ger","langger":"gmd:MD_ProgressCode--onGoing--ger","langfre":"gmd:MD_ProgressCode--onGoing--fre","langita":"gmd:MD_ProgressCode--onGoing--ita","langeng":"gmd:MD_ProgressCode--onGoing--eng","langroh":"gmd:MD_ProgressCode--onGoing--roh","langger":"gmd:MD_ProgressCode--onGoing--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_ProgressCode"}</cl_status>
+  <cl_maintenanceAndUpdateFrequency type="object">{"key":"asNeeded","default":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ger","langger":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ger","langfre":"gmd:MD_MaintenanceFrequencyCode--asNeeded--fre","langita":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ita","langeng":"gmd:MD_MaintenanceFrequencyCode--asNeeded--eng","langroh":"gmd:MD_MaintenanceFrequencyCode--asNeeded--roh","langger":"gmd:MD_MaintenanceFrequencyCode--asNeeded--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"}</cl_maintenanceAndUpdateFrequency>
+  <cl_appraisalOfArchivalValue type="object">{"key":"A","default":"che:CHE_AppraisalOfArchivalValueCode--A--ger","langger":"che:CHE_AppraisalOfArchivalValueCode--A--ger","langfre":"che:CHE_AppraisalOfArchivalValueCode--A--fre","langita":"che:CHE_AppraisalOfArchivalValueCode--A--ita","langeng":"che:CHE_AppraisalOfArchivalValueCode--A--eng","langroh":"che:CHE_AppraisalOfArchivalValueCode--A--roh","langger":"che:CHE_AppraisalOfArchivalValueCode--A--ger","link":"#CHE_AppraisalOfArchivalValueCode"}</cl_appraisalOfArchivalValue>
+  <cl_reasonForArchivingValue type="object">{"key":"evidenceOfBusinessPractice","default":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ger","langger":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ger","langfre":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--fre","langita":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ita","langeng":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--eng","langroh":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--roh","langger":"che:CHE_ReasonForArchivingValueCode--evidenceOfBusinessPractice--ger","link":"#CHE_ReasonForArchivingValueCode"}</cl_reasonForArchivingValue>
+  <cl_type type="object">{"key":"theme","default":"gmd:MD_KeywordTypeCode--theme--ger","langger":"gmd:MD_KeywordTypeCode--theme--ger","langfre":"gmd:MD_KeywordTypeCode--theme--fre","langita":"gmd:MD_KeywordTypeCode--theme--ita","langeng":"gmd:MD_KeywordTypeCode--theme--eng","langroh":"gmd:MD_KeywordTypeCode--theme--roh","langger":"gmd:MD_KeywordTypeCode--theme--ger","link":"http:\/\/www.isotc211.org\/2005\/resources\/codeList.xml#MD_KeywordTypeCode"}</cl_type>
+  <cl_useConstraints type="object">{"key":"otherRestrictions","default":"gmd:MD_RestrictionCode--otherRestrictions--ger","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","langfre":"gmd:MD_RestrictionCode--otherRestrictions--fre","langita":"gmd:MD_RestrictionCode--otherRestrictions--ita","langeng":"gmd:MD_RestrictionCode--otherRestrictions--eng","langroh":"gmd:MD_RestrictionCode--otherRestrictions--roh","langger":"gmd:MD_RestrictionCode--otherRestrictions--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_RestrictionCode"}</cl_useConstraints>
+  <cl_spatialRepresentationType type="object">{"key":"vector","default":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","langfre":"gmd:MD_SpatialRepresentationTypeCode--vector--fre","langita":"gmd:MD_SpatialRepresentationTypeCode--vector--ita","langeng":"gmd:MD_SpatialRepresentationTypeCode--vector--eng","langroh":"gmd:MD_SpatialRepresentationTypeCode--vector--roh","langger":"gmd:MD_SpatialRepresentationTypeCode--vector--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"}</cl_spatialRepresentationType>
+  <cl_basicGeodataIDType type="object">{"key":"federal","default":"che:basicGeodataIDTypeCode--federal--ger","langger":"che:basicGeodataIDTypeCode--federal--ger","langfre":"che:basicGeodataIDTypeCode--federal--fre","langita":"che:basicGeodataIDTypeCode--federal--ita","langeng":"che:basicGeodataIDTypeCode--federal--eng","langroh":"che:basicGeodataIDTypeCode--federal--roh","langger":"che:basicGeodataIDTypeCode--federal--ger","link":"#basicGeodataIDTypeCode"}</cl_basicGeodataIDType>
+  <cl_function type="object">{"key":"information","default":"gmd:CI_OnLineFunctionCode--information--ger","langger":"gmd:CI_OnLineFunctionCode--information--ger","langfre":"gmd:CI_OnLineFunctionCode--information--fre","langita":"gmd:CI_OnLineFunctionCode--information--ita","langeng":"gmd:CI_OnLineFunctionCode--information--eng","langroh":"gmd:CI_OnLineFunctionCode--information--roh","langger":"gmd:CI_OnLineFunctionCode--information--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_function type="object">{"key":"download","default":"gmd:CI_OnLineFunctionCode--download--ger","langger":"gmd:CI_OnLineFunctionCode--download--ger","langfre":"gmd:CI_OnLineFunctionCode--download--fre","langita":"gmd:CI_OnLineFunctionCode--download--ita","langeng":"gmd:CI_OnLineFunctionCode--download--eng","langroh":"gmd:CI_OnLineFunctionCode--download--roh","langger":"gmd:CI_OnLineFunctionCode--download--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#CI_OnLineFunctionCode"}</cl_function>
+  <cl_country type="object">{"key":"CH","default":"gmd:Country--CH--ger","langger":"gmd:Country--CH--ger","langfre":"gmd:Country--CH--fre","langita":"gmd:Country--CH--ita","langeng":"gmd:Country--CH--eng","langroh":"gmd:Country--CH--roh","langger":"gmd:Country--CH--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#Country"}</cl_country>
+  <cl_legislationType type="object">{"key":"nationalDecree","default":"che:CHE_CI_LegislationCode--nationalDecree--ger","langger":"che:CHE_CI_LegislationCode--nationalDecree--ger","langfre":"che:CHE_CI_LegislationCode--nationalDecree--fre","langita":"che:CHE_CI_LegislationCode--nationalDecree--ita","langeng":"che:CHE_CI_LegislationCode--nationalDecree--eng","langroh":"che:CHE_CI_LegislationCode--nationalDecree--roh","langger":"che:CHE_CI_LegislationCode--nationalDecree--ger","link":"#CHE_CI_LegislationCode"}</cl_legislationType>
+  <resourceTitleObject type="object">{"default":"Beispiel II \"Verbreitung der Steinbockkolonien\"", "langger":"Beispiel II \"Verbreitung der Steinbockkolonien\"", "langfre":"Example II \"Colonies de bouquetins\"", "langita":"Exempio II \"Diffusione delle colonie di stambecchi\"", "langeng":"Example II \"Distribution of ibex colonies\""}</resourceTitleObject>
+  <resourceAltTitleObject type="object">{"default":"Steinbockkolonien", "langger":"Steinbockkolonien", "langfre":"Colonies de bouquetins", "langita":"Colonie di stambecchi", "langeng":"Ibex colonies", "langroh":"Colonias da capricorns"}</resourceAltTitleObject>
+  <revisionDateForResource>2021-03-31</revisionDateForResource>
+  <revisionYearForResource>2021</revisionYearForResource>
+  <revisionMonthForResource>2021-03</revisionMonthForResource>
+  <creationDateForResource>1996-01-01T00:00:00</creationDateForResource>
+  <creationYearForResource>1996</creationYearForResource>
+  <creationMonthForResource>1996-01</creationMonthForResource>
+  <publicationDateForResource>1997-01-01</publicationDateForResource>
+  <publicationYearForResource>1997</publicationYearForResource>
+  <publicationMonthForResource>1997-01</publicationMonthForResource>
+  <resourceDate type="object">{"type": "revision", "date": "2021-03-31T00:00:00.000Z"}</resourceDate>
+  <resourceDate type="object">{"type": "creation", "date": "1996-01-01T00:00:00.000Z"}</resourceDate>
+  <resourceDate type="object">{"type": "publication", "date": "1997-01-01T00:00:00.000Z"}</resourceDate>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "2021-03-31T00:00:00.000Z",
+                  "lte": "2021-03-31T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "1996-01-01T00:00:00.000Z",
+                  "lte": "1996-01-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceTemporalDateRange type="object">{
+                  "gte": "1997-01-01T00:00:00.000Z",
+                  "lte": "1997-01-01T00:00:00.000Z"
+                  }</resourceTemporalDateRange>
+  <resourceIdentifier type="object">{
+              "code": "ch.bafu.fauna-steinbockkolonien",
+              "codeSpace": "",
+              "link": ""
+              }</resourceIdentifier>
+  <resourceAbstractObject type="object">{"default":"Der Alpensteinbock lebt nach seiner Wiederansiedlung im Jahre 1906 in verschiedenen Kolonien unterschiedlicher Ausdehnung im Alpenraum und im Jura. Das Wachstum der Best\u00E4nde hat in einzelnen Kolonien zu negativen Auswirkungen bei anderen Arten und der Vegetation gef\u00FChrt, so dass Regulierungsmassnahmen getroffen werden. Die Vorschriften \u00FCber die Abschussplanungen der Steinbockbest\u00E4nde beruhen auf dem Bundesgesetz \u00FCber die Jagd und den Schutz wildlebender S\u00E4ugetiere und V\u00F6gel vom 20. Juni 1986. Die Kolonien werden gem\u00E4ss den Vorschriften \u00FCber die Bestandeserhebungen in der Verordnung \u00FCber die Regulierung von Steinbockbest\u00E4nden vom 30. April 1990 erfasst und bilden zusammen mit den Bestandeserhebungen die Basis f\u00FCr die Abschussplanungen.", "langger":"Der Alpensteinbock lebt nach seiner Wiederansiedlung im Jahre 1906 in verschiedenen Kolonien unterschiedlicher Ausdehnung im Alpenraum und im Jura. Das Wachstum der Best\u00E4nde hat in einzelnen Kolonien zu negativen Auswirkungen bei anderen Arten und der Vegetation gef\u00FChrt, so dass Regulierungsmassnahmen getroffen werden. Die Vorschriften \u00FCber die Abschussplanungen der Steinbockbest\u00E4nde beruhen auf dem Bundesgesetz \u00FCber die Jagd und den Schutz wildlebender S\u00E4ugetiere und V\u00F6gel vom 20. Juni 1986. Die Kolonien werden gem\u00E4ss den Vorschriften \u00FCber die Bestandeserhebungen in der Verordnung \u00FCber die Regulierung von Steinbockbest\u00E4nden vom 30. April 1990 erfasst und bilden zusammen mit den Bestandeserhebungen die Basis f\u00FCr die Abschussplanungen.", "langfre":"R\u00E9introduit en 1906, le Bouquetin des Alpes vit en colonies d\u2019extension variable localis\u00E9es dans le Jura et l\u2019arc alpin. La croissance des populations a entra\u00EEn\u00E9 dans certaines colonies des effets n\u00E9fastes sur d\u2019autres esp\u00E8ces et sur la v\u00E9g\u00E9tation, rendant n\u00E9cessaire la prise de mesures de r\u00E9gulation. Les prescriptions relatives \u00E0 la planification des tirs de bouquetins se fondent sur la loi f\u00E9d\u00E9rale du 20 juin 1986 sur la chasse et la protection des mammif\u00E8res et oiseaux sauvages. Conform\u00E9ment aux prescriptions concernant le recensement des populations dans l\u2019ordonnance du 30 avril 1990 sur la r\u00E9gulation des populations de bouquetins, les colonies sont recens\u00E9es et constituent, avec le recensement des populations, la base de la planification des tirs.", "langita":"Dalla sua reintroduzione, avvenuta nel 1906, lo stambecco delle Alpi vive nell'Arco alpino e nel Giura, in diverse colonie che occupano aree di varie estensioni. La crescita dei bran-chi in alcune colonie ha avuto un impatto negativo su altre specie e sulla vegetazione presenti in dette aree, al punto tale che sono stati adottati provvedimenti regolativi. Le prescrizioni sulla pianificazione degli abbattimenti degli stambecchi si basano sulla legge federale del 20 giugno 1986 sulla caccia e la protezione dei mammiferi e degli uccelli selvatici. I dati sulle colonie sono rilevati secondo le disposizioni di cui all'ordinanza del 30 aprile 1990 sulla regolazione degli effettivi degli stambecchi e costituiscono la base per le pianificazioni degli abbattimenti assieme alle rilevazioni degli effettivi.", "langeng":"After being resettled in 1906, Alpine (Capra) ibex live in colonies of varying sizes throughout the Alpine region and in the Jura mountains. Because the growth of stocks in specific colonies had negative effects on other species and vegetation, regulatory measures were taken. The regulations concerning the hunting quota for ibex stocks are based on the Federal Act of 20 June 1986 on the Hunting and Protection of Wild Mammals and Birds. The colonies are counted in accordance with the provisions on stocktaking of the Ordinance of 30 April 1990 on the Regulation of Capra Stocks, which is used in addition to stocktaking to set hunting quotas.", "langroh":"Suenter sia recolonisaziun l'onn 1906 viva il capricorn alpin en diversas colonias da differenta dimensiun en las Alps ed en il Giura. En singulas colonias ha la creschientscha dals effectivs g\u00EC consequenzas negativas per autras spezias e per la vegetaziun, uschia ch'i vegnan prendidas mesiras da regulaziun. Las prescripziuns davart las planisaziuns da la reducziun dals effectivs da capricorns sa basan sin la Lescha federala dals 20 da zercladur 1986 davart la chatscha e la protecziun dals mamifers e dals utschels selvadis. Las colonias vegnan registradas tenor las prescripziuns davart las relevaziuns dals effectivs da l'Ordinaziun dals 30 d'avrigl 1990 davart la regulaziun dals effectivs da capricorns e furman, ensemen cun las relevaziuns dals effectivs, la basa per planisar la reducziun dals effectivs."}</resourceAbstractObject>
+  <cl_resourceCharacterSet type="object">{"key":"8859part1","default":"gmd:MD_CharacterSetCode--8859part1--ger","langger":"gmd:MD_CharacterSetCode--8859part1--ger","langfre":"gmd:MD_CharacterSetCode--8859part1--fre","langita":"gmd:MD_CharacterSetCode--8859part1--ita","langeng":"gmd:MD_CharacterSetCode--8859part1--eng","langroh":"gmd:MD_CharacterSetCode--8859part1--roh","langger":"gmd:MD_CharacterSetCode--8859part1--ger","link":"http:\/\/standards.iso.org\/ittf\/PubliclyAvailableStandards\/ISO_19139_Schemas\/resources\/codelist\/ML_gmxCodelists.xml#MD_CharacterSetCode"}</cl_resourceCharacterSet>
+  <OrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Umwelt", "langger":"Bundesamt f\u00FCr Umwelt", "langfre":"Office f\u00E9d\u00E9ral de l'environnement", "langita":"Ufficio federale dell'ambiente", "langeng":"Federal Office for the Environment", "langroh":"Bundesamt f\u00FCr Umwelt"}</OrgForResourceObject>
+  <ownerOrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Umwelt", "langger":"Bundesamt f\u00FCr Umwelt", "langfre":"Office f\u00E9d\u00E9ral de l'environnement", "langita":"Ufficio federale dell'ambiente", "langeng":"Federal Office for the Environment", "langroh":"Bundesamt f\u00FCr Umwelt"}</ownerOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Umwelt", "langger":"Bundesamt f\u00FCr Umwelt", "langfre":"Office f\u00E9d\u00E9ral de l'environnement", "langita":"Ufficio federale dell'ambiente", "langeng":"Federal Office for the Environment", "langroh":"Bundesamt f\u00FCr Umwelt"}
+            ,
+      
+      "role":"owner",
+      "email":"info@bafu.admin.ch",
+      "websiteObject":{"default":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home.html",  "langeng":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home.html",  "langger":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home.html",  "langfre":"https:\/\/www.bafu.admin.ch\/bafu\/fr\/home.html",  "langita":"https:\/\/www.bafu.admin.ch\/bafu\/it\/home.html",  "langroh":"https:\/\/www.bafu.admin.ch\/bafu\/en\/home.html"},
+      "logo":"",
+      "individual":"",
+      "position":"",
+      "phone":"+41 58 462 93 11",
+      "address":"Bern, 3003"
+      
+      }</contactForResource>
+  <OrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langger":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langfre":"Office f\u00E9d\u00E9ral de l'environnement OFEV", "langita":"Ufficio federale dell'ambiente UFAM", "langeng":"Federal Office for the Environment FOEN"}</OrgForResourceObject>
+  <pointOfContactOrgForResourceObject type="object">{"default":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langger":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langfre":"Office f\u00E9d\u00E9ral de l'environnement OFEV", "langita":"Ufficio federale dell'ambiente UFAM", "langeng":"Federal Office for the Environment FOEN"}</pointOfContactOrgForResourceObject>
+  <contactForResource type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langger":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langfre":"Office f\u00E9d\u00E9ral de l'environnement OFEV", "langita":"Ufficio federale dell'ambiente UFAM", "langeng":"Federal Office for the Environment FOEN"}
+            ,
+      
+      "role":"pointOfContact",
+      "email":"gin@bafu.admin.ch",
+      "websiteObject":{},
+      "logo":"",
+      "individual":"",
+      "position":"Gesch\u00E4ftsstelle GIN",
+      "phone":"+41 58 462 51 12",
+      "address":"Bern, 3003, CH"
+      
+      }</contactForResource>
+  <hasOverview>true</hasOverview>
+  <overview type="object">{
+            "url": "https://www.geocat.ch/geonetwork/srv/api/records/0e5a8467-bf17-4d4d-aab4-3ba49417cedc/attachments/steinbockkolonien.png"
+            
+            }</overview>
+  <resourceLanguage>ger</resourceLanguage>
+  <tag type="object">[
+      {
+      "default":"Verteilung der Arten", "langger":"Verteilung der Arten", "langfre":"R\u00E9partition des esp\u00E8ces", "langita":"Distribuzione delle specie", "langeng":"Species distribution"
+      }
+      ,
+      {
+      "default":"Umwelt", "langger":"Umwelt", "langfre":"environnement", "langita":"ambiente (in generale)", "langeng":"environment"
+      }
+      ,
+      {
+      "default":"Wild", "langger":"Wild", "langfre":"gibier", "langita":"selvaggina", "langeng":"game (animals)"
+      }
+      ,
+      {
+      "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+      }
+      ,
+      {
+      "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss", "langroh":"opendata.swiss"
+      }
+      ,
+      {
+      "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+      }
+      ,
+      {
+      "default":"e-geo.ch", "langger":"e-geo.ch", "langfre":"e-geo.ch", "langita":"e-geo.ch", "langeng":"e-geo.ch"
+      }
+      ,
+      {
+      "default":"Geobasisdaten", "langger":"Geobasisdaten", "langfre":"g\u00E9odonn\u00E9es de base", "langita":"geodati di base", "langeng":"official geodata"
+      }
+      ,
+      {
+      "default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"
+      }
+      ,
+      {
+      "default":"Rodersdorf", "langger":"Rodersdorf", "langfre":"Rodersdorf", "langita":"Rodersdorf", "langeng":"Rodersdorf", "langroh":"Rodersdorf"
+      }
+      ]</tag>
+  <tagNumber>10</tagNumber>
+  <isOpenData>true</isOpenData>
+  <keywordType-theme type="object">[
+          {
+          "default":"Verteilung der Arten", "langger":"Verteilung der Arten", "langfre":"R\u00E9partition des esp\u00E8ces", "langita":"Distribuzione delle specie", "langeng":"Species distribution"
+          }
+          ,
+          {
+          "default":"Umwelt", "langger":"Umwelt", "langfre":"environnement", "langita":"ambiente (in generale)", "langeng":"environment"
+          }
+          ,
+          {
+          "default":"Wild", "langger":"Wild", "langfre":"gibier", "langita":"selvaggina", "langeng":"game (animals)"
+          }
+          ,
+          {
+          "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+          }
+          ,
+          {
+          "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss", "langroh":"opendata.swiss"
+          }
+          ,
+          {
+          "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+          }
+          ,
+          {
+          "default":"e-geo.ch", "langger":"e-geo.ch", "langfre":"e-geo.ch", "langita":"e-geo.ch", "langeng":"e-geo.ch"
+          }
+          ,
+          {
+          "default":"Geobasisdaten", "langger":"Geobasisdaten", "langfre":"g\u00E9odonn\u00E9es de base", "langita":"geodati di base", "langeng":"official geodata"
+          }
+          ]</keywordType-theme>
+  <keywordType-place type="object">[
+          {
+          "default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"
+          }
+          ,
+          {
+          "default":"Rodersdorf", "langger":"Rodersdorf", "langfre":"Rodersdorf", "langita":"Rodersdorf", "langeng":"Rodersdorf", "langroh":"Rodersdorf"
+          }
+          ]</keywordType-place>
+  <th_httpinspireeceuropaeutheme-themeNumber>1</th_httpinspireeceuropaeutheme-themeNumber>
+  <th_httpinspireeceuropaeutheme-theme type="object">[
+        {
+        "default":"Verteilung der Arten", "langger":"Verteilung der Arten", "langfre":"R\u00E9partition des esp\u00E8ces", "langita":"Distribuzione delle specie", "langeng":"Species distribution"
+        }
+        ]</th_httpinspireeceuropaeutheme-theme>
+  <th_gemetNumber>3</th_gemetNumber>
+  <th_gemet type="object">[
+        {
+        "default":"Umwelt", "langger":"Umwelt", "langfre":"environnement", "langita":"ambiente (in generale)", "langeng":"environment"
+        }
+        ,
+        {
+        "default":"Wild", "langger":"Wild", "langfre":"gibier", "langita":"selvaggina", "langeng":"game (animals)"
+        }
+        ,
+        {
+        "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+        }
+        ]</th_gemet>
+  <th_geocat-chNumber>4</th_geocat-chNumber>
+  <th_geocat-ch type="object">[
+        {
+        "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss", "langroh":"opendata.swiss"
+        }
+        ,
+        {
+        "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+        }
+        ,
+        {
+        "default":"e-geo.ch", "langger":"e-geo.ch", "langfre":"e-geo.ch", "langita":"e-geo.ch", "langeng":"e-geo.ch"
+        }
+        ,
+        {
+        "default":"Geobasisdaten", "langger":"Geobasisdaten", "langfre":"g\u00E9odonn\u00E9es de base", "langita":"geodati di base", "langeng":"official geodata"
+        }
+        ]</th_geocat-ch>
+  <allKeywords type="object">{
+      
+        "th_httpinspireeceuropaeutheme-theme": {
+        
+          "id": "geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme",
+        
+            "multilingualTitle": {
+              "default":"GEMET - INSPIRE themes, version 1.0", "langger":"GEMET - INSPIRE themes, version 1.0"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.httpinspireeceuropaeutheme-theme",
+        
+        "keywords": [
+        
+          {
+          "default":"Verteilung der Arten", "langger":"Verteilung der Arten", "langfre":"R\u00E9partition des esp\u00E8ces", "langita":"Distribuzione delle specie", "langeng":"Species distribution"
+          }
+          
+        ]}
+        ,
+        "th_gemet": {
+        
+          "id": "geonetwork.thesaurus.external.theme.gemet",
+        
+            "multilingualTitle": {
+              "default":"GEMET", "langger":"GEMET"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/external.theme.gemet",
+        
+        "keywords": [
+        
+          {
+          "default":"Umwelt", "langger":"Umwelt", "langfre":"environnement", "langita":"ambiente (in generale)", "langeng":"environment"
+          }
+          ,
+          {
+          "default":"Wild", "langger":"Wild", "langfre":"gibier", "langita":"selvaggina", "langeng":"game (animals)"
+          }
+          ,
+          {
+          "default":"Wildtier", "langger":"Wildtier", "langfre":"animal sauvage", "langita":"animale selvatico", "langeng":"wild animal"
+          }
+          
+        ]}
+        ,
+        "th_geocat-ch": {
+        
+          "id": "geonetwork.thesaurus.local.theme.geocat.ch",
+        
+            "multilingualTitle": {
+              "default":"geocat.ch", "langger":"geocat.ch"
+            },
+          
+        "theme": "theme",
+        
+          "link": "https:\/\/www.geocat.ch\/geonetwork\/srv\/api\/registries\/vocabularies\/local.theme.geocat.ch",
+        
+        "keywords": [
+        
+          {
+          "default":"opendata.swiss", "langger":"opendata.swiss", "langfre":"opendata.swiss", "langita":"opendata.swiss", "langeng":"opendata.swiss", "langroh":"opendata.swiss"
+          }
+          ,
+          {
+          "default":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langger":"Aufbewahrungs- und Archivierungsplanung AAP - Bund", "langfre":"Planification de la conservation et de l'archivage AAP - Conf\u00E9deration", "langita":"Pianificazione della conservazione e dell\u2019archiviazione AAP - Confederazione", "langeng":"Conservation and archiving planning AAP - Confederation"
+          }
+          ,
+          {
+          "default":"e-geo.ch", "langger":"e-geo.ch", "langfre":"e-geo.ch", "langita":"e-geo.ch", "langeng":"e-geo.ch"
+          }
+          ,
+          {
+          "default":"Geobasisdaten", "langger":"Geobasisdaten", "langfre":"g\u00E9odonn\u00E9es de base", "langita":"geodati di base", "langeng":"official geodata"
+          }
+          
+        ]}
+        
+      }</allKeywords>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Verteilung der Arten",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Umwelt",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Wild",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Wildtier",
+                              "thesaurus": "geonetwork.thesaurus.external.theme.gemet"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "opendata.swiss",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Aufbewahrungs- und Archivierungsplanung AAP - Bund",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "e-geo.ch",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <indexingErrorMsg type="object">{
+                            "string": "indexingErrorMsg-keywordNotFoundInThesaurus",
+                            "type": "warning",
+                            "values": {
+                              "keyword": "Geobasisdaten",
+                              "thesaurus": "geonetwork.thesaurus.local.theme.geocat.ch"
+                            }
+                          }</indexingErrorMsg>
+  <cl_topic type="object">{"key":"biota","default":"gmd:MD_TopicCategoryCode--biota--ger","langger":"gmd:MD_TopicCategoryCode--biota--ger","langfre":"gmd:MD_TopicCategoryCode--biota--fre","langita":"gmd:MD_TopicCategoryCode--biota--ita","langeng":"gmd:MD_TopicCategoryCode--biota--eng","langroh":"gmd:MD_TopicCategoryCode--biota--roh","langger":"gmd:MD_TopicCategoryCode--biota--ger"}</cl_topic>
+  <resolutionScaleDenominator>5000</resolutionScaleDenominator>
+  <maintenance type="object">{
+            "frequency": "asNeeded"
+            
+          }</maintenance>
+  <MD_LegalConstraintsOtherConstraintsObject type="object">{"default":"Opendata BY: Freie Nutzung. Quellenangabe ist Pflicht.", "langger":"Opendata BY: Freie Nutzung. Quellenangabe ist Pflicht.", "langfre":"Opendata BY: Utilisation libre. Obligation d\u2019indiquer la source.", "langita":"Opendata BY: Libero utilizzo. Indicazione della fonte obbligatoria.", "langeng":"Opendata BY: Open use. Must provide the source.", "link":"https:\/\/opendata.swiss\/en\/terms-of-use\/#terms_by"}</MD_LegalConstraintsOtherConstraintsObject>
+  <hasBoundingPolygon>true</hasBoundingPolygon>
+  <extentDescriptionObject type="object">{"default":"Schweiz", "langger":"Schweiz", "langfre":"Suisse", "langita":"Svizzera", "langeng":"Switzerland", "langroh":"Svizra"}</extentDescriptionObject>
+  <geom type="object">{"type": "Polygon","coordinates": [[[5.956088,45.817970],[10.492036,45.817970],[10.492036,47.808488],[5.956088,47.808488],[5.956088,45.817970]]]}</geom>
+  <location>46.813229,8.224062</location>
+  <coordinateSystem>LV95:EPSG:2056</coordinateSystem>
+  <crsDetails type="object">{
+            "code": "LV95:EPSG:2056",
+            "codeSpace": "",
+            "name": "LV95:EPSG:2056",
+            "url": ""
+            }</crsDetails>
+  <format>ESRI Shapefile (SHP)</format>
+  <format>ESRI Personal Geodatabase (MDB)</format>
+  <OrgForDistributionObject type="object">{"default":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langger":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langfre":"Office f\u00E9d\u00E9ral de l'environnement OFEV", "langita":"Ufficio federale dell'ambiente UFAM", "langeng":"Federal Office for the Environment FOEN"}</OrgForDistributionObject>
+  <publisherOrgForDistributionObject type="object">{"default":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langger":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langfre":"Office f\u00E9d\u00E9ral de l'environnement OFEV", "langita":"Ufficio federale dell'ambiente UFAM", "langeng":"Federal Office for the Environment FOEN"}</publisherOrgForDistributionObject>
+  <contactForDistribution type="object">{
+      
+        "organisationObject": 
+            {"default":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langger":"Bundesamt f\u00FCr Umwelt BAFU \/ GIN", "langfre":"Office f\u00E9d\u00E9ral de l'environnement OFEV", "langita":"Ufficio federale dell'ambiente UFAM", "langeng":"Federal Office for the Environment FOEN"}
+            ,
+      
+      "role":"publisher",
+      "email":"gin@bafu.admin.ch",
+      "websiteObject":{},
+      "logo":"",
+      "individual":"",
+      "position":"Gesch\u00E4ftsstelle GIN",
+      "phone":"+41 58 462 51 12",
+      "address":"Bern, 3003, CH"
+      
+      }</contactForDistribution>
+  <linkUrl>https://map.geo.admin.ch/?layers=ch.bafu.fauna-steinbockkolonien</linkUrl>
+  <linkProtocol>MAP:Preview</linkProtocol>
+  <linkUrlProtocolMAPPreview>https://map.geo.admin.ch/?layers=ch.bafu.fauna-steinbockkolonien</linkUrlProtocolMAPPreview>
+  <link type="object">{
+            "hash": "ad3c22550a30ec7cf112a1be512018a2",
+            "idx": 1,
+            "protocol":"MAP:Preview",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.fauna-steinbockkolonien",  "langger":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.fauna-steinbockkolonien",  "langfre":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.fauna-steinbockkolonien",  "langita":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.fauna-steinbockkolonien",  "langeng":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.fauna-steinbockkolonien",  "langroh":"https:\/\/map.geo.admin.ch\/?layers=ch.bafu.fauna-steinbockkolonien"},
+            
+              "nameObject": 
+            {"default":"Vorschau map.geo.admin.ch", "langger":"Vorschau map.geo.admin.ch", "langfre":"Aper\u00E7u map.geo.admin.ch", "langita":"Previsione map.geo.admin.ch", "langeng":"Preview map.geo.admin.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Vorschau im Kartenportal der Geodaten des Bundes \"map.geo.admin.ch\"", "langger":"Vorschau im Kartenportal der Geodaten des Bundes \"map.geo.admin.ch\"", "langfre":"Aper\u00E7u map.geo.admin.ch", "langita":"Previsione map.geo.admin.ch", "langeng":"Preview map.geo.admin.ch"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 0
+            }</link>
+  <linkUrl>https://www.bafu.admin.ch/bafu/de/home/themen/biodiversitaet/zustand/karten.html</linkUrl>
+  <linkProtocol>WWW:LINK</linkProtocol>
+  <linkUrlProtocolWWWLINK>https://www.bafu.admin.ch/bafu/de/home/themen/biodiversitaet/zustand/karten.html</linkUrlProtocolWWWLINK>
+  <link type="object">{
+            "hash": "bbd5a39bd2c10fad06311ac27e86535d",
+            "idx": 2,
+            "protocol":"WWW:LINK",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home\/themen\/biodiversitaet\/zustand\/karten.html",  "langger":"https:\/\/www.bafu.admin.ch\/bafu\/de\/home\/themen\/biodiversitaet\/zustand\/karten.html",  "langfre":"https:\/\/www.bafu.admin.ch\/bafu\/fr\/home\/themes\/biodiversite\/etat\/cartes.html",  "langita":"https:\/\/www.bafu.admin.ch\/bafu\/it\/home\/temi\/biodiversita\/stato\/carte.html",  "langeng":"https:\/\/www.bafu.admin.ch\/bafu\/en\/home\/topics\/biodiversity\/state\/maps.html"},
+            
+              "nameObject": 
+            {"default":"Link zur Detailbeschreibung", "langger":"Link zur Detailbeschreibung", "langfre":"Lien vers la description d\u00E9taill\u00E9e des donn\u00E9es", "langita":"Link per la descrizione dei dettagli", "langeng":"Link to description"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Interaktive Karten, Geodaten und Geodatenmodelle zum Thema Biodiversit\u00E4t, BAFU", "langger":"Interaktive Karten, Geodaten und Geodatenmodelle zum Thema Biodiversit\u00E4t, BAFU", "langfre":"Lien vers la description d\u00E9taill\u00E9e des donn\u00E9es", "langita":"Link per la descrizione dei dettagli", "langeng":"Link to description"}
+            ,
+            
+            "function":"information",
+            "applicationProfile":"",
+            "group": 1
+            }</link>
+  <linkUrl>https://data.geo.admin.ch/ch.bafu.fauna-steinbockkolonien/data.zip</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD-URL</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADURL>https://data.geo.admin.ch/ch.bafu.fauna-steinbockkolonien/data.zip</linkUrlProtocolWWWDOWNLOADURL>
+  <link type="object">{
+            "hash": "7bee141fb5f22eb079f906c435a72835",
+            "idx": 3,
+            "protocol":"WWW:DOWNLOAD-URL",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/data.geo.admin.ch\/ch.bafu.fauna-steinbockkolonien\/data.zip",  "langger":"https:\/\/data.geo.admin.ch\/ch.bafu.fauna-steinbockkolonien\/data.zip",  "langfre":"https:\/\/data.geo.admin.ch\/ch.bafu.fauna-steinbockkolonien\/data.zip",  "langita":"https:\/\/data.geo.admin.ch\/ch.bafu.fauna-steinbockkolonien\/data.zip",  "langeng":"https:\/\/data.geo.admin.ch\/ch.bafu.fauna-steinbockkolonien\/data.zip",  "langroh":"https:\/\/data.geo.admin.ch\/ch.bafu.fauna-steinbockkolonien\/data.zip"},
+            
+              "nameObject": 
+            {"default":"Download-Server von geo.admin.ch", "langger":"Download-Server von geo.admin.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Download Server von geo.admin.ch", "langger":"Download Server von geo.admin.ch", "langfre":"Serveur de t\u00E9l\u00E9chargement de geo.admin.ch", "langita":"Server di download di geo.admin.ch", "langeng":"Download server from geo.admin.ch"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 1
+            }</link>
+  <linkUrl>https://wms.geo.admin.ch/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de</linkUrl>
+  <linkProtocol>OGC:WMS</linkProtocol>
+  <linkUrlProtocolOGCWMS>https://wms.geo.admin.ch/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de</linkUrlProtocolOGCWMS>
+  <link type="object">{
+            "hash": "60451c226ae48373121611338f0790db",
+            "idx": 4,
+            "protocol":"OGC:WMS",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de",  "langger":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de",  "langfre":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=fr",  "langita":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=it",  "langeng":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=en",  "langroh":"https:\/\/wms.geo.admin.ch\/?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetCapabilities&amp;lang=de"},
+            
+              "nameObject": 
+            {"default":"ch.bafu.fauna-steinbockkolonien", "langger":"ch.bafu.fauna-steinbockkolonien"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"WMS-BGDI Dienst, Layer \"Steinbockkolonien\"", "langger":"WMS-BGDI Dienst, Layer \"Steinbockkolonien\"", "langfre":"Service WMS--IFDG, Layer \"Steinbockkolonien\"", "langita":"Servizio WMS-IFDG Dienst, Layer \"Steinbockkolonien\"", "langeng":"WMS-FSDI service, Layer \"Steinbockkolonien\""}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 1
+            }</link>
+  <linkUrl>http://www.bafu.admin.ch/geodaten</linkUrl>
+  <linkProtocol>WWW:DOWNLOAD:ESRI Shapefile</linkProtocol>
+  <linkUrlProtocolWWWDOWNLOADESRIShapefile>http://www.bafu.admin.ch/geodaten</linkUrlProtocolWWWDOWNLOADESRIShapefile>
+  <link type="object">{
+            "hash": "2d8fe16ef2719fe123ffe92f1d974d35",
+            "idx": 5,
+            "protocol":"WWW:DOWNLOAD:ESRI Shapefile",
+            "mimeType":"ESRI Shapefile",
+            "urlObject":{"default":"http:\/\/www.bafu.admin.ch\/geodaten",  "langger":"http:\/\/www.bafu.admin.ch\/geodaten",  "langfre":"http:\/\/www.bafu.admin.ch\/geodonnees",  "langita":"http:\/\/www.bafu.admin.ch\/geodati",  "langeng":"http:\/\/www.bafu.admin.ch\/geodata"},
+            
+              "nameObject": 
+            {"default":"Download ESRI Shapefile", "langger":"Download ESRI Shapefile"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Link f\u00FCr Datenbezug ESRI Shapefile (.shp)", "langger":"Link f\u00FCr Datenbezug ESRI Shapefile (.shp)", "langfre":"Lien vers la distribution des donn\u00E9es  ESRI Shapefile (.shp)", "langita":"Link per le fonti dei dati  ESRI Shapefile (.shp)", "langeng":"Link for download  ESRI Shapefile (.shp)"}
+            ,
+            
+            "function":"download",
+            "applicationProfile":"",
+            "group": 2
+            }</link>
+  <linkUrl>http://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml</linkUrl>
+  <linkProtocol>OGC:WMTS</linkProtocol>
+  <linkUrlProtocolOGCWMTS>http://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml</linkUrlProtocolOGCWMTS>
+  <link type="object">{
+            "hash": "b9a37c823933885d1b0bea8ea20027dd",
+            "idx": 6,
+            "protocol":"OGC:WMTS",
+            "mimeType":"",
+            "urlObject":{"default":"http:\/\/wmts.geo.admin.ch\/1.0.0\/WMTSCapabilities.xml",  "langger":"http:\/\/wmts.geo.admin.ch\/1.0.0\/WMTSCapabilities.xml"},
+            
+              "nameObject": 
+            {"default":"ch.bafu.fauna-steinbockkolonien", "langger":"ch.bafu.fauna-steinbockkolonien"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"WMTS f\u00FCr das Nationale Geoportal", "langger":"WMTS f\u00FCr das Nationale Geoportal", "langfre":"WMTS pour le g\u00E9oportail national", "langeng":"WMTS for the national geoportal"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 3
+            }</link>
+  <linkUrl>https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.fauna-steinbockkolonien</linkUrl>
+  <linkProtocol>ESRI:REST</linkProtocol>
+  <linkUrlProtocolESRIREST>https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.fauna-steinbockkolonien</linkUrlProtocolESRIREST>
+  <link type="object">{
+            "hash": "074c0fba5e4f1147be2153c5a4d2c791",
+            "idx": 7,
+            "protocol":"ESRI:REST",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.fauna-steinbockkolonien",  "langger":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.fauna-steinbockkolonien",  "langfre":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.fauna-steinbockkolonien",  "langita":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.fauna-steinbockkolonien",  "langeng":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.fauna-steinbockkolonien",  "langroh":"https:\/\/api3.geo.admin.ch\/rest\/services\/api\/MapServer\/ch.bafu.fauna-steinbockkolonien"},
+            
+              "nameObject": 
+            {"default":"RESTful API von geo.admin.ch", "langger":"RESTful API von geo.admin.ch", "langfre":"RESTful API de geo.admin.ch", "langita":"RESTful API da geo.admin.ch", "langeng":"RESTful API from geo.admin.ch", "langroh":"RESTful API dad geo.admin.ch"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"RESTful API von geo.admin.ch", "langger":"RESTful API von geo.admin.ch", "langfre":"RESTful API de geo.admin.ch", "langita":"RESTful API da geo.admin.ch", "langeng":"RESTful API from geo.admin.ch", "langroh":"RESTful API dad geo.admin.ch"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 3
+            }</link>
+  <linkUrl>https://opendata.swiss/de/perma/0e5a8467-bf17-4d4d-aab4-3ba49417cedc@bundesamt-fur-umwelt-bafu</linkUrl>
+  <linkProtocol>OPENDATA:SWISS</linkProtocol>
+  <linkUrlProtocolOPENDATASWISS>https://opendata.swiss/de/perma/0e5a8467-bf17-4d4d-aab4-3ba49417cedc@bundesamt-fur-umwelt-bafu</linkUrlProtocolOPENDATASWISS>
+  <link type="object">{
+            "hash": "16e8760544105bcbb4ff0cb6540501cf",
+            "idx": 8,
+            "protocol":"OPENDATA:SWISS",
+            "mimeType":"",
+            "urlObject":{"default":"https:\/\/opendata.swiss\/de\/perma\/0e5a8467-bf17-4d4d-aab4-3ba49417cedc@bundesamt-fur-umwelt-bafu",  "langger":"https:\/\/opendata.swiss\/de\/perma\/0e5a8467-bf17-4d4d-aab4-3ba49417cedc@bundesamt-fur-umwelt-bafu",  "langfre":"https:\/\/opendata.swiss\/fr\/perma\/0e5a8467-bf17-4d4d-aab4-3ba49417cedc@bundesamt-fur-umwelt-bafu",  "langita":"https:\/\/opendata.swiss\/it\/perma\/0e5a8467-bf17-4d4d-aab4-3ba49417cedc@bundesamt-fur-umwelt-bafu",  "langeng":"https:\/\/opendata.swiss\/en\/perma\/0e5a8467-bf17-4d4d-aab4-3ba49417cedc@bundesamt-fur-umwelt-bafu"},
+            
+              "nameObject": 
+            {"default":"Permalink opendata.swiss", "langger":"Permalink opendata.swiss", "langfre":"Permalink opendata.swiss", "langita":"Permalink opendata.swiss", "langeng":"Permalink opendata.swiss"}
+            ,
+            
+              "descriptionObject": 
+            {"default":"Link zum Datenportal f\u00FCr Schweizer Open Government Data opendata.swiss", "langger":"Link zum Datenportal f\u00FCr Schweizer Open Government Data opendata.swiss", "langfre":"Permalink opendata.swiss", "langita":"Permalink opendata.swiss", "langeng":"Permalink opendata.swiss"}
+            ,
+            
+            "function":"",
+            "applicationProfile":"",
+            "group": 3
+            }</link>
+  <recordGroup>0e5a8467-bf17-4d4d-aab4-3ba49417cedc</recordGroup>
+</doc>
+
