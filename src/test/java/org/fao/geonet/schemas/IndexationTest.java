@@ -12,6 +12,7 @@ import org.jdom.output.XMLOutputter;
 import org.jdom.xpath.XPath;
 import org.json.JSONObject;
 import org.junit.AfterClass;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.xmlunit.assertj.XmlAssert;
@@ -40,8 +41,8 @@ public class IndexationTest {
         ResolverWrapper.createResolverForSchema("DEFAULT", oasisCatalogPath);
     }
 
-    @BeforeClass
-    public static void initSaxon() {
+    @Before
+    public void initSaxon() {
         TransformerFactoryFactory.init("net.sf.saxon.TransformerFactoryImpl");
     }
 
@@ -78,7 +79,7 @@ public class IndexationTest {
     @Test
     public void indexCall112() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        Element call112Element = applyIndexation("org/fao/geonet/schemas/call_112.xml");
+        Element call112Element = applyIndexation("org/fao/geonet/schemas/call_112.xml", "index.xsl");
 
         XPath xpath = XPath.newInstance("/doc/pointOfContactOrgForResourceObject");
         List<?> orgForResourceObject = xpath.selectNodes(new Document(call112Element));
@@ -93,130 +94,94 @@ public class IndexationTest {
     @Test
     public void indexServiceGruenflaechen() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element serviceGruenflaechen = applyIndexation("gruenflaechen-19139.che.xml");
-        String actual = prepareAssertEqual(serviceGruenflaechen);
-
-        String expected = Files.readString(getResource("gruenflaechen-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("gruenflaechen");
     }
 
     @Test
     public void indexConventionDesAlpesTousLesChamps() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element conventionElement = applyIndexation("conventionDesAlpesTousLesChamps-19139.che.xml");
-        String actual = prepareAssertEqual(conventionElement);
-
-        String expected = Files.readString(getResource("conventionDesAlpesTousLesChamps-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("conventionDesAlpesTousLesChamps");
     }
 
     @Test
     public void indexGrundWasserSchutzZonen() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element grundWasserSchutzZonen = applyIndexation("grundwasserschutzzonen-19139.che.xml");
-        String actual = prepareAssertEqual(grundWasserSchutzZonen);
-
-        String expected = Files.readString(getResource("grundwasserschutzzonen-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("grundwasserschutzzonen");
     }
 
     @Test
     public void indexAsiatischeHornisse() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element asiatischeHornisse = applyIndexation("asiatischeHornisse-19139.che.xml");
-        String actual = prepareAssertEqual(asiatischeHornisse);
-
-        String expected = Files.readString(getResource("asiatischeHornisse-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("asiatischeHornisse");
     }
 
     @Test
     public void indexZonesTranquille() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element zoneTranquille = applyIndexation("zonesDeTranquillite-iso19139.che.xml");
-        String actual = prepareAssertEqual(zoneTranquille);
-
-        String expected = Files.readString(getResource("zonesDeTranquillite-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("zonesDeTranquillite");
     }
 
     @Test
     public void indexTLM3D() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element swissTLM3D = applyIndexation("swissTLM3D-19139.che.xml");
-        String actual = prepareAssertEqual(swissTLM3D);
-
-        String expected = Files.readString(getResource("swissTLM3D-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("swissTLM3D");
     }
 
     @Test
     public void indexModellDokumentationSwissTLM3D() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element modellDokumentationSwissTLM3D = applyIndexation("modellDokumentationSwissTLM3D-19139.che.xml");
-        String actual = prepareAssertEqual(modellDokumentationSwissTLM3D);
-
-        String expected = Files.readString(getResource("modellDokumentationSwissTLM3D-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("modellDokumentationSwissTLM3D");
     }
 
     @Test
     public void indexVALTRALOC() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element valtraloc = applyIndexation("VALTRALOC-19139.che.xml");
-        String actual = prepareAssertEqual(valtraloc);
-
-        String expected = Files.readString(getResource("VALTRALOC-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("VALTRALOC");
     }
 
     @Test
     public void indexOrganischenBodenInDerSchweiz() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        Element organischenBodenInDerSchweiz = applyIndexation("organischenBodenInDerSchweiz-19139.che.xml");
-        String actual = prepareAssertEqual(organischenBodenInDerSchweiz);
-
-        String expected = Files.readString(getResource("organischenBodenInDerSchweiz-index.xml"));
-        XmlAssert.assertThat(actual).isEqualTo(expected);
+        indexMetadata("organischenBodenInDerSchweiz");
     }
 
     @Test
     public void indexFiktiverDarstellungskatalogMitURL() throws Exception {
         XslUtil.IS_INSPIRE_ENABLED = false;
+        indexMetadata("fiktiverDarstellungskatalogMitURL");
+    }
+
+    @Test
+    public void indexInterlis() throws Exception {
+        XslUtil.IS_INSPIRE_ENABLED = false;
+        indexMetadata("subtemplates/interlis", "index-subtemplate.xsl");
+    }
+
+    private void indexMetadata(String mdNameRoot) throws Exception {
+        indexMetadata(mdNameRoot, "index.xsl");
+    }
+
+    private void indexMetadata(String mdNameRoot, String xslProcessName) throws Exception {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
 
-        Element fiktiverDarstellungskatalogMitURL = applyIndexation("fiktiverDarstellungskatalogMitURL-19139.che.xml");
-        String actual = prepareAssertEqual(fiktiverDarstellungskatalogMitURL);
+        Element indexElement = applyIndexation(mdNameRoot + "-19139.che.xml", xslProcessName);
+        String actual = prepareAssertEqual(indexElement);
 
-        String expected = Files.readString(getResource("fiktiverDarstellungskatalogMitURL-index.xml"));
+        String expected = Files.readString(getResource(mdNameRoot + "-index.xml"));
         XmlAssert.assertThat(actual).isEqualTo(expected);
     }
 
     private String indexAndPrepareAmphibians() throws Exception {
-        Element amphibiansIndex = applyIndexation("amphibians-19139.che.xml");
+        Element amphibiansIndex = applyIndexation("amphibians-19139.che.xml", "index.xsl");
         return prepareAssertEqual(amphibiansIndex);
     }
 
-    private Element applyIndexation(String fileToIndex) throws Exception {
-        Path xslFile = getResourceInsideSchema("index-fields/index.xsl");
+    private Element applyIndexation(String fileToIndex, String xslProcessName) throws Exception {
+        return getElement(fileToIndex, xslProcessName);
+    }
+
+    private static Element getElement(String fileToIndex, String xslProcessName) throws Exception {
+        Path xslFile = getResourceInsideSchema("index-fields/" + xslProcessName);
         Path xmlFile = getResource(fileToIndex);
         Element loadedFile = Xml.loadFile(xmlFile);
 

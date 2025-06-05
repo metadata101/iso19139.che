@@ -125,4 +125,8 @@ public class XslUtil {
             return str;
         }
     }
+
+    public static String getLanguage() {
+        return getDefaultLangCode();
+    }
 }

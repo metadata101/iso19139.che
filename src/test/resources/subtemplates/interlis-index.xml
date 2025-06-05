@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc xmlns:util="java:org.fao.geonet.util.XslUtil" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:che="http://www.geocat.ch/2008/che" xmlns:gn-fn-index="http://geonetwork-opensource.org/xsl/functions/index">
+  <root>gmd:MD_Format</root>
+  <mainLanguage>eng</mainLanguage>
+  <resourceTitleObject type="object">{
+      "default": "INTERLIS"
+      }</resourceTitleObject>
+</doc>
+
